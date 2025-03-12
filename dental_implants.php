@@ -15,7 +15,7 @@
 </div>
 </section>
 
-<section class="my-5">
+<section class="my-5 dental-steps">
 <div class="container mt-5">
     <div class="row g-4">
         <div class="col-md-4">

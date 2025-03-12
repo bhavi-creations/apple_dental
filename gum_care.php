@@ -16,13 +16,13 @@
 </div>
 </section>
 
-<section class="my-5">
+<section class="my-5 dental-steps">
 <div class="container mt-5">
     <div class="row g-4">
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="images1/services/services_img/1.png" class="card-img-top" alt="Image 1">
+                    <img src="images1/services/services_img/gumcare1.png" class="card-img-top" alt="Image 1">
                 </div>
                 <div class="card-body text-center">
                     <h5 class="card-title">Step 1:</h5>
@@ -34,7 +34,7 @@
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="images1/services/services_img/2.png" class="card-img-top" alt="Image 2">
+                    <img src="images1/services/services_img/gumcare2.png" class="card-img-top" alt="Image 2">
                 </div>
                 <div class="card-body text-center">
                     <h5 class="card-title">Step 2:</h5>
@@ -47,7 +47,7 @@
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="images1/services/services_img/3.png" class="card-img-top" alt="Image 3">
+                    <img src="images1/services/services_img/gumcare3.png" class="card-img-top" alt="Image 3">
                 </div>
                 <div class="card-body text-center">
                     <h5 >Step 3:</h5>

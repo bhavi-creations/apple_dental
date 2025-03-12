@@ -5,12 +5,22 @@
     <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">EHS</h1>
 </section>
 
-<section>
-    <div class="container">
+<section class="my-5 ">
+    <div class="container ">
+        <h1 class="text-center my-5">EHS</h1>
         <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6">The Employee Health Scheme (EHS) is a government initiative aimed at providing cashless medical treatment to employees and pensioners. It covers a wide range of medical services, including surgeries, diagnostics, and hospitalization, at empaneled hospitals. EHS ensures access to quality healthcare without financial burden, promoting the well-being of employees and their families.
-</div>
+            <div class="col-md-6 col-12 mb-2">
+                <img src="images1/services/services_img/ehs.png" alt="" class="img-fluid" style="border-radius: 5px;">
+            </div>
+            <div class="col-md-6 col-12 mt-2">
+                <p>The Employee Health Scheme (EHS) is a comprehensive healthcare initiative launched by the government to provide cashless medical treatment for state government employees, pensioners, and their dependents. The scheme aims to eliminate financial constraints by covering expenses related to hospitalization, surgeries, diagnostics, and specialized treatments at empaneled private and government hospitals. By integrating advanced medical services, EHS ensures timely access to quality healthcare for eligible beneficiaries.
+                </p>
+                <p>
+                    One of the key benefits of EHS is its paperless and hassle-free process, allowing patients to receive treatment without upfront payments. The scheme operates through an Aarogyasri Health Card, which beneficiaries can use to avail themselves of services at network hospitals. The government collaborates with healthcare providers to ensure standard treatment protocols, making high-end medical care more accessible and affordable for employees and pensioners.
+
+
+                </p>
+            </div>
         </div>
     </div>
 </section>
