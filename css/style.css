@@ -283,16 +283,28 @@ p {
   }
 
 
+
+}
+
+@media (min-width: 992px)  and (max-width:1200px){
+ 
+
   .navbar .navbar-brand img {
-      width: 270px; /* Larger logo for bigger screens */
+      width: 215px;  
       height: 45px;
   }
 }
 
 
 
+@media (min-width: 1200px) {
+ 
 
-
+  .navbar .navbar-brand img {
+    width: 270px; /* Larger logo for bigger screens */
+    height: 45px;
+}
+}
 
 ----------------------------------------------------------/*end navbar and header */----------------------------------------------
 /* General Section Styling */
@@ -1615,6 +1627,7 @@ body {
       margin-top: 20px;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       padding-top: 15px;
+      margin-bottom: -20px;
     }
     
     .dsdl4-footer-bottom p {
@@ -2545,3 +2558,99 @@ border-top: 4px solid #007bff;
     /* padding-left: 200px;
     padding-right: 200px; */
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .whatsapp-link {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    /* padding: 5px; */
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 35px;
+    text-align: center;
+  }
+
+
+  .dropdown-menu {
+    width: 800px; /* Adjust width as needed */
+    padding: 15px;
+    margin-left: -280px;
+}
+
+.dropdown-menu .container {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for Dental Steps Section */
+.dental-steps {
+  padding: 40px 0;
+}
+
+/* Center align cards on mobile and tablet */
+.dental-steps .row {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Uniform card styling */
+.dental-steps .card {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+
+/* Image styling */
+.dental-steps .card-img-top {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Image hover effect */
+.dental-steps .card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.anchor_tag{
+  text-decoration: none !important;
+}
