@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon  ">
             <i class="fas fa-stethoscope"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Krishna <br> Dentacure</div>
+        <div class="sidebar-brand-text mx-3">Apple <br> Dental</div>
     </a>
  
     <!-- Divider -->
@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.php">8/
+        <a class="nav-link" href="index.php"> 
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
