@@ -7,8 +7,12 @@
 
 
 <section class="mt-5">
-    <h1>Dental Implants</h1>
-    <p></p>
+<div class="container">
+<h1>Dental Implants</h1>
+    <p>Dental implants are a long-term solution for missing teeth, providing a strong foundation for artificial teeth. They look, feel, and function like natural teeth, improving both appearance and oral health. Made from biocompatible titanium, implants integrate with the jawbone for durability and stability.
+
+</p>
+</div>
 </section>
 
 <section class="my-5">
@@ -17,11 +21,11 @@
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 1">
+                    <img src="images1/services/services_img/1.png" class="card-img-top" alt="Image 1">
                 </div>
                 <div class="card-body text-center">
                     <h5 class="card-title">Card Title 1</h5>
-                    <p class="card-text">This is a short description for card 1.</p>
+                    <p class="card-text"> A titanium implant is surgically placed into the jawbone to act as an artificial tooth root.</p>
                 </div>
             </div>
         </div>
@@ -29,11 +33,11 @@
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 2">
+                    <img src="images1/services/services_img/2.png" class="card-img-top" alt="Image 2">
                 </div>
                 <div class="card-body text-center">
                     <h5 class="card-title">Card Title 2</h5>
-                    <p class="card-text">This is a short description for card 2.</p>
+                    <p class="card-text">The bone heals and fuses with the implant over a few months, ensuring a strong foundation.</p>
                 </div>
             </div>
         </div>
@@ -41,11 +45,11 @@
         <div class="col-md-4">
             <div class="card shadow">
                 <div class="overflow-hidden">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 3">
+                    <img src="images1/services/services_img/3.png" class="card-img-top" alt="Image 3">
                 </div>
                 <div class="card-body text-center">
-                    <h5 class="card-title">Card Title 3</h5>
-                    <p class="card-text">This is a short description for card 3.</p>
+                    <h5 >Card Title 3</h5>
+                    <p class="card-text">A custom-made crown is attached, matching your natural teeth for a seamless smile.</p>
                 </div>
             </div>
         </div>
