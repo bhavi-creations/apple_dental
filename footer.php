@@ -79,8 +79,10 @@
         <ul class="dsdl4-footer-links">
           <li><a href="index.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
           <li><a href="about1.php" class="dsdl4"><i class="fas fa-info-circle"></i> About Us</a></li>
-          <li><a href="gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
           <li><a href="doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
+          <li><a href="gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
+
           <li><a href="contact1.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
 
         </ul>

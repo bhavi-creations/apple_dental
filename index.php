@@ -826,6 +826,100 @@
 
 
 
+<section class="blog_section my-5">
+
+    <div class="container">
+
+        <div class="row  text-center justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="400ms">
+             
+            <h2 class="font-weight-bold section-title">  Our <strong>Blogs</strong></h2>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <?php
+            include './db.connection/db_connection.php';
+
+            // Fetch latest 3 blogs with video
+            $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo "<div class='row'>"; // Start row for card layout
+
+                while ($row = $result->fetch_assoc()) {
+                    $blog_id = $row['id'];
+                    $title = $row['title'];
+                    $main_content = $row['main_content'];
+                    $main_image = $row['main_image'];
+                    $video = $row['video'];
+
+                    echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
+                    echo "<div class='card h-100'>"; // Start card
+
+                    // Display the blog title
+                    echo "<div class='card-body'>";
+
+
+                    // Display video if available
+                    if (!empty($video)) {
+                        $video_path = "./admin/uploads/videos/{$video}";
+                        echo "<video class='main-video img-fluid' controls>
+                    <source src='{$video_path}' type='video/mp4'>
+                    Your browser does not support the video tag.
+                  </video>";
+                    }
+                    // If no video, display main image
+                    elseif (!empty($main_image)) {
+                        $main_image_path = "./admin/uploads/photos/{$main_image}";
+                        echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                    }
+                    echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
+                    // Display a short portion of the blog content
+                    echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
+
+                    // Link to full blog post
+                    echo "<a href='fullblog.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
+
+
+                    echo "</div>"; // End card body
+                    echo "</div>"; // End card
+                    echo "</div>"; // End column
+                }
+
+                echo "</div>"; // End row
+            } else {
+                echo "No blog posts found.";
+            }
+
+            $conn->close();
+            ?>
+
+
+
+            <div class="mt-5 d-none d-md-block">
+                <a href="blogs.php" style="text-decoration: none;">
+                    <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i class=" arrowmark_right  fas fa-arrow-right"></i>
+                    </p>
+                </a>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center mt-4">
+                <a href="blogs.php" style="text-decoration: none;">
+                    <p class="view_more_btn d-md-none">View More<i class="fas fa-arrow-right ml-3"></i></p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
 
 
 

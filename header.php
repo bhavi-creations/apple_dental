@@ -233,6 +233,10 @@
             <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
           </li>
           <li class="nav-item">
