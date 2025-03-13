@@ -2622,9 +2622,9 @@ border-top: 4px solid #007bff;
 
 
 /* Styling for Dental Steps Section */
-.dental-steps {
+/* .dental-steps {
   padding: 40px 0;
-}
+} */
 
 /* Center align cards on mobile and tablet */
 .dental-steps .row {
@@ -2840,4 +2840,60 @@ background-color: #94beeb;
     padding-left: 50px;
   }
 
+}
+
+
+
+
+.marquee-section {
+  background: linear-gradient(to Left, #4c7ebb
+
+ ,#6e96cb
+
+  , #4c7ebb, #6e96cb);
+  color: white;
+  padding: 8px 0px 0px 6px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.marquee-content {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.marquee {
+  white-space: nowrap;
+}
+
+
+.header-content-section {
+  padding: 15px 0;
+  background-color: #ffffff;
+}
+
+.header-content-row {
+  display: flex;
+  align-items: center;
+}
+
+.logo-section img {
+  height: 50px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_icons {
+  width: 30px;
+  height: auto;
+}
+
+.header-text {
+  margin: 0;
+  /* font-size: 14px; */
 }
