@@ -56,7 +56,7 @@
         </p>
       </div> -->
 
-      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-lg-none" data-aos="fade-left">
+      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-md-none" data-aos="fade-left">
       
           <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid my-5">
          
@@ -74,7 +74,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-none d-lg-block" data-aos="fade-left">
+      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-none d-md-block" data-aos="fade-left">
         <div class="dsdl4-footer-logo-container">
           <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="dsdl4-footer-logo">
         </div>
@@ -92,7 +92,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4  col-6  dsdl4-footer-services dsdl4-links-section no_need d-none d-lg-block" data-aos="fade-up">
+      <div class="col-md-4  col-6  dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Quick Links</h4>
         <ul class="dsdl4-footer-links">
           <li><a href="index.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
@@ -105,7 +105,7 @@
 
         </ul>
       </div>
-      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-lg-block" data-aos="fade-left">
+      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-md-block" data-aos="fade-left">
         <h4 class="dsdl4-footer-title">Our Services</h4>
         <ul class="dsdl4-footer-links">
           <li><a href="rootcanal.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Root Canal </a></li>
@@ -117,7 +117,7 @@
 
         </ul>
       </div>
-      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-lg-block" data-aos="fade-up">
+      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-md-block" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Our Services</h4>
 
 
@@ -133,7 +133,7 @@
       </div>
 
 
-      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-lg-block" data-aos="fade-up">
+      <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-md-block" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Our Services</h4>
 
 
