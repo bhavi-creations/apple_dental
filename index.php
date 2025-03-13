@@ -96,76 +96,7 @@
         });
     </script>
 
-    <section class="dsdl12-intro" data-aos="fade-up">
-        <div class="container">
-            <div class="row no-gutters align-items-center">
 
-                <!-- Emergency Cases Column -->
-                <div class="col-md-3 emergency-section text-center p-4">
-                    <h3>Emergency Helpline</h3>
-                    <p style="color: #ffebeb;">In case of any dental emergency, contact our helpline numbers.</p>
-                    <div class="cta mt-3">
-                        <p style="color: #ffebeb;"><i class="fas fa-phone-alt"></i> Call us at <span class="phone-number">+91 9494193344</span></p>
-                        <a href="tel:+91 9494193344" class="btn btn-primary mt-2">Call Now</a>
-                    </div>
-                </div>
-
-                <!-- Opening Hours Column -->
-                <div class="col-md-3 p-4 opening-hours-section text-center" data-aos="fade-right">
-                    <h3>Opening Hours</h3>
-                    <ul class="list-unstyled">
-                        <li><strong>Monday - Sunday:</strong> 9:00 AM - 9:00 PM</li>
-                        <li><strong>Tuesday:</strong> 9:00 AM - 2:00 PM</li>
-                    </ul>
-                    <hr class="my-3" style="border-color: #003366;">
-                    <p><i class="fas fa-clock"></i> <strong>Extended Hours Available:</strong>
-                        <br>Emergency consultations upon request.</p>
-                </div>
-
-                <!-- Appointment Form Column -->
-                <div class="col-md-6 p-4 " data-aos="fade-left">
-                    <h3 class="text-center">Make an Appointment</h3>
-                    <form id="appointment-form" action="submit_appointment.php" method="POST">
-                        <div class="row g-3">
-                            <div class="col-sm-4">
-                                <select name="department" id="department" class="form-select" required>
-                                    <option value="" disabled selected>Select Your Concern</option>
-                                    <option value="Tooth Pain">Tooth Pain</option>
-                                    <option value="Root Canal">Root Canal</option>
-                                    <option value="Clear Aligners">Clear Aligners</option>
-                                    <option value="Bleeding Gums">Bleeding Gums</option>
-                                    <option value="EHS">EHS</option>
-                                    <option value="Others">Others</option>
-                                </select>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="text" name="name" id="appointment_name" class="form-control" placeholder="Name" required>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="email" name="email" id="appointment_email" class="form-control" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="row g-3 mt-3">
-                            <div class="col-sm-4">
-                                <input type="date" name="date" id="appointment_date" class="form-control" required>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="time" name="time" id="appointment_time" class="form-control" required>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" required>
-                            </div>
-                        </div>
-                        <div id="form-message" style="display:none; margin-top: 10px;"></div>
-                        <div class="text-center mt-3">
-                            <button type="submit" class="btn btn-primary">Make an Appointment</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
     <style>
         /* Emergency Section */
         .emergency-section {
@@ -518,7 +449,7 @@
         <div class="container">
             <!-- Section Heading -->
             <div class="section-heading" data-aos="fade-up">
-                <h4 class="text-primary section-subtitle" style="color: #FFD700 !important;">WHAT SETS US APART</h4>
+                <h4 class="text-primary section-subtitle" style="color: #ea232c !important;">WHAT SETS US APART</h4>
                 <h2 class="font-weight-bold section-title">Why<strong style="color: #f8f6f6;"> Choose Us</strong> </h2>
                 <p class="text-muted section-description" style="color: #ebdcdcde !important;">Here’s why we are trusted by thousands for their dental needs.</p>
 

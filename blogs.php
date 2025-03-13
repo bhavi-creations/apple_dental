@@ -31,55 +31,85 @@ $result = $stmt->get_result();
 
 
 
-<section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
-  <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Blogs</h1>
-</section>
 
 
 
 
 <main>
   <!-- Filter Buttons -->
-  <div class="container">
+
+  <div class="filter_sidebar_container d-lg-none">
+    <div class="filter_sidebar_header" onclick="toggleSidebar()">
+        <span>Filters</span>
+        <span id="toggle_icon">+</span>
+    </div>
+    <div class="filter_sidebar_buttons" id="filterButtons">
+        <a href="blogs.php?service="><button class="filter_sidebar_button">All</button></a>
+        <a href="blogs.php?service=Root Canal"><button class="filter_sidebar_button">Root Canal</button></a>
+        <a href="blogs.php?service=Dental Implant"><button class="filter_sidebar_button">Dental Implant</button></a>
+        <a href="blogs.php?service=Tooth Extraction"><button class="filter_sidebar_button">Tooth Extraction</button></a>
+        <a href="blogs.php?service=Periapical Surgery"><button class="filter_sidebar_button">Periapical Surgery</button></a>
+        <a href="blogs.php?service=Gum Surgery"><button class="filter_sidebar_button">Gum Surgery</button></a>
+        <a href="blogs.php?service=Dental Crown & Bridge"><button class="filter_sidebar_button">Crown & Bridge</button></a>
+        <a href="blogs.php?service=Dental Veneers"><button class="filter_sidebar_button">Veneers</button></a>
+        <a href="blogs.php?service=Aligners"><button class="filter_sidebar_button">Aligners</button></a>
+        <a href="blogs.php?service=Laser Dentistry"><button class="filter_sidebar_button">Laser Dentistry</button></a>
+        <a href="blogs.php?service=Teeth Cleaning"><button class="filter_sidebar_button">Teeth Cleaning</button></a>
+        <a href="blogs.php?service=Smile Makeover"><button class="filter_sidebar_button">Smile Makeover</button></a>
+        <a href="blogs.php?service=Gum Care"><button class="filter_sidebar_button">Gum Care</button></a>
+        <a href="blogs.php?service=Teeth Jewellery"><button class="filter_sidebar_button">Teeth Jewellery</button></a>
+        <a href="blogs.php?service=Child Dental Care"><button class="filter_sidebar_button">Child Dental Care</button></a>
+        <a href="blogs.php?service=Major Head & Neck Surgeries"><button class="filter_sidebar_button">Major Head & Neck Surgeries</button></a>
+    </div>
+</div>
+
+
+
+
+  <script>
+    function toggleSidebar() {
+    var filterButtons = document.getElementById("filterButtons");
+    var toggleIcon = document.getElementById("toggle_icon");
+
+    if (filterButtons.style.display === "none" || filterButtons.style.display === "") {
+        filterButtons.style.display = "flex";
+        toggleIcon.textContent = "-"; // Change to minus when open
+    } else {
+        filterButtons.style.display = "none";
+        toggleIcon.textContent = "+"; // Change to plus when closed
+    }
+}
+
+  </script>
+
+
+
+  <div class="container d-none d-lg-block">
     <div class="filter_buttons redirect_section mt-5">
       <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
-      <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
-      <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
-      <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-      <a href="blogs.php?service=Periapical Surgery"><button class="redirect_blog_srivice">Periapical Surgery</button></a>
-      <a href="blogs.php?service=Gum Surgery"><button class="redirect_blog_srivice">  Gum Surgery</button></a>
-      <a href="blogs.php?service=Dental Crown & Bridge"><button class="redirect_blog_srivice">   Crown & Bridge</button></a>
-      <a href="blogs.php?service=Dental Veneers"><button class="redirect_blog_srivice">  Veneers</button></a>
-      <a href="blogs.php?service=Aligners"><button class="redirect_blog_srivice">Aligners</button></a>
-      <a href="blogs.php?service=Laser Dentistry"><button class="redirect_blog_srivice">Laser Dentistry</button></a>
-      <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
-      <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
-      <a href="blogs.php?service=Gum Care"><button class="redirect_blog_srivice"> Gum Care</button></a>
-      <a href="blogs.php?service=Teeth Jewellery"><button class="redirect_blog_srivice">Teeth Jewellery </button></a>
-      <a href="blogs.php?service=Child Dental Care"><button class="redirect_blog_srivice">Child Dental Care</button></a>
-      <a href="blogs.php?service=Major Head & Neck Surgeries"><button class="redirect_blog_srivice"> Major Head & Neck Surgeries</button></a>
-
-      <!--
-      <a href="blogs.php?service=Bad Breath Treatment"><button class="redirect_blog_srivice">Bad Breath Treatment</button></a>
-      <a href="blogs.php?service=Invisible Aligners"><button class="redirect_blog_srivice">Invisible Aligners </button></a>
-      <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-      <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures </button></a>
-      <a href="blogs.php?service=Fluoride Application & Dental Sealant"><button class="redirect_blog_srivice">Fluoride Application & Dental Sealant</button></a>
-      <a href="blogs.php?service=Full Mouth Rehabilitation Treatment"><button class="redirect_blog_srivice"> Full Mouth Rehabilitation Treatment</button></a>
-      <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-      <a href="blogs.php?service=Gum Depigment"><button class="redirect_blog_srivice">Gum Depigment</button></a>
-      <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-      <a href="blogs.php?service=Mouth Ulcers"><button class="redirect_blog_srivice">Mouth Ulcers</button></a>
-      <a href="blogs.php?service=Precancerous Lesion"><button class="redirect_blog_srivice">Precancerous Lesion</button></a>
-      <a href="blogs.php?service=Laser Crown Lengthening"><button class="redirect_blog_srivice">Laser Crown Lengthening</button></a> -->
     </div>
   </div>
 
   <!-- Blogs Section -->
-  <div class="container blog-sidebar-list" style="padding-top: 20px; padding-bottom: 20px;">
+  <div class="container blog-sidebar-list   " id="blogs_container_space">
+
     <div class="row">
-      <div class="col-lg-12">
+
+      <div class="col-2 coloumn_2  text-center d-none  d-lg-block">
+        <div class="side_filters">
+          <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
+          <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
+          <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
+          <a href="blogs.php?service=Periapical Surgery"><button class="redirect_blog_srivice">Periapical Surgery</button></a>
+          <a href="blogs.php?service=Gum Surgery"><button class="redirect_blog_srivice">Gum Surgery</button></a>
+          <a href="blogs.php?service=Dental Crown & Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
+          <a href="blogs.php?service=Dental Veneers"><button class="redirect_blog_srivice">Veneers</button></a>
+          <a href="blogs.php?service=Aligners"><button class="redirect_blog_srivice">Aligners</button></a>
+
+        </div>
+      </div>
+
+      <div class="  col-lg-8">
         <div class="grid row">
           <?php
           if ($result->num_rows > 0) {
@@ -107,8 +137,52 @@ $result = $stmt->get_result();
           ?>
         </div>
       </div>
+
+      <div class="col-2 coloumn_2  text-center  d-none  d-lg-block">
+
+        <div class="side_filters">
+
+          <a href="blogs.php?service=Laser Dentistry"><button class="redirect_blog_srivice">Laser Dentistry</button></a>
+          <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
+          <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
+          <a href="blogs.php?service=Gum Care"><button class="redirect_blog_srivice"> Gum Care</button></a>
+          <a href="blogs.php?service=Teeth Jewellery"><button class="redirect_blog_srivice">Teeth Jewellery </button></a>
+          <a href="blogs.php?service=Child Dental Care"><button class="redirect_blog_srivice">Child Dental Care</button></a>
+          <a href="blogs.php?service=Major Head & Neck Surgeries"><button class="redirect_blog_srivice"> Major Head & Neck Surgeries</button></a>
+        </div>
+
+      </div>
+
     </div>
+
+
   </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const leftFilter = document.querySelector(".coloumn_2:first-child .side_filters"); // Left filter
+      const rightFilter = document.querySelector(".coloumn_2:last-child .side_filters"); // Right filter
+      const navbar = document.querySelector(".navbar"); // Adjust selector to your actual navbar
+
+      function updateStickyPosition(filter) {
+        let navbarBottom = navbar.offsetTop + navbar.offsetHeight; // Navbar bottom position
+        let filterTop = filter.getBoundingClientRect().top + window.scrollY; // Current filter position
+
+        if (window.scrollY >= navbarBottom) {
+          filter.classList.add("sticky"); // Stick to center
+        } else {
+          filter.classList.remove("sticky"); // Normal position
+        }
+      }
+
+      window.addEventListener("scroll", function() {
+        updateStickyPosition(leftFilter);
+        updateStickyPosition(rightFilter);
+      });
+    });
+  </script>
+
 </main>
 
 

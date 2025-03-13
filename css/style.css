@@ -1,6 +1,12 @@
 /* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "poppins",'Gill Sans'  ;
+  /* font-family: '', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -93,15 +99,18 @@ p {
 }
 /* Active State for Navbar Links */
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #FFD700; /* Gold for the active page link */
-  text-shadow: 0 0 5px rgba(255, 215, 0, 0.6); /* Optional: glow effect */
-  border-bottom: 2px solid #FFD700; /* Optional: underline the active link */
+  color: white; /* Gold for the active page link */
+  text-shadow: 0 0 5px white; /* Optional: glow effect */
+  border-bottom: 2px solid #b4243c
+
+  ; /* Optional: underline the active link */
   display: inline-block; /* Ensures the border-bottom only applies to the link */
 }
 
 /* Hover State */
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #FFD700; /* Gold for a vibrant hover effect */
+  color: #b4243c
+  ; /* Gold for a vibrant hover effect */
   text-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6); /* Glow effect */
   letter-spacing: 1px; /* Subtle letter-spacing for hover emphasis */
 }
@@ -629,7 +638,7 @@ p {
   .learn-more-link {
     display: inline-block;
     margin-top: 10px;
-    color: #ffc107;
+    color: #f48c94;
     text-decoration: underline;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -749,7 +758,7 @@ p {
 
 /* Section Styles */
 #whychooseSection {
-    background-color: #014da1;
+    background-color:#043494  ;
     padding: 75px 15px;
   }
   
@@ -818,7 +827,9 @@ p {
   .blurb-image {
     font-size: 40px;
     margin-right: 15px;
-    color: #ffc107;
+    color: #6e96cb
+
+    ;
   }
   
   .blurb-text h4 {
@@ -1122,7 +1133,7 @@ p {
   .dsdl5-icon {
     font-size: 2.5rem;
     color: #ffc107;
-  }
+  }h
   
   .dsdl5-number {
     font-size: 3rem; /* Increased font size for number */
@@ -2746,6 +2757,96 @@ background-color: #94beeb;
   margin-bottom: 10px;
 
 }
+
+/* Base styles for side filters */
+.side_filters {
+  position: relative; /* Default before scrolling */
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  width: 100%; /* Ensures it stays full width inside coloumn_2 */
+}
+
+/* Sticky state when reaching navbar */
+.side_filters.sticky {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15%; /* Adjust width to fit your layout */
+}
+
+/* Ensuring side filters stay in column format */
+.coloumn_2 {
+  display: flex;
+  justify-content: center; /* Centers the filter box inside coloumn_2 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.filter_sidebar_container {
+  width: 200px;
+  background: #ffffff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.filter_sidebar_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter_sidebar_buttons {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter_sidebar_button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #007bff;
+  background: transparent;
+  color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter_sidebar_button:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+#blogs_container_space{
+  margin-top: 80px !important;
+}
+
+
+
+
+
+
+
+
+
 .redirect_blog_srivice{
   background-color: rgb(105, 199, 236);
   color: White;
@@ -2846,16 +2947,12 @@ background-color: #94beeb;
 
 
 .marquee-section {
-  background: linear-gradient(to Left, #4c7ebb
-
- ,#6e96cb
-
-  , #4c7ebb, #6e96cb);
+background-color: #043494;
   color: white;
+  font-size: 16px;
+  font-weight: 600;
   padding: 8px 0px 0px 6px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+ 
 }
 
 .marquee-content {
@@ -2897,3 +2994,41 @@ background-color: #94beeb;
   margin: 0;
   /* font-size: 14px; */
 }
+.header-text{
+  font-size: 16px !important;
+}
+.marquee_section{
+  padding-bottom: 2px;
+  margin-bottom: -5px !important;
+}
+
+
+  /* Hide sub-services initially */
+  #treatmentMenu {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+  }
+
+  /* Show services one by one */
+  .dropdown-item {
+    color: black !important;
+    font-weight: 500;
+    padding: 8px 15px;
+    display: block;
+  }
+
+  /* Add hover effect */
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+
+  /* Hide treatment dropdown initially */
+  .treatment-menu {
+    display: none;
+    flex-direction: column;
+  }
