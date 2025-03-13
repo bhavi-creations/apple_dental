@@ -466,7 +466,7 @@
             <li class="nav-item">
               <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mb-3">
               <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
                 <b>Book Appointment</b>
               </a>
