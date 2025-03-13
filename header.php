@@ -323,35 +323,42 @@
               <a class="nav-link text-white" href="about.php">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="services.php" id="navbarDropdown" role="button">
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" href="services.php">Dental Treatment</a>
-                  <ul class="dropdown-menu submenu">
-                    <li><a class="dropdown-item" href="implants.php">Implants</a></li>
-                    <li><a class="dropdown-item" href="rootcanal.php">Root Canal</a></li>
-                    <li><a class="dropdown-item" href="tooth_aligners.php">Tooth Aligners</a></li>
-                    <li><a class="dropdown-item" href="clips_braces.php">Clips or Braces</a></li>
-                    <li><a class="dropdown-item" href="bridges.php">Crowns & Bridges</a></li>
-                    <li><a class="dropdown-item" href="gum_surgery.php">Gum Surgery</a></li>
-                    <li><a class="dropdown-item" href="pediatric_dentist.php">Child Dentistry</a></li>
-                    <li><a class="dropdown-item" href="maxillofacial_surgery.php">Maxillofacial Surgery</a></li>
-                    <li><a class="dropdown-item" href="lasers.php">Laser Treatment</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" href="cosmetic_services.php">Cosmetic Treatment</a>
-                  <ul class="dropdown-menu submenu">
-                    <li><a class="dropdown-item" href="teeth_whitening.php">Teeth Whitening</a></li>
-                    <li><a class="dropdown-item" href="veneers.php">Veneers</a></li>
-                    <li><a class="dropdown-item" href="composite_filler.php">Composite Fillings</a></li>
-                    <li><a class="dropdown-item" href="teeth_jewellery.php">Teeth Jewellery</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+            <a class="nav-link dropdown-toggle" href="service.php" id="treatmentsDropdown" role="button">
+              <b>Treatments</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="treatmentsDropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt="">  Root Canal </a></li>
+                    <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                    <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                    <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png " alt=""> Periapical Surgery</a></li>
+                    <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                    <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+
+                  </div>
+                  <div class="col-md-4">
+                  <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                  <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt="">  Aligners</a></li>
+
+                    <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry </a></li>
+                    <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth whitening </a></li>
+                    <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                    <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                 
+                  </div>
+                  <div class="col-md-4">
+                  <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+
+                    <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                    <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png " alt=""> Major Head & <br> Neck Surgeries</a></li>
+                    <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-white" href="equipment.php" id="equipmentDropdown" role="button">
                 Equipment
@@ -406,47 +413,53 @@
             </li>
 
             <!-- Services Dropdown -->
-            <li class="nav-item dropdown" id="servicesDropdown">
-              <a class="nav-link" href="services.php" onclick="toggleSubMenu(event, 'servicesSubmenu')">Services</a>
-              <ul class="dropdown-menu" id="servicesSubmenu" style="display: none;">
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" href="#" onclick="toggleSubMenu(event, 'dentalTreatmentSubmenu')">Dental Treatment</a>
-                  <ul class="dropdown-menu" id="dentalTreatmentSubmenu" style="display: none;">
-                    <li><a class="dropdown-item" href="implants.php">Implants</a></li>
-                    <li><a class="dropdown-item" href="rootcanal.php">Root Canal</a></li>
-                    <li><a class="dropdown-item" href="tooth_aligners.php">Tooth Aligners</a></li>
-                    <li><a class="dropdown-item" href="clips_braces.php">Clips or Braces</a></li>
-                    <li><a class="dropdown-item" href="bridges.php">Crowns & Bridges </a></li>
-                    <li><a class="dropdown-item" href="gum_surgery.php">Gum Surgery</a></li>
-                    <li><a class="dropdown-item" href="pediatric_dentist.php">Child Dentistry </a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="service.php" id="treatmentsDropdown" role="button">
+              <b>Treatments</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="treatmentsDropdown">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt="">  Root Canal </a></li>
+                    <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                    <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                    <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png " alt=""> Periapical Surgery</a></li>
+                    <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                    <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
 
-                    <!-- <li><a class="dropdown-item" href="gum_surgery.php">Gum Surgery</a></li> -->
+                  </div>
+                  <div class="col-md-4">
+                  <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                  <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt="">  Aligners</a></li>
 
-                    <li><a class="dropdown-item" href="maxillofacial_surgery.php">Maxillofacial Surgery</a></li>
-                    <li><a class="dropdown-item" href="lasers.php">Laser Treatment</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" href="#" onclick="toggleSubMenu(event, 'cosmeticTreatmentSubmenu')">Cosmetic Treatment</a>
-                  <ul class="dropdown-menu" id="cosmeticTreatmentSubmenu" style="display: none;">
-                    <li><a class="dropdown-item" href="teeth_whitening.php">Teeth Whitening</a></li>
-                    <li><a class="dropdown-item" href="veneers.php">Veneers</a></li>
-                    <li><a class="dropdown-item" href="composite_filler.php">Composite Fillings</a></li>
-                    <li><a class="dropdown-item" href="teeth_jewellery.php">Teeth Jewellery</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+                    <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry </a></li>
+                    <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth whitening </a></li>
+                    <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                    <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                 
+                  </div>
+                  <div class="col-md-4">
+                  <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+
+                    <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                    <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png " alt=""> Major Head & <br> Neck Surgeries</a></li>
+                    <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </li>
 
             <!-- Equipment Dropdown -->
-            <li class="nav-item dropdown" id="equipmentDropdown">
+            <!-- <li class="nav-item dropdown" id="equipmentDropdown">
               <a class="nav-link" href="equipment.php" onclick="toggleSubMenu(event, 'equipmentSubmenu')">Equipment</a>
               <ul class="dropdown-menu" id="equipmentSubmenu" style="display: none;">
                 <li><a class="dropdown-item" href="dental_ct_scan.php">Dental Scanner </a></li>
                 <li><a class="dropdown-item" href="ray.php">3D X-Ray</a></li>
                 <li><a class="dropdown-item" href="laser_equipment.php">Laser</a></li>
               </ul>
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <a class="nav-link" href="blogs.php">Blog</a>
