@@ -270,46 +270,53 @@
 
                     <div class="tab-content" id="dsdl1-about-tabContent">
                         <div class="tab-pane fade show active" id="dsdl1-content-whatwedo" role="tabpanel" aria-labelledby="dsdl1-tab-whatwedo">
-                            <h3>Delivering Excellence in Dental Care</h3>
+                            <h3>Transforming Smiles with Expert Care</h3>
                             <p>
-                                At our clinic, we combine advanced dental technologies with a compassionate approach to provide top-notch treatments. From preventive care to complex dental procedures, we ensure a seamless experience with outstanding results.
+                            At our dental clinic, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
+
                             </p>
                             <p>
-                                Our team of skilled professionals focuses on precision, comfort, and patient education, empowering you to make the best decisions for your oral health. Your smile is our priority.
-                            </p>
+                            Our team of experts ensures a comfortable and stress-free experience, guiding you through every step of your dental journey. Your confidence starts with a healthy, beautiful smile.
+
+</p>
                             <ul>
-                                <li><i class="fas fa-check text-primary"></i> Cutting-edge dental equipment</li>
-                                <li><i class="fas fa-check text-primary"></i> Personalized treatment plans</li>
-                                <li><i class="fas fa-check text-primary"></i> Friendly and experienced staff</li>
+                                <li><i class="fas fa-check text-primary"></i>  State-of-the-art dental technology</li>
+                                <li><i class="fas fa-check text-primary"></i> Customized treatments for every patient</li>
+                                <li><i class="fas fa-check text-primary"></i>  Compassionate and highly trained professionals</li>
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="dsdl1-content-mission" role="tabpanel" aria-labelledby="dsdl1-tab-mission">
-                            <h3>Creating Cavity free Healthy Smiles</h3>
+                            <h3>Crafting Healthy, Confident Smiles</h3>
                             <p>
-                                Our mission is to enhance oral health awareness and provide top notch dental services to the people of Vizianagaram to the point that every one in Vizianagaram has a Cavity free healthy smile.
+                            Our mission is to provide exceptional dental care with a commitment to excellence, innovation, and patient comfort. We strive to enhance oral health through personalized treatments, advanced technology, and a compassionate approach.
+
                             </p>
-                            <p>We are committed to provide world class comprehensive dental solutions to all dental problems in all age groups.</p>
-                            <p>
+                            <p>Our goal is to create a welcoming environment where every patient feels valued and confident in their care. We believe in educating and empowering our patients to make informed decisions for a lifetime of healthy smiles.</p>
+                                <!-- <p>
                                 By fostering trust and building long-term relationships, we aim to transform dental care into a positive experience for everyone, regardless of age or background.
-                            </p>
+                            </p> -->
                             <ul>
-                                <li><i class="fas fa-check text-primary"></i> Patient Safety first philosophy</li>
+                                <li><i class="fas fa-check text-primary"></i> Committed to quality dental care</li>
+                                <li><i class="fas fa-check text-primary"></i>  Focused on patient well-being and comfort</li>
+                                <li><i class="fas fa-check text-primary"></i>Driven by innovation and expertise</li>
 
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="dsdl1-content-goal" role="tabpanel" aria-labelledby="dsdl1-tab-goal">
-                            <h3>Empowering Smiles, Building Confidence</h3>
+                            <h3> Redefining Dental Care for a Healthier Tomorrow</h3>
                             <p>
-                                To change the dental treatment experience of the people of Vizianagaram from frightening,painfull and horrible to friendly, soothing and wonderful by providing the highest standards of Dental services along with the latest technology and advanced equipment.
-                            </p>
-                            <p>We focus on customised solutions that meet individual needs, ensuring every treatment is effective, comfortable and affordable.</p>
-                            <p>
+                            We envision a future where everyone has access to exceptional dental care, leading to healthier lives and confident smiles. Our focus is on innovation, patient-centric care, and continuous growth to set new standards in dentistry.
+
+</p>
+                            <p>By embracing cutting-edge technology, compassionate service, and a commitment to excellence, we aim to transform the dental experience—making it more accessible, comfortable, and effective for all.
+    </p>
+<!-- <p>
                                 By embracing innovation,quality and patient satisfaction,we strive to exceed expectations and redefine your dental care experience.
-                            </p>
+                            </p> -->
                             <ul>
-                                <li><i class="fas fa-check text-primary"></i> Focused on long-term oral health.</li>
-                                <li><i class="fas fa-check text-primary"></i> Comfortable and stress-free treatments.</li>
-                                <li><i class="fas fa-check text-primary"></i> Building Confidence,one smile at a time.</li>
+                                <li><i class="fas fa-check text-primary"></i>  Advancing dental care through innovation</li>
+                                <li><i class="fas fa-check text-primary"></i>  Creating a positive and stress-free patient experience</li>
+                                <li><i class="fas fa-check text-primary"></i>  Building lifelong relationships based on trust and quality care</li>
                             </ul>
                         </div>
                     </div>

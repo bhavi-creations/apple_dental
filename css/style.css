@@ -774,7 +774,7 @@ p {
   .section-heading .line {
     width: 80px;
     height: 4px;
-    background: #ffc107;
+    background: #ffffff;
     margin: 10px auto;
   }
   
@@ -1132,13 +1132,13 @@ p {
   
   .dsdl5-icon {
     font-size: 2.5rem;
-    color: #ffc107;
+    color: #ffffff;
   }h
   
   .dsdl5-number {
     font-size: 3rem; /* Increased font size for number */
     font-weight: bold;
-    color: #ffc107;
+    color: #ffffff;
   }
   
   .dsdl5-label {
@@ -1381,7 +1381,7 @@ body {
 /*-------------------------------------------footer section start-------------------------*/
 .dsdl4-footer-links i {
     font-size: 14px;
-    color: #f7c510; /* Gold color for the arrows */
+    color: #ffffff; /* Gold color for the arrows */
     margin-right: 8px; /* Space between the icon and text */
     }
     
@@ -1391,7 +1391,7 @@ body {
     
      .dsdl4-footer-links i {
     margin-right: 8px;
-    color: #f7c510; /* Change to your primary color */
+    color:#ffffff; /* Change to your primary color */
     }
       .dsdl4 a {
         color: #fff; /* Set the default color of the link */
@@ -1400,7 +1400,7 @@ body {
       }
     
       .dsdl4 a:hover {
-        color: #f7c510; /* Change color on hover */
+        color: #ffffff; /* Change color on hover */
         text-decoration: underline; /* Optional: add underline on hover */
       }
     
@@ -1555,7 +1555,7 @@ body {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 20px;
-      color: #ffc107;
+      color: #ffffff;
     }
     
     .dsdl4-footer-text {
@@ -1597,7 +1597,7 @@ body {
     }
     
     .dsdl4-footer-links a:hover {
-      color: #ffc107;
+      color: #ffffff;
     }
     
     .dsdl4-social-icons {
@@ -1615,7 +1615,7 @@ body {
     }
     
     .dsdl4-social-icons li a:hover {
-      color: #ffc107;
+      color: #ffffff;
     }
     
     .dsdl4-footer-logo-container {
