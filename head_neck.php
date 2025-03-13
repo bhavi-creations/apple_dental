@@ -16,7 +16,7 @@
 </div>
 </section>
 
-<section class="my-5 dental-steps">
+<!-- <section class="my-5 dental-steps">
 
 <div class="container mt-5">
     <div class="row g-4">
@@ -59,9 +59,93 @@
     </div>
 </div>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
+</section> -->
+
+
+<section class="my-5">
+    <div class="container my-4 dental-steps">
+        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                      1)  Treatment of tumors, cysts, or oral cancer affecting the head and neck
+                            <br>
+                            2)  Correction of structural abnormalities, trauma, or severe infections
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1)  Persistent pain, swelling, or lumps in the head, neck, or jaw<br>
+                            2) Difficulty swallowing, breathing, or changes in speech 
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        <div class="row">
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/services_img/s3.png" class="card-img-top" alt="Image">
+                    <!-- <div class="card-body">
+                    <img src="images1/services/1.png" alt="" class="img-fluid">
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+        </div>
+
+        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Surgical removal of tumors, reconstructive surgery, or biopsy procedures
+                            <br>
+                            2) Advanced surgical techniques like laser and minimally invasive approaches
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1) Rehabilitation with speech therapy, physiotherapy, or dietary adjustments
+                            <br>
+                            2)  Regular follow-ups to monitor healing and prevent complications
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
 
 <?php include 'footer.php'; ?>

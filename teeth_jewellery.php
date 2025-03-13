@@ -16,7 +16,7 @@
 </div>
 </section>
 
-<section class="my-5 dental-steps">
+<!-- <section class="my-5 dental-steps">
 
 <div class="container mt-5">
     <div class="row g-4">
@@ -59,9 +59,93 @@
     </div>
 </div>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
+</section> -->
+
+
+<section class="my-5">
+    <div class="container my-4 dental-steps">
+        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                      1)   Enhances smile aesthetics with a stylish and unique look
+                            <br>
+                            2) A non-invasive way to accessorize teeth without damage
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1)  Desire for a fashionable and confident smile<br>
+                            2) Special occasions or personal style preference
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        <div class="row my-5">
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/services_img/s6.png" class="card-img-top" alt="Image">
+                    <!-- <div class="card-body">
+                    <img src="images1/services/1.png" alt="" class="img-fluid">
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+        </div>
+
+        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Painless application of small gems or crystals on the tooth surface
+                            <br>
+                            2) Uses safe dental adhesive without drilling or harm to enamel
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1) Avoid biting hard foods to prevent dislodging the jewellery
+                            <br>
+                            2)  Maintain proper oral hygiene to keep teeth and jewellery clean
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
 
 <?php include 'footer.php'; ?>

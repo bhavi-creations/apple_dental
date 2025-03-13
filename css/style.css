@@ -1083,7 +1083,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better contrast */
+    background: #04349485; /* Dark overlay for better contrast */
     z-index: 0;
   }
   
@@ -3032,3 +3032,29 @@ background-color: #043494;
     display: none;
     flex-direction: column;
   }
+
+
+
+
+  /* service section  */
+
+  .empty-column {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    /* border: 1px dashed #ccc; */
+}
+
+/* Hide empty columns on mobile view */
+@media screen and (max-width: 768px) {
+    .empty-column {
+        display: none;
+    }
+}
+
+
+.card {
+    min-height: 200px; /* Ensures card has consistent height */
+}
+

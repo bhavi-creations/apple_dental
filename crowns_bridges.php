@@ -14,7 +14,7 @@
 </div>
 </section>
 
-<section class="my-5 dental-steps">
+<!-- <section class="my-5 dental-steps">
 <div class="container mt-5">
     <div class="row g-4">
         <div class="col-md-4">
@@ -56,9 +56,98 @@
     </div>
 </div>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
+</section> -->
+
+
+<section class="my-5">
+    <div class="container my-4 dental-steps">
+        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                      1)  Damaged or weakened teeth needing protection
+                            <br>
+                            2)  Missing teeth affecting chewing and speech
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1) Cracked, worn-down, or severely decayed teeth<br>
+                            2)  Gaps in teeth leading to bite misalignment  
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        <div class="row">
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Image">
+                    <!-- <div class="card-body">
+                    <img src="images1/services/1.png" alt="" class="img-fluid">
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+        </div>
+
+        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Custom-made crowns placed over damaged teeth for strength
+                            <br>
+                            2)Bridges used to replace missing teeth by anchoring to adjacent teeth
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1)Maintain good oral hygiene to protect crowns and bridges
+                            <br>
+                            2) Avoid sticky or hard foods to prevent damage
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+
+
+
 
 
 <?php include 'footer.php'; ?>

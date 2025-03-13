@@ -14,7 +14,7 @@
 </div>
 </section>
 
-<section class="my-5">
+<!-- <section class="my-5">
 <div class="container mt-5">
     <div class="row g-4">
         <div class="col-md-4">
@@ -56,9 +56,97 @@
     </div>
 </div>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
+</section> -->
+
+
+<section class="my-5">
+    <div class="container my-4 dental-steps">
+        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                      1) Discolored or stained teeth that don’t respond to whitening
+                            <br>
+                            2)   Chipped, misaligned, or unevenly shaped teeth
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1) Visible cracks, gaps, or irregular tooth shape<br>
+                            2)   Loss of confidence due to aesthetic concerns
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        <div class="row">
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/services_img/s9.png" class="card-img-top" alt="Image">
+                    <!-- <div class="card-body">
+                    <img src="images1/services/1.png" alt="" class="img-fluid">
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+        </div>
+
+        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Thin porcelain or composite shells bonded to the front of teeth
+                            <br>
+                            2)  Minimal enamel removal for a natural and long-lasting look
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 empty-column">
+                <!-- Empty -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1) Maintain regular brushing and flossing to prevent decay
+                            <br>
+                            2)  Avoid biting hard objects to prevent veneer damage
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+
+
 
 
 <?php include 'footer.php'; ?>
