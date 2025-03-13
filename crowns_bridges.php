@@ -60,7 +60,7 @@
 </section> -->
 
 
-<section class="my-5">
+<section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
         <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
         <div class="row">

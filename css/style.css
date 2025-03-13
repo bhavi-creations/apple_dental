@@ -235,7 +235,7 @@ p {
 }
 
 .slider-item {
-    min-height: 70vh; /* Adjust slider height for small screens */
+    min-height: 20vh; /* Adjust slider height for small screens */
 }
 
 .slider-text {
@@ -257,7 +257,7 @@ p {
 /* Medium Devices (Tablets: min-width: 577px and max-width: 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
   .slider-item {
-      min-height: 80vh; /* Slightly taller slider for tablets */
+      min-height: 30vh; /* Slightly taller slider for tablets */
   }
 
   .slider-text {
@@ -284,7 +284,7 @@ p {
 /* Large Devices (Laptops and Desktops: min-width: 769px) */
 @media (min-width: 769px) {
   .slider-item {
-      min-height: 100vh; /* Full-height slider for large screens */
+      min-height: 42vh; /* Full-height slider for large screens */
   }
 
   .slider-text {
@@ -2631,7 +2631,9 @@ border-top: 4px solid #007bff;
 
 
 .card-title{
-  text-align: left;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #043494;
 }
 
 
@@ -2865,9 +2867,9 @@ background-color: #94beeb;
 .filter_sidebar_button {
   width: 100%;
   padding: 8px;
-  border: 1px solid #007bff;
+  border: 1px solid #014da1;
   background: transparent;
-  color: #007bff;
+  color: #014da1;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -2891,7 +2893,7 @@ background-color: #94beeb;
 
 
 .redirect_blog_srivice{
-  background-color: rgb(105, 199, 236);
+  background-color: #014da1;
   color: White;
   font-weight: 900;
   border: none;
@@ -3101,3 +3103,11 @@ background-color: #043494;
     min-height: 200px; /* Ensures card has consistent height */
 }
 
+.service_bg_page {
+  background-image: url('../images1/home/service_bg.jpg');
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+  padding: 50px 0; /* Adjust padding for spacing */
+}

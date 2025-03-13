@@ -62,90 +62,90 @@
 </section> -->
 
 
-<section class="my-5">
-    <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
-                        <p class="card-text text-left">
-                            1) Severe gum disease (periodontitis) causing gum recession
-                            <br>
-                            2) Excessive gum tissue affecting appearance or oral health
-                        </p>
+    <section class="my-5   service_bg_page">
+        <div class="container my-4 dental-steps">
+            <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                            <p class="card-text text-left">
+                                1) Severe gum disease (periodontitis) causing gum recession
+                                <br>
+                                2) Excessive gum tissue affecting appearance or oral health
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 empty-column">
+                    <!-- Empty -->
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                            <p class="card-text">1)Bleeding, swollen, or receding gums<br>
+                                2) Loose teeth due to weakened gum support
+
+
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 empty-column">
-                <!-- Empty -->
+
+            <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+            <div class="row">
+                <div class="col-md-4 empty-column">
+                    <!-- Empty -->
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                        <img src="images1/services/services_img/s12.png" class="card-img-top" alt="Image">
+                        <!-- <div class="card-body">
+                        <img src="images1/services/1.png" alt="" class="img-fluid">
+                    </div> -->
+                    </div>
+                </div>
+                <div class="col-md-4 empty-column">
+                    <!-- Empty -->
+                </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
-                        <p class="card-text">1)Bleeding, swollen, or receding gums<br>
-                            2) Loose teeth due to weakened gum support
 
-
-                        </p>
+            <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> <strong>Treatment</strong></h5>
+                            <p class="card-text">
+                                1) Removal of infected gum tissue and deep cleaning
+                                <br>
+                                2)Gum grafting or reshaping for better support and aesthetic
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 empty-column">
+                    <!-- Empty -->
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                            <p class="card-text">
+                                1)Follow proper oral hygiene and avoid hard foods
+                                <br>
+                                2 Regular dental check-ups to prevent reinfection
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
-        <div class="row">
-            <div class="col-md-4 empty-column">
-                <!-- Empty -->
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s12.png" class="card-img-top" alt="Image">
-                    <!-- <div class="card-body">
-                    <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
-                </div>
-            </div>
-            <div class="col-md-4 empty-column">
-                <!-- Empty -->
-            </div>
-        </div>
-
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"> <strong>Treatment</strong></h5>
-                        <p class="card-text">
-                            1) Removal of infected gum tissue and deep cleaning
-                            <br>
-                            2)Gum grafting or reshaping for better support and aesthetic
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 empty-column">
-                <!-- Empty -->
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
-                        <p class="card-text">
-                            1)Follow proper oral hygiene and avoid hard foods
-                            <br>
-                            2 Regular dental check-ups to prevent reinfection
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 

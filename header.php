@@ -65,7 +65,7 @@
 
   <!-- toggle bar  -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 
   <!-- Custom JS -->
@@ -332,44 +332,44 @@
 
             <!-- Treatments Dropdown -->
             <li class="nav-item dropdown position-static">
-  <a class="nav-link text-white" href="service.php" id="treatmentsDropdown">
-    <b>Treatments</b>
-  </a>
-  <ul class="dropdown-menu px-3 py-2" aria-labelledby="treatmentsDropdown"
-    style="width: 600px; background-color: #ffffff; display: none;">
-    <div class="container">
-      <div class="row">
-        <!-- Column 1 -->
-        <div class="col-4">
-          <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-          <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-          <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-          <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-          <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-          <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-        </div>
+              <a class="nav-link text-white" href="service.php" id="treatmentsDropdown">
+                <b>Treatments</b>
+              </a>
+              <ul class="dropdown-menu px-3 py-2" aria-labelledby="treatmentsDropdown"
+                style="width: 600px; background-color: #ffffff; display: none;">
+                <div class="container">
+                  <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-4">
+                      <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
+                      <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                      <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                      <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
+                      <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                      <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                    </div>
 
-        <!-- Column 2 -->
-        <div class="col-4">
-          <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-          <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-          <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-          <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-          <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-          <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-        </div>
+                    <!-- Column 2 -->
+                    <div class="col-4">
+                      <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                      <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                      <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
+                      <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
+                      <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                      <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                    </div>
 
-        <!-- Column 3 -->
-        <div class="col-4">
-          <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-          <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-          <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
-          <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
-        </div>
-      </div>
-    </div>
-  </ul>
-</li>
+                    <!-- Column 3 -->
+                    <div class="col-4">
+                      <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+                      <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                      <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
+                      <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
 
 
             <li class="nav-item">
@@ -397,8 +397,8 @@
     </nav>
   </section>
 
-  
-  
+
+
 
 
 
@@ -407,127 +407,127 @@
 
   <!-- Include Bootstrap JS (with Popper) -->
   <section class="d-lg-none">
-  <nav class="navbar navbar-expand-lg navbar-light nav_mb_bg Navebar_content">
-    <div class="container">
-      <a class="navbar-brand" href="index.php">
-        <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="img-fluid nav_mini_img" />
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-light nav_mb_bg Navebar_content">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">
+          <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="img-fluid nav_mini_img" />
+        </a>
 
-      <!-- Toggle Button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Collapsible Navbar -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav g-3">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.php"><b>Home</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about1.php"><b>About Us</b></a>
-          </li>
+        <!-- Collapsible Navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav g-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about1.php"><b>About Us</b></a>
+            </li>
 
-          <!-- Treatments Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="treatmentToggle" role="button">
-              <b>Treatments</b>
-            </a>
-            <ul class="dropdown-menu px-3 py-2" id="treatmentMenu">
-              <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-              <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-              <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-              <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-              <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-              <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-              <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-              <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-              <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-              <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-              <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-              <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-              <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-              <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-              <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
-              <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
-            </ul>
-          </li>
+            <!-- Treatments Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="treatmentToggle" role="button" data-toggle="dropdown">
+                <b>Treatments</b>
+              </a>
+              <ul class="dropdown-menu px-3 py-2">
+                <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
+                <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
+                <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
+                <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
+                <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+                <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
+                <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+              </ul>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
-              <b>Book Appointment</b>
-            </a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
+            </li>
+            <li class="nav-item">
+              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+                <b>Book Appointment</b>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</section>
+    </nav>
+  </section>
 
-<!-- JavaScript -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const navbarToggler = document.querySelector(".navbar-toggler");
-    const navbarMenu = document.getElementById("navbarNav");
-    const treatmentToggle = document.getElementById("treatmentToggle");
-    const treatmentMenu = document.getElementById("treatmentMenu");
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarMenu = document.getElementById("navbarNav");
+      const treatmentToggle = document.getElementById("treatmentToggle");
+      const treatmentMenu = document.getElementById("treatmentMenu");
 
-    // Toggle navbar menu
-    navbarToggler.addEventListener("click", function () {
-      navbarMenu.classList.toggle("show");
+      // Toggle navbar menu
+      navbarToggler.addEventListener("click", function() {
+        navbarMenu.classList.toggle("show");
+      });
+
+      // Toggle treatment dropdown menu
+      treatmentToggle.addEventListener("click", function(event) {
+        event.preventDefault();
+        treatmentMenu.classList.toggle("show");
+      });
+
+      // Close navbar and dropdown when clicking outside
+      document.addEventListener("click", function(event) {
+        if (!navbarToggler.contains(event.target) && !navbarMenu.contains(event.target)) {
+          navbarMenu.classList.remove("show");
+        }
+        if (!treatmentToggle.contains(event.target) && !treatmentMenu.contains(event.target)) {
+          treatmentMenu.classList.remove("show");
+        }
+      });
     });
-
-    // Toggle treatment dropdown menu
-    treatmentToggle.addEventListener("click", function (event) {
-      event.preventDefault();
-      treatmentMenu.classList.toggle("show");
-    });
-
-    // Close navbar and dropdown when clicking outside
-    document.addEventListener("click", function (event) {
-      if (!navbarToggler.contains(event.target) && !navbarMenu.contains(event.target)) {
-        navbarMenu.classList.remove("show");
-      }
-      if (!treatmentToggle.contains(event.target) && !treatmentMenu.contains(event.target)) {
-        treatmentMenu.classList.remove("show");
-      }
-    });
-  });
-</script>
+  </script>
 
 
 
 
 
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const treatmentsDropdown = document.getElementById("treatmentsDropdown");
-    const dropdownMenu = treatmentsDropdown.nextElementSibling;
+    document.addEventListener("DOMContentLoaded", function() {
+      const treatmentsDropdown = document.getElementById("treatmentsDropdown");
+      const dropdownMenu = treatmentsDropdown.nextElementSibling;
 
-    // Show dropdown on hover
-    treatmentsDropdown.parentElement.addEventListener("mouseenter", function () {
-      dropdownMenu.style.display = "block";
-    });
+      // Show dropdown on hover
+      treatmentsDropdown.parentElement.addEventListener("mouseenter", function() {
+        dropdownMenu.style.display = "block";
+      });
 
-    // Hide dropdown when the mouse leaves
-    treatmentsDropdown.parentElement.addEventListener("mouseleave", function () {
-      dropdownMenu.style.display = "none";
+      // Hide dropdown when the mouse leaves
+      treatmentsDropdown.parentElement.addEventListener("mouseleave", function() {
+        dropdownMenu.style.display = "none";
+      });
     });
-  });
-</script>
+  </script>
   <!-- JavaScript for Navbar Toggle and Dropdown -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {

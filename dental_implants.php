@@ -62,12 +62,12 @@
 
 
 
-<section class="my-5">
+<section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
         <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
         <div class="row">
             <div class="col-md-4">
-                <div class="card card_bg_image">
+                <div class="card  ">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
@@ -81,7 +81,7 @@
                 <!-- Empty -->
             </div>
             <div class="col-md-4">
-                <div class="card card_bg_image">
+                <div class="card  ">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
                         <p class="card-text">1)  Difficulty chewing or speaking properly
@@ -114,7 +114,7 @@
         <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
         <div class="row">
             <div class="col-md-4">
-                <div class="card card_bg_image">
+                <div class="card  ">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Treatment</strong></h5>
                         <p class="card-text">
@@ -128,7 +128,7 @@
                 <!-- Empty -->
             </div>
             <div class="col-md-4">
-                <div class="card card_bg_image">
+                <div class="card  ">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>After Treatment</strong> </h5>
                         <p class="card-text">

@@ -111,11 +111,11 @@
                         <div class="doctor-card-body text-center">
                             <h4>Mr. K. Kiran Kumar</h4>
                             <p>Supervisor</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -126,11 +126,11 @@
                         <div class="doctor-card-body text-center">
                             <h4>Mrs. K. Radha</h4>
                             <p>Manager | Patient Counsellor</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
