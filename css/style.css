@@ -2610,16 +2610,59 @@ border-top: 4px solid #007bff;
   }
 
 
-  .dropdown-menu {
-    width: 800px; /* Adjust width as needed */
-    padding: 15px;
-    margin-left: -280px;
-}
+  @media (min-width:992px) {
+    .dropdown-menu {
+      width: 800px; /* Adjust width as needed */
+      padding: 15px;
+      margin-left: -280px;
+  }
+  }
+  @media (max-width:992px) {
+    .dropdown-menu {
+      width: 335px; /* Adjust width as needed */
+      
+      margin-left:  0px;
+  }
+  }  
 
 .dropdown-menu .container {
     max-width: 100%;
 }
 
+
+.card-title{
+  text-align: left;
+}
+
+
+
+.card_bg_image {
+  background: linear-gradient(135deg, #2711cb8a 0%, #2a15b354 50%, #2574fc18 100%);
+  color: white; /* Ensure text is readable */
+  border: none; /* Remove default card border */
+}
+.center-image-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full screen height */
+ 
+}
+
+.exta_side_image {
+  width: 20% !important;
+}
+.special_teeth_service_left {
+  position: absolute;
+  left: 0; /* Stick to the left */
+  top: 230%; /* Adjust vertical positioning */
+  transform: translateY(-50%); /* Center vertically */
+  z-index: -1; /* Place behind other content */
+  width: 15%; /* Adjust width as needed */
+  max-height: 100vh; /* Keep it within viewport */
+  object-fit: cover; /* Maintain aspect ratio */
+}
 
 
 

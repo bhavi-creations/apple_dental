@@ -59,6 +59,15 @@
   <script src="js/aos.js"></script>
   <link rel="stylesheet" href="js/main.js">
 
+
+
+
+
+  <!-- toggle bar  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
   <!-- Custom JS -->
 
 
@@ -548,7 +557,7 @@
 
 
 
-  <script>
+  <!-- <script>
     document.querySelectorAll('.dropdown-submenu > a').forEach(item => {
       item.addEventListener('click', function(e) {
         e.preventDefault();
@@ -559,13 +568,13 @@
         }
       });
     });
-  </script>
+  </script> -->
 
 
 
 
   <!-- Optional JavaScript (if needed) -->
-  <script>
+  <!-- <script>
     document.querySelectorAll('.dropdown-submenu > a').forEach(item => {
       item.addEventListener('click', function(e) {
         e.preventDefault();
@@ -576,7 +585,7 @@
         }
       });
     });
-  </script>
+  </script> -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {

@@ -2,7 +2,7 @@
 
 
     <!-- Hero Section -->
-    <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+    <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/services/services_img/team.png'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
         <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Our Team</h1>
     </section>
@@ -28,12 +28,12 @@
                             <h4>Dr. Kalyan Chakravarty</h4>
                             <p class="doctor-qualification">B.D.S</p>
                             <p class="doctor-role">Clinical Head | General Dentist</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <a href="https://appledentalvzm.in/index.html#appointment-form" class="btn btn-primary mt-3">Book Appointment</a>
+                            </div> -->
+                            <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -46,12 +46,12 @@
                             <h4>Dr. T. Madhuri</h4>
                             <p>B.D.S</p>
                             <p>Chief Dental Surgeon</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <a href="https://appledentalvzm.in/index.html#appointment-form" class="btn btn-primary mt-3">Book Appointment</a>
+                            </div> -->
+                            <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -63,12 +63,12 @@
                             <h4>Dr. A. Deol Aslesha</h4>
                             <p>B.D.S</p>
                             <p>Dental Surgeon</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <a href="https://appledentalvzm.in/index.html#appointment-form" class="btn btn-primary mt-3">Book Appointment</a>
+                            </div> -->
+                            <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -83,12 +83,12 @@
                             <h4>Dr. B. Sharon</h4>
                             <p>B.D.S</p>
                             <p>Dental Surgeon | E.H.S Co-ordinator</p>
-                            <div class="doctor-social-icons">
+                            <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <a href="https://appledentalvzm.in/index.html#appointment-form" class="btn btn-primary mt-3">Book Appointment</a>
+                            </div> -->
+                            <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                         </div>
                     </div>
                 </div>

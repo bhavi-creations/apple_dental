@@ -102,7 +102,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s13.png" class="card-img-top" alt="Image">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

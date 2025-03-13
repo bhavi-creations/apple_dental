@@ -7,12 +7,12 @@
 
 
 <section class="mt-5">
-<div class="container">
-<h1>Gum surgery Treatment</h1>
-    <p>Gum surgery is a dental procedure to treat gum disease, reshape the gum line, or restore gum health. It helps reduce gum recession, remove infected tissue, and strengthen the support for teeth. This procedure improves both oral health and the appearance of the gums.
+    <div class="container">
+        <h1>Gum surgery Treatment</h1>
+        <p>Gum surgery is a dental procedure to treat gum disease, reshape the gum line, or restore gum health. It helps reduce gum recession, remove infected tissue, and strengthen the support for teeth. This procedure improves both oral health and the appearance of the gums.
 
-</p>
-</div>
+        </p>
+    </div>
 </section>
 
 <!-- <section class="my-5 dental-steps">
@@ -71,7 +71,7 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
-                       1) Severe gum disease (periodontitis) causing gum recession
+                            1) Severe gum disease (periodontitis) causing gum recession
                             <br>
                             2) Excessive gum tissue affecting appearance or oral health
                         </p>
@@ -86,7 +86,7 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
                         <p class="card-text">1)Bleeding, swollen, or receding gums<br>
-                            2)  Loose teeth due to weakened gum support
+                            2) Loose teeth due to weakened gum support
 
 
                         </p>
@@ -103,7 +103,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s12.png" class="card-img-top" alt="Image">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->
@@ -138,7 +138,7 @@
                         <p class="card-text">
                             1)Follow proper oral hygiene and avoid hard foods
                             <br>
-                            2  Regular dental check-ups to prevent reinfection
+                            2 Regular dental check-ups to prevent reinfection
                         </p>
                     </div>
                 </div>
