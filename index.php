@@ -556,9 +556,9 @@
                         </div>
 
                         <!-- Image 6 -->
-                        <div class="swiper-slide custom-slide">
+                        <!-- <div class="swiper-slide custom-slide">
                             <img src="images1/6.png" alt="Image 6">
-                        </div>
+                        </div> -->
 
                         <!-- Image 7 -->
                         <div class="swiper-slide custom-slide">
