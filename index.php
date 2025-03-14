@@ -709,7 +709,7 @@
                         <img src="https://appledentalvzm.in/images1/dr.kalyan.jpg" alt="Dr. Kalyan Chakravarthi">
                     </div>
                     <h4>Dr. Kalyan Chakravarthi</h4>
-                    <p>CEO | BDS</p>
+                    <p>Clinical Head | BDS</p>
                 </div>
 
                 <!-- Doctor Card 2 -->
@@ -1121,10 +1121,10 @@
     });
 </script>
 
-<div class="ehs-box">
+<!-- <div class="ehs-box">
     <h3>Why EHS Matters?</h3>
     <p>Our Employees Health Scheme (EHS) policies ensure a safe and sustainable future.</p>
-</div>
+</div> -->
 
 <style>
     .ehs-box {
