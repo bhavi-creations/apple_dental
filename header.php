@@ -8,7 +8,8 @@
   <!-- Bootstrap CSS -->
 
 
-  <link rel="stylesheet" href="images/apple-dental-vzm-logo.png">
+  <!-- <link rel="stylesheet" href="./images1/apple_logo.png"> -->
+  <link rel="icon" type="image/png" href="./images1/apple_logo.png">
 
 
 
