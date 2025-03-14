@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Apple Dental Clinic | Quality Dental Care in VZM</title>
+  <title>Apple Dental Specialities | Quality Dental Specialities in VZM</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
@@ -103,7 +103,7 @@
 
     /* Default Transparent Header */
     .navbar {
-      background-color: transparent;
+      background-color: #014da1;
       /* Transparent initially */
       transition: background-color 0.5s ease, box-shadow 0.5s ease;
       /* Smooth transition */
@@ -268,7 +268,7 @@
     <div class="marquee_content">
       <marquee behavior="scroll" direction="left" class="marquee">
         <p class="marquee_section">
-          Apple Dental Care: Your Trusted Partner for Comprehensive Oral Health. &nbsp; &nbsp;&nbsp;&nbsp; Experience the Future of Dentistry with Apple Dental Care’s Advanced Solutions &nbsp; &nbsp;&nbsp;&nbsp; (Environmental, Health, and Safety)EHS &nbsp; Available
+        Apple Dental Specialities: Your Trusted Partner for Comprehensive Oral Health. &nbsp; &nbsp;&nbsp;&nbsp; Experience the Future of Dentistry with Apple Dental Specialities Advanced Solutions &nbsp; &nbsp;&nbsp;&nbsp; (Employees Health Scheme)EHS &nbsp; Available
         </p>
 
       </marquee>
@@ -302,7 +302,7 @@
         <div class="col-12 col-md-6 col-lg-3 d-none d-lg-flex align-items-center">
           <div class="header-item">
             <img src="images1/icons/time.png" alt="Time Icon" class="header_icons">
-            <p class="header-text">Monday - Saturday <br> <strong> 10 AM - 8 PM | Sun: Closed </strong></p>
+            <p class="header-text">Monday - sunday <br> <strong> 9 AM - 8 PM | <br> tuesday: 9 AM - 2 PM </strong></p>
           </div>
         </div>
 

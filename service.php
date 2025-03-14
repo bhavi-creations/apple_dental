@@ -13,7 +13,7 @@
 <section class="services-section" id="services">
     <div class="dsdl1-section-heading">
 
-        <h4 class="text-primary section-subtitle">COMPREHENSIVE CARE NEAR YOU</h4>
+        <h4 class="text-primary section-subtitle">COMPREHENSIVE SPECIALITIES NEAR YOU</h4>
         <h2 class="font-weight-bold section-title">Dental <strong>Treatments in Vizianagaram</strong></h2>
         <p class="text-muted section-description">Explore our wide range of dental treatments, from routine cleanings to advanced Dental procedures, all tailored for your needs.</p>
 

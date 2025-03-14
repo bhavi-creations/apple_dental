@@ -8,12 +8,12 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $name = $_POST['name'] ?? '';
-    $phone = $_POST['number'] ?? '';
+    $phone = $_POST['phone'] ?? '';
     $email = $_POST['email'] ?? '';
     $date = $_POST['date'] ?? '';
     // $department = $_POST['department'] ?? '';
-    $message = $_POST['date'] ?? '';
-    $message = $_POST['message'] ?? '';
+    $department = $_POST['department'] ?? '';
+    $time = $_POST['time'] ?? '';
     //   index php details 
     // $name = $_POST['name'] ?? '';
     // $phone = $_POST['number'] ?? '';
@@ -30,14 +30,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'leeladentalcare123@gmail.com'; // Your Gmail email address
-        $mail->Password = 'mwbyhrnygdsaovea'; // Your Gmail password
+        $mail->Username = 'manimalladi05@gmail.com'; // Your Gmail email address
+        $mail->Password = 'ltlxupjfqbobegqg'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('leeladentalcare123@gmail.com', ' LEELA DENTAL CARE'); // Your Gmail email and name
-        $mail->addAddress('leeladentalcare123@gmail.com', 'LEELA DENTAL CARE'); // Recipient's email and name
+        $mail->setFrom('manimalladi05@gmail.com', ' Apple Dental Specialities'); // Your Gmail email and name
+        $mail->addAddress('manimalladi05@gmail.com', 'Apple Dental Specialities'); // Recipient's email and name
 
 // Content
         $mail->isHTML(true);
@@ -49,7 +49,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p><strong>Phone:</strong> $phone</p>
              
             <p><strong>Date:</strong> $date</p>
-            <p><strong>Message:</strong>$message</p>
+            <p><strong>Department:</strong> $department</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Time:</strong>$time</p>
         ";
 
         $mail->send();

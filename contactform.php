@@ -9,12 +9,12 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
-    $contactname = $_POST['name'] ?? '';
-    $contactemail = $_POST['email'] ?? '';
-    $contactsubject = $_POST['subject'] ?? '';
-    $contactnumber = $_POST['number'] ?? '';
+    $name = $_POST['name'] ?? '';
+    $email = $_POST['email'] ?? '';
 
-    $contactmessage = $_POST['message'] ?? '';
+    $number = $_POST['number'] ?? '';
+
+    $message = $_POST['message'] ?? '';
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -24,14 +24,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'leeladentalcare123@gmail.com'; // Your Gmail email address
-        $mail->Password = 'mwbyhrnygdsaovea'; // Your Gmail password
+        $mail->Username = 'manimalladi05@gmail.com'; // Your Gmail email address
+        $mail->Password = 'ltlxupjfqbobegqg'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('leeladentalcare123@gmail.com', 'LEELA DENTAL CARE '); // Your Gmail email and name
-        $mail->addAddress('leeladentalcare123@gmail.com', 'LEELA DENTAL CARE'); // Recipient's email and name
+        $mail->setFrom('manimalladi05@gmail.com', 'Apple Dental Specialities'); // Your Gmail email and name
+        $mail->addAddress('manimalladi05@gmail.com', 'Apple Dental Specialities'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -39,11 +39,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Body = "
            
             <h1>Contact Details</h1>
-            <p><strong>Name:</strong> $contactname</p>
-            <p><strong>Email:</strong> $contactemail</p>
-           <p><strong>Subject:</strong> $contactsubject</p>
-            <p><strong>Phone:</strong> $contactnumber</p>
-            <p><strong>Message:</strong>$contactmessage</p>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Email:</strong> $email</p>
+        
+            <p><strong>Phone:</strong> $number</p>
+            <p><strong>Message:</strong>$message</p>
         ";
 
         $mail->send();

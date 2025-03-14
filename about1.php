@@ -16,81 +16,137 @@
                 <div class="dsdl1-section-heading">
 
                     <h4 class="text-primary section-subtitle">YOUR TRUSTED PARTNER IN ORAL HEALTH</h4>
-                    <h2 class="font-weight-bold section-title">Best Dental Clinic in <strong>Vizianagaram</strong></h2>
-                    <p class="text-muted section-description">Providing world-class dental care with cutting-edge technology and compassionate service for a healthy, confident smile.</p>
+                    <h2 class="font-weight-bold section-title">Best Dental Specialities in <strong>Vizianagaram</strong></h2>
+                    <p class="text-muted section-description">Providing world-class dental Specialities with cutting-edge technology and compassionate service for a healthy, confident smile.</p>
                 </div>
 
             </div>
             <!-- Content and Image Row -->
             <div class="dsdl1-row">
-                <!-- Tabs Content -->
-                <div class="dsdl1-content" data-aos="fade-left" data-aos-duration="1000">
-                    <div class="dsdl1-tabs">
-                        <div class="nav nav-pills" id="dsdl1-about-tabs" role="tablist">
-                            <a class="nav-link active" id="dsdl1-tab-whatwedo" data-toggle="pill" href="#dsdl1-content-whatwedo" role="tab" data-aos="fade-up" data-aos-delay="200">
+            <!-- Tabs Content -->
+            <div class="dsdl1-content" data-aos="fade-left" data-aos-duration="1000">
+                <div class="dsdl1-tabs">
+                    <ul class="nav nav-pills" id="dsdl1-about-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="dsdl1-tab-whatwedo" data-bs-toggle="pill" href="#dsdl1-content-whatwedo" role="tab" aria-controls="dsdl1-content-whatwedo" aria-selected="true">
                                 <i class="fas fa-tools"></i> What We Do
                             </a>
-                            <a class="nav-link" id="dsdl1-tab-mission" data-toggle="pill" href="#dsdl1-content-mission" role="tab" data-aos="fade-up" data-aos-delay="300">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="dsdl1-tab-mission" data-bs-toggle="pill" href="#dsdl1-content-mission" role="tab" aria-controls="dsdl1-content-mission" aria-selected="false">
                                 <i class="fas fa-bullseye"></i> Our Mission
                             </a>
-                            <a class="nav-link" id="dsdl1-tab-goal" data-toggle="pill" href="#dsdl1-content-goal" role="tab" data-aos="fade-up" data-aos-delay="400">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="dsdl1-tab-goal" data-bs-toggle="pill" href="#dsdl1-content-goal" role="tab" aria-controls="dsdl1-content-goal" aria-selected="false">
                                 <i class="fas fa-star"></i> Our Vision
                             </a>
-                        </div>
-                        <div class="tab-content" id="dsdl1-about-tabContent">
-                            <div class="tab-pane fade show active" id="dsdl1-content-whatwedo" role="tabpanel">
-                                <h3>Delivering Excellence in Dental Care</h3>
-                                <p>
-                                    At our clinic, we combine advanced dental technologies with a compassionate approach to provide top-notch treatments. From preventive care to complex dental procedures, we ensure a seamless experience with outstanding results.
-                                </p>
-                                <p>
-                                    Our team of skilled professionals focuses on precision, comfort, and patient education, empowering you to make the best decisions for your oral health. Your smile is our priority.
-                                </p>
-                                <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Cutting-edge dental equipment</li>
-                                    <li><i class="fas fa-check text-primary"></i> Personalized treatment plans</li>
-                                    <li><i class="fas fa-check text-primary"></i> Friendly and experienced staff</li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="dsdl1-content-mission" role="tabpanel">
-                                <h3>Creating Cavity free Healthy Smiles</h3>
-                                <p>
-                                    Our mission is to enhance oral health awareness and provide top notch dental services to the people of Vizianagaram to the point that every one in Vizianagaram has a Cavity free healthy smile.
-                                </p>
-                                <p>We are committed to provide world class comprehensive dental solutions to all dental problems in all age groups.</p>
-                                <p>
-                                    By fostering trust and building long-term relationships, we aim to transform dental care into a positive experience for everyone, regardless of age or background.
-                                </p>
-                                <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Patient Safety first philosophy</li>
+                        </li>
+                    </ul>
+                </div>
 
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="dsdl1-content-goal" role="tabpanel">
-                                <h3>Empowering Smiles, Building Confidence</h3>
+                <div class="tab-content" id="dsdl1-about-tabContent">
+
+                    <div class="tab-pane fade show active" id="dsdl1-content-whatwedo" role="tabpanel" aria-labelledby="dsdl1-tab-whatwedo">
+
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <h3>Transforming Smiles with Expert Specialities</h3>
                                 <p>
-                                    To change the dental treatment experience of the people of Vizianagaram from frightening,painfull and horrible to friendly, soothing and wonderful by providing the highest standards of Dental services along with the latest technology and advanced equipment.
+                                    At our dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
+
                                 </p>
-                                <p>We focus on customised solutions that meet individual needs, ensuring every treatment is effective, comfortable and affordable.</p>
                                 <p>
-                                    By embracing innovation,quality and patient satisfaction,we strive to exceed expectations and redefine your dental care experience.
+                                    Our team of experts ensures a comfortable and stress-free experience, guiding you through every step of your dental journey. Your confidence starts with a healthy, beautiful smile.
+
                                 </p>
                                 <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Focused on long-term oral health.</li>
-                                    <li><i class="fas fa-check text-primary"></i> Comfortable and stress-free treatments.</li>
-                                    <li><i class="fas fa-check text-primary"></i> Building Confidence,one smile at a time.</li>
+                                    <li><i class="fas fa-check text-primary"></i> State-of-the-art dental technology</li>
+                                    <li><i class="fas fa-check text-primary"></i> Customized treatments for every patient</li>
+                                    <li><i class="fas fa-check text-primary"></i> Compassionate and highly trained professionals</li>
                                 </ul>
+
                             </div>
+
+                            <div class="col-12 col-lg-6">
+
+                                <div class="dsdl1-about-image" style="background-image: url('images1/home/what.png');">
+                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                </div>
+
+
+                            </div>
+
                         </div>
+
+
                     </div>
-                </div>
 
-                <!-- Image Section -->
-                <div class="dsdl1-about-image" data-aos="zoom-in" data-aos-duration="1500" style="background-image: url('images1/apple.jpg');">
-                    <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
-                </div>
+                    <div class="tab-pane fade" id="dsdl1-content-mission" role="tabpanel" aria-labelledby="dsdl1-tab-mission">
 
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <h3>Crafting Healthy, Confident Smiles</h3>
+                                <p>
+                                    Our mission is to provide exceptional dental Specialities with a commitment to excellence, innovation, and patient comfort. We strive to enhance oral health through personalized treatments, advanced technology, and a compassionate approach.
+
+                                </p>
+                                <p>Our goal is to create a welcoming environment where every patient feels valued and confident in their care. We believe in educating and empowering our patients to make informed decisions for a lifetime of healthy smiles.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-check text-primary"></i> Committed to quality dental Specialities</li>
+                                    <li><i class="fas fa-check text-primary"></i> Focused on patient well-being and comfort</li>
+                                    <li><i class="fas fa-check text-primary"></i>Driven by innovation and expertise</li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-12 col-lg-6">
+
+                                <div class="dsdl1-about-image" style="background-image: url('images1/home/mission.png');">
+                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="dsdl1-content-goal" role="tabpanel" aria-labelledby="dsdl1-tab-goal">
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <h3> Redefining Dental Specialities for a Healthier Tomorrow</h3>
+                                <p>
+                                    We envision a future where everyone has access to exceptional dental Specialities, leading to healthier lives and confident smiles. Our focus is on innovation, patient-centric care, and continuous growth to set new standards in dentistry.
+
+                                </p>
+                                <p>By embracing cutting-edge technology, compassionate service, and a commitment to excellence, we aim to transform the dental experience—making it more accessible, comfortable, and effective for all.
+                                </p>
+
+                                <ul>
+                                    <li><i class="fas fa-check text-primary"></i> Advancing dental Specialities through innovation</li>
+                                    <li><i class="fas fa-check text-primary"></i> Creating a positive and stress-free patient experience</li>
+                                    <li><i class="fas fa-check text-primary"></i> Building lifelong relationships based on trust and quality care</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="dsdl1-about-image" style="background-image: url('images1/home/vision.png');">
+                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+
+            <!-- Image Section -->
+            <!-- <div class="dsdl1-about-image" style="background-image: url('https://appledentalvzm.in/images1/apple.jpg');">
+                <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
+            </div> -->
+        </div>
         </div>
     </section>
 
@@ -130,9 +186,9 @@
                     <blockquote class="blockquote bg-white p-4 shadow-sm rounded" data-aos="zoom-in">
                         <p>
                             <strong>Dr. Kalyan Chakravarty’s Message:</strong>
-                            <br> "APPLE DENTAL SPECIALITIES stands tall with uncompromising quality and personalized care. We aim to lead the field of dentistry, embracing advancements and serving the community with excellence."
+                            <br> "APPLE DENTAL SPECIALITIES stands tall with uncompromising quality and personalized Specialities. We aim to lead the field of dentistry, embracing advancements and serving the community with excellence."
                         </p>
-                        <footer class="blockquote-footer text-right">
+                        <footer class="blockquote-footer text-right mt-2">
                             <cite title="Source Title">Dr. J. Kalyan Chakravarty</cite>
                         </footer>
                     </blockquote>

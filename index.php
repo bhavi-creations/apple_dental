@@ -13,6 +13,9 @@
     <div class="slider-item">
         <img src="images1/home/home_slider3.png" class="img-fluid" alt="">
     </div>
+    <div class="slider-item">
+        <img src="images1/home/home_slider4.png" class="img-fluid" alt="">
+    </div>
 </section>
 
 
@@ -46,20 +49,19 @@
         });
     });
 
-   
+
 
     $('.home-slider').owlCarousel({
-    items: 1,
-    loop: true,
-    nav: false, // Disable navigation
-    dots: true, // Enable dots for indication
-    mouseDrag: true,
-    touchDrag: true,
-    autoplay: true, // Enable auto-slide
-    autoplayTimeout: 3000, // Set slide interval (3 seconds)
-    autoplayHoverPause: true // Pause on hover
-});
-
+        items: 1,
+        loop: true,
+        nav: false, // Disable navigation
+        dots: true, // Enable dots for indication
+        mouseDrag: true,
+        touchDrag: true,
+        autoplay: true, // Enable auto-slide
+        autoplayTimeout: 3000, // Set slide interval (3 seconds)
+        autoplayHoverPause: true // Pause on hover
+    });
 </script>
 
 
@@ -254,9 +256,9 @@
                         <div class="row">
 
                             <div class="col-12 col-lg-6">
-                                <h3>Transforming Smiles with Expert Care</h3>
+                                <h3>Transforming Smiles with Expert Specialities</h3>
                                 <p>
-                                    At our dental clinic, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
+                                    At our dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
 
                                 </p>
                                 <p>
@@ -291,13 +293,13 @@
                             <div class="col-12 col-lg-6">
                                 <h3>Crafting Healthy, Confident Smiles</h3>
                                 <p>
-                                    Our mission is to provide exceptional dental care with a commitment to excellence, innovation, and patient comfort. We strive to enhance oral health through personalized treatments, advanced technology, and a compassionate approach.
+                                    Our mission is to provide exceptional dental Specialities with a commitment to excellence, innovation, and patient comfort. We strive to enhance oral health through personalized treatments, advanced technology, and a compassionate approach.
 
                                 </p>
                                 <p>Our goal is to create a welcoming environment where every patient feels valued and confident in their care. We believe in educating and empowering our patients to make informed decisions for a lifetime of healthy smiles.</p>
 
                                 <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Committed to quality dental care</li>
+                                    <li><i class="fas fa-check text-primary"></i> Committed to quality dental Specialities</li>
                                     <li><i class="fas fa-check text-primary"></i> Focused on patient well-being and comfort</li>
                                     <li><i class="fas fa-check text-primary"></i>Driven by innovation and expertise</li>
 
@@ -318,16 +320,16 @@
 
                         <div class="row">
                             <div class="col-12 col-lg-6">
-                                <h3> Redefining Dental Care for a Healthier Tomorrow</h3>
+                                <h3> Redefining Dental Specialities for a Healthier Tomorrow</h3>
                                 <p>
-                                    We envision a future where everyone has access to exceptional dental care, leading to healthier lives and confident smiles. Our focus is on innovation, patient-centric care, and continuous growth to set new standards in dentistry.
+                                    We envision a future where everyone has access to exceptional dental Specialities, leading to healthier lives and confident smiles. Our focus is on innovation, patient-centric care, and continuous growth to set new standards in dentistry.
 
                                 </p>
                                 <p>By embracing cutting-edge technology, compassionate service, and a commitment to excellence, we aim to transform the dental experience—making it more accessible, comfortable, and effective for all.
                                 </p>
 
                                 <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Advancing dental care through innovation</li>
+                                    <li><i class="fas fa-check text-primary"></i> Advancing dental Specialities through innovation</li>
                                     <li><i class="fas fa-check text-primary"></i> Creating a positive and stress-free patient experience</li>
                                     <li><i class="fas fa-check text-primary"></i> Building lifelong relationships based on trust and quality care</li>
                                 </ul>
@@ -397,7 +399,7 @@
                     </div>
                     <div class="detail-box">
                         <h4>Root Canal</h4>
-                        <p>Save infected teeth and maintain oral health with expert care.</p>
+                        <p>Save infected teeth and maintain oral health with expert Specialities.</p>
                         <a href="service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -495,7 +497,7 @@
         <div class="row align-items-center">
             <!-- Left Image Slider -->
             <div class="col-lg-5 col-md-6 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="100">
-                <div class="whyChoose-left">
+                <!-- <div class="whyChoose-left">
                     <div class="whychoose-slider">
                         <div class="whychoose-singleslide">
                             <img src="https://appledentalvzm.in/images1/1.jpg" alt="State-of-the-art Facilities">
@@ -525,7 +527,92 @@
                             <img src="https://appledentalvzm.in/images1/9.jpg" alt="Patient-Focused Services">
                         </div>
                     </div>
+                </div> -->
+                <div class="swiper my-custom-swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+                        <!-- Image 1 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/1.png" alt="Image 1">
+                        </div>
+
+                        <!-- Image 2 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/2.png" alt="Image 2">
+                        </div>
+
+                        <!-- Image 3 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/3.png" alt="Image 3">
+                        </div>
+
+                        <!-- Image 4 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/4.png" alt="Image 4">
+                        </div>
+
+                        <!-- Image 5 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/5.png" alt="Image 5">
+                        </div>
+
+                        <!-- Image 6 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/6.png" alt="Image 6">
+                        </div>
+
+                        <!-- Image 7 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/7.png" alt="Image 7">
+                        </div>
+
+                        <!-- Image 8 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/8.png" alt="Image 8">
+                        </div>
+
+                        <!-- Image 9 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/9.png" alt="Image 9">
+                        </div>
+                    </div>
+
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination my-custom-pagination" data-aos="fade-up" data-aos-delay="800"></div>
+
+                    <!-- Swiper Navigation -->
+                    <div class="swiper-button-next my-custom-next"></div>
+                    <div class="swiper-button-prev my-custom-prev"></div>
                 </div>
+
+                <!-- Swiper JS Initialization -->
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var swiper = new Swiper('.my-custom-swiper', {
+                            slidesPerView: 1, // Show one image at a time
+                            spaceBetween: 20,
+                            loop: true,
+                            autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            },
+                            pagination: {
+                                el: '.my-custom-pagination',
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: '.my-custom-next',
+                                prevEl: '.my-custom-prev',
+                            },
+                            observer: true,
+                            observeParents: true,
+                        });
+                    });
+                </script>
+
+
+
+
+
             </div>
 
             <!-- Right Features -->
@@ -644,13 +731,13 @@
                 </div>
 
                 <!-- Doctor Card 4 -->
-                <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="500">
+                <!-- <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="500">
                     <div class="dsdl-doctor-image">
                         <img src="https://appledentalvzm.in/images1/Dr.sharon.jpg" alt="Dr. Sharon">
                     </div>
                     <h4>Dr. deol aslesha</h4>
                     <p>BDS</p>
-                </div>
+                </div> -->
 
             </div>
 
@@ -909,7 +996,7 @@
     <div class="dsdl-section-header" data-aos="fade-up">
         <h4 class="text-primary section-subtitle">PATIENT STORIES</h4>
         <h2 class="font-weight-bold section-title">Hear What Our <strong>Patients Say</strong></h2>
-        <p class="text-muted section-description">See what our patients have to say about their experiences and the exceptional care they received at our clinic.</p>
+        <p class="text-muted section-description">See what our patients have to say about their experiences and the exceptional care they received at our Specialities.</p>
     </div>
 
 
@@ -933,7 +1020,7 @@
                 </div>
                 <div class="item">
                     <p class="testimonial-text">
-                        "I recently visited this dental clinic, and I must say the staff was incredibly friendly and welcoming. The environment was top-notch, very clean and hygienic. The treatment I received was the best I've had, and the overall experience was excellent. I
+                        "I recently visited this dental Specialities, and I must say the staff was incredibly friendly and welcoming. The environment was top-notch, very clean and hygienic. The treatment I received was the best I've had, and the overall experience was excellent. I
                         highly recommend this clinic for their exceptional service and care."
                     </p>
                     <h4>- TANUJA APPIKONDA</h4>
@@ -1036,7 +1123,7 @@
 
 <div class="ehs-box">
     <h3>Why EHS Matters?</h3>
-    <p>Our Environmental, Health, and Safety (EHS) policies ensure a safe and sustainable future.</p>
+    <p>Our Employees Health Scheme (EHS) policies ensure a safe and sustainable future.</p>
 </div>
 
 <style>
