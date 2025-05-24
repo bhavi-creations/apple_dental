@@ -194,54 +194,47 @@ $socials = [
 {
   "@context": "https://schema.org",
   "@type": "Dentist",
-  "name": "<?php echo $name; ?>",
-  "url": "<?php echo $url; ?>",
-  "logo": "<?php echo $logo; ?>",
-  "description": "<?php echo $description; ?>",
+  "name": "Apple Dental Specialties",
+  "url": "https://www.appledentalvzm.in/",
+  "logo": "https://www.appledentalvzm.in/path-to-logo.png",
+  "description": "Apple Dental Specialties in Vizianagaram offers expert dental care, including root canals, braces, implants, and cosmetic treatments.",
+  "telephone": [
+    "‪+91 9494193344‬"
+  ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "<?php echo $streetAddress; ?>",
-    "addressLocality": "<?php echo $locality; ?>",
-    "addressRegion": "<?php echo $region; ?>",
-    "postalCode": "<?php echo $postalCode; ?>",
-    "addressCountry": "<?php echo $country; ?>"
+    "streetAddress": "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.",
+    "addressLocality": "Vizianagaram",
+    "addressRegion": "Andhra Pradesh",
+    "postalCode": "535002",
+    "addressCountry": "India"
   },
-  "telephone": "<?php echo $phone; ?>",
-  "email": "<?php echo $email; ?>",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "09:00",
-      "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Tuesday",
-      "opens": "09:00",
-      "closes": "14:00"
-    }
+  "medicalSpecialty": [
+    "Dentistry",
+    "Orthodontics",
+    "Cosmetic Dentistry",
+    "Implant Dentistry"
   ],
+  "openingHours": [
+    "Monday 09:00-20:00",
+    "Tuesday 09:00-14:00",
+    "Wednesday 09:00-20:00",
+    "Thursday 09:00-20:00",
+    "Friday 09:00-20:00",
+    "Saturday 09:00-20:00",
+    "Sunday 09:00-20:00"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. [Founder Name]",
+    "jobTitle": "Chief Dental Surgeon"
+  },
   "sameAs": [
-    <?php
-      foreach ($socials as $index => $url) {
-        echo '"' . $url . '"';
-        if ($index !== array_key_last($socials)) {
-          echo ",";
-        }
-      }
-    ?>
+    "https://www.facebook.com/appledentalvzm",
+    "https://www.instagram.com/appledentalvzm"
   ]
 }
 </script>
-
 
 
 <link rel="canonical" href="https://www.appledentalvzm.in/" />
