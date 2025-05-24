@@ -170,55 +170,77 @@
 
 
 <meta name="title" content="Best Dental Clinic in Vizianagaram | Apple Dental Specialities">
-<meta name="Description" content="Apple Dental Specialities in Vizianagaram offers comprehensive dental care, including painless treatments, dental implants, root canals, teeth whitening, and orthodontics. Our expert dentists ensure personalized care with advanced technology. Book your appointment today for a healthy, beautiful smile!">
-
+<meta name="Description" content="Apple Dental Specialties in Vizianagaram provides advanced dental treatments including root canal, braces, implants, and cosmetic dentistry. Trusted care for your perfect smile!">
 
 <?php
-$schema = [
-    "@context" => "https://schema.org",
-    "@type" => "DentalClinic",
-    "name" => "Apple Dental Specialities",
-    "url" => "https://www.appledentalvzm.in/",
-    "logo" => "https://www.appledentalvzm.in/logo.png",
-    "image" => "https://www.appledentalvzm.in/clinic.jpg",
-    "description" => "Apple Dental Specialities in Vizianagaram offers comprehensive dental care with expert dentists, providing treatments including dental implants, root canals, teeth whitening, and orthodontics.",
-    "address" => [
-        "@type" => "PostalAddress",
-        "streetAddress" => "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.",
-        "addressLocality" => "Vizianagaram",
-        "addressRegion" => "Andhra Pradesh",
-        "postalCode" => "535002",
-        "addressCountry" => "IN"
-    ],
-    "contactPoint" => [
-        "@type" => "ContactPoint",
-        "telephone" => "+91-9494193344",
-        "email" => "info@appledentalspecialities.com",
-        "contactType" => "customer service",
-        "areaServed" => "IN",
-        "availableLanguage" => ["en", "te"]
-    ],
-    "openingHoursSpecification" => [
-        [
-            "@type" => "OpeningHoursSpecification",
-            "dayOfWeek" => ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens" => "09:00",
-            "closes" => "20:00"
-        ],
-        [
-            "@type" => "OpeningHoursSpecification",
-            "dayOfWeek" => "Tuesday",
-            "opens" => "09:00",
-            "closes" => "14:00"
-        ]
-    ],
-    "sameAs" => [
-        "https://www.facebook.com/AppleDentalVZM",
-        "https://www.instagram.com/AppleDentalVZM"
-    ]
+$name = "Apple Dental Specialties";
+$url = "https://www.appledentalvzm.in/";
+$logo = "https://www.appledentalvzm.in/path-to-logo.png";
+$description = "Apple Dental Specialties in Vizianagaram offers expert dental care including root canal, braces, implants, and cosmetic dentistry.";
+$streetAddress = "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.";
+$locality = "Vizianagaram";
+$region = "AP";
+$postalCode = "535 002";
+$country = "IN";
+$phone = "‪+91 9494193344‬";
+$email = "info@appledentalspecialities.com";
+$socials = [
+  "https://www.facebook.com/appledentalvzm",
+  "https://www.instagram.com/appledentalvzm"
 ];
-echo '<script type="application/ld+json">' . json_encode($schema, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . '</script>';
 ?>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "<?php echo $name; ?>",
+  "url": "<?php echo $url; ?>",
+  "logo": "<?php echo $logo; ?>",
+  "description": "<?php echo $description; ?>",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "<?php echo $streetAddress; ?>",
+    "addressLocality": "<?php echo $locality; ?>",
+    "addressRegion": "<?php echo $region; ?>",
+    "postalCode": "<?php echo $postalCode; ?>",
+    "addressCountry": "<?php echo $country; ?>"
+  },
+  "telephone": "<?php echo $phone; ?>",
+  "email": "<?php echo $email; ?>",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Tuesday",
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ],
+  "sameAs": [
+    <?php
+      foreach ($socials as $index => $url) {
+        echo '"' . $url . '"';
+        if ($index !== array_key_last($socials)) {
+          echo ",";
+        }
+      }
+    ?>
+  ]
+}
+</script>
 
 
 
