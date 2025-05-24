@@ -222,8 +222,8 @@ echo '<script type="application/ld+json">' . json_encode($schema, JSON_PRETTY_PR
 
 
 
-
-
+<link rel="canonical" href="https://www.appledentalvzm.in/" />
+<meta name="google-site-verification" content="QHmd8lU5Z5yG04JwRsb1LE-L58xUqclGX6c4rEio_ks" />
 </head>
 
 <body>

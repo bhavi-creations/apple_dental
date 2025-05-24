@@ -1,8 +1,10 @@
+
 User-agent: *
 Disallow: /admin/
-Disallow: /login/
-Disallow: /cart/
-Disallow: /checkout/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
 Allow: /
 
-Sitemap: https://www.appledentalvzm.in/sitemap.xml
+Sitemap: https://www.appledentalvzm.in/sitemap.xml 
