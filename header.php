@@ -196,11 +196,9 @@ $socials = [
   "@type": "Dentist",
   "name": "Apple Dental Specialties",
   "url": "https://www.appledentalvzm.in/",
-  "logo": "https://www.appledentalvzm.in/path-to-logo.png",
+  "logo": "https://www.appledentalvzm.in/images/logo.png",
   "description": "Apple Dental Specialties in Vizianagaram offers expert dental care, including root canals, braces, implants, and cosmetic treatments.",
-  "telephone": [
-    "‪+91 9494193344‬"
-  ],
+  "telephone": "‪+91 9494193344‬",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.",
@@ -216,25 +214,27 @@ $socials = [
     "Implant Dentistry"
   ],
   "openingHours": [
-    "Monday 09:00-20:00",
-    "Tuesday 09:00-14:00",
-    "Wednesday 09:00-20:00",
-    "Thursday 09:00-20:00",
-    "Friday 09:00-20:00",
-    "Saturday 09:00-20:00",
-    "Sunday 09:00-20:00"
+    "Mo 09:00-20:00",
+    "Tu 09:00-14:00",
+    "We 09:00-20:00",
+    "Th 09:00-20:00",
+    "Fr 09:00-20:00",
+    "Sa 09:00-20:00",
+    "Su 09:00-20:00"
   ],
   "founder": {
     "@type": "Person",
-    "name": "Dr. [Founder Name]",
+    "name": "Dr. Kalyan Chakravarthi",
     "jobTitle": "Chief Dental Surgeon"
   },
   "sameAs": [
     "https://www.facebook.com/appledentalvzm",
     "https://www.instagram.com/appledentalvzm"
-  ]
+  ],
+  "priceRange": "$$"
 }
 </script>
+
 
 
 <link rel="canonical" href="https://www.appledentalvzm.in/" />
