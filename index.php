@@ -1174,6 +1174,234 @@
 </style>
 
 
+
+
+
+
+
+<section class="py-5">
+    <div class="container">
+
+        <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="accordion">
+                    <!-- Accordion 1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="faq_section">
+
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">What are dental implants and how do they help?
+
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Dental implants are titanium-based artificial tooth roots used to permanently replace missing teeth. At Apple Dental Specialties, they restore chewing function, appearance, and prevent bone loss                        </div>
+                    </div>
+
+
+
+                    <div class="faq_section">
+
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> Are clear aligners effective for teeth straightening?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Yes, clear aligners are a transparent, removable, and comfortable alternative to metal braces. Apple Dental Specialties offers advanced aligner treatments for effective smile correction                        </div>
+                    </div>
+
+
+
+
+                    <!-- Accordion 3 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">What is a smile makeover and who needs it?
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            A smile makeover combines cosmetic procedures like veneers, whitening, and alignment to enhance your smile. It's ideal for those wanting a confident, aesthetically pleasing smile                        </div>
+                    </div>
+
+                    <!-- Accordion 4 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> How does laser dentistry benefit patients?
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Laser dentistry provides painless, precise treatments for gum issues, cavities, and surgeries. Apple Dental Specialties uses laser technology for faster healing and less discomfort                            </p>
+                        </div>
+                    </div>
+                    <!-- Accordion 5 -->
+                    <!-- <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2 class="faq_heading_section">Can cancer be prevented?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Not all cancers are preventable, but up to 30-50% of cases can be avoided through healthy lifestyle choices, regular screenings, vaccinations (like HPV), and avoiding carcinogens such as tobacco and processed foods
+                </p>
+              </div> 
+            </div>-->
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+
+
+                <div class="accordion">
+                    <!-- Accordion 1 -->
+
+                    <!-- Accordion 2 -->
+
+
+
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> Is Apple Dental Specialties the best dental clinic in Vizianagaram?
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Yes, Apple Dental Specialties is known for its expert dentists, modern technology, and personalized dental care, making it a top-rated clinic in Vizianagaram                        </div>
+                    </div>
+                    <!-- Accordion 2 -->
+
+
+
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">Who is the best dentist in Vizianagaram for smile design?
+
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            The cosmetic dental team at Apple Dental Specialties is highly experienced in smile design and has transformed numerous smiles with customized treatment plans                        </div>
+                    </div>
+
+
+
+                    <!-- Accordion 3 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">Do you provide painless dental treatments?
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Absolutely. We specialize in pain-free dental care using techniques like laser dentistry, digital scanning, and gentle sedation methods to ensure patient comfort                        </div>
+                    </div>
+                    <!-- Accordion 4 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">How can I book an appointment at Apple Dental Specialties?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            You can book an appointment by calling our clinic or visiting our official website. Walk-ins are accepted based on availability                        </div>
+                    </div>
+                    <!-- Accordion 5 -->
+                    <!-- <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2 class="faq_heading_section"> Can cancer be cured if detected early?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Yes, many types of cancer can be effectively treated or even cured if detected at an early stage. Regular screenings, awareness of symptoms, and early intervention improve survival rates significantly
+                </p>
+              </div>
+            </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<script>
+    function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        const icon = header.querySelector(".accordion-icon");
+
+        content.classList.toggle("open");
+        icon.classList.toggle("rotate");
+
+        icon.textContent = content.classList.contains("open") ? "−" : "+";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-------------------------------------------- footer ----------------------------------->
 
 <?php include 'footer.php'; ?>
