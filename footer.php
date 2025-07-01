@@ -102,6 +102,7 @@
           <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
 
           <li><a href="contact1.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>
 
         </ul>
       </div>

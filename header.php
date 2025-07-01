@@ -169,76 +169,81 @@
 
 
 
-<meta name="title" content="Best Dental Clinic in Vizianagaram | Apple Dental Specialities">
-<meta name="Description" content="Apple Dental Specialties in Vizianagaram provides advanced dental treatments including root canal, braces, implants, and cosmetic dentistry. Trusted care for your perfect smile!">
+  <meta name="title" content="Best Dental Clinic in Vizianagaram | Apple Dental Specialities">
+  <meta name="Description" content="Apple Dental Specialties in Vizianagaram provides advanced dental treatments including root canal, braces, implants, and cosmetic dentistry. Trusted care for your perfect smile!">
 
-<?php
-$name = "Apple Dental Specialties";
-$url = "https://www.appledentalvzm.in/";
-$logo = "https://www.appledentalvzm.in/path-to-logo.png";
-$description = "Apple Dental Specialties in Vizianagaram offers expert dental care including root canal, braces, implants, and cosmetic dentistry.";
-$streetAddress = "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.";
-$locality = "Vizianagaram";
-$region = "AP";
-$postalCode = "535 002";
-$country = "IN";
-$phone = "‪+91 9494193344‬";
-$email = "info@appledentalspecialities.com";
-$socials = [
-  "https://www.facebook.com/appledentalvzm",
-  "https://www.instagram.com/appledentalvzm"
-];
-?>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "Apple Dental Specialties",
-  "url": "https://www.appledentalvzm.in/",
-  "logo": "https://www.appledentalvzm.in/images/logo.png",
-  "description": "Apple Dental Specialties in Vizianagaram offers expert dental care, including root canals, braces, implants, and cosmetic treatments.",
-  "telephone": "‪+91 9494193344‬",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.",
-    "addressLocality": "Vizianagaram",
-    "addressRegion": "Andhra Pradesh",
-    "postalCode": "535002",
-    "addressCountry": "India"
-  },
-  "medicalSpecialty": [
-    "Dentistry",
-    "Orthodontics",
-    "Cosmetic Dentistry",
-    "Implant Dentistry"
-  ],
-  "openingHours": [
-    "Mo 09:00-20:00",
-    "Tu 09:00-14:00",
-    "We 09:00-20:00",
-    "Th 09:00-20:00",
-    "Fr 09:00-20:00",
-    "Sa 09:00-20:00",
-    "Su 09:00-20:00"
-  ],
-  "founder": {
-    "@type": "Person",
-    "name": "Dr. Kalyan Chakravarthi",
-    "jobTitle": "Chief Dental Surgeon"
-  },
-  "sameAs": [
+  <?php
+  $name = "Apple Dental Specialties";
+  $url = "https://www.appledentalvzm.in/";
+  $logo = "https://www.appledentalvzm.in/path-to-logo.png";
+  $description = "Apple Dental Specialties in Vizianagaram offers expert dental care including root canal, braces, implants, and cosmetic dentistry.";
+  $streetAddress = "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.";
+  $locality = "Vizianagaram";
+  $region = "AP";
+  $postalCode = "535 002";
+  $country = "IN";
+  // $phone = "‪+91 9494193344‬";
+  $email = "info@appledentalspecialities.com";
+  $socials = [
     "https://www.facebook.com/appledentalvzm",
     "https://www.instagram.com/appledentalvzm"
-  ],
-  "priceRange": "$$"
-}
-</script>
+  ];
+  ?>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Apple Dental Specialties",
+      "url": "https://www.appledentalvzm.in/",
+      "logo": "https://www.appledentalvzm.in/images/logo.png",
+      "description": "Apple Dental Specialties in Vizianagaram offers expert dental care, including root canals, braces, implants, and cosmetic treatments.",
+      "telephone": "+91 9494193344",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "D.No.22-1-10, 1st Floor, A.G. Complex, Phool Baugh Road, Near Ambatisatram Jn.",
+        "addressLocality": "Vizianagaram",
+        "addressRegion": "Andhra Pradesh",
+        "postalCode": "535002",
+        "addressCountry": "India"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.1150644,
+        "longitude": 83.4140839
+      },
+      "medicalSpecialty": [
+        "Dentistry",
+        "Orthodontics",
+        "Cosmetic Dentistry",
+        "Implant Dentistry"
+      ],
+      "openingHours": [
+        "Mo 09:00-20:00",
+        "Tu 09:00-14:00",
+        "We 09:00-20:00",
+        "Th 09:00-20:00",
+        "Fr 09:00-20:00",
+        "Sa 09:00-20:00",
+        "Su 09:00-20:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Kalyan Chakravarthi",
+        "jobTitle": "Chief Dental Surgeon"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/appledentalvzm",
+        "https://www.instagram.com/appledentalvzm",
+        "https://g.co/kgs/LFL8Wky"
+      ]
+    }
+  </script>
 
 
-
-<link rel="canonical" href="https://www.appledentalvzm.in/" />
-<meta name="google-site-verification" content="QHmd8lU5Z5yG04JwRsb1LE-L58xUqclGX6c4rEio_ks" />
+  <link rel="canonical" href="https://www.appledentalvzm.in/"   />
+  <meta name="google-site-verification" content="QHmd8lU5Z5yG04JwRsb1LE-L58xUqclGX6c4rEio_ks"   />
 </head>
 
 <body>
@@ -347,7 +352,7 @@ $socials = [
     <div class="marquee_content">
       <marquee behavior="scroll" direction="left" class="marquee">
         <p class="marquee_section">
-        Apple Dental Specialities: Your Trusted Partner for Comprehensive Oral Health. &nbsp; &nbsp;&nbsp;&nbsp; Experience the Future of Dentistry with Apple Dental Specialities Advanced Solutions &nbsp; &nbsp;&nbsp;&nbsp; (Employees Health Scheme)EHS &nbsp; Available
+          Apple Dental Specialities: Your Trusted Partner for Comprehensive Oral Health. &nbsp; &nbsp;&nbsp;&nbsp; Experience the Future of Dentistry with Apple Dental Specialities Advanced Solutions &nbsp; &nbsp;&nbsp;&nbsp; (Employees Health Scheme)EHS &nbsp; Available
         </p>
 
       </marquee>
