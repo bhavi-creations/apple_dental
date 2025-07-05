@@ -1094,7 +1094,7 @@ p {
 
   @media (min-width:768px) and (max-width:992px) {
     .dsdl5-heading-section h2 {
-      font-size: 2.5rem;
+      font-size: 1.5rem !important;
     }
   }
   
@@ -1495,6 +1495,14 @@ body {
     .dsdl4-footer-logo {
         max-width: 120px;
         height: auto;
+    }
+
+
+
+    @media (min-width:768px) and (max-width:992px) {
+      .dsdl4-footer-text {
+        font-size: 11px;
+      }
     }
     
     .dsdl4-footer-text {

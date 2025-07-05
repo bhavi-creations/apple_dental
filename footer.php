@@ -68,8 +68,8 @@
         </p>
         <ul class="dsdl4-social-icons">
           <!-- <li><a href="#" class="dsdl4"><i class="fab fa-facebook-f"></i></a></li> -->
-          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
 
         </ul>
       </div>
@@ -86,8 +86,8 @@
         </p>
         <ul class="dsdl4-social-icons">
           <!-- <li><a href="#" class="dsdl4"><i class="fab fa-facebook-f"></i></a></li> -->
-          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4" target="_blank"> <i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
 
         </ul>
       </div>
