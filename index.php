@@ -705,17 +705,23 @@
             <div class="swiper-wrapper">
                 <!-- Doctor Card 1 -->
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="dsdl-doctor-image">
+                    <!-- <div class="dsdl-doctor-image">
                         <img src="https://appledentalvzm.in/images1/dr.kalyan.jpg" alt="Dr. Kalyan Chakravarthi">
+                    </div> -->
+
+                    <div class="hover-popup-image">
+                        <img src="images1/dr.kalyan.jpg" alt="Dr. Kalyan" class="img-fluid">
                     </div>
+
+
                     <h4>Dr. Kalyan Chakravarthi</h4>
                     <p>Clinical Head | BDS</p>
                 </div>
 
                 <!-- Doctor Card 2 -->
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="dsdl-doctor-image">
-                        <img src="https://appledentalvzm.in/images1/Dr.T.mathuri.jpg" alt="Dr. T. Madhuri">
+                    <div class="hover-popup-image">
+                        <img src="images1/Dr.T.mathuri.jpg" alt="Dr. T. Madhuri" class="img-fluid">
                     </div>
                     <h4>Dr. T. Madhuri</h4>
                     <p>BDS</p>
@@ -723,11 +729,12 @@
 
                 <!-- Doctor Card 3 -->
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="dsdl-doctor-image">
-                        <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha">
+                    <div class="hover-popup-image">
+                        <!-- <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha"> -->
+                        <img src="images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha" class="img-fluid">
                     </div>
-                    <h4>Dr. B. Sharon</h4
-                        <p>Dental Surgeon | E.H.S Co-ordinator</p>
+                    <h4>Dr. B. Sharon</h4>
+                    <p>Dental Surgeon | E.H.S Co-ordinator</p>
                 </div>
 
                 <!-- Doctor Card 4 -->
@@ -742,7 +749,7 @@
             </div>
 
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div>
+            <!-- <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div> -->
         </div>
     </section>
 </div>
@@ -1042,7 +1049,7 @@
         </div>
 
         <!-- Right: Video Testimonials Carousel -->
-        <div class="video-testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
+        <!-- <div class="video-testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
             <h3 class="carousel-heading" data-aos="fade-left" data-aos-delay="500">Video Testimonials</h3>
             <div class="owl-carousel right-carousel">
                 <div class="item" data-aos="flip-up" data-aos-delay="600">
@@ -1059,7 +1066,7 @@
             <a href="#" class="see-more-btn1">See More</a>
 
 
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -1212,7 +1219,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            Dental implants are titanium-based artificial tooth roots used to permanently replace missing teeth. At Apple Dental Specialties, they restore chewing function, appearance, and prevent bone loss                        </div>
+                                Dental implants are titanium-based artificial tooth roots used to permanently replace missing teeth. At Apple Dental Specialties, they restore chewing function, appearance, and prevent bone loss
+                        </div>
                     </div>
 
 
@@ -1227,7 +1235,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            Yes, clear aligners are a transparent, removable, and comfortable alternative to metal braces. Apple Dental Specialties offers advanced aligner treatments for effective smile correction                        </div>
+                                Yes, clear aligners are a transparent, removable, and comfortable alternative to metal braces. Apple Dental Specialties offers advanced aligner treatments for effective smile correction
+                        </div>
                     </div>
 
 
@@ -1244,7 +1253,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            A smile makeover combines cosmetic procedures like veneers, whitening, and alignment to enhance your smile. It's ideal for those wanting a confident, aesthetically pleasing smile                        </div>
+                                A smile makeover combines cosmetic procedures like veneers, whitening, and alignment to enhance your smile. It's ideal for those wanting a confident, aesthetically pleasing smile
+                        </div>
                     </div>
 
                     <!-- Accordion 4 -->
@@ -1258,7 +1268,7 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            Laser dentistry provides painless, precise treatments for gum issues, cavities, and surgeries. Apple Dental Specialties uses laser technology for faster healing and less discomfort                            </p>
+                                Laser dentistry provides painless, precise treatments for gum issues, cavities, and surgeries. Apple Dental Specialties uses laser technology for faster healing and less discomfort </p>
                         </div>
                     </div>
                     <!-- Accordion 5 -->
@@ -1298,7 +1308,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            Yes, Apple Dental Specialties is known for its expert dentists, modern technology, and personalized dental care, making it a top-rated clinic in Vizianagaram                        </div>
+                                Yes, Apple Dental Specialties is known for its expert dentists, modern technology, and personalized dental care, making it a top-rated clinic in Vizianagaram
+                        </div>
                     </div>
                     <!-- Accordion 2 -->
 
@@ -1315,7 +1326,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            The cosmetic dental team at Apple Dental Specialties is highly experienced in smile design and has transformed numerous smiles with customized treatment plans                        </div>
+                                The cosmetic dental team at Apple Dental Specialties is highly experienced in smile design and has transformed numerous smiles with customized treatment plans
+                        </div>
                     </div>
 
 
@@ -1331,7 +1343,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            Absolutely. We specialize in pain-free dental care using techniques like laser dentistry, digital scanning, and gentle sedation methods to ensure patient comfort                        </div>
+                                Absolutely. We specialize in pain-free dental care using techniques like laser dentistry, digital scanning, and gentle sedation methods to ensure patient comfort
+                        </div>
                     </div>
                     <!-- Accordion 4 -->
                     <div class="faq_section">
@@ -1343,7 +1356,8 @@
                         </div>
                         <div class="accordion-content">
                             <p>
-                            You can book an appointment by calling our clinic or visiting our official website. Walk-ins are accepted based on availability                        </div>
+                                You can book an appointment by calling our clinic or visiting our official website. Walk-ins are accepted based on availability
+                        </div>
                     </div>
                     <!-- Accordion 5 -->
                     <!-- <div class="faq_section">
