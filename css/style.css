@@ -17,13 +17,6 @@ body {
 
 
 
-  /* * {
-   animation: none !important;
-   transition: none !important;
-   transform: none !important;
-}*/
-
-
 /* Resets subpixel rendering issues */
 .text-content {
   transform: translateZ(0);
@@ -41,6 +34,7 @@ body {
 h1, h2, h3, p {
   margin-bottom: 1.5rem; /* Adds consistent spacing */
 }
+
 
 
 .slider-item {
@@ -348,13 +342,6 @@ p {
     z-index: -1;
   }
 
-
-
-
-
-
-
-  
 
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -2845,16 +2832,6 @@ background-color: #94beeb;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .filter_sidebar_container {
   width: 200px;
   background: #ffffff;
@@ -2900,13 +2877,6 @@ background-color: #94beeb;
 }
 
 
-
-
-
-
-
-
-
 .redirect_blog_srivice{
   background-color: #014da1;
   color: White;
@@ -2945,8 +2915,6 @@ background-color: #94beeb;
 }
 
 
-
-
 /* vodeo tags code */
 .only_first {
   padding: 0px !important;
@@ -2956,7 +2924,6 @@ background-color: #94beeb;
   
   margin-top:50px ;
 }
-
 
 @media (max-width:768px){
   .sectionForm{
@@ -3002,8 +2969,6 @@ background-color: #94beeb;
   }
 
 }
-
-
 
 
 .marquee-section {
@@ -3094,8 +3059,6 @@ background-color: #043494;
   }
 
 
-
-
   /* service section  */
 
   .empty-column {
@@ -3129,12 +3092,9 @@ background-color: #043494;
 
 
 
-
-
-
 /* faq stylings  */
 .accordion {
-  /* border: 1px solid #ddd; */
+
   border-radius: 5px;
   max-width: 500px;
   margin: 20px auto;
@@ -3156,8 +3116,6 @@ background-color: #043494;
   margin-bottom: 20px !important;
 
 }
-
-
 
 
 .accordion-icon {
@@ -3186,12 +3144,9 @@ background-color: #043494;
 .faq_heading_section{
   font-size: 20px !important;
   color:#003471;
-  /* color:#f341a7; */
+
   font-weight: 600;
 }
-
-
-
 
 
 .patient-experience-container {
@@ -3203,10 +3158,6 @@ background-color: #043494;
   margin: 0 auto;
   max-width: 1000px; /* optional: control width */
 }
-
-
-
-
 
 
 .hover-popup-image {
