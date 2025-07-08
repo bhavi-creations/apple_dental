@@ -57,9 +57,9 @@
       </div> -->
 
       <div class="col-md-4 col-6 text-center dsdl4 no_need  d-md-none" data-aos="fade-left">
-
-        <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid my-5">
-
+      
+          <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid my-5">
+         
         <h2 class=" ">Contact Us</h2>
         <p class=" ">
           <strong>Phone:</strong> +91 9494193344
@@ -102,7 +102,7 @@
           <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
 
           <li><a href="contact1.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
-          <li><a href="composer create-project codeigniter4/appstarter project-root" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>
+          <li><a href="https://g.co/kgs/vfcSHM8" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>
 
         </ul>
       </div>
@@ -123,8 +123,8 @@
 
 
         <ul class="dsdl4-footer-links">
-          <li><a href="veneers.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Veneers</a></li>
-          <li><a href="aligners.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Aligners</a></li>
+        <li><a href="veneers.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Veneers</a></li>
+        <li><a href="aligners.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Aligners</a></li>
 
           <li><a href="laser_dentistry.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Laser Dentistry</a></li>
           <li><a href="teeth_whitening.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Teeth whitening</a></li>
@@ -139,11 +139,11 @@
 
 
         <ul class="dsdl4-footer-links">
-          <li><a href="teeth_jewellery.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Jewellery</a></li>
-
-          <li><a href="child_dental_dare.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Child Dental Care</a></li>
-          <li><a href="head_neck.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Major Head & Neck Surgeries </a></li>
-
+        <li><a href="teeth_jewellery.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Jewellery</a></li>
+ 
+        <li><a href="child_dental_dare.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Child Dental Care</a></li>
+        <li><a href="head_neck.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Major Head &  Neck Surgeries </a></li>
+      
           <li><a href="ehs.php" class="dsdl4"><i class="fas fa-arrow-right"></i> EHS Available</a></li>
         </ul>
       </div>
