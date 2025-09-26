@@ -364,12 +364,12 @@ if ($blog_id > 0) {
                             </h3> -->
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Clear Aligners
+                                 Aligners
                             </p>
 
-                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                            <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Starting at <span style="color:#e63946;">₹9,999</span>
-                            </p>
+                            </p> -->
 
                             <!-- <strong>
                                 <a href="tel:+919290019948"
@@ -411,7 +411,7 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <div class="ul-service-details-descr">
+                                    <div class="ul-service-details-descr" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -477,7 +477,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3">
+                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;"   >
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -899,13 +899,17 @@ if ($blog_id > 0) {
 
 
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                            <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-1" style="width: 200px ; padding: 0px 5px;"></a>
+
+
+
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Apple
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Dental <span style="color:#e63946;">Hospital</span>
-                            </p>
+                            </p> -->
 
 
                         </div>
@@ -920,7 +924,7 @@ if ($blog_id > 0) {
         </section>
 
 
-        <section class="ul-service-details  second_section_blogs  d-block     d-lg-none">
+        <section class="ul-service-details  second_section_blogs  d-block     d-lg-none">  
             <div class="container-fluid">
                 <d class="row g-xl-5 g-4 mx-3">
 
@@ -948,7 +952,7 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <div class="ul-service-details-descr">
+                                    <div class="ul-service-details-descr" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -1014,7 +1018,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3">
+                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -1436,12 +1440,12 @@ if ($blog_id > 0) {
                             </h3> -->
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Clear Aligners
+                                 Aligners
                             </p>
 
-                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                            <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Starting at <span style="color:#e63946;">₹9,999</span>
-                            </p>
+                            </p> -->
 
                             <!-- <strong>
                                 <a href="tel:+919290019948"
@@ -1469,14 +1473,15 @@ if ($blog_id > 0) {
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
 
+                            <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-2" style="width: 180px ; padding: 10px;"></a>
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Apple
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Dental <span style="color:#e63946;">Hospital</span>
-                            </p>
+                            </p> -->
 
 
                         </div>
