@@ -363,8 +363,8 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
-                                 Aligners
+                            <p class="logo-link">
+                                Aligners
                             </p>
 
                             <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
@@ -477,7 +477,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;"   >
+                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -899,7 +899,17 @@ if ($blog_id > 0) {
 
 
 
-                            <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-1" style="width: 200px ; padding: 0px 5px;"></a>
+                            <!-- <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-1" style="width: 200px ; padding: 0px 5px;"></a> -->
+
+
+                            <a href="https://appledentalvzm.in/" class="shake-link">
+                                <img src="./images1/apple-dental-vzm-logo.png"
+                                    alt="Vision Dental"
+                                    class="img-fluid shake-img">
+                            </a>
+
+
+
 
 
 
@@ -924,7 +934,7 @@ if ($blog_id > 0) {
         </section>
 
 
-        <section class="ul-service-details  second_section_blogs  d-block     d-lg-none">  
+        <section class="ul-service-details  second_section_blogs  d-block     d-lg-none">
             <div class="container-fluid">
                 <d class="row g-xl-5 g-4 mx-3">
 
@@ -1439,8 +1449,8 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
-                                 Aligners
+                            <p class="logo-link">
+                                Aligners
                             </p>
 
                             <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
@@ -1467,13 +1477,24 @@ if ($blog_id > 0) {
                     <div class=" col-md-6  blogs_side_branding">
 
 
-                        <img src="./images1/home/small_device_image1.png" alt="" class="img-fluid" >
+                        <img src="./images1/home/small_device_image1.png" alt="" class="img-fluid">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
 
-                            <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-2" style="width: 180px ; padding: 10px;"></a>
+                            <!-- <a href="https://appledentalvzm.in/"> <img src="./images1/apple-dental-vzm-logo.png" alt="" class="img-fluid mx-2" style="width: 180px ; padding: 10px;"></a> -->
+
+
+
+                            <a href="https://appledentalvzm.in/" class="shake-link">
+                                <img src="./images1/apple-dental-vzm-logo.png"
+                                    alt="Vision Dental"
+                                    class="img-fluid shake-img">
+                            </a>
+
+
+
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Apple
