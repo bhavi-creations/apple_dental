@@ -1,0 +1,10 @@
+[11-Oct-2025 09:21:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'appledentalvzm'@'localhost' (using password: YES) in C:\xampp\htdocs\apple_dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\apple_dental\save_comment.php(14): mysqli->__construct('localhost', 'appledentalvzm', Object(SensitiveParameterValue), 'appledentalvzm')
+#1 {main}
+  thrown in C:\xampp\htdocs\apple_dental\save_comment.php on line 14
+[11-Oct-2025 09:22:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'appledentalvzm'@'localhost' (using password: YES) in C:\xampp\htdocs\apple_dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\apple_dental\save_comment.php(14): mysqli->__construct('localhost', 'appledentalvzm', Object(SensitiveParameterValue), 'appledentalvzm')
+#1 {main}
+  thrown in C:\xampp\htdocs\apple_dental\save_comment.php on line 14
