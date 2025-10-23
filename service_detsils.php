@@ -487,23 +487,23 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
                             <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
-Contact Us
-</h3> -->
+                                    Contact Us
+                                    </h3> -->
 
                             <p class="logo-link">
                                 Aligners
                             </p>
 
                             <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
-Starting at <span style="color:#e63946;">₹9,999</span>
-</p> -->
+                                    Starting at <span style="color:#e63946;">₹9,999</span>
+                                    </p> -->
 
                             <!-- <strong>
-<a href="tel:+919290019948"
-style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
-📞 Call Now: +91 9290019948
-</a>
-</strong> -->
+                                    <a href="tel:+919290019948"
+                                    style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
+                                    📞 Call Now: +91 9290019948
+                                    </a>
+                                    </strong> -->
                         </div>
 
 
