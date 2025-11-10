@@ -109,7 +109,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 <body>
     <div class="preloader" id="preloader">
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
+        <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="logo img-fluid" />
     </div>
 
     <!-- SIDEBAR SECTION START -->

@@ -710,7 +710,7 @@
                     </div> -->
 
                     <div class="hover-popup-image">
-                        <img src="images1/dr.kalyan.jpg" alt="Dr. Kalyan" class="img-fluid">
+                        <img src="images1/kalyan.png" alt="Dr. Kalyan" class="img-fluid">
                     </div>
 
 
@@ -721,7 +721,7 @@
                 <!-- Doctor Card 2 -->
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="300">
                     <div class="hover-popup-image">
-                        <img src="images1/Dr.T.mathuri.jpg" alt="Dr. T. Madhuri" class="img-fluid">
+                        <img src="images1/madhuri.png" alt="Dr. T. Madhuri" class="img-fluid">
                     </div>
                     <h4>Dr. T. Madhuri</h4>
                     <p>BDS</p>
@@ -731,10 +731,10 @@
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="400">
                     <div class="hover-popup-image">
                         <!-- <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha"> -->
-                        <img src="images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha" class="img-fluid">
+                        <img src="images1/sarath.png" alt="Dr. A. Deol Aslesha" class="img-fluid">
                     </div>
-                    <h4>Dr. B. Sharon</h4>
-                    <p>Dental Surgeon | E.H.S Co-ordinator</p>
+                    <h4>Dr.Sarath Chandra  </h4>
+                    <p>Prosthodontist</p>
                 </div>
 
                 <!-- Doctor Card 4 -->

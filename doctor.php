@@ -23,7 +23,7 @@
             <!-- Doctor 1 -->
             <div class="col-md-4 mb-4">
                 <div class="doctor-card">
-                    <img src="images1/dr.kalyan.jpg" alt="Dr. Kalyan Chakravarthy" class="img-fluid">
+                    <img src="images1/kalyan.png" alt="Dr. Kalyan Chakravarthy" class="img-fluid">
                     <div class="doctor-card-body">
                         <h4>Dr. Kalyan Chakravarty</h4>
                         <p class="doctor-qualification">B.D.S</p>
@@ -41,7 +41,7 @@
             <!-- Doctor 2 -->
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="doctor-card">
-                    <img src="images1/Dr.T.mathuri.jpg" alt="Dr. T. Madhuri" class="img-fluid rounded">
+                    <img src="images1/madhuri.png" alt="Dr. T. Madhuri" class="img-fluid rounded">
                     <div class="doctor-card-body text-center">
                         <h4>Dr. T. Madhuri</h4>
                         <p>B.D.S</p>
@@ -59,11 +59,12 @@
 
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="doctor-card">
-                    <img src="images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha" class="img-fluid rounded">
+                    <img src="images1/sarath.png" alt="Dr. A. Deol Aslesha" class="img-fluid rounded">
                     <div class="doctor-card-body text-center">
-                        <h4>Dr. B. Sharon</h4>
+                        <h4>Dr.Sarath Chandra </h4>
+
                         <p>B.D.S</p>
-                        <p>Dental Surgeon | E.H.S Co-ordinator</p>
+                        <p>Prosthodontist</p>
                         <!-- <div class="doctor-social-icons">
                                 <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
