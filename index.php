@@ -220,7 +220,9 @@
     <div class="dsdl1-container">
         <!-- Section Heading -->
         <div class="dsdl1-section-heading">
-            <h4 class="text-primary section-subtitle">GET TO KNOW US</h4>
+            <h4 class=" section-subtitle">GET TO KNOW US</h4>
+            <h1 > <span>Apple</span>  <span  style="color: #007bff;">Dental Specialities</span>   </h1>
+
             <h2 class="font-weight-bold section-title">About <strong>Our Journey</strong></h2>
             <p class="text-muted section-description">Discover who we are and what drives us to make a difference.</p>
         </div>
@@ -1189,7 +1191,7 @@
 <section class="py-5">
     <div class="container">
 
-        <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+        <h2 class="text-center">Frequently Ask Question (FAQ)</h2>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="accordion">

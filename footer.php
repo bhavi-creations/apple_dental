@@ -216,6 +216,95 @@
     offset: 200, // Offset (in px) to trigger animations
   });
 </script>
+
+
+
+
+<?php
+/**
+ * Environment Configuration
+ * Include this file at the top of your PHP files
+ */
+
+// Detect environment automatically
+function detectEnvironment() {
+    $host = $_SERVER['HTTP_HOST'] ?? '';
+    $serverAddr = $_SERVER['SERVER_ADDR'] ?? '';
+    
+    // Check if it's AWS
+    if (
+        strpos($host, 'amazonaws.com') !== false ||
+        strpos($host, 'your-aws-domain.com') !== false ||
+        strpos($serverAddr, '3.') === 0 ||  // AWS IP range
+        strpos($serverAddr, '18.') === 0 ||
+        file_exists('/var/www/.aws-env')  // Marker file
+    ) {
+        return 'aws';
+    }
+    
+    // Check if it's localhost
+    if (
+        $host === 'localhost' ||
+        $serverAddr === '127.0.0.1' ||
+        $serverAddr === '::1'
+    ) {
+        return 'local';
+    }
+    
+    // Otherwise it's live
+    return 'live';
+}
+
+// Set environment
+define('ENVIRONMENT', detectEnvironment());
+define('IS_AWS', ENVIRONMENT === 'aws');
+define('IS_LOCAL', ENVIRONMENT === 'local');
+define('IS_LIVE', ENVIRONMENT === 'live');
+
+// Define base URL based on environment
+if (IS_AWS) {
+    // On AWS, use .php extensions
+    define('BASE_URL', 'https://your-aws-domain.com');
+    define('USE_PHP_EXT', true);
+} else {
+    // On local and live, hide .php extensions
+    define('BASE_URL', IS_LOCAL ? 'http://localhost' : 'https://yourdomain.com');
+    define('USE_PHP_EXT', false);
+}
+
+/**
+ * Generate URL with or without .php extension based on environment
+ * 
+ * @param string $page Page name without extension
+ * @param array $params Query parameters
+ * @return string Complete URL
+ */
+function url($page, $params = []) {
+    $ext = USE_PHP_EXT ? '.php' : '';
+    $url = BASE_URL . '/' . ltrim($page, '/') . $ext;
+    
+    if (!empty($params)) {
+        $url .= '?' . http_build_query($params);
+    }
+    
+    return $url;
+}
+
+/**
+ * Redirect to a page
+ * 
+ * @param string $page Page name without extension
+ * @param array $params Query parameters
+ */
+function redirect($page, $params = []) {
+    header('Location: ' . url($page, $params));
+    exit;
+}
+
+// Example usage:
+// echo '<a href="' . url('about') . '">About</a>';
+// redirect('login');
+?>
 </body>
 
 </html>
