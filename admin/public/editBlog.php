@@ -1,24 +1,61 @@
 <?php
-// Database connection (replace with your actual database connection details)
+// DB Connection
 include '../../db.connection/db_connection.php';
 
-// Get blog ID from URL
+// Blog ID
 $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
-if ($blog_id > 0) {
-    // Fetch blog data
-    $stmt = $conn->prepare("SELECT title, main_content, full_content, service FROM blogs WHERE id = ?");
-    $stmt->bind_param("i", $blog_id);
-    $stmt->execute();
-    $stmt->bind_result($title, $main_content, $full_content, $service);
-    $stmt->fetch();
-    $stmt->close();
-} else {
-    echo "Invalid blog ID.";
+if ($blog_id <= 0) {
+    echo "Invalid blog ID";
     exit;
 }
 
-$conn->close();
+// ---------------------------------------------
+// FETCH BLOG DATA
+// ---------------------------------------------
+$stmt = $conn->prepare("
+    SELECT 
+        title,
+        main_content,
+        full_content,
+        service,
+        telugu_title,
+        telugu_main_content,
+        telugu_full_content,
+        video,
+        section1_image
+    FROM blogs
+    WHERE id = ?
+");
+$stmt->bind_param("i", $blog_id);
+$stmt->execute();
+$stmt->bind_result(
+    $title,
+    $main_content,
+    $full_content,
+    $service,
+    $telugu_title,
+    $telugu_main_content,
+    $telugu_full_content,
+    $video,
+    $section1_image
+);
+$stmt->fetch();
+$stmt->close();
+
+// ---------------------------------------------
+// FETCH SERVICES FROM DATABASE
+// ---------------------------------------------
+$services = [];
+
+$service_sql = "SELECT service_name FROM services ORDER BY service_name ASC";
+$service_result = $conn->query($service_sql);
+
+if ($service_result && $service_result->num_rows > 0) {
+    while ($row = $service_result->fetch_assoc()) {
+        $services[] = $row['service_name'];
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -26,71 +63,211 @@ $conn->close();
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Appledental </title>
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <!-- Custom styles for this template-->
+    <title>Edit Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <!-- Include Quill CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
+
     <div id="wrapper">
-        <!-- Sidebar -->
         <?php include 'sidebar.php'; ?>
-        <!-- End of Sidebar -->
+
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
-                <!-- Topbar -->
                 <?php include 'navbar.php'; ?>
-                <!-- End of Topbar -->
+
                 <div class="container-fluid">
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Edit BLOG</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-11">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-success">EDIT CONTENT</h6>
+
+                    <h1 class="h3 mb-4 text-gray-800">Edit Blog</h1>
+
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-success">Edit Blog Content</h6>
+                        </div>
+
+                        <div class="card-body">
+
+                            <form id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+
+                                <!-- ENGLISH TITLE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Title (English)</label>
+                                    <input type="text" name="title" class="form-control"
+                                        value="<?= htmlspecialchars($title) ?>" required>
                                 </div>
-                                <div class="card-body">
-                                    <form style='color:black;' id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
-                                        <!-- Title Input -->
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>
-                                            <input type="text" class="form-control text-grey-900" name='title' id="exampleFormControlInput1" value="<?php echo htmlspecialchars($title); ?>" placeholder="Title" required>
+
+                                <!-- TELUGU TITLE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Title (Telugu)</label>
+                                    <input type="text" name="telugu_title" class="form-control"
+                                        value="<?= htmlspecialchars($telugu_title) ?>">
+                                </div>
+
+                                <!-- SERVICE (DATABASE) -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Service</label>
+                                    <select name="service" class="form-control" required>
+                                        <option value="">-- Select Service --</option>
+
+                                        <?php foreach ($services as $s) { ?>
+                                            <option value="<?= htmlspecialchars($s) ?>"
+                                                <?= ($service == $s) ? 'selected' : '' ?>>
+                                                <?= htmlspecialchars($s) ?>
+                                            </option>
+                                        <?php } ?>
+
+                                    </select>
+                                </div>
+
+                                <!-- MAIN CONTENT EN -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Main Content (English)</label>
+                                    <div id="mainEditor" style="height:200px"></div>
+                                    <input type="hidden" name="main_content" id="mainContentData">
+                                </div>
+
+                                <!-- MAIN CONTENT TE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Main Content (Telugu)</label>
+                                    <div id="teluguMainEditor" style="height:200px"></div>
+                                    <input type="hidden" name="telugu_main_content" id="teluguMainContentData">
+                                </div>
+
+                                <!-- FULL CONTENT EN -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Full Content (English)</label>
+                                    <div id="fullEditor" style="height:300px"></div>
+                                    <input type="hidden" name="full_content" id="fullContentData">
+                                </div>
+
+                                <!-- FULL CONTENT TE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Full Content (Telugu)</label>
+                                    <div id="teluguFullEditor" style="height:300px"></div>
+                                    <input type="hidden" name="telugu_full_content" id="teluguFullContentData">
+                                </div>
+
+                                <!-- MAIN IMAGE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Main Image</label>
+                                    <input type="file" name="main_image" class="form-control">
+                                </div>
+
+                                <!-- VIDEO -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Video</label>
+                                    <input type="file" name="video" class="form-control">
+                                    <?php if ($video) { ?>
+                                        <small>Current Video :
+                                            <a href="../../uploads/videos/<?= $video ?>" target="_blank">View</a>
+                                        </small>
+                                    <?php } ?>
+                                </div>
+
+                                <!-- SECTION 1 IMAGE -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Section 1 Image</label>
+                                    <input type="file" name="section1_image" class="form-control">
+
+                                    <?php if ($section1_image) { ?>
+                                        <div class="mt-2">
+                                            <small>Current Image:</small><br>
+                                            <img src="../../uploads/photos/<?= $section1_image ?>"
+                                                style="max-width:220px;border:1px solid #ccc;padding:5px;">
                                         </div>
+                                    <?php } ?>
+                                </div>
 
-                                        <!-- Service Input -->
-                                        <!-- Service Dropdown -->
-                                        <div class="filter-section mb-3">
-                                            <label for="service" class="form-label text-primary">Select Service:</label>
-                                            <select id="service" name="service" class="form-control" required>
-                                                <option value="">Select a Service</option>
-                                                <option value="Root Canal" <?php echo ($service == 'Root Canal') ? 'selected' : ''; ?>>Root Canal</option>
-                                                <option value="Dental Implant" <?php echo ($service == 'Dental Implant') ? 'selected' : ''; ?>>Dental Implant</option>
-                                                <option value="Tooth Extraction" <?php echo ($service == 'Tooth Extraction') ? 'selected' : ''; ?>>Tooth Extraction</option>
-                                                <option value="Periapical Surgery" <?php echo ($service == 'Periapical Surgery') ? 'selected' : ''; ?>>Periapical Surgery</option>
-                                                <option value="Gum Surgery" <?php echo ($service == 'Gum Surgery') ? 'selected' : ''; ?>>Laser Gum Surgery</option>
-                                                <option value="Dental Crown & Bridge" <?php echo ($service == 'Dental Crown & Bridge') ? 'selected' : ''; ?>>Dental Crown & Bridge</option>
-                                                <option value="Dental Veneers" <?php echo ($service == 'Dental Veneers') ? 'selected' : ''; ?>>Dental Veneers</option>
-                                                <option value="Aligners" <?php echo ($service == 'Aligners') ? 'selected' : ''; ?>>Aligners</option>
-                                                <option value="Laser Dentistry" <?php echo ($service == 'Laser Dentistry') ? 'selected' : ''; ?>>Laser Dentistry</option>
-                                                <option value="Teeth Cleaning" <?php echo ($service == 'Teeth Cleaning') ? 'selected' : ''; ?>>Teeth Cleaning</option>
-                                                <option value="Smile Makeover" <?php echo ($service == 'Smile Makeover') ? 'selected' : ''; ?>>Smile Makeover</option>
-                                                <option value="Gum Care" <?php echo ($service == 'Gum Care') ? 'selected' : ''; ?>> Gum Care</option>
-                                                <option value="Teeth Jewellery" <?php echo ($service == 'Teeth Jewellery') ? 'selected' : ''; ?>>Teeth Jewellery</option>
-                                                <option value="Child Dental Care" <?php echo ($service == 'Child Dental Care') ? 'selected' : ''; ?>> Child Dental Care</option>
-                                                <option value="Major Head & Neck Surgeries" <?php echo ($service == 'Major Head & Neck Surgeries') ? 'selected' : ''; ?>>Major Head & Neck Surgeries</option>
+                                <input type="hidden" name="id" value="<?= $blog_id ?>">
+                                <input type="hidden" name="old_section1_image" value="<?= $section1_image ?>">
 
-                                                <!--<option value="Dentures" <?php echo ($service == 'Dentures') ? 'selected' : ''; ?>>Dentures  </option>
+                                <div class="row mt-4">
+                                    <div class="col-md-8"></div>
+                                    <button type="reset" class="btn btn-danger col-md-2">Clear</button>
+                                    <button type="submit" class="btn btn-success col-md-2">Update</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
+    <script>
+        const quillMain = new Quill('#mainEditor', {
+            theme: 'snow'
+        });
+        const quillTeluguMain = new Quill('#teluguMainEditor', {
+            theme: 'snow'
+        });
+        const quillFull = new Quill('#fullEditor', {
+            theme: 'snow'
+        });
+        const quillTeluguFull = new Quill('#teluguFullEditor', {
+            theme: 'snow'
+        });
+
+        // Load content
+        quillMain.root.innerHTML = <?= json_encode($main_content) ?>;
+        quillTeluguMain.root.innerHTML = <?= json_encode($telugu_main_content) ?>;
+        quillFull.root.innerHTML = <?= json_encode($full_content) ?>;
+        quillTeluguFull.root.innerHTML = <?= json_encode($telugu_full_content) ?>;
+
+        document.getElementById('editblogform').onsubmit = function() {
+            document.getElementById('mainContentData').value = quillMain.root.innerHTML;
+            document.getElementById('teluguMainContentData').value = quillTeluguMain.root.innerHTML;
+            document.getElementById('fullContentData').value = quillFull.root.innerHTML;
+            document.getElementById('teluguFullContentData').value = quillTeluguFull.root.innerHTML;
+        };
+    </script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>
+
+<?php $conn->close(); ?>
+
+
+
+
+
+
+
+<!-- <div class="filter-section mb-3">
+    <label for="service" class="form-label text-primary">Select Service:</label>
+    <select id="service" name="service" class="form-control" required>
+        <option value="">Select a Service</option>
+        <option value="Root Canal" <?php echo ($service == 'Root Canal') ? 'selected' : ''; ?>>Root Canal</option>
+        <option value="Dental Implant" <?php echo ($service == 'Dental Implant') ? 'selected' : ''; ?>>Dental Implant</option>
+        <option value="Tooth Extraction" <?php echo ($service == 'Tooth Extraction') ? 'selected' : ''; ?>>Tooth Extraction</option>
+        <option value="Periapical Surgery" <?php echo ($service == 'Periapical Surgery') ? 'selected' : ''; ?>>Periapical Surgery</option>
+        <option value="Gum Surgery" <?php echo ($service == 'Gum Surgery') ? 'selected' : ''; ?>>Laser Gum Surgery</option>
+        <option value="Dental Crown & Bridge" <?php echo ($service == 'Dental Crown & Bridge') ? 'selected' : ''; ?>>Dental Crown & Bridge</option>
+        <option value="Dental Veneers" <?php echo ($service == 'Dental Veneers') ? 'selected' : ''; ?>>Dental Veneers</option>
+        <option value="Aligners" <?php echo ($service == 'Aligners') ? 'selected' : ''; ?>>Aligners</option>
+        <option value="Laser Dentistry" <?php echo ($service == 'Laser Dentistry') ? 'selected' : ''; ?>>Laser Dentistry</option>
+        <option value="Teeth Cleaning" <?php echo ($service == 'Teeth Cleaning') ? 'selected' : ''; ?>>Teeth Cleaning</option>
+        <option value="Smile Makeover" <?php echo ($service == 'Smile Makeover') ? 'selected' : ''; ?>>Smile Makeover</option>
+        <option value="Gum Care" <?php echo ($service == 'Gum Care') ? 'selected' : ''; ?>> Gum Care</option>
+        <option value="Teeth Jewellery" <?php echo ($service == 'Teeth Jewellery') ? 'selected' : ''; ?>>Teeth Jewellery</option>
+        <option value="Child Dental Care" <?php echo ($service == 'Child Dental Care') ? 'selected' : ''; ?>> Child Dental Care</option>
+        <option value="Major Head & Neck Surgeries" <?php echo ($service == 'Major Head & Neck Surgeries') ? 'selected' : ''; ?>>Major Head & Neck Surgeries</option>
+
+        <!-- <option value="Dentures" <?php echo ($service == 'Dentures') ? 'selected' : ''; ?>>Dentures  </option>
                                                 <option value="Smile Designing" <?php echo ($service == 'Smile Designing') ? 'selected' : ''; ?>>Smile Designing</option>
                                                 <option value="Full Mouth Rehabilitation Treatment" <?php echo ($service == 'Full Mouth Rehabilitation Treatment') ? 'selected' : ''; ?>>Full Mouth Rehabilitation Treatment</option>
                                                  <option value="Laser Gum" <?php echo ($service == 'Laser Gum') ? 'selected' : ''; ?>>Laser & Gum</option>
@@ -98,178 +275,9 @@ $conn->close();
                                                 <option value="Teeth Whitening" <?php echo ($service == 'Teeth Whitening') ? 'selected' : ''; ?>>Teeth Whitening</option>
                                                 <option value="Mouth Ulcers" <?php echo ($service == 'Mouth Ulcers') ? 'selected' : ''; ?>>Mouth Ulcers</option>
                                                 <option value="Precancerous Lesion" <?php echo ($service == 'Precancerous Lesion') ? 'selected' : ''; ?>>Precancerous Lesion</option>
-                                                <option value="Laser Crown Lengthening" <?php echo ($service == 'Laser Crown Lengthening') ? 'selected' : ''; ?>>Laser Crown Lengthening</option> -->
+                                                <option value="Laser Crown Lengthening" <?php echo ($service == 'Laser Crown Lengthening') ? 'selected' : ''; ?>>Laser Crown Lengthening</option>  -->
 
 
 
-                                            </select>
-                                        </div>
-
-
-                                        <!-- Quill Editor for Main Content -->
-                                        <div class="mb-3">
-                                            <label for="mainEditor" class="form-label text-primary">ENTER MAIN CONTENT</label>
-                                            <div id="mainEditor" style="height: 200px;"></div>
-                                            <input name="main_content" id="mainContentData" style="display: none">
-                                        </div>
-
-                                        <!-- Main Image Upload -->
-                                        <div class="mb-3">
-                                            <label for="formFileMainImage" class="form-label text-primary my-2">Choose Main Image</label>
-                                            <input class="form-control" name="main_image" type="file" id="formFileMainImage" required>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="formFileVideo" class="form-label text-primary">Choose Video</label>
-                                            <input class="form-control" name="video" type="file" id="formFileVideo" required>
-                                        </div>
-
-                                        <!-- Quill Editor for Full Content -->
-                                        <label for="editor" class="form-label text-primary">ENTER FULL CONTENT</label>
-                                        <div id="editor" style='height:400px;'></div>
-                                        <input name="full_content" id="formcontentdata" style="display: none">
-
-                                        <!-- Hidden Input for Blog ID -->
-                                        <input type="hidden" name="id" value="<?php echo $blog_id; ?>">
-
-                                        <!-- Form Buttons -->
-                                        <div class='row p-3'>
-                                            <div class='col-xl-7 col-sm-2'></div>
-                                            <button type='reset' class='btn btn-danger mx-1 my-2 col-xl-2'>Clear</button>
-                                            <button type='submit' class='btn btn-success mx-1 my-2 col-xl-2'>Update</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer -->
-            <!-- End of Footer -->
-        </div>
-    </div>
-
-    <!-- Include Quill JS -->
-    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
-
-    <!-- Initialize Quill Editors and Load Existing Data -->
-    <script>
-        // Initialize Quill editors with color options in the toolbar
-        const quillMain = new Quill('#mainEditor', {
-            theme: 'snow',
-            modules: {
-                toolbar: [
-                    [{
-                        'header': '1'
-                    }, {
-                        'header': '2'
-                    }, {
-                        'font': []
-                    }],
-                    [{
-                        'size': []
-                    }],
-                    ['bold', 'italic', 'underline', 'strike'],
-                    [{
-                        'color': []
-                    }, {
-                        'background': []
-                    }], // Color and background color options
-                    ['link', 'blockquote'],
-                    [{
-                        'list': 'ordered'
-                    }, {
-                        'list': 'bullet'
-                    }],
-                    [{
-                        'script': 'sub'
-                    }, {
-                        'script': 'super'
-                    }],
-                    [{
-                        'indent': '-1'
-                    }, {
-                        'indent': '+1'
-                    }],
-                    [{
-                        'direction': 'rtl'
-                    }],
-                    [{
-                        'align': []
-                    }],
-                    ['clean'] // Remove formatting button
-                ]
-            },
-            placeholder: 'Enter main content...',
-        });
-
-        const quillFull = new Quill('#editor', {
-            theme: 'snow',
-            modules: {
-                toolbar: [
-                    [{
-                        'header': '1'
-                    }, {
-                        'header': '2'
-                    }, {
-                        'font': []
-                    }],
-                    [{
-                        'size': []
-                    }],
-                    ['bold', 'italic', 'underline', 'strike'],
-                    [{
-                        'color': []
-                    }, {
-                        'background': []
-                    }], // Color and background color options
-                    ['link', 'blockquote'],
-                    [{
-                        'list': 'ordered'
-                    }, {
-                        'list': 'bullet'
-                    }],
-                    [{
-                        'script': 'sub'
-                    }, {
-                        'script': 'super'
-                    }],
-                    [{
-                        'indent': '-1'
-                    }, {
-                        'indent': '+1'
-                    }],
-                    [{
-                        'direction': 'rtl'
-                    }],
-                    [{
-                        'align': []
-                    }],
-                    ['clean'] // Remove formatting button
-                ]
-            },
-            placeholder: 'Compose full content...',
-        });
-
-        // Load existing data into Quill editors
-        quillMain.root.innerHTML = <?php echo json_encode($main_content); ?>;
-        quillFull.root.innerHTML = <?php echo json_encode($full_content); ?>;
-
-        // On form submission, set Quill content into hidden input fields
-        document.querySelector('#editblogform').onsubmit = function() {
-            document.querySelector('#mainContentData').value = quillMain.root.innerHTML;
-            document.querySelector('#formcontentdata').value = quillFull.root.innerHTML;
-        };
-    </script>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-</body>
-
-</html>
+    </select>
+</div> -->

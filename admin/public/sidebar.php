@@ -7,13 +7,13 @@
         </div>
         <div class="sidebar-brand-text mx-3">Apple <br> Dental</div>
     </a>
- 
+
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.php"> 
+        <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -59,6 +59,21 @@
         </div>
     </li>
 
+
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseservice" aria-expanded="true" aria-controls="collapseservice">
+            <i class="fas fa-fw fa-file-pdf"></i>
+            <span>Service</span>
+        </a>
+        <div id="collapseservice" class="collapse" aria-labelledby="headingservice" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">NEW Service</h6>
+                <a class="collapse-item" href="addservice.php"> <i class="fas fa-fw fa-upload"></i> UPLOAD Service</a>
+                <a class="collapse-item" href="view_services.php"> <i class="fas fa-fw fa-list"></i> All Service</a>
+            </div>
+        </div>
+    </li>
 
 
 

@@ -956,7 +956,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='service_detsils.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
+                    echo "<a href='fullblog.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
 
 
                     echo "</div>"; // End card body
@@ -1196,18 +1196,6 @@
             <div class="col-12 col-md-6">
                 <div class="accordion">
                     <!-- Accordion 1 -->
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <div class="faq_section">
 

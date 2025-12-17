@@ -1,3 +1,19 @@
+<?php
+// Ensure session is started
+if (session_status() === PHP_SESSION_NONE) {
+    // session_start();
+}
+
+// Safely get username
+$username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
