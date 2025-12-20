@@ -3486,3 +3486,19 @@ blockquote footer {
 a{
   text-decoration: none;
 }
+
+
+
+.badge_service_name {
+  display: inline-block;
+  background: linear-gradient(135deg, #283779, #4e6cef);
+  /* premium look */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

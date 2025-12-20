@@ -221,7 +221,7 @@
         <!-- Section Heading -->
         <div class="dsdl1-section-heading">
             <h4 class=" section-subtitle">GET TO KNOW US</h4>
-            <h1 > <span>Apple</span>  <span  style="color: #007bff;">Dental Specialities</span>   </h1>
+            <h1 > <span>Apple</span>  <span  style="color: #007bff;">Dental Specialities in vizinagaram</span>   </h1>
 
             <h2 class="font-weight-bold section-title">About <strong>Our Journey</strong></h2>
             <p class="text-muted section-description">Discover who we are and what drives us to make a difference.</p>
@@ -260,7 +260,7 @@
                             <div class="col-12 col-lg-6">
                                 <h3>Transforming Smiles with Expert Specialities</h3>
                                 <p>
-                                    At our dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
+                                    At our apple dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
 
                                 </p>
                                 <p>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Apple Dental Specialities | Quality Dental Specialities in VZM</title>
+  <title>Apple Dental Specialities | Quality Dental Specialities in Vizianagaram</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
@@ -170,7 +170,7 @@
 
 
   <meta name="title" content="Best Dental Clinic in Vizianagaram | Apple Dental Specialities">
-  <meta name="Description" content="Apple Dental Specialties in Vizianagaram provides advanced dental treatments including root canal, braces, implants, and cosmetic dentistry. Trusted care for your perfect smile!">
+  <meta name="Description" content="Apple Dental Specialities Vizianagaram provides advanced dental treatments including root canal, braces, implants, and cosmetic dentistry. Trusted care for your perfect smile!">
 
   <?php
   $name = "Apple Dental Specialties";
