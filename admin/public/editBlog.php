@@ -245,8 +245,6 @@ if ($service_result && $service_result->num_rows > 0) {
 
 
 
-
-
 <!-- <div class="filter-section mb-3">
     <label for="service" class="form-label text-primary">Select Service:</label>
     <select id="service" name="service" class="form-control" required>
@@ -276,8 +274,3 @@ if ($service_result && $service_result->num_rows > 0) {
                                                 <option value="Mouth Ulcers" <?php echo ($service == 'Mouth Ulcers') ? 'selected' : ''; ?>>Mouth Ulcers</option>
                                                 <option value="Precancerous Lesion" <?php echo ($service == 'Precancerous Lesion') ? 'selected' : ''; ?>>Precancerous Lesion</option>
                                                 <option value="Laser Crown Lengthening" <?php echo ($service == 'Laser Crown Lengthening') ? 'selected' : ''; ?>>Laser Crown Lengthening</option>  -->
-
-
-
-    </select>
-</div> -->
