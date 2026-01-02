@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -266,7 +268,7 @@
 
 
   <section>
-
+  <?php include 'view_count.php' ; ?>
   </section>
 
   <!-- Navbar -->
@@ -704,4 +706,4 @@
     });
   </script>
 
-<?php include 'view_count.php' ; ?>
+
