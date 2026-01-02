@@ -263,6 +263,8 @@
 
 
 
+
+
   <section>
 
   </section>
@@ -701,3 +703,5 @@
       window.toggleSubMenu = toggleSubMenu;
     });
   </script>
+
+<?php include 'view_count.php' ; ?>
