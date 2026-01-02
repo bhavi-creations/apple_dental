@@ -56,7 +56,7 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Srinivasa Multispeciality Dental Hospital Kakinada</title>
+        <title>Apple Dental Hospital Kakinada</title>
         <style>
             body { font-family: Arial; padding: 20px; background: #fafafa; }
             .va-container { max-width: 1000px; margin: auto; }
