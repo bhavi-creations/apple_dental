@@ -100,7 +100,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="crowns_bridges_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/6.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -115,7 +115,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="veneers_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="dental_veneers_treatment_in_vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/7.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -130,7 +130,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="aligners_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/8.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -220,7 +220,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="child_dental_dare_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/14.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">

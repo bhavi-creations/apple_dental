@@ -447,13 +447,13 @@
                       <li><a href="tooth_extraction_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
                       <li><a href="periapical_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
                       <li><a href="gum_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                      <li><a href="crowns_bridges_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                      <li><a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
                     </div>
 
                     <!-- Column 2 -->
                     <div class="col-4">
-                      <li><a href="veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                      <li><a href="aligners_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                      <li><a href="dental_veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                      <li><a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
                       <li><a href="laser_dentistry_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
                       <li><a href="teeth_whitening_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
                       <li><a href="smile_makeover_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
@@ -463,7 +463,7 @@
                     <!-- Column 3 -->
                     <div class="col-4">
                       <li><a href="teeth_jewellery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                      <li><a href="child_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                      <li><a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
                       <li><a href="head_neck_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
                       <li><a href="ehs_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
                     </div>
@@ -541,15 +541,15 @@
                 <li><a href="tooth_extraction_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
                 <li><a href="periapical_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
                 <li><a href="gum_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                <li><a href="crowns_bridges_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-                <li><a href="veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                <li><a href="aligners_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                <li><a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                <li><a href="dental_veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                <li><a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
                 <li><a href="laser_dentistry_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
                 <li><a href="teeth_whitening_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
                 <li><a href="smile_makeover_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
                 <li><a href="gum_care_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
                 <li><a href="teeth_jewellery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                <li><a href="child_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                <li><a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
                 <li><a href="head_neck_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
                 <li><a href="ehs_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
               </ul>
