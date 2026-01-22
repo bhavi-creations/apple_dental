@@ -1,132 +1,332 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.appledentalvzm.in/</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>http://www.appledentalvzm.in/visitor-analytics.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/index.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/index.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/about1.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/about1.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/service.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/service.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/rootcanal.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/rootcanal_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/dental_implants.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/dental_implants_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/tooth_extraction.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/tooth_extraction_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/periapical_surgery.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/periapical_surgery_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/gum_surgery.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/gum_surgery_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/crowns_bridges.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/dentalcrown_bridge_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/veneers.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/dental_veneers_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/aligners.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/laser_dentistry.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/laser_dentistry_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/teeth_whitening.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/teeth_whitening_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/smile_makeover.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/smile_makeover_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/gum_care.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/gum_care_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/teeth_jewellery.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/teeth_jewellery_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/child_dental_dare.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/child_pediatric_dental_dare_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/head_neck.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/head_neck_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/ehs.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/ehs_treatment_in_vizianagaram.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/doctor.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/doctor.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/gallery.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/gallery.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/contact1.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/blogs.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
-  <loc>https://www.appledentalvzm.in/appointment.php</loc>
-  <lastmod>2025-05-24T06:22:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://www.appledentalvzm.in/contact1.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
 </url>
-
-
+<url>
+<loc>http://www.appledentalvzm.in/appointment.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=81</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/terms.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/privacy.php</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Root Canal</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Dental Implant</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Tooth Extraction</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Periapical Surgery</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Gum Surgery</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Dental Crown & Bridge</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Dental Veneers</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Aligners</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Laser Dentistry</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Teeth Cleaning</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Smile Makeover</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Gum Care</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Teeth Jewellery</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Child Dental Care</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/blogs.php?service=Major Head & Neck Surgeries</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=13</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/index.html</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/tel:1234567890</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=79</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=73</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=71</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=70</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>https://appledentalvzm.in/</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=68</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=66</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=63</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/service_detsils.php?id=62</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=81</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=79</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=73</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=71</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=70</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=68</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=66</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=63</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc>http://www.appledentalvzm.in/fullblog.php?id=62</loc>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
+<url>
+<loc/>
+<changefreq>yearly</changefreq>
+<lastmod>2026-01-21</lastmod>
+</url>
 </urlset>
