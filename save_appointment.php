@@ -158,7 +158,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mailPatient->setFrom(
             'manimalladi05@gmail.com',
-            'Srinivasa Multispeciality Dental Hospital'
+            'Apple Dental Specialities'
         );
 
         $mailPatient->addAddress($email);
@@ -179,7 +179,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </table>
 
             <p>Thank you for choosing<br>
-            <b>Srinivasa Multispeciality Dental Hospital</b>.</p>
+            <b>Apple Dental Specialities</b>.</p>
         ";
 
         $mailPatient->send();
