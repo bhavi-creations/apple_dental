@@ -39,7 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $type = $row['holiday_type'];
 
         $morningSlots = [
-            "09:00 PM - 10:00 PM",
+
+            "09:00 AM - 10:00 AM",
             "10:00 AM - 11:00 AM",
             "11:00 AM - 12:00 PM",
             "12:00 PM - 01:00 PM",
@@ -52,8 +53,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "04:00 PM - 05:00 PM",
             "05:00 PM - 06:00 PM",
             "06:00 PM - 07:00 PM",
-            "07:00 PM - 08:00 PM",
-            "09:00 PM - 10:00 PM"
+            "07:00 PM - 08:30 PM",
+            
         ];
 
         if (
@@ -157,7 +158,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mailPatient->setFrom(
             'manimalladi05@gmail.com',
-            'Apple Dental Specialities'
+            'Srinivasa Multispeciality Dental Hospital'
         );
 
         $mailPatient->addAddress($email);
@@ -178,7 +179,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </table>
 
             <p>Thank you for choosing<br>
-            <b>Apple Dental Specialities</b>.</p>
+            <b>Srinivasa Multispeciality Dental Hospital</b>.</p>
         ";
 
         $mailPatient->send();
