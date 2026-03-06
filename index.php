@@ -221,7 +221,7 @@
         <!-- Section Heading -->
         <div class="dsdl1-section-heading">
             <h4 class=" section-subtitle">GET TO KNOW US</h4>
-            <h1 > <span>Apple</span>  <span  style="color: #007bff;">Dental Specialities in vizinagaram</span>   </h1>
+            <h1> <span>Best</span> <span style="color: #007bff;">Dental Hospital in vizinagaram</span> </h1>
 
             <h2 class="font-weight-bold section-title">About <strong>Our Journey</strong></h2>
             <p class="text-muted section-description">Discover who we are and what drives us to make a difference.</p>
@@ -259,18 +259,25 @@
 
                             <div class="col-12 col-lg-6">
                                 <h3>Transforming Smiles with Expert Specialities</h3>
-                                <p>
+                                <!-- <p>
                                     At our apple dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
 
                                 </p>
                                 <p>
                                     Our team of experts ensures a comfortable and stress-free experience, guiding you through every step of your dental journey. Your confidence starts with a healthy, beautiful smile.
 
+                                </p> -->
+                                <p>
+                                    At Apple Dental Specialities, recognized as one of the best dental hospitals in Vizianagaram and a trusted best dental hospital in Vizianagaram, we are dedicated to improving your oral health with modern dental technology and advanced treatment solutions. Whether you need routine dental check-ups or specialized procedures, our team focuses on delivering high-quality care tailored to your needs.
+                                </p>
+
+                                <p>
+                                    Our experienced dental professionals ensure a comfortable and stress-free experience, guiding you through every step of your treatment. At Apple Dental Specialities, your confidence begins with a healthy and beautiful smile.
                                 </p>
                                 <ul>
-                                    <li><i class="fas fa-check text-primary"></i> State-of-the-art dental technology</li>
-                                    <li><i class="fas fa-check text-primary"></i> Customized treatments for every patient</li>
-                                    <li><i class="fas fa-check text-primary"></i> Compassionate and highly trained professionals</li>
+                                    <li><i class="fas fa-check text-primary"></i> Modern Dental Technology for Accurate Diagnosis</li>
+                                    <li><i class="fas fa-check text-primary"></i> Customized Dental Treatments for Healthy Smiles</li>
+                                    <li><i class="fas fa-check text-primary"></i> Skilled Dentists Providing Safe & Quality Care</li>
                                 </ul>
 
                             </div>
@@ -294,16 +301,25 @@
                         <div class="row">
                             <div class="col-12 col-lg-6">
                                 <h3>Crafting Healthy, Confident Smiles</h3>
-                                <p>
+                                <!-- <p>
                                     Our mission is to provide exceptional dental Specialities with a commitment to excellence, innovation, and patient comfort. We strive to enhance oral health through personalized treatments, advanced technology, and a compassionate approach.
 
                                 </p>
-                                <p>Our goal is to create a welcoming environment where every patient feels valued and confident in their care. We believe in educating and empowering our patients to make informed decisions for a lifetime of healthy smiles.</p>
+                                <p>Our goal is to create a welcoming environment where every patient feels valued and confident in their care. We believe in educating and empowering our patients to make informed decisions for a lifetime of healthy smiles.</p> -->
+
+
+                                <p>
+                                    At our clinic, recognized as the best dental clinic in Vizianagaram, we provide exceptional dental care with a strong commitment to excellence, innovation, and patient comfort. Our experienced team uses advanced dental technology and personalized treatment plans to ensure every patient receives high-quality and reliable dental care.
+                                </p>
+
+                                <p>
+                                    As trusted root canal specialists in Vizianagaram, we deliver safe, painless, and effective treatments that restore oral health and confident smiles. We focus on creating a welcoming environment where patients feel comfortable and informed, helping them make the right decisions for long-term oral health and a lifetime of healthy smiles
+                                </p>
 
                                 <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Committed to quality dental Specialities</li>
-                                    <li><i class="fas fa-check text-primary"></i> Focused on patient well-being and comfort</li>
-                                    <li><i class="fas fa-check text-primary"></i>Driven by innovation and expertise</li>
+                                    <li><i class="fas fa-check text-primary"></i> Advanced Dental Treatments & Specialized Care</li>
+                                    <li><i class="fas fa-check text-primary"></i> Patient Comfort & Preventive Dentistry</li>
+                                    <li><i class="fas fa-check text-primary"></i> Modern Dental Technology & Expert Dentists</li>
 
                                 </ul>
 
@@ -735,7 +751,7 @@
                         <!-- <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha"> -->
                         <img src="images1/sarath.png" alt="Dr. A. Deol Aslesha" class="img-fluid">
                     </div>
-                    <h4>Dr.Sarath Chandra  </h4>
+                    <h4>Dr.Sarath Chandra </h4>
                     <p>Prosthodontist</p>
                 </div>
 
@@ -956,7 +972,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='fullblog.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
+                    echo "<a href='fullblog_newpage.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
 
 
                     echo "</div>"; // End card body
