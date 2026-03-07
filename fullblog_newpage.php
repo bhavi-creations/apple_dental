@@ -486,12 +486,12 @@ function getLimitWords($text, $limit = 15)
                                 <span class="highlight-text">add the content for ivy</span>
                             </p> 
                         </div>-->
-                        <!-- <div class="doctor-socials">
+                        <div class="doctor-socials">
                             <span class="follow-text">Expertise in:</span>
-                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Invisalign</span>
-                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">iTero Scan</span>
-                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Smile Design</span>
-                        </div> -->
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Dental Implants</span>
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Laser Dentistry</span>
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1"> Smile Designing</span>
+                        </div>
                     </div>
                 </div>
 
