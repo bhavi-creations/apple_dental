@@ -110,17 +110,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->isSMTP();
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
-        $mailDoctor->Username   = 'manimalladi05@gmail.com';
-        $mailDoctor->Password   = 'mxhnohjzbkofbrbs';
+        $mailDoctor->Username   = 'appledentalclinic2025@gmail.com';
+        $mailDoctor->Password   = 'ixdpuydufjsfxaxb';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
         $mailDoctor->setFrom(
-            'manimalladi05@gmail.com',
+            'appledentalclinic2025@gmail.com',
             'Clinic Appointment System'
         );
 
-        $mailDoctor->addAddress('manimalladi05@gmail.com');
+        $mailDoctor->addAddress('appledentalclinic2025@gmail.com');
 
         $mailDoctor->isHTML(true);
         $mailDoctor->Subject = 'New Appointment Booked';
@@ -151,13 +151,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->isSMTP();
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
-        $mailPatient->Username   = 'manimalladi05@gmail.com';
-        $mailPatient->Password   = 'mxhnohjzbkofbrbs';
+        $mailPatient->Username   = 'appledentalclinic2025@gmail.com';
+        $mailPatient->Password   = 'ixdpuydufjsfxaxb';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 
         $mailPatient->setFrom(
-            'manimalladi05@gmail.com',
+            'appledentalclinic2025@gmail.com',
             'Apple Dental Specialities'
         );
 

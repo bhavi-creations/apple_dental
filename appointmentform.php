@@ -30,14 +30,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'manimalladi05@gmail.com'; // Your Gmail email address
-        $mail->Password = 'mxhnohjzbkofbrbs'; // Your Gmail password
+        $mail->Username = 'appledentalclinic2025@gmail.com'; // Your Gmail email address
+        $mail->Password = 'ixdpuydufjsfxaxb'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('manimalladi05@gmail.com', ' Apple Dental Specialities'); // Your Gmail email and name
-        $mail->addAddress('manimalladi05@gmail.com', 'Apple Dental Specialities'); // Recipient's email and name
+        $mail->setFrom('appledentalclinic2025@gmail.com', ' Apple Dental Specialities'); // Your Gmail email and name
+        $mail->addAddress('appledentalclinic2025@gmail.com', 'Apple Dental Specialities'); // Recipient's email and name
 
 // Content
         $mail->isHTML(true);

@@ -1,12 +1,4 @@
-
 User-agent: *
-Disallow: /admin/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /private/
-
 Allow: /
 
-Sitemap: https://www.appledentalvzm.in/sitemap.xml 
-
-
+Sitemap: https://appledentalspecialities.in/sitemap.xml

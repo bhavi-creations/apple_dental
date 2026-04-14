@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -197,8 +195,8 @@
       "@context": "https://schema.org",
       "@type": "Dentist",
       "name": "Apple Dental Specialties",
-      "url": "https://www.appledentalvzm.in/",
-      "logo": "https://www.appledentalvzm.in/images/logo.png",
+      "url": "https://appledentalspecialities.in/",
+      "logo": "https://appledentalspecialities.in/images/logo.png",
       "description": "Apple Dental Specialties in Vizianagaram offers expert dental care, including root canals, braces, implants, and cosmetic treatments.",
       "telephone": "+91 9494193344",
       "address": {
@@ -247,15 +245,18 @@
   <link rel="canonical" href="https://www.appledentalvzm.in/"   />
   <meta name="google-site-verification" content="QHmd8lU5Z5yG04JwRsb1LE-L58xUqclGX6c4rEio_ks"   />
   <!-- Google tag (gtag.js) -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4XRRB4TQ27"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XRRB4TQ27"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-4XRRB4TQ27');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4XRRB4TQ27');
+  </script>
 
 
 
@@ -267,9 +268,7 @@
 
 
 
-  <section>
-  <?php include 'view_count.php' ; ?>
-  </section>
+
 
   <!-- Navbar -->
   <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -705,5 +704,3 @@
       window.toggleSubMenu = toggleSubMenu;
     });
   </script>
-
-
