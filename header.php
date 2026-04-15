@@ -242,7 +242,7 @@
   </script>
 
 
-  <link rel="canonical" href="https://www.appledentalvzm.in/"   />
+  <link rel="canonical" href="https://appledentalspecialities.in/" />
   <meta name="google-site-verification" content="QHmd8lU5Z5yG04JwRsb1LE-L58xUqclGX6c4rEio_ks"   />
   <!-- Google tag (gtag.js) -->
   <!-- Google tag (gtag.js) -->

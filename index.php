@@ -399,7 +399,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="box">
                     <div class="img-box">
-                        <img src="https://appledentalvzm.in/images1/icons/dental-implant.png" alt="Dental Implants">
+                        <img src="./images1/icons/dental-implant.png" alt="Dental Implants">
                     </div>
                     <div class="detail-box">
                         <h4>Dental Implants</h4>
@@ -413,7 +413,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="box">
                     <div class="img-box">
-                        <img src="https://appledentalvzm.in/images1/icons/root-canal.png" alt="Root Canal">
+                        <img src="./images1/icons/root-canal.png" alt="Root Canal">
                     </div>
                     <div class="detail-box">
                         <h4>Root Canal</h4>
@@ -427,7 +427,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="box">
                     <div class="img-box">
-                        <img src="https://appledentalvzm.in/images1/icons/invisible.png" alt="Invisalign Braces">
+                        <img src="./images1/icons/invisible.png" alt="Invisalign Braces">
                     </div>
                     <div class="detail-box">
                         <h4>Clear aligners</h4>
@@ -441,7 +441,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="box">
                     <div class="img-box">
-                        <img src="https://appledentalvzm.in/images1/icons/smile.png" alt="Smile Makeover">
+                        <img src="./images1/icons/smile.png" alt="Smile Makeover">
                     </div>
                     <div class="detail-box">
                         <h4>Smile Makeover</h4>
