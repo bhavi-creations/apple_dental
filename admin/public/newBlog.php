@@ -9,7 +9,7 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
 
 <head>
     <meta charset="utf-8">
-    <title>Apple dental hospital - Dashboard</title>
+    <title>Srinivasa dental hospital - Dashboard</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -139,29 +139,68 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
     <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 
     <script>
+        // Toolbar options define chestunnam (including colors)
+        const toolbarOptions = [
+            ['bold', 'italic', 'underline', 'strike'],
+            [{
+                'color': []
+            }, {
+                'background': []
+            }], // Text Color & Background Color Pickers
+            [{
+                'header': [1, 2, 3, 4, 5, 6, false]
+            }],
+            [{
+                'list': 'ordered'
+            }, {
+                'list': 'bullet'
+            }],
+            [{
+                'align': []
+            }],
+            ['link', 'image'],
+            ['clean']
+        ];
+
+        // Initialize English Editors with toolbar
         const quillMain = new Quill("#mainEditor", {
+            modules: {
+                toolbar: toolbarOptions
+            },
             theme: "snow"
         });
         const quillFull = new Quill("#fullEditor", {
+            modules: {
+                toolbar: toolbarOptions
+            },
             theme: "snow"
         });
+
+        // Initialize Telugu Editors with toolbar
         const tqMain = new Quill("#teluguMainEditor", {
+            modules: {
+                toolbar: toolbarOptions
+            },
             theme: "snow"
         });
         const tqFull = new Quill("#teluguFullEditor", {
+            modules: {
+                toolbar: toolbarOptions
+            },
             theme: "snow"
         });
 
-        // Automatic Slug Generator: Title type chestunte slug automatically fill avtundi
+        // Automatic Slug Generator
         document.getElementById('blog_title').addEventListener('input', function() {
             let title = this.value;
             let slug = title.toLowerCase()
-                .replace(/[^a-z0-9 -]/g, '') // remove invalid chars
-                .replace(/\s+/g, '-') // collapse whitespace and replace by -
-                .replace(/-+/g, '-'); // collapse dashes
+                .replace(/[^a-z0-9 -]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/-+/g, '-');
             document.getElementById('blog_slug').value = slug;
         });
 
+        // Form Submit ayyetappudu content ni hidden inputs ki assign chestunnam
         document.querySelector("#addblogform").onsubmit = function() {
             document.querySelector("#mainContentData").value = quillMain.root.innerHTML;
             document.querySelector("#fullContentData").value = quillFull.root.innerHTML;

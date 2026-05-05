@@ -1,5 +1,5 @@
 <?php
-// 1. Database Connection - Include path ni check cheskondi
+// 1. Database Connection
 include './db.connection/db_connection.php';
 
 // Identifier capture
@@ -31,17 +31,16 @@ if (!$blog) {
     exit;
 }
 
-// Data mapping
+// Data mapping with Fallback Logic
 $blog_id = $blog['id'];
 $title = $blog['title'];
 $main_content = $blog['main_content'];
 $full_content = $blog['full_content'];
 $main_image = $blog['main_image'];
 $video = $blog['video'];
-$telugu_title = $blog['telugu_title'];
-$telugu_main_content = $blog['telugu_main_content'];
-$telugu_full_content = $blog['telugu_full_content'];
-$section1_image = $blog['section1_image'];
+$telugu_title = !empty($blog['telugu_title']) ? $blog['telugu_title'] : $title;
+$telugu_main_content = !empty($blog['telugu_main_content']) ? $blog['telugu_main_content'] : $main_content;
+$telugu_full_content = !empty($blog['telugu_full_content']) ? $blog['telugu_full_content'] : $full_content;
 $service = $blog['service'];
 
 $stmt->close();
@@ -66,30 +65,55 @@ $count_stmt->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($title) ?></title>
+    <title><?= strip_tags($title) ?></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* body {
+        body {
             background-color: black;
             color: white;
-        } */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
 
         .fullblogs_section {
-            /* background-color: black; */
-            /* padding-bottom: 50px; */
+            background-color: black;
+            padding-bottom: 50px;
         }
 
-        .blog-title,
-        .main-content,
-        .main-content *,
-        .full-content,
-        .full-content * {
-            color: #000000 !important;
+        /* LIVE SERVER FIX: Force Default Gold */
+        .content-wrapper {
+            color: #EDC967 !important;
         }
 
+        /* Database nundi vacche default tags ki Gold apply avthundi */
+        .content-wrapper p,
+        .content-wrapper span,
+        .content-wrapper div,
+        .content-wrapper li,
+        .content-wrapper h1,
+        .content-wrapper h2,
+        .content-wrapper h3,
+        .content-wrapper h4,
+        .content-wrapper h5,
+        .content-wrapper h6 {
+            color: inherit;
+        }
 
-    
+        /* Admin panel text editor automatic ga black color (#000000) add chesthe, 
+           manamu ikkada Gold tho override chestunnam. 
+           But meeru vera colors (Red, Blue etc.) isthe avi work avthayi. */
+        .content-wrapper [style*="color: #000000"],
+        .content-wrapper [style*="color: rgb(0, 0, 0)"],
+        .content-wrapper [style*="color: black"] {
+            color: #EDC967 !important;
+        }
+
+        .blog-title {
+            color: white;
+            font-weight: 800;
+        }
+
         .badge_service_name {
             background-color: gold;
             color: black;
@@ -103,50 +127,24 @@ $count_stmt->close();
             border: 2px solid gold !important;
         }
 
+        /* Swiper & Cards */
         .custom-card {
             background: #111;
             border: 1px solid #333;
             transition: 0.3s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         .custom-card:hover {
             border-color: gold;
         }
 
-        .blog-card-text {
-            color: gold;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-
-
-
-        /* card images for slider   */
-        .custom-card {
-            background: #111;
-            border: 1px solid #333;
-            transition: 0.3s;
-            height: 100%;
-            /* Card height align avvadaniki */
-            display: flex;
-            flex-direction: column;
-        }
-
         .custom-card img {
             width: 100%;
             height: 200px;
-            /* Fixed height for consistency */
-            object-fit: contain;
-            /* Image cut avvakunda full ga chupisthundhi */
-            background-color: #000;
-            /* Gap unte black cover chesthundhi */
+            object-fit: cover;
             border-radius: 10px;
         }
 
@@ -156,18 +154,19 @@ $count_stmt->close();
             font-size: 14px;
             margin-top: 10px;
         }
-        .swiper-slide{
-           
-            height: 630px !important;
+
+        .swiper-slide {
+            height: auto !important;
+            padding-bottom: 20px;
         }
-        .blogs_color{
-            color: black !important;
-            margin-bottom: -150px !important;
+
+        .blogs_color {
+            color: gold !important;
         }
-        .fullblogs_section_1{
-            background-color: white !important;
+
+        .fullblogs_section_1 {
+            background-color: black !important;
         }
-        
     </style>
 </head>
 
@@ -194,25 +193,27 @@ $count_stmt->close();
                         <source src="./admin/uploads/videos/<?= $video ?>" type="video/mp4">
                     </video>
                 <?php elseif (!empty($main_image)): ?>
-                    <img src="./admin/uploads/photos/<?= $main_image ?>" class="shadow" style="max-height:500px; width:auto;">
+                    <img src="./admin/uploads/photos/<?= $main_image ?>" class="shadow" style="max-height:500px; width:auto; border-radius: 15px;">
                 <?php endif; ?>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h1 class="blog-title text-center mb-4" style="font-weight:800;">
+                    <h1 class="blog-title text-center mb-4">
                         <span id="title-en"><?= $title ?></span>
-                        <span id="title-te" style="display:none;"><?= $telugu_TeTitle = !empty($telugu_title) ? $telugu_title : $title ?></span>
+                        <span id="title-te" style="display:none;"><?= $telugu_title ?></span>
                     </h1>
 
-                    <div class="main-content fs-5">
-                        <div id="main-en"><?= $main_content ?></div>
-                        <div id="main-te" style="display:none;"><?= $telugu_main_content ?></div>
-                    </div>
+                    <div class="content-wrapper">
+                        <div class="main-content fs-5 mb-4">
+                            <div id="main-en"><?= $main_content ?></div>
+                            <div id="main-te" style="display:none;"><?= $telugu_main_content ?></div>
+                        </div>
 
-                    <div class="full-content mt-4">
-                        <div id="full-en"><?= $full_content ?></div>
-                        <div id="full-te" style="display:none;"><?= $telugu_full_content ?></div>
+                        <div class="full-content">
+                            <div id="full-en"><?= $full_content ?></div>
+                            <div id="full-te" style="display:none;"><?= $telugu_full_content ?></div>
+                        </div>
                     </div>
 
                     <div class="d-flex justify-content-center mt-5">
@@ -224,93 +225,40 @@ $count_stmt->close();
         </div>
     </main>
 
-    <!-- <section class="py-5" style="border-top: 1px solid #222;">
+    <div class="fullblogs_section_1">
         <div class="container">
-            <h2 class="text-center mb-5" style="color:gold;">LATEST BLOGS</h2>
+            <h1 class="d-flex justify-content-center py-5 blogs_color">LATEST BLOGS</h1>
             <div class="swiper blog-swiper">
                 <div class="swiper-wrapper">
                     <?php
-                    // Refresh connection if needed, but better to use the existing one
-                    $latest_sql = "SELECT id, title, slug, main_image FROM blogs ORDER BY created_at DESC LIMIT 10";
+                    $latest_sql = "SELECT id, title, main_image, slug FROM blogs ORDER BY created_at DESC LIMIT 10";
                     $latest_res = $conn->query($latest_sql);
-                    while ($row = $latest_res->fetch_assoc()):
-                        $img = !empty($row['main_image']) ? "./admin/uploads/photos/" . $row['main_image'] : "placeholder.jpg";
-                        $link = "fullblog.php?id=" . $row['slug']; // Slug base link for better SEO
+                    if ($latest_res->num_rows > 0) {
+                        while ($row = $latest_res->fetch_assoc()) {
+                            $sidebar_img = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "default.png";
+                            $sidebar_title = strlen($row['title']) > 50 ? substr(strip_tags($row['title']), 0, 50) . '...' : strip_tags($row['title']);
+                            $blog_url = "fullblog.php?id=" . (!empty($row['slug']) ? $row['slug'] : $row['id']);
+                            echo "
+                            <div class='swiper-slide'>
+                                <div class='custom-card p-3 text-center'>
+                                    <img src='{$sidebar_img}' alt='Blog Image'>
+                                    <a href='{$blog_url}' class='blog-card-text d-block'>{$sidebar_title}</a>
+                                </div>
+                            </div>";
+                        }
+                    }
                     ?>
-                        <div class="swiper-slide">
-                            <div class="custom-card p-3 rounded text-center">
-                                <img src="<?= $img ?>" style="height:200px; width:100%; object-fit:cover;" class="mb-3">
-                                <a href="<?= $link ?>" class="blog-card-text d-block text-truncate"><?= $row['title'] ?></a>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
                 </div>
                 <div class="swiper-pagination mt-4"></div>
             </div>
         </div>
-    </section> -->
-
-
-
-
-    <div class="fullblogs_section_1">
-        <div class="container ">
-            <div class="blogs_side ">
-                <div class="side-bar">
-                    <h1 class="d-flex justify-content-center py-5 blogs_color">LATEST BLOGS</h1>
-                    <div class="swiper blog-swiper">
-                        <div class="swiper-wrapper">
-                            <?php
-                            // DB connection
-                            $conn = new mysqli($servername, $username, $password, $dbname);
-                            if ($conn->connect_error) {
-                                die("Connection failed: " . $conn->connect_error);
-                            }
-
-                            $sql = "SELECT id, title, main_image FROM blogs ORDER BY created_at DESC";
-                            $result = $conn->query($sql);
-
-                            if ($result->num_rows > 0) {
-                                while ($row = $result->fetch_assoc()) {
-                                    $sidebar_image_path = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
-                                    $title_short = strlen($row['title']) > 50 ? substr($row['title'], 0, 50) . '...' : $row['title'];
-
-                                    echo "
-                            <div class='swiper-slide d-flex justify-content-center'>
-                                <div class='custom-card background_sidebar text-center' 
-                                    style='width:100%; max-width:400px; height:350px; display:flex; flex-direction:column; justify-content:flex-start; align-items:center; padding:10px; border-radius:8px; box-shadow:0px 2px 10px rgba(0,0,0,0.1);'>
-                                    <div style='flex:1; display:flex; align-items:center; justify-content:center; width:100%; overflow:hidden;'>
-                                        <img src='{$sidebar_image_path}' class='img-fluid' style='width:100%; height:100%; object-fit:cover;' alt='Blog Image'>
-                                    </div>
-                                    <a href='fullblog.php?id={$row['id']}'>
-                                        <p class='blog-card-text mt-2'>{$title_short}</p>
-                                    </a>
-                                </div>
-                            </div>";
-                                }
-                            } else {
-                                echo "<p>No blog posts found.</p>";
-                            }
-                            $conn->close();
-                            ?>
-                        </div>
-
-                        <!-- Navigation -->
-                        <!-- <div class="swiper-button-next blog-swiper-button-next"></div>
-                    <div class="swiper-button-prev blog-swiper-button-prev"></div> -->
-
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination blog-swiper-pagination"></div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
     <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        // Language Logic
+        // Language Toggle Logic
         const enBtn = document.getElementById("english-btn");
         const teBtn = document.getElementById("telugu-btn");
 
@@ -331,7 +279,7 @@ $count_stmt->close();
         enBtn.onclick = () => switchLang('en');
         teBtn.onclick = () => switchLang('te');
 
-        // Voting system
+        // Voting system Logic
         const blogId = <?= json_encode($blog_id) ?>;
         const likeBtn = document.getElementById("like-btn");
         const dislikeBtn = document.getElementById("dislike-btn");
@@ -360,7 +308,7 @@ $count_stmt->close();
         likeBtn.onclick = () => castVote('like');
         dislikeBtn.onclick = () => castVote('dislike');
 
-        // Swiper
+        // Swiper Init
         new Swiper(".blog-swiper", {
             slidesPerView: 1,
             spaceBetween: 20,
@@ -385,3 +333,4 @@ $count_stmt->close();
 </body>
 
 </html>
+<?php $conn->close(); ?>

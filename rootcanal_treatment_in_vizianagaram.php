@@ -6,10 +6,18 @@
 </section>
 
 
-<section class="mt-5">
+<!-- <section class="mt-5">
     <div class="container">
         <h1>Root Canal Treatment</h1>
         <p>A root canal is a procedure to save a damaged or infected tooth by removing the infected pulp. It helps relieve pain, prevents further infection, and restores normal tooth function. The treated tooth is then sealed and often covered with a crown for protection.</p>
+    </div>
+</section> -->
+
+
+<section class="mt-5">
+    <div class="container">
+        <h1>Root Canal Treatment</h1>
+        <p>Root canal treatment is a dental procedure used to treat an infected or damaged tooth by removing the infected pulp. It helps reduce pain, stops the spread of infection, and restores the tooth’s normal function. After the procedure, the tooth is sealed and protected with a crown.</p>
     </div>
 </section>
 
@@ -69,9 +77,18 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
-                            1) Deep tooth decay reaching the pulp, causing infection <br>
+                            1) Deep tooth decay reaching the pulp and causing infection <br>
                             2) Cracked or damaged tooth allowing bacteria to enter</p>
                     </div>
+
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                            1) Deep tooth decay reaching the pulp, causing infection <br>
+                            2) Cracked or damaged tooth allowing bacteria to enter</p>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -81,9 +98,16 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
-                        <p class="card-text">1) Persistent pain or sensitivity to hot and cold <br>
+                        <p class="card-text">1) Continuous pain or sensitivity to hot and cold <br>
                             2) Swelling or abscess near the affected tooth</p>
                     </div>
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1) Persistent pain or sensitivity to hot and cold <br>
+                            2) Swelling or abscess near the affected tooth</p>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -117,6 +141,15 @@
                             1) Removal of infected pulp and cleaning of root canals <br>
                             2) Sealing the tooth and placing a crown for protection</p>
                     </div>
+
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Removal of infected pulp and cleaning of root canals <br>
+                            2) Sealing the tooth and placing a crown for protection</p>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -127,9 +160,19 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>After Treatment</strong> </h5>
                         <p class="card-text">
+                            1) Avoid hard foods and maintain good oral hygiene <br>
+                            2) Visit the dentist for follow-up and crown placement</p>
+                    </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
                             1) Avoid hard foods and maintain proper oral hygiene <br>
                             2) Follow up with the dentist for monitoring and crown placement</p>
-                    </div>
+                    </div> -->
+
+
+
                 </div>
             </div>
         </div>

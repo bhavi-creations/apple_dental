@@ -7,12 +7,19 @@
 
 
 <section class="mt-5">
-<div class="container">
-<h1>Dental Implants</h1>
+    <div class="container">
+        <!-- <h1>Dental Implants</h1>
     <p>Dental implants are a long-term solution for missing teeth, providing a strong foundation for artificial teeth. They look, feel, and function like natural teeth, improving both appearance and oral health. Made from biocompatible titanium, implants integrate with the jawbone for durability and stability.
 
-</p>
-</div>
+        </p> -->
+
+
+
+        <h1>Dental Implants</h1>
+        <p>Dental implants are a long-term solution for replacing missing teeth by placing an artificial tooth root in the jawbone. They help restore natural appearance, improve chewing ability, and support overall oral health. Implants are made of biocompatible material and provide strong, stable, and durable results.
+
+        </p>
+    </div>
 </section>
 
 <!-- <section class="my-5 dental-steps">
@@ -72,9 +79,22 @@
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
                             1)Missing teeth due to injury, decay, or disease
-                              <br>
-                            2) Weak or loose dentures causing discomfort</p>
+                            <br>
+                            2) Loose or uncomfortable dentures affecting daily life
+                        </p>
                     </div>
+
+
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                            1)Missing teeth due to injury, decay, or disease
+                            <br>
+                            2) Weak or loose dentures causing discomfort
+                        </p>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -84,10 +104,25 @@
                 <div class="card  ">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
-                        <p class="card-text">1)  Difficulty chewing or speaking properly
-                        <br>
-                            2)  Bone loss in the jaw due to missing teeth</p>
+                        <p class="card-text">1) Difficulty in chewing food or speaking clearly
+                            <br>
+                            2) Jawbone loss due to untreated missing teeth
+                        </p>
                     </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1) Difficulty chewing or speaking properly
+                            <br>
+                            2) Bone loss in the jaw due to missing teeth
+                        </p>
+                    </div> -->
+
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -118,10 +153,27 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Treatment</strong></h5>
                         <p class="card-text">
-                            1)  Surgical placement of a titanium implant into the jawbone
-                           <br>
-                            2) Attachment of a custom-made crown for a natural look</p>
+                            1) Placement of a titanium implant into the jawbone
+                            <br>
+                            2) Fixing a custom-made crown for a natural appearance
+                        </p>
                     </div>
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Surgical placement of a titanium implant into the jawbone
+                            <br>
+                            2) Attachment of a custom-made crown for a natural look
+                        </p>
+                    </div> -->
+
+
+
+
+
+
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -132,10 +184,28 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>After Treatment</strong> </h5>
                         <p class="card-text">
-                            1) Maintain oral hygiene to ensure long-lasting results
-                           <br>
-                            2) Avoid hard foods and follow dentist’s post-care instructions </p>
+                            1) Maintain proper oral hygiene for long-lasting results
+                            <br>
+                            2) Avoid hard foods and follow dentist instructions regularly
+                        </p>
                     </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1) Maintain oral hygiene to ensure long-lasting results
+                            <br>
+                            2) Avoid hard foods and follow dentist’s post-care instructions
+                        </p>
+                    </div> -->
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>

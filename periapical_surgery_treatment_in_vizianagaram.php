@@ -7,12 +7,27 @@
 
 
 <section class="mt-5">
-<div class="container">
-<h1>Periapical Surgery Treatment</h1>
-    <p>Periapical surgery, also known as an apicoectomy, is a minor surgical procedure to remove infection at the root tip of a tooth. It is performed when a root canal alone cannot fully treat the infection. This procedure helps save the tooth and prevent further complications.
+    <div class="container">
+        <h1>Periapical Surgery Treatment</h1>
+        <p>
+        <div class="container">
+            <h1>Periapical Surgery Treatment</h1>
+            <p>Periapical surgery, also known as an apicoectomy, is a minor surgical procedure to remove infection at the root tip of a tooth. It is performed when a root canal alone cannot fully treat the infection. This procedure helps save the tooth and prevent further complications.
 
-</p>
-</div>
+            </p>
+        </div>
+
+        </p>
+    </div>
+
+
+
+    <!-- <div class="container">
+        <h1>Periapical Surgery Treatment</h1>
+        <p>Periapical surgery, also known as an apicoectomy, is a minor surgical procedure to remove infection at the root tip of a tooth. It is performed when a root canal alone cannot fully treat the infection. This procedure helps save the tooth and prevent further complications.
+
+        </p>
+    </div> -->
 </section>
 
 <!-- <section class="my-5 dental-steps">
@@ -70,11 +85,25 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
-                        Persistent infection or abscess at the root tip of a tooth
+                            1) Persistent infection or abscess at the root tip
                             <br>
-                            2)  Failed root canal treatment requiring further intervention
+                            2) Failed root canal treatment needing further care
                         </p>
                     </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
+                            Persistent infection or abscess at the root tip of a tooth
+                            <br>
+                            2) Failed root canal treatment requiring further intervention
+                        </p>
+                    </div> -->
+
+
+
+
+
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -85,11 +114,27 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
                         <p class="card-text">1)Swelling or tenderness near the affected tooth<br>
-                            2)  Recurring pain even after root canal treatment
+                            2)Pain that continues even after root canal treatment
 
 
                         </p>
                     </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1)Swelling or tenderness near the affected tooth<br>
+                            2) Recurring pain even after root canal treatment
+
+
+                        </p>
+                    </div> -->
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -120,11 +165,25 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Treatment</strong></h5>
                         <p class="card-text">
+                            1)Removal of infected tissue and root tip through surgery
+                            <br>
+                            2)Sealing the root end to prevent reinfection.
+                        </p>
+                    </div>
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
                             1)Surgical removal of infected tissue and root tip
                             <br>
                             2)Sealing the root end to prevent further infection
                         </p>
-                    </div>
+                    </div> -->
+
+
+
+
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -135,9 +194,9 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>After Treatment</strong> </h5>
                         <p class="card-text">
-                            1)Follow prescribed antibiotics and pain management
+                            1)Take prescribed medicines and manage pain properly
                             <br>
-                            2) Maintain good oral hygiene to promote healing
+                            2) Maintain good oral hygiene for faster healing
                         </p>
                     </div>
                 </div>
@@ -148,4 +207,4 @@
 
 
 
-<?php include 'footer.php'; ?>  
+<?php include 'footer.php'; ?>

@@ -7,9 +7,16 @@
 
 
 <section class="mt-5">
-    <div class="container">
+    <!-- <div class="container">
         <h1>Tooth Extraction Treatment</h1>
         <p>Tooth extraction is the removal of a damaged, decayed, or impacted tooth to prevent further oral health issues. It is a common procedure performed under local anesthesia to ensure minimal discomfort. Proper aftercare helps in quick healing and prevents complications.
+        </p>
+    </div> -->
+
+
+    <div class="container">
+        <h1>Tooth Extraction Treatment</h1>
+        <p>Tooth extraction is a dental procedure used to remove a damaged, decayed, or impacted tooth. It helps prevent the spread of infection and protects overall oral health. The procedure is performed under local anesthesia to reduce pain and ensure patient comfort.
         </p>
     </div>
 </section>
@@ -70,11 +77,22 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
+                            1) Severe tooth decay or infection beyond repair
+                            <br>
+                            2) Impacted wisdom teeth causing pain or alignment issues
+                        </p>
+                    </div>
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Reasons</strong> </h5>
+                        <p class="card-text text-left">
                             Severe tooth decay or infection beyond repair
                             <br>
                             2) Impacted wisdom teeth causing pain or misalignment
                         </p>
-                    </div>
+                    </div> -->
+
+
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -84,12 +102,27 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
+                        <p class="card-text">1) Continuous tooth pain and swelling in the gums<br>
+                            2) Difficulty in opening the mouth or chewing food
+
+
+                        </p>
+                    </div>
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Symptoms</strong></h5>
                         <p class="card-text">1) Persistent tooth pain and swelling in the gums<br>
                             2) Difficulty opening the mouth or chewing properly
 
 
                         </p>
-                    </div>
+                    </div> -->
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -120,11 +153,21 @@
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Treatment</strong></h5>
                         <p class="card-text">
-                            1)  Local anesthesia followed by careful tooth removal
+                            1) Use of local anesthesia followed by safe tooth removal
+                            <br>
+                            2)Stitches may be required in case of complex extraction
+                        </p>
+                    </div>
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>Treatment</strong></h5>
+                        <p class="card-text">
+                            1) Local anesthesia followed by careful tooth removal
                             <br>
                             2) Stitches may be required for complex extrack
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4 empty-column">
@@ -137,9 +180,23 @@
                         <p class="card-text">
                             1)Avoid hard or hot foods for a few days
                             <br>
-                            2) Follow post-care instructions to prevent dry socket and infection
+                            2) Follow dentist instructions to prevent infection and dry socket
                         </p>
                     </div>
+
+
+
+
+
+
+                    <!-- <div class="card-body">
+                        <h5 class="card-title"> <strong>After Treatment</strong> </h5>
+                        <p class="card-text">
+                            1)Avoid hard or hot foods for a few days
+                            <br>
+                            2) Follow post-care instructions to prevent dry socket and infection
+                        </p>
+                    </div> -->
                 </div>
             </div>
         </div>

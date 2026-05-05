@@ -732,7 +732,7 @@
                     </div>
 
 
-                    <h4>Dr. Kalyan Chakravarthi</h4>
+                    <h4>Dr. Kalyan Chakravarty</h4>
                     <p>Clinical Head | BDS</p>
                 </div>
 

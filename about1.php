@@ -177,7 +177,7 @@
                 <!-- Right Side Content -->
                 <div class="col-md-6" data-aos="fade-left">
                     <p class="text-muted">
-                        Dr. Kalyan Chakravarthy established <strong>APPLE DENTAL SPECIALITIES</strong> in 2010 in the historical city of Vizianagaram, Andhra Pradesh, India. Born on <em>April 23, 1982</em>, in the village of Bobbili, he pursued a <strong>Bachelor of Dental Surgery</strong>                        at Lenora Institute of Dental Sciences, graduating in 2007.
+                        Dr. Kalyan Chakravarty established <strong>APPLE DENTAL SPECIALITIES</strong> in 2010 in the historical city of Vizianagaram, Andhra Pradesh, India. Born on <em>April 23, 1982</em>, in the village of Bobbili, he pursued a <strong>Bachelor of Dental Surgery</strong>                        at Lenora Institute of Dental Sciences, graduating in 2007.
                     </p>
                     <p class="text-muted">
                         From 2007 to 2009, he practiced in Rajamahendravaram, gaining advanced training in <strong>Rotary Endodontics, Laser Dentistry, Dental Implants,</strong> and <strong>Smile Designing</strong>. In 2010, he founded APPLE DENTAL SPECIALITIES,
