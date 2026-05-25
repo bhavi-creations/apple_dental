@@ -70,20 +70,20 @@ $count_stmt->close();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: black;
+            background-color: white ;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow-x: hidden;
         }
 
         .fullblogs_section {
-            background-color: black;
+            background-color: white;
             padding-bottom: 50px;
         }
 
         /* LIVE SERVER FIX: Force Default Gold */
         .content-wrapper {
-            color: #EDC967 !important;
+            color: #051aff !important;
         }
 
         /* Database nundi vacche default tags ki Gold apply avthundi */
@@ -106,11 +106,11 @@ $count_stmt->close();
         .content-wrapper [style*="color: #000000"],
         .content-wrapper [style*="color: rgb(0, 0, 0)"],
         .content-wrapper [style*="color: black"] {
-            color: #EDC967 !important;
+            color: #000000 !important;
         }
 
         .blog-title {
-            color: white;
+            color: black;
             font-weight: 800;
         }
 
@@ -161,11 +161,11 @@ $count_stmt->close();
         }
 
         .blogs_color {
-            color: gold !important;
+            color: black !important;
         }
 
         .fullblogs_section_1 {
-            background-color: black !important;
+            background-color: white !important;
         }
     </style>
 </head>
