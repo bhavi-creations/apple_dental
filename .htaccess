@@ -1,6 +1,15 @@
 RewriteEngine On
 
-# URL చివర .php లేకుండా ఉండటానికి
+# Main pages should work with or without .php before blog slug routing.
+RewriteRule ^blogs/?$ Blogs.php [NC,L]
+RewriteRule ^appointment/?$ Appointment.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L,QSA]
+
+# Blog SEO URLs
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([a-zA-Z0-9_-]+)$ fullblog.php?id=$1 [L,QSA]
