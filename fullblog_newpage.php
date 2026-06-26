@@ -450,13 +450,13 @@ function getLimitWords($text, $limit = 15)
             <img src="images1/apple-dental-vzm-logo.png" style="" alt="Logo" class="img-fluid">
 
             <nav class="custom-menu">
-                <a href="index.php">Home</a>
-                <a href="about1.php">About</a>
-                <a href="service.php">Services</a>
-                <a href="gallery.php">Gallery</a>
-                <a href="blogs.php">Blogs</a>
-                <a href="contact1.php">Contact</a>
-                <!-- <a href="appointment_srinivasa_dental_hospital.php">Appointment</a> -->
+                <a href="Home.php">Home</a>
+                <a href="About.php">About</a>
+                <a href="Service.php">Services</a>
+                <a href="Gallery.php">Gallery</a>
+                <a href="Blogs.php">Blogs</a>
+                <a href="Contact.php">Contact</a>
+                <!-- <a href="Appointment_srinivasa_dental_hospital.php">Appointment</a> -->
             </nav>
 
             <!-- <div class="lang-container">
@@ -571,27 +571,27 @@ function getLimitWords($text, $limit = 15)
 
                     <div class="mt-3 custom-scroll-container" style="max-height: 320px; overflow-y: auto; padding-right: 5px;">
 
-                        <a href="rootcanal_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Rootcanal-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Root Canal
                         </a>
 
-                        <a href="dental_implants_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Dental Implants
                         </a>
 
-                        <a href="tooth_extraction_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Tooth Extraction
                         </a>
 
-                        <a href="periapical_surgery_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Periapical Surgery
                         </a>
 
-                        <a href="gum_surgery_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Gum Surgery
                         </a>
 
-                        <a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i>Crowns & Bridge
                         </a>
 
@@ -603,40 +603,40 @@ function getLimitWords($text, $limit = 15)
 
 
 
-                        <a href="dental_veneers_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Veneers
                         </a>
 
-                        <a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Clear-Aligners-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Aligners
                         </a>
 
 
-                        <a href="laser_dentistry_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i>  Laser Dentistry
                         </a>
 
 
-                        <a href="teeth_whitening_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i>  Teeth Whitening
                         </a>
 
-                        <a href="smile_makeover_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Smile Makeovers
                         </a>
-                        <a href="gum_care_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Gum-Care-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Gum Care
                         </a>
-                        <a href="teeth_jewellery_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Tooth Jewellery
                         </a>
-                        <a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i>Child Dental Care
                         </a>
-                        <a href="head_neck_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Head-Neck-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i>Major Head & Neck Surgeries
                         </a>
-                        <a href="ehs_treatment_in_vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Ehs-Treatment-In-Vizianagaram.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> EHS Available
                         </a>
 

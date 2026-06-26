@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // $department = $_POST['department'] ?? '';
     $department = $_POST['department'] ?? '';
     $time = $_POST['time'] ?? '';
-    //   index php details 
+    //   Home php details 
     // $name = $_POST['name'] ?? '';
     // $phone = $_POST['number'] ?? '';
     // $email = $_POST['email'] ?? '';
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ";
 
         $mail->send();
-        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="index.php";</script>';
+        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="Home.php";</script>';
 
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

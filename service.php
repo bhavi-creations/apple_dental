@@ -25,7 +25,7 @@
         <div class="row">
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="rootcanal_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Rootcanal-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/1.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -40,7 +40,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="dental_implants_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/2.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -55,7 +55,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="tooth_extraction_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/3.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -70,7 +70,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="periapical_surgery_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/4.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -85,7 +85,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="gum_surgery_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/5.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -100,7 +100,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/6.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -115,7 +115,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="dental_veneers_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/7.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -130,7 +130,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Clear-Aligners-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/8.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -145,7 +145,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="laser_dentistry_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/9.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -160,7 +160,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="teeth_whitening_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/10.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -175,7 +175,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="smile_makeover_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/11.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -190,7 +190,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="gum_care_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Gum-Care-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/12.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -205,7 +205,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="teeth_jewellery_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/13.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -220,7 +220,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/14.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -235,7 +235,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="head_neck_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Head-Neck-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/15.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">
@@ -250,7 +250,7 @@
             </div>
 
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="ehs_treatment_in_vizianagaram.php" class="anchor_tag">
+                <a href="Ehs-Treatment-In-Vizianagaram.php" class="anchor_tag">
                     <div class="service-box" id="">
                         <img src="images1/services/16.png" alt="Routine Checkups" class="img-fluid">
                         <div class="service-content">

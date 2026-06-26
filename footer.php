@@ -95,13 +95,13 @@
       <div class="col-md-4  col-6  dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Quick Links</h4>
         <ul class="dsdl4-footer-links">
-          <li><a href="index.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="about1.php" class="dsdl4"><i class="fas fa-info-circle"></i> About Us</a></li>
-          <li><a href="doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
-          <li><a href="gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
-          <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
+          <li><a href="Home.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="About.php" class="dsdl4"><i class="fas fa-info-circle"></i> About Us</a></li>
+          <li><a href="Doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
+          <li><a href="Gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="Blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
 
-          <li><a href="contact1.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="Contact.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
           <li><a href="https://g.co/kgs/vfcSHM8" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>
 
         </ul>
@@ -109,12 +109,12 @@
       <div class="col-md-4 dsdl4-footer-services dsdl4-links-section no_need  d-none d-md-block" data-aos="fade-left">
         <h4 class="dsdl4-footer-title">Our Services</h4>
         <ul class="dsdl4-footer-links">
-          <li><a href="rootcanal_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Root Canal </a></li>
-          <li><a href="dental_implants_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Dental Implants</a></li>
-          <li><a href="tooth_extraction_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Extraction</a></li>
-          <li><a href="periapical_surgery_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Periapical Surgery</a></li>
-          <li><a href="gum_surgery_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Surgery</a></li>
-          <li><a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Crowns & Bridge</a></li>
+          <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Root Canal </a></li>
+          <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Dental Implants</a></li>
+          <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Extraction</a></li>
+          <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Periapical Surgery</a></li>
+          <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Surgery</a></li>
+          <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Crowns & Bridge</a></li>
 
         </ul>
       </div>
@@ -123,13 +123,13 @@
 
 
         <ul class="dsdl4-footer-links">
-        <li><a href="dental_veneers_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Veneers</a></li>
-        <li><a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Aligners</a></li>
+        <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Veneers</a></li>
+        <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Aligners</a></li>
 
-          <li><a href="laser_dentistry_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Laser Dentistry</a></li>
-          <li><a href="teeth_whitening_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Teeth whitening</a></li>
-          <li><a href="smile_makeover_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Smile Makeovers</a></li>
-          <li><a href="gum_care_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Care</a></li>
+          <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Laser Dentistry</a></li>
+          <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Teeth whitening</a></li>
+          <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Smile Makeovers</a></li>
+          <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Care</a></li>
         </ul>
       </div>
 
@@ -139,12 +139,12 @@
 
 
         <ul class="dsdl4-footer-links">
-        <li><a href="teeth_jewellery_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Jewellery</a></li>
+        <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Jewellery</a></li>
  
-        <li><a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Child Dental Care</a></li>
-        <li><a href="head_neck_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Major Head &  Neck Surgeries </a></li>
+        <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Child Dental Care</a></li>
+        <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Major Head &  Neck Surgeries </a></li>
       
-          <li><a href="ehs_treatment_in_vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> EHS Available</a></li>
+          <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> EHS Available</a></li>
         </ul>
       </div>
 

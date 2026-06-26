@@ -153,7 +153,7 @@
       Our team will get in touch with you shortly. 😊
     </p>
 
-    <a href="index.php" class="btn-home">🏠 Back to Home</a>
+    <a href="Home.php" class="btn-home">🏠 Back to Home</a>
   </div>
 </div>
 

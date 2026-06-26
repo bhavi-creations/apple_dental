@@ -274,7 +274,7 @@
   <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
    
-      <a class="navbar-brand" href="https://appledentalvzm.in/index.php">
+      <a class="navbar-brand" href="https://appledentalvzm.in/Home.php">
         <img src="images1/apple-dental-vzm-logo.png" alt="Logo" style="height: 50px;">
       </a>
      
@@ -285,16 +285,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="index.php"><b>Home</b></a>
+            <a class="nav-link active" href="Home.php"><b>Home</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about1.php"><b>About Us</b></a>
+            <a class="nav-link" href="About.php"><b>About Us</b></a>
           </li>
 
 
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="service.php" id="treatmentsDropdown" role="button">
+            <a class="nav-link dropdown-toggle" href="Service.php" id="treatmentsDropdown" role="button">
               <b>Treatments</b>
             </a>
             <ul class="dropdown-menu" aria-labelledby="treatmentsDropdown">
@@ -336,20 +336,20 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
+            <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
+            <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
+            <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
+            <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
           </li>
           <li class="nav-item">
-            <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+            <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
               <b>Book Appointment</b>
             </a>
           </li>
@@ -381,7 +381,7 @@
       <div class="row header-row">
         <!-- Logo Section -->
         <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center ">
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="Home.php">
             <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="logo img-fluid" />
           </a>
         </div>
@@ -424,15 +424,15 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav g-3">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php"><b>Home</b></a>
+              <a class="nav-link active" href="Home.php"><b>Home</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about1.php"><b>About Us</b></a>
+              <a class="nav-link" href="About.php"><b>About Us</b></a>
             </li>
 
             <!-- Treatments Dropdown -->
             <li class="nav-item dropdown position-static">
-              <a class="nav-link text-white" href="service.php" id="treatmentsDropdown">
+              <a class="nav-link text-white" href="Service.php" id="treatmentsDropdown">
                 <b>Treatments</b>
               </a>
               <ul class="dropdown-menu px-3 py-2" aria-labelledby="treatmentsDropdown"
@@ -441,30 +441,30 @@
                   <div class="row">
                     <!-- Column 1 -->
                     <div class="col-4">
-                      <li><a href="rootcanal_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-                      <li><a href="dental_implants_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-                      <li><a href="tooth_extraction_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-                      <li><a href="periapical_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-                      <li><a href="gum_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                      <li><a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                      <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
+                      <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                      <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                      <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
+                      <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                      <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
                     </div>
 
                     <!-- Column 2 -->
                     <div class="col-4">
-                      <li><a href="dental_veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                      <li><a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-                      <li><a href="laser_dentistry_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-                      <li><a href="teeth_whitening_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-                      <li><a href="smile_makeover_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-                      <li><a href="gum_care_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                      <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                      <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                      <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
+                      <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
+                      <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                      <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
                     </div>
 
                     <!-- Column 3 -->
                     <div class="col-4">
-                      <li><a href="teeth_jewellery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                      <li><a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-                      <li><a href="head_neck_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
-                      <li><a href="ehs_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+                      <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+                      <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                      <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
+                      <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
                     </div>
                   </div>
                 </div>
@@ -473,21 +473,21 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
+              <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
+              <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
+              <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
             </li>
             <li class="nav-item">
-              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+              <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
                 <b>Book Appointment</b>
               </a>
             </li>
@@ -509,7 +509,7 @@
   <section class="d-lg-none">
     <nav class="navbar navbar-expand-lg navbar-light nav_mb_bg Navebar_content">
       <div class="container">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="Home.php">
           <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="img-fluid nav_mini_img" />
         </a>
 
@@ -523,10 +523,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav g-3">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php"><b>Home</b></a>
+              <a class="nav-link active" href="Home.php"><b>Home</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about1.php"><b>About Us</b></a>
+              <a class="nav-link" href="About.php"><b>About Us</b></a>
             </li>
 
             <!-- Treatments Dropdown -->
@@ -535,39 +535,39 @@
                 <b>Treatments</b>
               </a>
               <ul class="dropdown-menu px-3 py-2">
-                <li><a href="rootcanal_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-                <li><a href="dental_implants_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-                <li><a href="tooth_extraction_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-                <li><a href="periapical_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-                <li><a href="gum_surgery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                <li><a href="dentalcrown_bridge_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-                <li><a href="dental_veneers_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                <li><a href="clear_aligners_(invisible_braces)__treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-                <li><a href="laser_dentistry_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-                <li><a href="teeth_whitening_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-                <li><a href="smile_makeover_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-                <li><a href="gum_care_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-                <li><a href="teeth_jewellery_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                <li><a href="child_pediatric_dental_dare_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-                <li><a href="head_neck_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
-                <li><a href="ehs_treatment_in_vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
+                <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
+                <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
+                <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
+                <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
+                <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
+                <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
+                <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
+                <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
+                <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
+                <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
+                <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
+                <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
+                <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
+                <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
+                <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
+              <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
+              <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
+              <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact1.php"><b>Contact Us</b></a>
+              <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
             </li>
             <li class="nav-item mb-3">
-              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+              <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
                 <b>Book Appointment</b>
               </a>
             </li>

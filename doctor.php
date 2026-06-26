@@ -33,7 +33,7 @@
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             </div> -->
-                        <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
+                        <a href="Appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             </div> -->
-                        <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
+                        <a href="Appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             </div> -->
-                        <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
+                        <a href="Appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                                 <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             </div>
-                            <a href="appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
+                            <a href="Appointment.php" class="btn btn-primary mt-3">Book Appointment</a>
                         </div>
                     </div>
                 </div> -->

@@ -8,7 +8,7 @@
 
 <section class="mt-5">
     <div class="container">
-        <h1>Periapical Surgery Treatment</h1>
+        <!-- <h1>Periapical Surgery Treatment</h1> -->
         <p>
         <div class="container">
             <h1>Periapical Surgery Treatment</h1>
