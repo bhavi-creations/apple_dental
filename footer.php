@@ -97,9 +97,9 @@
         <ul class="dsdl4-footer-links">
           <li><a href="Home.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
           <li><a href="About.php" class="dsdl4"><i class="fas fa-info-circle"></i> About Us</a></li>
-          <li><a href="Doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
-          <li><a href="Gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
-          <li><a href="Blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
+          <li><a href="doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
+          <li><a href="gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
 
           <li><a href="Contact.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
           <li><a href="https://g.co/kgs/vfcSHM8" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>

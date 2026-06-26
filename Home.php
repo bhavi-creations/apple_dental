@@ -404,7 +404,7 @@
                     <div class="detail-box">
                         <h4>Dental Implants</h4>
                         <p>Restore your smile with durable and natural-looking implants.</p>
-                        <a href="Service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                        <a href="service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i> </a>
                     </div>
                 </div>
             </div>
@@ -418,7 +418,7 @@
                     <div class="detail-box">
                         <h4>Root Canal</h4>
                         <p>Save infected teeth and maintain oral health with expert Specialities.</p>
-                        <a href="Service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -432,7 +432,7 @@
                     <div class="detail-box">
                         <h4>Clear aligners</h4>
                         <p>Achieve the perfect smile with comfortable and discreet clear aligners.</p>
-                        <a href="Service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -446,7 +446,7 @@
                     <div class="detail-box">
                         <h4>Smile Makeover</h4>
                         <p>Transform your smile with personalized digital design solutions.</p>
-                        <a href="Service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="service.php" class="learn-more-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -455,7 +455,7 @@
         <!-- View All Services Button -->
         <div class="row justify-content-center mt-5" data-aos="fade-up" data-aos-delay="500">
             <div class="col-md-4 text-center">
-                <a href="Service.php" class="btn-custom">View All Services</a>
+                <a href="service.php" class="btn-custom">View All Services</a>
             </div>
         </div>
     </div>
@@ -991,14 +991,14 @@
 
 
             <div class="mt-5 d-none d-md-block">
-                <a href="Blogs.php" style="text-decoration: none;">
+                <a href="blogs.php" style="text-decoration: none;">
                     <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i class=" arrowmark_right  fas fa-arrow-right"></i>
                     </p>
                 </a>
             </div>
 
             <div class="d-flex flex-row justify-content-center mt-4">
-                <a href="Blogs.php" style="text-decoration: none;">
+                <a href="blogs.php" style="text-decoration: none;">
                     <p class="view_more_btn d-md-none">View More<i class="fas fa-arrow-right ml-3"></i></p>
                 </a>
             </div>

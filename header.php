@@ -336,20 +336,20 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
+            <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
+            <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
+            <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
           </li>
           <li class="nav-item">
-            <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+            <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
               <b>Book Appointment</b>
             </a>
           </li>
@@ -432,7 +432,7 @@
 
             <!-- Treatments Dropdown -->
             <li class="nav-item dropdown position-static">
-              <a class="nav-link text-white" href="Service.php" id="treatmentsDropdown">
+              <a class="nav-link text-white" href="service.php" id="treatmentsDropdown">
                 <b>Treatments</b>
               </a>
               <ul class="dropdown-menu px-3 py-2" aria-labelledby="treatmentsDropdown"
@@ -473,21 +473,21 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
+              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
+              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
+              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
             </li>
             <li class="nav-item">
-              <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
                 <b>Book Appointment</b>
               </a>
             </li>
@@ -555,19 +555,19 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Doctor.php"><b>Our Team</b></a>
+              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Gallery.php"><b>Gallery</b></a>
+              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Blogs.php"><b>Blogs</b></a>
+              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
             </li>
             <li class="nav-item mb-3">
-              <a href="Appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
+              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
                 <b>Book Appointment</b>
               </a>
             </li>
