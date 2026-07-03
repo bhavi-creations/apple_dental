@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Gum Care & Treatment in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Comprehensive gum care in Vizianagaram to prevent and treat gum disease, bleeding gums & infections. Protect your oral health. Book now.";
+include 'header.php';
+?>
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +13,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Gum Care Treatment</h1>
-    <p>Proper gum care is essential for maintaining healthy teeth and preventing gum disease. Daily brushing, flossing, and professional cleanings help keep gums strong and free from infection. Healthy gums support overall oral health and contribute to a confident smile.
+<h2>Gum Care & Treatment in Vizianagaram</h2>
+    <p>Proper gum care is essential for maintaining healthy teeth and preventing gum disease. Daily brushing, flossing, and professional cleanings help keep gums strong and free from infection. Healthy gums support overall oral health and contribute to a confident smile in Gum Care & Treatment in Vizianagaram
 
 
 </p>
@@ -101,7 +106,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s11.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s11.png" class="card-img-top" alt="Gum Care & Treatment in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

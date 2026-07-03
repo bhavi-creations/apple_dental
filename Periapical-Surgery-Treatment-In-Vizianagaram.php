@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Periapical Surgery in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Expert periapical (apicoectomy) surgery in Vizianagaram to save infected teeth and treat root-tip infections. Trusted specialists. Book a consultation.";
+include 'header.php';
+?>
+
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -11,8 +17,8 @@
         <!-- <h1>Periapical Surgery Treatment</h1> -->
         <p>
         <div class="container">
-            <h1>Periapical Surgery Treatment</h1>
-            <p>Periapical surgery, also known as an apicoectomy, is a minor surgical procedure to remove infection at the root tip of a tooth. It is performed when a root canal alone cannot fully treat the infection. This procedure helps save the tooth and prevent further complications.
+            <h2>Periapical Surgery in Vizianagaram</h2>
+            <p>Periapical surgery, also known as an apicoectomy, is a minor surgical procedure to remove infection at the root tip of a tooth. It is performed when a root canal alone cannot fully treat the infection. This procedure helps save the tooth and prevent further complications in Periapical Surgery in Vizianagaram
 
             </p>
         </div>
@@ -147,7 +153,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s13.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s13.png" class="card-img-top" alt="Periapical Surgery in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

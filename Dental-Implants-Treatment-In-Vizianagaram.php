@@ -1,4 +1,18 @@
-<?php include 'header.php'; ?>
+<?php
+
+$meta_title = "Dental Implants in Vizianagaram | Apple Dental Specialities";
+
+$meta_description = "Restore your smile with permanent dental implants in Vizianagaram. Safe, durable & natural-looking results from experienced implantologists. Consult now.";
+
+
+include 'header.php';
+
+?>
+
+
+
+
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -15,8 +29,8 @@
 
 
 
-        <h1>Dental Implants</h1>
-        <p>Dental implants are a long-term solution for replacing missing teeth by placing an artificial tooth root in the jawbone. They help restore natural appearance, improve chewing ability, and support overall oral health. Implants are made of biocompatible material and provide strong, stable, and durable results.
+        <h2>Dental Implants in Vizianagaram</h2>
+        <p>Dental implants are a long-term solution for replacing missing teeth by placing an artificial tooth root in the jawbone. They help restore natural appearance, improve chewing ability, and support overall oral health. Implants are made of biocompatible material and provide strong, stable, and durable results of Dental Implants in Vizianagaram
 
         </p>
     </div>
@@ -135,7 +149,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s10.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s10.png" class="card-img-top" alt="Dental Implants in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

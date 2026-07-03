@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Dental Crowns & Bridges in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Get durable, natural-looking crowns and bridges in Vizianagaram to restore damaged or missing teeth. Precision-fit solutions. Book your appointment.";
+include 'header.php';
+?>
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +13,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Crowns & Bridges Treatment</h1>
-    <p>Crowns and bridges are dental restorations used to restore damaged or missing teeth. A crown covers a weakened tooth to protect and strengthen it, while a bridge replaces missing teeth by anchoring to adjacent teeth. These solutions improve function, appearance, and oral health.
+<h2>Dental Crowns & Bridges in Vizianagaram</h2>
+    <p>Dental Crowns & Bridges in Vizianagaram are dental restorations used to restore damaged or missing teeth. A crown covers a weakened tooth to protect and strengthen it, while a bridge replaces missing teeth by anchoring to adjacent teeth. These solutions improve function, appearance, and oral health.
 </p>
 </div>
 </section>
@@ -101,7 +106,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Dental Crowns & Bridges in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

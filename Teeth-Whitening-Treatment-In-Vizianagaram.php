@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Teeth Whitening in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Get a brighter smile with professional teeth whitening in Vizianagaram. Safe, fast & long-lasting results. Book your whitening session now.";
+include 'header.php';
+?>
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +13,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Teeth Whitening Treatment</h1>
-    <p>Teeth whitening is a cosmetic procedure that removes stains and discoloration to brighten teeth. It enhances your smile by using bleaching agents or laser technology for effective results. This treatment is safe, quick, and significantly improves tooth appearance.
+<h2>Teeth Whitening in Vizianagaram</h2>
+    <p>Teeth Whitening in Vizianagaram is a cosmetic procedure that removes stains and discoloration to brighten teeth. It enhances your smile by using bleaching agents or laser technology for effective results. This treatment is safe, quick, and significantly improves tooth appearance.
 
 </p>
 </div>
@@ -103,7 +108,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s7.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s7.png" class="card-img-top" alt="Teeth Whitening in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

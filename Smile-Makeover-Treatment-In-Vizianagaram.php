@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Smile Makeover in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Achieve your dream smile with customized smile makeovers in Vizianagaram — veneers, whitening, alignment & more. Book a consultation today.";
+include 'header.php';
+?>
+
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +14,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Smile Makeover Treatment</h1>
-    <p>A smile makeover is a combination of cosmetic dental treatments to enhance the appearance of your smile. It can include teeth whitening, veneers, dental bonding, and orthodontics for a complete transformation. This personalized treatment boosts confidence and improves overall dental aesthetics.
+<h2>Smile Makeover in Vizianagaram</h2>
+    <p>A smile makeover is a combination of cosmetic dental treatments to enhance the appearance of your smile. It can include teeth whitening, veneers, dental bonding, and orthodontics for a complete transformation. This personalized treatment boosts confidence and improves overall dental aesthetics in Smile Makeover in Vizianagaram.
 
 
 </p>
@@ -103,7 +109,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s5.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s5.png" class="card-img-top" alt="Smile Makeover in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

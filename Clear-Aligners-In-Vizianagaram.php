@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Clear Aligners in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Straighten your teeth discreetly with clear aligners in Vizianagaram. Comfortable, removable & effective for all ages. Book a free consultation.";
+include 'header.php';
+?>
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +12,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Clear Aligners Treatment</h1>
-    <p>Clear aligners are a modern orthodontic solution for straightening teeth without traditional braces. They are nearly invisible, removable, and custom-made for a comfortable fit. Aligners gradually shift teeth into place, providing an effective and discreet way to achieve a perfect smile.
+<h2>Clear Aligners in Vizianagaram | Apple Dental Specialities</h2>
+    <p>Clear Aligners in Vizianagaram are a modern orthodontic solution for straightening teeth without traditional braces. They are nearly invisible, removable, and custom-made for a comfortable fit. Aligners gradually shift teeth into place, providing an effective and discreet way to achieve a perfect smile.
 
 </p>
 </div>
@@ -105,7 +109,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s2.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s2.png" class="card-img-top" alt="Clear Aligners in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

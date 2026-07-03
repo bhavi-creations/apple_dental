@@ -8,6 +8,19 @@
   <!-- Bootstrap CSS -->
 
 
+
+    <title><?= isset($meta_title) ? $meta_title : "Apple Dental "; ?></title>
+
+    <!-- Dynamic Meta Description -->
+    <meta name="description"
+        content="<?= isset($meta_description) ? $meta_description : "Default website description"; ?>">
+
+
+
+
+
+
+
   <!-- <link rel="stylesheet" href="./images1/apple_logo.png"> -->
   <link rel="icon" type="image/png" href="./images1/apple_logo.png">
 
@@ -259,7 +272,7 @@
   </script>
 
 
-
+</head>
 
 
 <body>

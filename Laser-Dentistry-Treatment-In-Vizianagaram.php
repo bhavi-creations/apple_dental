@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Laser Dentistry in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Experience painless, precise laser dentistry in Vizianagaram for gum treatment, cavities & more. Faster healing with minimal discomfort. Book today.";
+include 'header.php';
+?>
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +12,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Laser dentistryTreatment</h1>
-    <p>Laser dentistry uses advanced laser technology for precise and painless dental treatments. It is used for gum reshaping, cavity removal, and treating infections with minimal discomfort. This technique reduces bleeding, speeds up healing, and enhances overall dental care.
+<h2>Laser Dentistry in Vizianagaram</h2>
+    <p>Laser dentistry uses advanced laser technology for precise and painless dental treatments. It is used for gum reshaping, cavity removal, and treating infections with minimal discomfort. This technique reduces bleeding, speeds up healing, and enhances overall dental care in Laser Dentistry in Vizianagaram
 
 
 </p>
@@ -104,7 +108,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s4.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s4.png" class="card-img-top" alt="Laser Dentistry in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

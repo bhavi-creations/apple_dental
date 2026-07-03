@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Head & Neck Surgery in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Specialized major head and neck surgeries in Vizianagaram performed by experienced oral & maxillofacial surgeons. Consult our specialists today.";
+include 'header.php';
+?>
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +13,8 @@
 
 <section class="mt-5">
 <div class="container">
-<h1>Major Head & Neck SurgeriesTreatment</h1>
-    <p>Major head and neck surgeries are performed to treat conditions such as tumors, infections, congenital defects, and trauma. These procedures restore function, improve aesthetics, and enhance the patient's quality of life. Advanced surgical techniques ensure precision and better recovery outcomes.
+<h2>Head & Neck Surgery in Vizianagaram</h2>
+    <p>Head & Neck Surgery in Vizianagaram are performed to treat conditions such as tumors, infections, congenital defects, and trauma. These procedures restore function, improve aesthetics, and enhance the patient's quality of life. Advanced surgical techniques ensure precision and better recovery outcomes.
 
 
 </p>
@@ -104,7 +109,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s3.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s3.png" class="card-img-top" alt="Head & Neck Surgery in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->

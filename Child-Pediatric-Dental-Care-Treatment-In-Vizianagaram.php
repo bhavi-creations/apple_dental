@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$meta_title = "Child Dental Care in Vizianagaram | Apple Dental Specialities";
+$meta_description = "Gentle, kid-friendly dental care in Vizianagaram for children of all ages. Cavity prevention, checkups & painless treatments. Book now.";
+include 'header.php';
+?>
+
 
 <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
@@ -8,8 +13,8 @@
 
 <section class="mt-5 mx-5">
 <div class="container">
-<h1>Child Dental Care Treatment</h1>
-    <p>Child dental care focuses on maintaining healthy teeth and gums from an early age. Good oral hygiene habits, regular dental check-ups, and a balanced diet help prevent cavities and ensure strong teeth. Early dental care sets the foundation for lifelong oral health.
+<h2>Child Dental Care in Vizianagaram</h2>
+    <p>Child Dental Care in Vizianagaram care focuses on maintaining healthy teeth and gums from an early age. Good oral hygiene habits, regular dental check-ups, and a balanced diet help prevent cavities and ensure strong teeth. Early dental care sets the foundation for lifelong oral health.
 
 </p>
 </div>
@@ -101,7 +106,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
-                    <img src="images1/services/services_img/s1.png" class="card-img-top" alt="Image">
+                    <img src="images1/services/services_img/s1.png" class="card-img-top" alt="Child Dental Care in Vizianagaram">
                     <!-- <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
                 </div> -->
