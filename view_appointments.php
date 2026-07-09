@@ -24,7 +24,7 @@ $sql .= " ORDER BY appointment_date DESC, time_slot ASC";
 $result = $conn->query($sql);
 ?>
 
-<?php include 'navbar.php'; ?>
+<?php include 'header.php'; ?>
 
 <!DOCTYPE html>
 <html>

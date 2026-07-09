@@ -221,7 +221,7 @@
         <!-- Section Heading -->
         <div class="dsdl1-section-heading">
             <h4 class=" section-subtitle">GET TO KNOW US</h4>
-            <h1> <span>Best</span> <span style="color: #007bff;">Dental Hospital in vizinagaram</span> </h1>
+            <h1> <span>Best</span> <span style="color: #007bff;">Dental Clinic in vizinagaram</span> </h1>
 
             <h2 class="font-weight-bold section-title">About <strong>Our Journey</strong></h2>
             <p class="text-muted section-description">Discover who we are and what drives us to make a difference.</p>
@@ -268,7 +268,7 @@
 
                                 </p> -->
                                 <p>
-                                    At Apple Dental Specialities, recognized as one of the best dental hospitals in Vizianagaram and a trusted best dental hospital in Vizianagaram, we are dedicated to improving your oral health with modern dental technology and advanced treatment solutions. Whether you need routine dental check-ups or specialized procedures, our team focuses on delivering high-quality care tailored to your needs.
+                                    At Apple Dental Specialities, recognized as one of the best dental Clinic in Vizianagaram and a trusted best dental Clinic in Vizianagaram, we are dedicated to improving your oral health with modern dental technology and advanced treatment solutions. Whether you need routine dental check-ups or specialized procedures, our team focuses on delivering high-quality care tailored to your needs.
                                 </p>
 
                                 <p>

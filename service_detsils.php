@@ -904,7 +904,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                             <div class='p-2 mb-1 bg-light border rounded'>
-                                <strong>Apple Dental Hospital :</strong> $reply
+                                <strong>Apple Dental Clinic :</strong> $reply
                             </div>";
                                                     }
 
@@ -1589,7 +1589,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Apple Dental Hospital :</strong> $reply
+                                                        <strong>Apple Dental Clinic :</strong> $reply
                                                     </div>";
                                                     }
 
@@ -2145,7 +2145,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Apple Dental Hospital :</strong> $reply
+                                                        <strong>Apple Dental Clinic :</strong> $reply
                                                     </div>";
                                                     }
 
