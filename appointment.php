@@ -1,4 +1,9 @@
  <?php
+session_start();
+$_SESSION['form_time'] = time();
+?>
+ 
+ <?php
     include './db.connection/db_connection.php';
 
 
@@ -62,6 +67,7 @@
                              required>
                      </div>
 
+
                      <div id="slotContainer" class="col-md-12 mb-4">
                          <label>Select Time Slot</label>
                          <select id="time_slot" name="time_slot" class="form-control" required>
@@ -78,6 +84,14 @@
                      <div class="g-recaptcha mb-2" data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr"></div>
                      <br>
 
+
+                     <div style="display:none;">
+    <input type="text" name="website" autocomplete="off">
+</div>
+
+
+
+                     
                      <div class="col-md-12">
                          <button type="submit" class="btn btn-primary w-100">
                              Book Appointment

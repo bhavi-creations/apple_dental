@@ -5,6 +5,18 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
+if (!empty($_POST['website'])) {
+    die("Bot detected.");
+}
+
+
+
+if ((time() - $_SESSION['form_time']) < 5) {
+    die("Bot detected.");
+}
+
+
+
 $secretKey = "6Ldws0ktAAAAAD7pIKreribWZJeii1BzFMfk1sr8";
 
 $response = $_POST['g-recaptcha-response'] ?? '';
