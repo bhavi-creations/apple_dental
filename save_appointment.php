@@ -5,32 +5,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
-if (!empty($_POST['website'])) {
-    die("Bot detected.");
-}
-
-
-
-if ((time() - $_SESSION['form_time']) < 5) {
-    die("Bot detected.");
-}
-
-
-
-$secretKey = "6Ldws0ktAAAAAD7pIKreribWZJeii1BzFMfk1sr8";
-
-$response = $_POST['g-recaptcha-response'] ?? '';
-
-$verify = file_get_contents(
-    "https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$response
-);
-
-$responseData = json_decode($verify);
-
-if (empty($response) || !$responseData->success) {
-    die("Please complete the 'I'm not a robot' verification.");
-}
-
 
 
 
@@ -144,13 +118,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
         $mailDoctor->Username   = 'appledentalclinic2025@gmail.com';
-        $mailDoctor->Password   = 'ixdpuydufjsfxaxb';
+        $mailDoctor->Password   = 'cbnriaxzdvvhtwet';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
 
         // $mailDoctor->Username   = 'appledentalclinic2025@gmail.com';
-        // $mailDoctor->Password   = 'ixdpuydufjsfxaxb';
+        // $mailDoctor->Password   = 'cbnriaxzdvvhtwet';
 
         $mailDoctor->setFrom(
             'appledentalclinic2025@gmail.com',
@@ -189,8 +163,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
         $mailPatient->Username   = 'appledentalclinic2025@gmail.com';
-        $mailPatient->Password   = 'ixdpuydufjsfxaxb';
-        $mailPatient->SMTPSecure = 'tls';
+        $mailPatient->Password   = 'cbnriaxzdvvhtwet'; 
+        $mailPatient->SMTPSecure = 'tls'; 
         $mailPatient->Port       = 587;
 
         $mailPatient->setFrom(

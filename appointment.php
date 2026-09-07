@@ -81,13 +81,7 @@ $_SESSION['form_time'] = time();
                              placeholder="Any additional information..."></textarea>
                      </div>
 
-                     <div class="g-recaptcha mb-2" data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr"></div>
-                     <br>
-
-
-                     <div style="display:none;">
-    <input type="text" name="website" autocomplete="off">
-</div>
+     
 
 
 

@@ -1,29 +1,941 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dental Implants</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexora | We Build Brands That People Remember</title>
+<link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/[email protected]/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#04060b;
+    --bg-2:#070b14;
+    --card:#0b101c;
+    --card-2:#0e1524;
+    --border:#1b2436;
+    --blue:#1a56ff;
+    --blue-2:#3b82f6;
+    --blue-glow:#2f6bff;
+    --text:#ffffff;
+    --muted:#93a0b8;
+    --muted-2:#5f6b82;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4,.brand-font{
+    font-family:'Poppins',sans-serif;
+  }
+  .text-blue{color:var(--blue-2)!important;}
+  .bg-blue{background:var(--blue)!important;}
+  a{text-decoration:none;}
+  .muted{color:var(--muted);}
+
+  /* glow blobs */
+  .glow{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(90px);
+    z-index:0;
+    pointer-events:none;
+  }
+
+  /* ===== NAVBAR ===== */
+  .navbar-custom{
+    background:rgba(4,6,11,0.85);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border);
+    padding:14px 0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+  }
+  .navbar-custom .navbar-brand{
+    font-weight:800;
+    font-size:1.4rem;
+    color:#fff;
+    letter-spacing:.5px;
+  }
+  .navbar-custom .navbar-brand span{color:var(--blue-2);}
+  .navbar-custom .nav-link{
+    color:#cfd6e4;
+    font-weight:500;
+    font-size:.92rem;
+    margin:0 12px;
+    transition:.2s;
+  }
+  .navbar-custom .nav-link:hover{color:var(--blue-2);}
+  .btn-primary-glow{
+    background:linear-gradient(135deg,var(--blue-2),var(--blue));
+    border:none;
+    color:#fff;
+    font-weight:600;
+    padding:10px 22px;
+    border-radius:8px;
+    box-shadow:0 0 25px rgba(59,130,246,.45);
+    transition:.25s;
+  }
+  .btn-primary-glow:hover{
+    color:#fff;
+    box-shadow:0 0 35px rgba(59,130,246,.7);
+    transform:translateY(-2px);
+  }
+  .icon-btn{
+    width:38px;height:38px;
+    border:1px solid var(--border);
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    color:#cfd6e4;
+    background:rgba(255,255,255,.03);
+  }
+
+  /* ===== HERO ===== */
+  .hero{
+    position:relative;
+    padding:90px 0 60px;
+    overflow:hidden;
+  }
+  .hero .glow-1{width:420px;height:420px;background:#1a56ff;top:-100px;left:-120px;opacity:.35;}
+  .hero .glow-2{width:500px;height:500px;background:#0a3aff;top:20%;right:-180px;opacity:.4;}
+  .hero-eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:rgba(59,130,246,.08);
+    border:1px solid rgba(59,130,246,.3);
+    color:var(--blue-2);
+    font-size:.78rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:30px;
+    margin-bottom:22px;
+  }
+  .hero h1{
+    font-size:3rem;
+    font-weight:700;
+    line-height:1.15;
+    margin-bottom:20px;
+  }
+  .hero p.lead-text{
+    color:var(--muted);
+    font-size:1.05rem;
+    max-width:520px;
+    margin-bottom:30px;
+  }
+  .btn-outline-glow{
+    border:1px solid var(--border);
+    color:#fff;
+    padding:10px 22px;
+    border-radius:8px;
+    font-weight:600;
+    background:rgba(255,255,255,.02);
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .btn-outline-glow:hover{color:#fff;border-color:var(--blue-2);background:rgba(59,130,246,.08);}
+  .hero-stats{
+    display:flex;
+    gap:34px;
+    margin-top:46px;
+    flex-wrap:wrap;
+  }
+  .hero-stats .stat h3{
+    font-size:1.7rem;
+    font-weight:700;
+    margin-bottom:2px;
+    color:#fff;
+  }
+  .hero-stats .stat p{
+    font-size:.78rem;
+    color:var(--muted-2);
+    margin:0;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+  }
+
+  .hero-visual{
+    position:relative;
+    z-index:2;
+  }
+  .mock-card{
+    background:linear-gradient(160deg,#0e1730,#060a14);
+    border:1px solid var(--border);
+    border-radius:20px;
+    padding:22px;
+    box-shadow:0 30px 80px rgba(0,20,80,.5), 0 0 60px rgba(45,100,255,.25);
+  }
+  .mock-card .mock-top{
+    display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;
+  }
+  .mock-dot{width:9px;height:9px;border-radius:50%;background:#3b4864;display:inline-block;margin-right:5px;}
+  .mock-bar{
+    height:8px;border-radius:4px;background:rgba(255,255,255,.06);margin-bottom:10px;
+  }
+  .mock-bar.short{width:60%;}
+  .mock-glow-orb{
+    width:170px;height:170px;
+    border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #6fa2ff, #1a56ff 55%, #051029 100%);
+    box-shadow:0 0 90px rgba(59,130,246,.6);
+    margin:20px auto;
+  }
+  .floating-badge{
+    position:absolute;
+    bottom:-18px;left:-18px;
+    background:#0c1220;
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px 18px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+  }
+  .floating-badge .num{font-weight:700;color:#fff;font-size:1.1rem;}
+  .floating-badge .lbl{font-size:.7rem;color:var(--muted);}
+
+  /* ===== LOGOS STRIP ===== */
+  .logos-strip{
+    padding:36px 0;
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+  }
+  .logos-strip .logo-item{
+    color:var(--muted-2);
+    font-weight:600;
+    font-size:1.1rem;
+    opacity:.6;
+    filter:grayscale(1);
+    text-align:center;
+  }
+
+  /* ===== SECTION HEADERS ===== */
+  .section{padding:90px 0;position:relative;}
+  .section-tag{
+    color:var(--blue-2);
+    font-weight:600;
+    font-size:.82rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+    display:block;
+  }
+  .section h2{
+    font-size:2.3rem;
+    font-weight:700;
+    margin-bottom:16px;
+  }
+  .section .sub{
+    color:var(--muted);
+    max-width:560px;
+  }
+
+  /* ===== SERVICES ===== */
+  .service-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:26px 22px;
+    height:100%;
+    transition:.3s;
+  }
+  .service-card:hover{
+    border-color:rgba(59,130,246,.5);
+    transform:translateY(-4px);
+    box-shadow:0 15px 40px rgba(0,10,40,.5);
+  }
+  .service-icon{
+    width:48px;height:48px;
+    border-radius:12px;
+    background:linear-gradient(135deg,rgba(59,130,246,.25),rgba(26,86,255,.08));
+    display:flex;align-items:center;justify-content:center;
+    color:var(--blue-2);
+    font-size:1.3rem;
+    margin-bottom:16px;
+  }
+  .service-card h5{font-weight:600;font-size:1.05rem;margin-bottom:8px;}
+  .service-card p{color:var(--muted);font-size:.88rem;margin:0;}
+
+  /* ===== RESULTS SECTION ===== */
+  .results-visual{
+    position:relative;
+    border-radius:20px;
+    overflow:hidden;
+    border:1px solid var(--border);
+    background:linear-gradient(160deg,#0e1730,#050810);
+    min-height:380px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .results-badge{
+    position:absolute;
+    top:24px;right:24px;
+    background:#0c1220;
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:16px 20px;
+    text-align:center;
+  }
+  .results-badge h3{color:var(--blue-2);font-size:1.6rem;font-weight:700;margin:0;}
+  .results-badge span{font-size:.7rem;color:var(--muted);}
+  .check-item{
+    display:flex;
+    gap:14px;
+    margin-bottom:20px;
+  }
+  .check-item i{
+    width:30px;height:30px;
+    min-width:30px;
+    border-radius:8px;
+    background:rgba(59,130,246,.15);
+    color:var(--blue-2);
+    display:flex;align-items:center;justify-content:center;
+    font-size:.9rem;
+  }
+  .check-item h6{font-weight:600;margin-bottom:2px;}
+  .check-item p{color:var(--muted);font-size:.85rem;margin:0;}
+
+  /* ===== PROCESS ===== */
+  .process-wrap{
+    position:relative;
+  }
+  .process-line{
+    position:absolute;
+    top:34px;left:0;right:0;
+    height:1px;
+    background:repeating-linear-gradient(90deg,var(--border) 0 10px, transparent 10px 20px);
+    z-index:0;
+  }
+  .process-step{
+    text-align:center;
+    position:relative;
+    z-index:1;
+  }
+  .process-num{
+    width:68px;height:68px;
+    border-radius:50%;
+    background:var(--card);
+    border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;
+    margin:0 auto 18px;
+    font-weight:700;
+    font-size:1.2rem;
+    color:var(--blue-2);
+  }
+  .process-step.active .process-num{
+    background:linear-gradient(135deg,var(--blue-2),var(--blue));
+    color:#fff;
+    box-shadow:0 0 30px rgba(59,130,246,.6);
+    border:none;
+  }
+  .process-step h6{font-weight:600;margin-bottom:6px;}
+  .process-step p{color:var(--muted);font-size:.82rem;}
+
+  /* ===== PORTFOLIO ===== */
+  .portfolio-card{
+    border-radius:16px;
+    overflow:hidden;
+    position:relative;
+    border:1px solid var(--border);
+    height:280px;
+  }
+  .portfolio-card img{
+    width:100%;height:100%;object-fit:cover;
+    transition:.4s;
+  }
+  .portfolio-card:hover img{transform:scale(1.08);}
+  .portfolio-overlay{
+    position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 40%, rgba(3,5,10,.95) 100%);
+    display:flex;flex-direction:column;justify-content:flex-end;
+    padding:20px;
+  }
+  .portfolio-overlay span{color:var(--blue-2);font-size:.75rem;font-weight:600;text-transform:uppercase;}
+  .portfolio-overlay h5{font-weight:600;margin:4px 0 0;}
+
+  /* ===== STATS BAND ===== */
+  .stats-band{
+    background:var(--card);
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+    padding:60px 0;
+  }
+  .stat-box{text-align:center;}
+  .stat-box i{color:var(--blue-2);font-size:1.6rem;margin-bottom:10px;}
+  .stat-box h3{font-weight:700;font-size:2rem;margin-bottom:4px;}
+  .stat-box p{color:var(--muted);font-size:.85rem;margin:0;}
+
+  /* ===== TESTIMONIALS ===== */
+  .testi-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:28px;
+    height:100%;
+  }
+  .testi-card .stars{color:#ffb020;font-size:.85rem;margin-bottom:14px;}
+  .testi-card p.quote{color:#dbe1ec;font-size:.92rem;margin-bottom:22px;}
+  .testi-author{display:flex;align-items:center;gap:12px;}
+  .testi-author img{width:44px;height:44px;border-radius:50%;object-fit:cover;}
+  .testi-author h6{margin:0;font-weight:600;font-size:.9rem;}
+  .testi-author span{color:var(--muted);font-size:.78rem;}
+
+  /* ===== CTA ===== */
+  .cta-box{
+    background:linear-gradient(135deg,#0a1636,#050a16);
+    border:1px solid var(--border);
+    border-radius:24px;
+    padding:70px 40px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+  .cta-box h2{font-weight:700;font-size:2.1rem;margin-bottom:14px;}
+  .cta-box p{color:var(--muted);max-width:500px;margin:0 auto 30px;}
+
+  /* ===== FOOTER ===== */
+  footer{
+    background:var(--bg-2);
+    border-top:1px solid var(--border);
+    padding:70px 0 20px;
+  }
+  footer h6{color:#fff;font-weight:600;margin-bottom:18px;font-size:.95rem;}
+  footer a.f-link{
+    color:var(--muted);
+    display:block;
+    margin-bottom:12px;
+    font-size:.88rem;
+  }
+  footer a.f-link:hover{color:var(--blue-2);}
+  footer .footer-bottom{
+    border-top:1px solid var(--border);
+    margin-top:50px;
+    padding-top:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    color:var(--muted-2);
+    font-size:.82rem;
+  }
+  .social-icon{
+    width:36px;height:36px;
+    border:1px solid var(--border);
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    color:var(--muted);
+    margin-right:10px;
+  }
+  .social-icon:hover{color:#fff;border-color:var(--blue-2);}
+
+  @media (max-width:991px){
+    .hero h1{font-size:2.2rem;}
+    .hero-visual{margin-top:50px;}
+    .section h2{font-size:1.8rem;}
+  }
+</style>
 </head>
 <body>
 
-<div class="container mt-5">
-    <h2 class="text-center">Dental Implants</h2>
-    <p class="text-center">
-        Dental implants are a permanent solution for missing teeth, offering durability and a natural appearance.  
-        They restore your ability to chew and speak comfortably while improving overall oral health.  
-        Made from biocompatible materials, implants fuse with the jawbone for long-lasting support.
-    </p>
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#">NEX<span>ORA</span></a>
+    <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="bi bi-list fs-2 text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+        <span class="icon-btn"><i class="bi bi-search"></i></span>
+        <a href="#contact" class="btn-primary-glow">Get Started</a>
+      </div>
+    </div>
+  </div>
+</nav>
 
-    <h3 class="text-center mt-4">3-Step Treatment Process</h3>
-    <ul class="list-group text-center">
-        <li class="list-group-item"><strong>Step 1:</strong> The dentist places a titanium implant into the jawbone.</li>
-        <li class="list-group-item"><strong>Step 2:</strong> The bone heals and fuses with the implant over a few months.</li>
-        <li class="list-group-item"><strong>Step 3:</strong> A custom-made crown is attached for a natural-looking tooth.</li>
-    </ul>
-</div>
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="container position-relative" style="z-index:2;">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <span class="hero-eyebrow"><i class="bi bi-stars"></i> Branding &amp; Digital Agency</span>
+        <h1>We Build Brands That People <span class="text-blue">Remember.</span></h1>
+        <p class="lead-text">We craft powerful branding, engaging content, creative marketing strategies, and result-driven advertising and performance marketing that turns audiences into loyal customers.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#contact" class="btn-primary-glow">Get Started <i class="bi bi-arrow-right ms-1"></i></a>
+          <a href="#" class="btn-outline-glow"><i class="bi bi-play-circle"></i> Watch Video</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><h3>2024</h3><p>Founded</p></div>
+          <div class="stat"><h3>300+</h3><p>Projects</p></div>
+          <div class="stat"><h3>4.9<i class="bi bi-star-fill text-blue" style="font-size:.9rem;"></i></h3><p>Client Rating</p></div>
+          <div class="stat"><h3>150+</h3><p>Happy Clients</p></div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-5 mt-lg-0">
+        <div class="hero-visual position-relative">
+          <div class="mock-card">
+            <div class="mock-top">
+              <div><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span></div>
+              <small class="muted">Live Analytics</small>
+            </div>
+            <p class="fw-semibold mb-1">Elevating Brands</p>
+            <p class="text-blue fw-semibold mb-3">Creating Impact</p>
+            <div class="mock-glow-orb"></div>
+            <div class="mock-bar"></div>
+            <div class="mock-bar short"></div>
+          </div>
+          <div class="floating-badge">
+            <i class="bi bi-graph-up-arrow text-blue fs-4"></i>
+            <div>
+              <div class="num">+248%</div>
+              <div class="lbl">Growth Achieved</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ===================== LOGOS STRIP ===================== -->
+<section class="logos-strip">
+  <div class="container">
+    <div class="row g-4 align-items-center text-center">
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-google"></i> Google</div></div>
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-microsoft"></i> Microsoft</div></div>
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-amazon"></i> Amazon</div></div>
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-spotify"></i> Spotify</div></div>
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-slack"></i> Slack</div></div>
+      <div class="col-6 col-md-2"><div class="logo-item"><i class="bi bi-airplane"></i> Skyline</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="text-center mx-auto mb-5" style="max-width:600px;">
+      <span class="section-tag">What We Offer</span>
+      <h2>Creative Solutions For <span class="text-blue">Every Need</span></h2>
+      <p class="sub mx-auto">From strategy to execution, we deliver end-to-end branding and marketing services tailored to help your business grow.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-palette"></i></div>
+          <h5>Branding</h5>
+          <p>Distinctive identities and brand systems that make you unforgettable.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+          <h5>Website &amp; SEO</h5>
+          <p>High-performing websites optimized to rank and convert.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-people"></i></div>
+          <h5>Social Media Management</h5>
+          <p>Consistent, engaging content that grows your community.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-megaphone"></i></div>
+          <h5>Digital Marketing</h5>
+          <p>Data-driven campaigns across every digital channel.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-cash-coin"></i></div>
+          <h5>Paid Ads</h5>
+          <p>ROI-focused ad campaigns that scale sustainably.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-funnel"></i></div>
+          <h5>Lead Generation</h5>
+          <p>Reliable pipelines of qualified leads for your sales team.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-camera"></i></div>
+          <h5>Photo Shoots</h5>
+          <p>Professional visuals that elevate your brand story.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-brush"></i></div>
+          <h5>Graphic Design</h5>
+          <p>Creative visuals across print and digital touchpoints.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-shop"></i></div>
+          <h5>Offline Marketing</h5>
+          <p>Print, signage, and events that extend your brand reach.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-camera-reels"></i></div>
+          <h5>Video Production</h5>
+          <p>Cinematic storytelling for ads, socials, and campaigns.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-bookmark-star"></i></div>
+          <h5>Brand Strategy &amp; Guidelines</h5>
+          <p>Clear frameworks that keep your brand consistent everywhere.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-lightbulb"></i></div>
+          <h5>Strategy &amp; Consulting</h5>
+          <p>Expert guidance to align marketing with business goals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESULTS ===================== -->
+<section class="section" id="about" style="background:var(--bg-2);">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 order-lg-2">
+        <div class="results-visual">
+          <div class="mock-glow-orb" style="width:220px;height:220px;"></div>
+          <div class="results-badge">
+            <h3>98%</h3>
+            <span>Success Rate</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-1">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>We Don't Just Design, We <span class="text-blue">Deliver Results</span></h2>
+        <p class="sub mb-4">Every project is backed by strategy, creativity, and measurable outcomes. Here's what sets us apart from the rest.</p>
+        <div class="check-item">
+          <i class="bi bi-check-lg"></i>
+          <div><h6>Expert Team</h6><p>Seasoned strategists, designers and marketers under one roof.</p></div>
+        </div>
+        <div class="check-item">
+          <i class="bi bi-check-lg"></i>
+          <div><h6>Result-Driven Strategies</h6><p>Every decision is backed by data and measurable goals.</p></div>
+        </div>
+        <div class="check-item">
+          <i class="bi bi-check-lg"></i>
+          <div><h6>Timely Delivery</h6><p>We respect deadlines without compromising on quality.</p></div>
+        </div>
+        <div class="check-item">
+          <i class="bi bi-check-lg"></i>
+          <div><h6>Client Satisfaction</h6><p>Long-term partnerships built on trust and transparency.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mx-auto mb-5" style="max-width:600px;">
+      <span class="section-tag">Our Workflow</span>
+      <h2>A Proven Process That <span class="text-blue">Works</span></h2>
+      <p class="sub mx-auto">A clear, structured approach that takes your brand from idea to impact, step by step.</p>
+    </div>
+    <div class="process-wrap">
+      <div class="process-line d-none d-md-block"></div>
+      <div class="row g-4">
+        <div class="col-6 col-md-2 process-step active">
+          <div class="process-num">01</div>
+          <h6>Discover</h6>
+          <p>Understand goals</p>
+        </div>
+        <div class="col-6 col-md-2 process-step">
+          <div class="process-num">02</div>
+          <h6>Strategy</h6>
+          <p>Plan the roadmap</p>
+        </div>
+        <div class="col-6 col-md-2 process-step">
+          <div class="process-num">03</div>
+          <h6>Design</h6>
+          <p>Craft the visuals</p>
+        </div>
+        <div class="col-6 col-md-2 process-step">
+          <div class="process-num">04</div>
+          <h6>Develop</h6>
+          <p>Build &amp; execute</p>
+        </div>
+        <div class="col-6 col-md-2 process-step">
+          <div class="process-num">05</div>
+          <h6>Launch</h6>
+          <p>Go live with impact</p>
+        </div>
+        <div class="col-6 col-md-2 process-step">
+          <div class="process-num">06</div>
+          <h6>Support</h6>
+          <p>Ongoing optimization</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ===================== -->
+<section class="section" id="portfolio" style="background:var(--bg-2);">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end flex-wrap mb-5 gap-3">
+      <div>
+        <span class="section-tag">Our Work</span>
+        <h2 class="mb-0">Recent <span class="text-blue">Projects</span></h2>
+      </div>
+      <a href="#" class="btn-outline-glow">View All Projects <i class="bi bi-arrow-right"></i></a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=600" alt="Aurora Skincare">
+          <div class="portfolio-overlay">
+            <span>Branding</span>
+            <h5>Aurora Skincare</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=600" alt="Prime Founder">
+          <div class="portfolio-overlay">
+            <span>Web Design</span>
+            <h5>Prime Founder</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=600" alt="Moonlight Cafe">
+          <div class="portfolio-overlay">
+            <span>Marketing</span>
+            <h5>Moonlight Cafe</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATS BAND ===================== -->
+<section class="stats-band">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-6 col-md-3 stat-box">
+        <i class="bi bi-briefcase"></i>
+        <h3 class="counter" data-target="800">0</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3 stat-box">
+        <i class="bi bi-emoji-smile"></i>
+        <h3 class="counter" data-target="250">0</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="col-6 col-md-3 stat-box">
+        <i class="bi bi-graph-up"></i>
+        <h3 class="counter" data-target="98">0</h3>
+        <p>Client Retention</p>
+      </div>
+      <div class="col-6 col-md-3 stat-box">
+        <i class="bi bi-people-fill"></i>
+        <h3 class="counter" data-target="40">0</h3>
+        <p>Team Members</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="text-center mx-auto mb-5" style="max-width:600px;">
+      <span class="section-tag">Testimonials</span>
+      <h2>What Our <span class="text-blue">Clients Say</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="testi-card">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="quote">"Their team completely transformed our brand identity. The results exceeded every expectation we had."</p>
+          <div class="testi-author">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="client">
+            <div><h6>Sarah Mitchell</h6><span>Founder, Aurora Skincare</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testi-card">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="quote">"Professional, creative, and always on time. Our online presence has never looked better."</p>
+          <div class="testi-author">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="client">
+            <div><h6>James Carter</h6><span>CEO, Prime Founder</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testi-card">
+          <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="quote">"From strategy to execution, everything was seamless. Highly recommend this agency to anyone."</p>
+          <div class="testi-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="client">
+            <div><h6>Elena Rossi</h6><span>Owner, Moonlight Cafe</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="section pt-0" id="contact">
+  <div class="container">
+    <div class="cta-box">
+      <div class="glow" style="width:300px;height:300px;background:#1a56ff;top:-100px;left:40%;opacity:.3;"></div>
+      <h2 class="position-relative">Let's Build Something <span class="text-blue">Amazing Together</span></h2>
+      <p class="position-relative">Ready to elevate your brand? Get in touch and let's create a strategy that turns your vision into reality.</p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap position-relative">
+        <a href="#" class="btn-primary-glow">Get Free Consultation</a>
+        <a href="#portfolio" class="btn-outline-glow">View Our Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand d-inline-block mb-3" href="#">NEX<span class="text-blue">ORA</span></a>
+        <p class="muted" style="font-size:.88rem;max-width:320px;">A full-service branding and digital marketing agency helping businesses grow through creative strategy and measurable results.</p>
+        <div class="d-flex mt-3">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Company</h6>
+        <a class="f-link" href="#home">Home</a>
+        <a class="f-link" href="#about">About Us</a>
+        <a class="f-link" href="#services">Services</a>
+        <a class="f-link" href="#portfolio">Portfolio</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Services</h6>
+        <a class="f-link" href="#">Branding</a>
+        <a class="f-link" href="#">Web Design</a>
+        <a class="f-link" href="#">Marketing</a>
+        <a class="f-link" href="#">SEO</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Resources</h6>
+        <a class="f-link" href="#">Blog</a>
+        <a class="f-link" href="#">Case Studies</a>
+        <a class="f-link" href="#">FAQs</a>
+        <a class="f-link" href="#">Careers</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Contact</h6>
+        <a class="f-link" href="#"><i class="bi bi-envelope me-1"></i> [email protected]</a>
+        <a class="f-link" href="#"><i class="bi bi-telephone me-1"></i> +1 (555) 123-4567</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Nexora. All rights reserved.</span>
+      <div>
+        <a href="#" class="f-link d-inline-block me-3 mb-0">Privacy Policy</a>
+        <a href="#" class="f-link d-inline-block mb-0">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Counter animation on scroll into view
+  const counters = document.querySelectorAll('.counter');
+  let counted = false;
+  function animateCounters(){
+    counters.forEach(counter=>{
+      const target = +counter.getAttribute('data-target');
+      let count = 0;
+      const step = Math.max(target/60,1);
+      const update = ()=>{
+        count += step;
+        if(count < target){
+          counter.innerText = Math.ceil(count) + (target>=90 && target<=100 ? '%' : '+');
+          requestAnimationFrame(update);
+        } else {
+          counter.innerText = target + (target>=90 && target<=100 ? '%' : '+');
+        }
+      };
+      update();
+    });
+  }
+  const statsSection = document.querySelector('.stats-band');
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting && !counted){
+        animateCounters();
+        counted = true;
+      }
+    });
+  },{threshold:0.4});
+  if(statsSection) observer.observe(statsSection);
+
+  // Active nav link highlight on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  window.addEventListener('scroll', ()=>{
+    let current = '';
+    sections.forEach(sec=>{
+      const top = sec.offsetTop - 120;
+      if(window.scrollY >= top) current = sec.getAttribute('id');
+    });
+    navLinks.forEach(link=>{
+      link.classList.remove('active');
+      if(link.getAttribute('href') === '#'+current) link.classList.add('active');
+    });
+  });
+</script>
 </body>
 </html>

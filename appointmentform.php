@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'appledentalclinic2025@gmail.com'; // Your Gmail email address
-        $mail->Password = 'ixdpuydufjsfxaxb'; // Your Gmail password
+        $mail->Password = 'cbnriaxzdvvhtwet'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
