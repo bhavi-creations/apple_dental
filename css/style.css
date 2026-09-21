@@ -3790,3 +3790,149 @@ a {
   background-color: white;
   border: 2px solid black;
 }
+
+
+
+
+.hero-section {
+            background-color: #f8f9fa; /* Light background */
+            padding: 60px 0;
+        }
+        .text-accent {
+            color: #dc3545; /* Apple Red color */
+        }
+        
+        /* Borderless Link Styling */
+        .btn-link-custom {
+            background: none;
+            border: none;
+            padding: 0;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+            display: inline-flex;
+            align-items: center;
+        }
+        .btn-link-danger {
+            color: #dc3545;
+        }
+        .btn-link-danger:hover {
+            color: #a71d2a;
+            text-decoration: underline;
+        }
+        .btn-link-primary {
+            color: #0d6efd;
+        }
+        .btn-link-primary:hover {
+            color: #0a58ca;
+            text-decoration: underline;
+        }
+
+
+
+
+        /* Clean Blue Dots CSS */
+.custom-bullet-list {
+    list-style-type: disc;
+}
+.custom-bullet-list li::marker {
+    color: black; /* Bootstrap Primary Blue Color */
+    font-size: 1.2rem;
+}
+
+
+
+
+.tech-section {
+            background-color: #f8f9fa;
+            padding: 70px 0;
+        }
+
+        .tech-card {
+            background: #ffffff;
+            border: 1px solid #eef2f5;
+            border-radius: 12px;
+            padding: 24px 20px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: #0d6efd;
+        }
+
+        .tech-card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 12px;
+            line-height: 1.35;
+        }
+
+        .tech-card-desc {
+            font-size: 0.875rem;
+            color: #6c757d;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+
+        /* Swiper custom styling */
+        .tech-swiper-container {
+            padding-bottom: 50px !important;
+            position: relative;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #0d6efd !important;
+        }
+
+        .swiper-button-next, .swiper-button-prev {
+            color: #0d6efd !important;
+            transform: scale(0.6);
+        }
+
+
+
+
+        .dsdl1-about-image {
+    width: 100%;
+    min-height: 400px; /* Meku kavalasina container height */
+    background-image: url('images1/apple-doctor.png');
+    background-size: 100% 100%; /* Image stretch ayyi complete container lo cover avutundi */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+
+
+
+
+    /* Fixed Image ratio & sizing */
+    .my-custom-swiper {
+        width: 100%;
+        height: 100%;
+        min-height: 380px; /* Aligns with 3 content boxes */
+        max-height: 480px;
+    }
+
+    .whychoose-img {
+        width: 100%;
+        height: 100%;
+        min-height: 380px;
+        max-height: 480px;
+        object-fit: cover; /* Stretch avvakunda proper cropping istundhi */
+        object-position: center;
+        border-radius: 8px;
+    }
+
+    /* Swiper arrow colors */
+    .my-custom-next, .my-custom-prev {
+        color: #ffffff !important;
+        transform: scale(0.6);
+    }

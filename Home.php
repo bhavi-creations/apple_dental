@@ -215,6 +215,64 @@
     });
 </script>
 
+
+<!-- Dental Section Start -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                
+                <!-- 1. Title & Subtitle Section (Center Aligned) -->
+                <div class="text-center mb-4">
+                    <!-- Badge -->
+                    <span class="badge bg-danger bg-opacity-10 text-danger mb-3 px-3 py-2 rounded-pill fs-6 fw-semibold">
+                        Established in 2010
+                    </span>
+                    
+                    <!-- Title -->
+                    <h1 class="display-5 fw-bold text-dark mb-2">
+                        Apple Dental <span class="text-accent">Specialities</span>
+                    </h1>
+                    
+                    <!-- Subtitle / Location -->
+                    <h2 class="h5 text-primary fw-medium">
+                        <i class="bi bi-geo-alt-fill me-1"></i>Multispeciality Dental Clinic in Vizianagaram
+                    </h2>
+                </div>
+
+                <!-- 2. Content Paragraph (Left Aligned) -->
+                <div class="text-start mb-4">
+                    <p class="lead text-muted">
+                        Established in 2010, Apple Dental Specialities provides comprehensive dental care including dental implants, root canal treatment, clear aligners, crowns & bridges, cosmetic dentistry, gum care. 
+                   preventive dental treatment in Vizianagaram.
+                    </p>
+                    
+                </div>
+
+                <!-- 3. Action Buttons Section (Center Aligned) -->
+                <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 gap-sm-4 pt-2">
+                    
+                    <!-- Button 1 -->
+                    <a href="appointment.php" class="btn-link-custom btn-link-danger fs-5">
+                        Book an Appointment <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+
+                    <!-- Divider Line -->
+                    <span class="text-muted d-none d-sm-inline">|</span>
+
+                    <!-- Button 2 -->
+                    <a href="doctor.php" class="btn-link-custom btn-link-primary fs-5">
+                        Meet Our Doctors <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dental Section End -->
+
 <!-- About Section -->
 <section class="dsdl1-about-section">
     <div class="dsdl1-container">
@@ -257,8 +315,8 @@
 
                         <div class="row">
 
-                            <div class="col-12 col-lg-6">
-                                <h3>Transforming Smiles with Expert Specialities</h3>
+                            <div class="col-12 col-lg-6" style="text-align:center; ">
+                                <h3 class="fw-bold text-dark mb-3">About Apple Dental Specialities</h3>
                                 <!-- <p>
                                     At our apple dental Specialities, we are dedicated to enhancing your oral health with the latest innovations in dentistry. Whether you need routine check-ups or advanced procedures, we deliver exceptional care tailored to your needs.
 
@@ -267,24 +325,25 @@
                                     Our team of experts ensures a comfortable and stress-free experience, guiding you through every step of your dental journey. Your confidence starts with a healthy, beautiful smile.
 
                                 </p> -->
-                                <p>
-                                    At Apple Dental Specialities, recognized as one of the best dental Clinic in Vizianagaram and a trusted best dental Clinic in Vizianagaram, we are dedicated to improving your oral health with modern dental technology and advanced treatment solutions. Whether you need routine dental check-ups or specialized procedures, our team focuses on delivering high-quality care tailored to your needs.
-                                </p>
+                                <p class="text-start text-muted lead mb-3">
+    Apple Dental Specialities is a multispeciality dental clinic in Vizianagaram, Andhra Pradesh, established in 2010. The clinic provides comprehensive dental care through qualified dental professionals across general, restorative, cosmetic, orthodontic, implant, prosthodontic and preventive dentistry.
+</p>
 
-                                <p>
-                                    Our experienced dental professionals ensure a comfortable and stress-free experience, guiding you through every step of your treatment. At Apple Dental Specialities, your confidence begins with a healthy and beautiful smile.
-                                </p>
-                                <ul>
-                                    <li><i class="fas fa-check text-primary"></i> Modern Dental Technology for Accurate Diagnosis</li>
-                                    <li><i class="fas fa-check text-primary"></i> Customized Dental Treatments for Healthy Smiles</li>
-                                    <li><i class="fas fa-check text-primary"></i> Skilled Dentists Providing Safe & Quality Care</li>
-                                </ul>
+<p class="text-start text-muted lead mb-4">
+    Our approach focuses on accurate diagnosis, personalized treatment planning and appropriate treatment based on each patient's individual oral health needs. Patients can access a range of dental services, including dental implants, root canal treatment, clear aligners, crowns and bridges, veneers, teeth whitening, gum care and smile-focused treatments.
+</p>
+                                <ul class="text-start custom-bullet-list m-0 p-0 ps-3">
+    <li class="mb-2"><strong>16+ Years</strong> - Dental Care Since 2010</li>
+    <li class="mb-2"><strong>Qualified Team</strong> - Experienced Dental Professionals</li>
+    <li class="mb-2"><strong>Multiple Specialties</strong> - Comprehensive Dental Care</li>
+    <li class="mb-2"><strong>Vizianagaram</strong> - Serving Patients in Andhra Pradesh</li>
+</ul>
 
                             </div>
 
                             <div class="col-12 col-lg-6">
 
-                                <div class="dsdl1-about-image" style="background-image: url('images1/home/what.png');">
+                                <div class="dsdl1-about-image" style="background-image: url('images1/apple-doctor.png');">
                                     <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
                                 </div>
 
@@ -372,8 +431,105 @@
     </div>
 </section>
 
+<div class="dsdl-container">
+    <section class="dsdl-our-doctors">
+        <!-- Section Header -->
+        <div class="dsdl-section-header" data-aos="fade-up">
+            <h4 class="text-primary section-subtitle">THE EXPERTS YOU TRUST</h4>
+            <h2 class="font-weight-bold section-title">Meet Our<strong> Dental Specialists</strong></h2>
+            <p class="text-muted section-description">Get to know our highly skilled and dedicated professionals.</p>
+        </div>
+
+        <!-- Swiper Container for Doctors -->
+        <div class="swiper dsdl-swiper-container" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+                <!-- Doctor Card 1 -->
+                <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="200">
+                    <!-- <div class="dsdl-doctor-image">
+                        <img src="https://appledentalvzm.in/images1/dr.kalyan.jpg" alt="Dr. Kalyan Chakravarthi">
+                    </div> -->
+
+                    <div class="hover-popup-image">
+                        <img src="images1/kalyan.png" alt="Dr. Kalyan" class="img-fluid">
+                    </div>
 
 
+                    <h4>Dr. Kalyan Chakravarty</h4>
+                    <p> BDS <br>Clinical Head </p>
+                </div>
+
+                <!-- Doctor Card 2 -->
+                <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="hover-popup-image">
+                        <img src="images1/madhuri.png" alt="Dr. T. Madhuri" class="img-fluid">
+                    </div>
+                    <h4>Dr. T. Madhuri</h4>
+                    <p>BDS<br>Dentist</p>
+                </div>
+
+                <!-- Doctor Card 3 -->
+                <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="hover-popup-image">
+                        <!-- <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha"> -->
+                        <img src="images1/sarath.png" alt="Dr. A. Deol Aslesha" class="img-fluid">
+                    </div>
+                    <h4>Dr.Sarath Chandra </h4>
+                    <p>Prosthodontist<br>Dentist</p>
+                </div>
+
+                <!-- Doctor Card 4 -->
+                <!-- <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="dsdl-doctor-image">
+                        <img src="https://appledentalvzm.in/images1/Dr.sharon.jpg" alt="Dr. Sharon">
+                    </div>
+                    <h4>Dr. deol aslesha</h4>
+                    <p>BDS</p>
+                </div> -->
+
+            </div>
+
+            <!-- Swiper Pagination -->
+            <!-- <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div> -->
+        </div>
+    </section>
+</div>
+<!-- Swiper Initialization Script -->
+<script>
+    var swiper = new Swiper('.dsdl-swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        observer: true, 
+        observeParents: true, 
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+        },
+    });
+</script>
+
+<script>
+    swiper.on('slideChangeTransitionEnd', function() {
+        AOS.refresh();
+    });
+    AOS.init({
+        disable: false
+    });
+</script>
 
 <style>
 </style>
@@ -502,20 +658,144 @@
 
 
 
-<section id="whychooseSection">
+
+
+
+<?php
+// Facility Cards Data Array (Without Icons)
+$facility_cards = [
+    [
+        "title" => "Digital Dental Diagnostics",
+        "desc" => "Modern diagnostic tools help dental professionals assess oral conditions and plan appropriate treatment based on individual patient needs."
+    ],
+    [
+        "title" => "Dental Implant Care",
+        "desc" => "Implant treatment planning and restorative care are provided based on the patient's oral health, bone condition and individual treatment requirements."
+    ],
+    [
+        "title" => "Laser-Assisted Dental Care",
+        "desc" => "Laser technology may be used for selected dental procedures where clinically appropriate, supporting precise and minimally invasive treatment."
+    ],
+    [
+        "title" => "Modern Dental Treatment Setup",
+        "desc" => "A clinical environment designed to support different dental procedures while maintaining patient comfort and treatment efficiency."
+    ],
+    [
+        "title" => "Sterilization & Infection Control",
+        "desc" => "Instrument sterilization and infection-control protocols are an important part of maintaining a safe dental treatment environment."
+    ],
+    [
+        "title" => "Digital Treatment Planning",
+        "desc" => "Diagnostic information is evaluated to develop treatment plans according to each patient's specific dental condition."
+    ]
+];
+?>
+
+<!-- Technology & Facilities Section Start -->
+<section class="tech-section">
+    <div class="container-fluid px-lg-5 px-4">
+        
+        <!-- Section Heading & Subtitle -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-10 text-center">
+                <span class="badge bg-danger bg-opacity-10 text-danger mb-2 px-3 py-2 rounded-pill fs-6 fw-semibold">
+                    Advanced Care
+                </span>
+                <h2 class="display-6 fw-bold text-dark mb-3">
+                    Modern Dental Technology & Patient-Centered Facilities
+                </h2>
+                <p class="lead text-muted text-start text-md-center mx-auto" style="max-width: 950px;">
+                    At Apple Dental Specialities, Vizianagaram, modern dental technology and clinical facilities support accurate diagnosis, treatment planning and comfortable dental care. Our facilities are designed to support a wide range of general, restorative, cosmetic, orthodontic, implant and prosthodontic treatments.
+                </p>
+            </div>
+        </div>
+
+        <!-- Cards Swiper Slider -->
+        <div class="swiper tech-swiper-container">
+            <div class="swiper-wrapper">
+                
+                <?php foreach ($facility_cards as $card): ?>
+                    <div class="swiper-slide h-auto">
+                        <div class="tech-card">
+                            <h3 class="tech-card-title"><?php echo $card['title']; ?></h3>
+                            <p class="tech-card-desc"><?php echo $card['desc']; ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+
+            </div>
+
+            <!-- Swiper Pagination & Navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next d-none d-md-flex"></div>
+            <div class="swiper-button-prev d-none d-md-flex"></div>
+        </div>
+
+    </div>
+</section>
+<!-- Technology & Facilities Section End -->
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".tech-swiper-container", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                // Mobile (<768px): 1 Card
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 15
+                },
+                // Tablet (768px - 991px): 3 Cards
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 18
+                },
+                // Small Desktop / Laptops (992px - 1199px): 4 Cards
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 20
+                },
+                // Large Desktop (>= 1200px): All 6 Cards
+                1200: {
+                    slidesPerView: 6,
+                    spaceBetween: 20
+                }
+            }
+        });
+    });
+</script>
+
+
+<!-- <section id="whychooseSection">
     <div class="container">
-        <!-- Section Heading -->
+        Section Heading
         <div class="section-heading" data-aos="fade-up">
             <h4 class="text-primary section-subtitle" style="color: #ea232c !important;">WHAT SETS US APART</h4>
             <h2 class="font-weight-bold section-title">Why<strong style="color: #f8f6f6;"> Choose Us</strong> </h2>
-            <p class="text-muted section-description" style="color: #ebdcdcde !important;">Here’s why we are trusted by thousands for their dental needs.</p>
+            <p class="text-muted section-description" style="color: #ebdcdcde !important;">Choosing a dental clinic is about more than a single treatment. At *Apple Dental Specialities, Vizianagaram*, our approach focuses on understanding each patient's oral health needs and developing an appropriate treatment plan with qualified dental professionals.</p>
 
         </div>
 
         <div class="row align-items-center">
-            <!-- Left Image Slider -->
+            Left Image Slider
             <div class="col-lg-5 col-md-6 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="100">
-                <!-- <div class="whyChoose-left">
+                <div class="whyChoose-left">
                     <div class="whychoose-slider">
                         <div class="whychoose-singleslide">
                             <img src="https://appledentalvzm.in/images1/1.jpg" alt="State-of-the-art Facilities">
@@ -545,68 +825,68 @@
                             <img src="https://appledentalvzm.in/images1/9.jpg" alt="Patient-Focused Services">
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="swiper my-custom-swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper">
-                        <!-- Image 1 -->
+                        Image 1
                         <div class="swiper-slide custom-slide">
                             <img src="images1/1.png" alt="Image 1">
                         </div>
 
-                        <!-- Image 2 -->
+                        Image 2
                         <div class="swiper-slide custom-slide">
                             <img src="images1/2.png" alt="Image 2">
                         </div>
 
-                        <!-- Image 3 -->
+                        Image 3
                         <div class="swiper-slide custom-slide">
                             <img src="images1/3.png" alt="Image 3">
                         </div>
 
-                        <!-- Image 4 -->
+                        Image 4
                         <div class="swiper-slide custom-slide">
                             <img src="images1/4.png" alt="Image 4">
                         </div>
 
-                        <!-- Image 5 -->
+                        Image 5
                         <div class="swiper-slide custom-slide">
                             <img src="images1/5.png" alt="Image 5">
                         </div>
 
-                        <!-- Image 6 -->
-                        <!-- <div class="swiper-slide custom-slide">
+                        Image 6
+                        <div class="swiper-slide custom-slide">
                             <img src="images1/6.png" alt="Image 6">
-                        </div> -->
+                        </div>
 
-                        <!-- Image 7 -->
+                        Image 7
                         <div class="swiper-slide custom-slide">
                             <img src="images1/7.png" alt="Image 7">
                         </div>
 
-                        <!-- Image 8 -->
+                        Image 8
                         <div class="swiper-slide custom-slide">
                             <img src="images1/8.png" alt="Image 8">
                         </div>
 
-                        <!-- Image 9 -->
+                        Image 9
                         <div class="swiper-slide custom-slide">
                             <img src="images1/9.png" alt="Image 9">
                         </div>
                     </div>
 
-                    <!-- Swiper Pagination -->
+                    Swiper Pagination
                     <div class="swiper-pagination my-custom-pagination" data-aos="fade-up" data-aos-delay="800"></div>
 
-                    <!-- Swiper Navigation -->
+                    Swiper Navigation
                     <div class="swiper-button-next my-custom-next"></div>
                     <div class="swiper-button-prev my-custom-prev"></div>
                 </div>
 
-                <!-- Swiper JS Initialization -->
+                Swiper JS Initialization
                 <script>
                     document.addEventListener("DOMContentLoaded", function() {
                         var swiper = new Swiper('.my-custom-swiper', {
-                            slidesPerView: 1, // Show one image at a time
+                            slidesPerView: 1, Show one image at a time
                             spaceBetween: 20,
                             loop: true,
                             autoplay: {
@@ -633,17 +913,18 @@
 
             </div>
 
-            <!-- Right Features -->
+            Right Features
             <div class="col-lg-7 col-md-6" data-aos="fade-left" data-aos-delay="200">
                 <div class="whyChoose-right">
-                    <!-- Blurbs -->
+                    Blurbs
                     <div class="blurb" data-aos="fade-up" data-aos-delay="300">
                         <div class="blurb-content">
                             <div class="blurb-image">
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>100% hygienic and safe for You and Your Family</h4>
+                                <h4>Established Dental Care</h4>
+                                <p>Established in *2010*, Apple Dental Specialities has been providing dental care in Vizianagaram for patients seeking both routine and specialized dental treatment.</p>
                             </div>
                         </div>
                     </div>
@@ -653,7 +934,8 @@
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>Highly Trained and Skilled Team of Dentists</h4>
+                                <h4> Qualified Dental Professionals</h4>
+                                <p>Our dental team includes qualified professionals with expertise across different areas of dentistry, supporting comprehensive diagnosis and treatment planning.</p>
                             </div>
                         </div>
                     </div>
@@ -663,7 +945,8 @@
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>State-of-the-Art Equipment and now with AI for Accurate Diagnosis</h4>
+                                <h4>Multiple Dental Specialties</h4>
+                                <p>From preventive and restorative dentistry to dental implants, prosthodontics, orthodontic care and cosmetic dentistry, patients can access multiple areas of dental care at one clinic.</p>
                             </div>
                         </div>
                     </div>
@@ -673,7 +956,8 @@
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>Personalized Treatment Plans Tailored to Your Needs</h4>
+                                <h4>Personalized Treatment Planning</h4>
+                                <p>Every patient's dental condition is different. Our treatment recommendations are based on clinical examination, diagnostic findings, oral health requirements and the patient's individual needs.</p>
                             </div>
                         </div>
                     </div>
@@ -683,7 +967,8 @@
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>Comprehensive Services Under One Roof</h4>
+                                <h4> Modern Clinical Facilities</h4>
+                                <p>Our clinic uses appropriate dental technology and clinical facilities to support diagnosis, treatment planning and dental procedures across different specialties.</p>
                             </div>
                         </div>
                     </div>
@@ -693,10 +978,157 @@
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
                             <div class="blurb-text">
-                                <h4>Affordable and pocket friendly</h4>
+                                <h4>Focus on Long-Term Oral Health</h4>
+                                <p>Along with treating existing dental problems, we emphasize preventive care, oral hygiene and regular dental evaluation to help patients maintain their oral health over time.</p>
                             </div>
                         </div>
                     </div>
+                    <div class="blurb" data-aos="fade-up" data-aos-delay="800">
+                        <div class="blurb-content">
+                            <div class="blurb-image">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+                            <div class="blurb-text">
+                                <h4>Clear Communication</h4>
+                                <p>We explain the patient's dental condition, available treatment options and recommended next steps so patients can participate in informed decisions about their dental care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="whychooseSection" class="py-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading text-center mb-4" data-aos="fade-up">
+            <!-- <h4 class="section-subtitle fw-bold" style="color: #ea232c !important;">WHAT SETS US APART</h4> -->
+            <h2 class="font-weight-bold section-title text-white">Why <strong style="color: #ea232c;">Choose Us</strong></h2>
+            <p class="section-description mx-auto mt-2" style="color: #ebdcdcde !important; max-width: 800px;">
+                Choosing a dental clinic is about more than a single treatment. At <em>Apple Dental Specialities, Vizianagaram</em>, our approach focuses on understanding each patient's oral health needs and developing an appropriate treatment plan with qualified dental professionals.
+            </p>
+        </div>
+
+        <div class="row align-items-start g-4">
+            <!-- Left Image Slider -->
+            <div class="col-lg-5 col-md-6" data-aos="fade-right" data-aos-delay="100">
+                <div class="swiper my-custom-swiper rounded-3 shadow-sm overflow-hidden">
+                    <div class="swiper-wrapper">
+                        <!-- Image 1 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/1.png" alt="Image 1" class="whychoose-img">
+                        </div>
+                        <!-- Image 2 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/2.png" alt="Image 2" class="whychoose-img">
+                        </div>
+                        <!-- Image 3 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/3.png" alt="Image 3" class="whychoose-img">
+                        </div>
+                        <!-- Image 4 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/4.png" alt="Image 4" class="whychoose-img">
+                        </div>
+                        <!-- Image 5 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/5.png" alt="Image 5" class="whychoose-img">
+                        </div>
+                        <!-- Image 7 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/7.png" alt="Image 7" class="whychoose-img">
+                        </div>
+                        <!-- Image 8 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/8.png" alt="Image 8" class="whychoose-img">
+                        </div>
+                        <!-- Image 9 -->
+                        <div class="swiper-slide custom-slide">
+                            <img src="images1/9.png" alt="Image 9" class="whychoose-img">
+                        </div>
+                    </div>
+
+                    <!-- Swiper Controls -->
+                    <div class="swiper-pagination my-custom-pagination"></div>
+                    <div class="swiper-button-next my-custom-next"></div>
+                    <div class="swiper-button-prev my-custom-prev"></div>
+                </div>
+            </div>
+
+            <!-- Right Features Content -->
+            <div class="col-lg-7 col-md-6" data-aos="fade-left" data-aos-delay="200">
+                <div class="whyChoose-right d-flex flex-column gap-3">
+                    
+                    <!-- 1. Default Visible Box -->
+                    <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                        <div class="blurb-text">
+                            <h4 class="text-white fw-bold mb-1 fs-5">Established Dental Care</h4>
+                            <p class="mb-0 text-light opacity-75 small">Established in 2010, Apple Dental Specialities has been providing dental care in Vizianagaram for patients seeking both routine and specialized dental treatment.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2. Default Visible Box -->
+                    <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                        <div class="blurb-text">
+                            <h4 class="text-white fw-bold mb-1 fs-5">Qualified Dental Professionals</h4>
+                            <p class="mb-0 text-light opacity-75 small">Our dental team includes qualified professionals with expertise across different areas of dentistry, supporting comprehensive diagnosis and treatment planning.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3. Default Visible Box -->
+                    <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                        <div class="blurb-text">
+                            <h4 class="text-white fw-bold mb-1 fs-5">Multiple Dental Specialties</h4>
+                            <p class="mb-0 text-light opacity-75 small">From preventive and restorative dentistry to dental implants, prosthodontics, orthodontic care and cosmetic dentistry, patients can access multiple areas of dental care at one clinic.</p>
+                        </div>
+                    </div>
+
+                    <!-- Extra Hidden Content (Opens on Read More Click) -->
+                    <div id="moreWhyChooseContent" class="d-none d-flex flex-column gap-3">
+                        
+                        <!-- 4. Hidden Box -->
+                        <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                            <div class="blurb-text">
+                                <h4 class="text-white fw-bold mb-1 fs-5">Personalized Treatment Planning</h4>
+                                <p class="mb-0 text-light opacity-75 small">Every patient's dental condition is different. Our treatment recommendations are based on clinical examination, diagnostic findings, oral health requirements and the patient's individual needs.</p>
+                            </div>
+                        </div>
+
+                        <!-- 5. Hidden Box -->
+                        <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                            <div class="blurb-text">
+                                <h4 class="text-white fw-bold mb-1 fs-5">Modern Clinical Facilities</h4>
+                                <p class="mb-0 text-light opacity-75 small">Our clinic uses appropriate dental technology and clinical facilities to support diagnosis, treatment planning and dental procedures across different specialties.</p>
+                            </div>
+                        </div>
+
+                        <!-- 6. Hidden Box -->
+                        <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                            <div class="blurb-text">
+                                <h4 class="text-white fw-bold mb-1 fs-5">Focus on Long-Term Oral Health</h4>
+                                <p class="mb-0 text-light opacity-75 small">Along with treating existing dental problems, we emphasize preventive care, oral hygiene and regular dental evaluation to help patients maintain their oral health over time.</p>
+                            </div>
+                        </div>
+
+                        <!-- 7. Hidden Box -->
+                        <div class="blurb p-3 rounded-3 shadow-sm" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);">
+                            <div class="blurb-text">
+                                <h4 class="text-white fw-bold mb-1 fs-5">Clear Communication</h4>
+                                <p class="mb-0 text-light opacity-75 small">We explain the patient's dental condition, available treatment options and recommended next steps so patients can participate in informed decisions about their dental care.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Read More / Read Less Button -->
+                    <div class="mt-2">
+                        <button id="readMoreWhyChooseBtn" class="btn btn-outline-light px-4 py-2 rounded-pill btn-sm fw-bold">
+                            Read More <i class="bi bi-chevron-down ms-1"></i>
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -705,27 +1137,71 @@
 
 
 
+<!-- Swiper JS & Read More Toggle Script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Swiper Init
+        var swiper = new Swiper('.my-custom-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.my-custom-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.my-custom-next',
+                prevEl: '.my-custom-prev',
+            },
+            observer: true,
+            observeParents: true,
+        });
+
+        // Read More Toggle Logic
+        const readMoreBtn = document.getElementById("readMoreWhyChooseBtn");
+        const extraContent = document.getElementById("moreWhyChooseContent");
+
+        if (readMoreBtn && extraContent) {
+            readMoreBtn.addEventListener("click", function() {
+                if (extraContent.classList.contains("d-none")) {
+                    extraContent.classList.remove("d-none");
+                    readMoreBtn.innerHTML = 'Read Less <i class="bi bi-chevron-up ms-1"></i>';
+                } else {
+                    extraContent.classList.add("d-none");
+                    readMoreBtn.innerHTML = 'Read More <i class="bi bi-chevron-down ms-1"></i>';
+                }
+            });
+        }
+    });
+</script>
 
 
 
 
-<div class="dsdl-container">
+
+
+
+<!-- <div class="dsdl-container">
     <section class="dsdl-our-doctors">
-        <!-- Section Header -->
+        Section Header
         <div class="dsdl-section-header" data-aos="fade-up">
             <h4 class="text-primary section-subtitle">THE EXPERTS YOU TRUST</h4>
             <h2 class="font-weight-bold section-title">Meet Our<strong> Dental Specialists</strong></h2>
             <p class="text-muted section-description">Get to know our highly skilled and dedicated professionals.</p>
         </div>
 
-        <!-- Swiper Container for Doctors -->
+        Swiper Container for Doctors
         <div class="swiper dsdl-swiper-container" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
-                <!-- Doctor Card 1 -->
+                Doctor Card 1
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="200">
-                    <!-- <div class="dsdl-doctor-image">
+                    <div class="dsdl-doctor-image">
                         <img src="https://appledentalvzm.in/images1/dr.kalyan.jpg" alt="Dr. Kalyan Chakravarthi">
-                    </div> -->
+                    </div>
 
                     <div class="hover-popup-image">
                         <img src="images1/kalyan.png" alt="Dr. Kalyan" class="img-fluid">
@@ -736,7 +1212,7 @@
                     <p>Clinical Head | BDS</p>
                 </div>
 
-                <!-- Doctor Card 2 -->
+                Doctor Card 2
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="300">
                     <div class="hover-popup-image">
                         <img src="images1/madhuri.png" alt="Dr. T. Madhuri" class="img-fluid">
@@ -745,34 +1221,34 @@
                     <p>BDS</p>
                 </div>
 
-                <!-- Doctor Card 3 -->
+                Doctor Card 3
                 <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="400">
                     <div class="hover-popup-image">
-                        <!-- <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha"> -->
+                        <img src="https://appledentalvzm.in/images1/Dr.A.da.jpg" alt="Dr. A. Deol Aslesha">
                         <img src="images1/sarath.png" alt="Dr. A. Deol Aslesha" class="img-fluid">
                     </div>
                     <h4>Dr.Sarath Chandra </h4>
                     <p>Prosthodontist</p>
                 </div>
 
-                <!-- Doctor Card 4 -->
-                <!-- <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="500">
+                Doctor Card 4
+                <div class="swiper-slide dsdl-doctor-card" data-aos="zoom-in" data-aos-delay="500">
                     <div class="dsdl-doctor-image">
                         <img src="https://appledentalvzm.in/images1/Dr.sharon.jpg" alt="Dr. Sharon">
                     </div>
                     <h4>Dr. deol aslesha</h4>
                     <p>BDS</p>
-                </div> -->
+                </div>
 
             </div>
 
-            <!-- Swiper Pagination -->
-            <!-- <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div> -->
+            Swiper Pagination
+            <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div>
         </div>
     </section>
-</div>
+</div> -->
 
-<!-- Swiper Initialization Script -->
+<!-- Swiper Initialization Script
 <script>
     var swiper = new Swiper('.dsdl-swiper-container', {
         slidesPerView: 1,
@@ -786,8 +1262,8 @@
             delay: 3000,
             disableOnInteraction: false,
         },
-        observer: true, // ✅ Fixes resizing issues
-        observeParents: true, // ✅ Ensures stability
+        observer: true, 
+        observeParents: true, 
         breakpoints: {
             768: {
                 slidesPerView: 2,
@@ -808,7 +1284,7 @@
     AOS.init({
         disable: false
     });
-</script>
+</script> -->
 
 
 <!-------------achieve section------------------------>

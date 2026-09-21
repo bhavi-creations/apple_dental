@@ -305,6 +305,12 @@ function redirect($page, $params = []) {
 // echo '<a href="' . url('about') . '">About</a>';
 // redirect('login');
 ?>
+
+
+
+
+
+
 </body>
 
 </html>
