@@ -2485,6 +2485,13 @@ blockquote footer {
   transition: transform 0.3s ease;
 }
 
+/* @media (min-width:768px) and (max-width:1200px) {
+  .dsdl1-about-image {
+     height: 550px !important;
+  }
+  
+} */
+
 .dsdl1-about-image:hover {
   transform: scale(1.05);
 }
@@ -3901,7 +3908,7 @@ a {
 
         .dsdl1-about-image {
     width: 100%;
-    min-height: 400px; /* Meku kavalasina container height */
+    /* min-height: 400px;  */
     background-image: url('images1/apple-doctor.png');
     background-size: 100% 100%; /* Image stretch ayyi complete container lo cover avutundi */
     background-position: center;
@@ -3912,6 +3919,12 @@ a {
 
 
 
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #dsdl1-about-tabContent .dsdl1-about-image {
+        background-size: contain;
+    }
+}
 
     /* Fixed Image ratio & sizing */
     .my-custom-swiper {

@@ -343,7 +343,7 @@
 
                             <div class="col-12 col-lg-6">
 
-                                <div class="dsdl1-about-image" style="background-image: url('images1/apple-doctor.png');">
+                                <div class="dsdl1-about-image" style="background-image: url('./images1/home/what_1.jpeg');">
                                     <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
                                 </div>
 
