@@ -3949,3 +3949,1051 @@ a {
         color: #ffffff !important;
         transform: scale(0.6);
     }
+
+
+
+
+
+
+
+    /* servcies page common stylings first section */
+    /* =========================================================
+   SERVICE NEW FIRST SECTION
+   COMMON PREMIUM SERVICE HERO
+========================================================= */
+
+.service_new_first_section {
+    position: relative;
+    width: 100%;
+    min-height: 690px;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 75% 35%,
+            rgba(0, 132, 255, 0.12),
+            transparent 32%
+        ),
+        linear-gradient(
+            110deg,
+            #f8fcff 0%,
+            #edf8ff 45%,
+            #ffffff 100%
+        );
+
+    isolation: isolate;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.service_new_first_section_container {
+    position: relative;
+    z-index: 5;
+
+    max-width: 1700px;
+    margin: 0 auto;
+
+    padding: 65px 70px 150px;
+}
+
+
+.service_new_first_section_row {
+    min-height: 520px;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
+.service_new_first_section_content {
+    position: relative;
+    z-index: 10;
+
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+
+/* =========================================================
+   TOP SMALL TITLE
+========================================================= */
+
+.service_new_first_section_top_title {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-bottom: 18px;
+}
+
+
+.service_new_first_section_top_title span {
+    font-size: 22px;
+    font-weight: 800;
+
+    letter-spacing: 4px;
+
+    color: #0878ee;
+
+    white-space: nowrap;
+}
+
+
+.service_new_first_section_title_line {
+    width: 250px;
+    height: 6px;
+
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #0878ee 0%,
+            #6c6fe8 45%,
+            #f21d28 100%
+        );
+
+    box-shadow:
+        0 2px 8px rgba(8, 120, 238, 0.15);
+}
+
+
+/* =========================================================
+   MAIN HEADING
+========================================================= */
+
+.service_new_first_section_heading {
+    margin: 0;
+
+    font-size: clamp(48px, 4.2vw, 76px);
+
+    line-height: 0.98;
+
+    font-weight: 800;
+
+    letter-spacing: -2.5px;
+
+    color: #08123f;
+}
+
+
+.service_new_first_section_heading span {
+    color: #0878ee;
+
+    position: relative;
+
+    display: inline-block;
+}
+
+
+/* =========================================================
+   RED UNDERLINE
+========================================================= */
+
+.service_new_first_section_red_line {
+    width: 245px;
+    height: 5px;
+
+    margin-top: 14px;
+    margin-left: 350px;
+
+    border-radius: 100%;
+
+    background: #ef1d2d;
+
+    transform: rotate(-1deg);
+
+    box-shadow:
+        0 3px 10px rgba(239, 29, 45, 0.20);
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.service_new_first_section_description {
+    max-width: 690px;
+
+    margin: 20px 0 25px;
+
+    font-size: 19px;
+
+    line-height: 1.48;
+
+    font-weight: 500;
+
+    color: #263e69;
+}
+
+
+/* =========================================================
+   BENEFITS
+========================================================= */
+
+.service_new_first_section_benefits {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    margin-top: 25px;
+}
+
+
+.service_new_first_section_benefit {
+    width: 145px;
+
+    text-align: center;
+
+    flex-shrink: 0;
+}
+
+
+.service_new_first_section_benefit_icon {
+    width: 78px;
+    height: 78px;
+
+    margin: 0 auto 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #0878ee;
+
+    font-size: 31px;
+
+    background:
+        radial-gradient(
+            circle at 35% 25%,
+            #ffffff,
+            #eef8ff
+        );
+
+    border: 1px solid rgba(111, 184, 255, 0.30);
+
+    box-shadow:
+        0 8px 20px rgba(23, 129, 226, 0.13),
+        inset 0 2px 8px rgba(255,255,255,0.9);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+.service_new_first_section_benefit:hover
+.service_new_first_section_benefit_icon {
+    transform: translateY(-7px) scale(1.05);
+
+    box-shadow:
+        0 14px 28px rgba(23, 129, 226, 0.20),
+        inset 0 2px 8px rgba(255,255,255,0.95);
+}
+
+
+.service_new_first_section_benefit h6 {
+    margin: 0;
+
+    color: #07163e;
+
+    font-size: 16px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   BENEFIT DIVIDERS
+========================================================= */
+
+.service_new_first_section_benefit_divider {
+    width: 1px;
+    height: 65px;
+
+    flex-shrink: 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(44, 128, 220, 0.35),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   RIGHT VISUAL
+========================================================= */
+
+.service_new_first_section_visual {
+    position: relative;
+
+    width: min(100%, 760px);
+    height: 570px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   MAIN RING
+========================================================= */
+
+.service_new_first_section_visual_ring {
+    position: absolute;
+
+    width: 520px;
+    height: 520px;
+
+    left: 50%;
+    top: 48%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background:
+        conic-gradient(
+            from 210deg,
+            #0878ee 0deg,
+            #5bb8ff 100deg,
+            #ffffff 160deg,
+            #ff1726 255deg,
+            #0878ee 330deg,
+            #0878ee 360deg
+        );
+
+    padding: 8px;
+
+    filter:
+        drop-shadow(0 15px 30px rgba(0, 110, 220, 0.20));
+
+    animation: service_new_first_section_ring_rotate 16s linear infinite;
+}
+
+
+.service_new_first_section_visual_ring::after {
+    content: "";
+
+    position: absolute;
+    inset: 9px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.95),
+            rgba(220,242,255,0.65)
+        );
+}
+
+
+@keyframes service_new_first_section_ring_rotate {
+
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+}
+
+
+/* =========================================================
+   MAIN IMAGE
+========================================================= */
+
+.service_new_first_section_main_image {
+    position: absolute;
+
+    z-index: 3;
+
+    width: 490px;
+    height: 490px;
+
+    left: 50%;
+    top: 48%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #ffffff 10%,
+            #e7f6ff 100%
+        );
+
+    box-shadow:
+        inset 0 0 45px rgba(255,255,255,0.95),
+        0 15px 40px rgba(0, 90, 180, 0.12);
+}
+
+
+.service_new_first_section_main_image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================================================
+   FLOATING CIRCLES
+========================================================= */
+
+.service_new_first_section_floating_icon {
+    position: absolute;
+
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 130px;
+    height: 130px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.96),
+            rgba(198,232,255,0.70)
+        );
+
+    border: 2px solid rgba(255,255,255,0.95);
+
+    box-shadow:
+        0 10px 30px rgba(18, 124, 224, 0.20);
+
+    backdrop-filter: blur(10px);
+
+    animation: service_new_first_section_float 4s ease-in-out infinite;
+}
+
+
+.service_new_first_section_floating_icon_circle {
+    width: 88px;
+    height: 88px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            145deg,
+            #0878ee,
+            #31a6ff
+        );
+
+    color: #ffffff;
+
+    font-size: 38px;
+
+    border: 3px solid rgba(255,255,255,0.75);
+
+    box-shadow:
+        0 7px 18px rgba(0, 108, 220, 0.25);
+}
+
+
+.service_new_first_section_floating_icon_one {
+    left: 7%;
+    top: 12%;
+}
+
+
+.service_new_first_section_floating_icon_two {
+    right: 2%;
+    bottom: 13%;
+
+    animation-delay: -2s;
+}
+
+
+@keyframes service_new_first_section_float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+}
+
+
+/* =========================================================
+   STARS
+========================================================= */
+
+.service_new_first_section_star {
+    position: absolute;
+
+    z-index: 12;
+
+    color: #0878ee;
+
+    font-size: 32px;
+
+    text-shadow:
+        0 0 12px rgba(8,120,238,0.25);
+
+    animation:
+        service_new_first_section_star_blink
+        2.5s ease-in-out infinite;
+}
+
+
+.service_new_first_section_star_one {
+    left: 20%;
+    top: 46%;
+}
+
+
+.service_new_first_section_star_two {
+    right: 22%;
+    top: 23%;
+
+    color: #ef1d2d;
+
+    animation-delay: -1s;
+}
+
+
+.service_new_first_section_star_three {
+    left: 37%;
+    bottom: 13%;
+
+    font-size: 23px;
+
+    animation-delay: -1.5s;
+}
+
+
+@keyframes service_new_first_section_star_blink {
+
+    0%,
+    100% {
+        opacity: 0.45;
+        transform: scale(0.85);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.15);
+    }
+
+}
+
+
+/* =========================================================
+   SIDE HANDWRITTEN TEXT
+========================================================= */
+
+.service_new_first_section_side_text {
+    position: absolute;
+
+    z-index: 12;
+
+    right: -3%;
+    top: 22%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #0878ee;
+
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+
+    font-size: 42px;
+
+    line-height: 0.83;
+
+    transform: rotate(-8deg);
+
+    text-shadow:
+        0 3px 10px rgba(8,120,238,0.08);
+}
+
+
+.service_new_first_section_side_text::after {
+    content: "";
+
+    width: 105px;
+    height: 5px;
+
+    margin-top: 9px;
+    margin-left: 8px;
+
+    border-radius: 100%;
+
+    background: #ef1d2d;
+
+    transform: rotate(-5deg);
+}
+
+
+/* =========================================================
+   DECORATIVE BLOBS
+========================================================= */
+
+.service_new_first_section_blob {
+    position: absolute;
+
+    z-index: 1;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+
+    filter: blur(1px);
+}
+
+
+.service_new_first_section_blob_one {
+    width: 450px;
+    height: 450px;
+
+    left: -280px;
+    top: -170px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(95,190,255,0.25),
+            rgba(95,190,255,0)
+        );
+}
+
+
+.service_new_first_section_blob_two {
+    width: 500px;
+    height: 500px;
+
+    right: -260px;
+    bottom: -220px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(54,151,255,0.18),
+            rgba(54,151,255,0)
+        );
+}
+
+
+/* =========================================================
+   BOTTOM WAVES
+========================================================= */
+
+.service_new_first_section_waves {
+    position: absolute;
+
+    z-index: 20;
+
+    left: 0;
+    right: 0;
+    bottom: -1px;
+
+    width: 100%;
+    height: 190px;
+
+    pointer-events: none;
+}
+
+
+.service_new_first_section_waves svg {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.service_new_first_section_wave_light {
+    fill: #d9f0ff;
+}
+
+
+.service_new_first_section_wave_blue {
+    fill: #0878ee;
+    opacity: 0.88;
+}
+
+
+.service_new_first_section_wave_red {
+    fill: none;
+
+    stroke: #ef1d2d;
+    stroke-width: 7;
+
+    opacity: 0.95;
+}
+
+
+.service_new_first_section_wave_white {
+    fill: #ffffff;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .service_new_first_section_container {
+        padding: 55px 35px 140px;
+    }
+
+
+    .service_new_first_section_top_title span {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+
+    .service_new_first_section_title_line {
+        width: 180px;
+    }
+
+
+    .service_new_first_section_heading {
+        font-size: 55px;
+    }
+
+
+    .service_new_first_section_description {
+        font-size: 17px;
+    }
+
+
+    .service_new_first_section_visual {
+        height: 500px;
+    }
+
+
+    .service_new_first_section_visual_ring,
+    .service_new_first_section_main_image {
+        width: 420px;
+        height: 420px;
+    }
+
+
+    .service_new_first_section_floating_icon {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .service_new_first_section_floating_icon_circle {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+
+    .service_new_first_section_side_text {
+        font-size: 32px;
+    }
+
+
+    .service_new_first_section_benefit {
+        width: 110px;
+    }
+
+
+    .service_new_first_section_benefit_icon {
+        width: 65px;
+        height: 65px;
+        font-size: 25px;
+    }
+
+
+    .service_new_first_section_benefit h6 {
+        font-size: 14px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .service_new_first_section {
+        min-height: auto;
+    }
+
+
+    .service_new_first_section_container {
+        padding: 45px 20px 145px;
+    }
+
+
+    .service_new_first_section_row {
+        min-height: auto;
+    }
+
+
+    /* LEFT CONTENT */
+
+    .service_new_first_section_content {
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .service_new_first_section_top_title {
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .service_new_first_section_top_title span {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+
+    .service_new_first_section_title_line {
+        width: 70px;
+        height: 4px;
+    }
+
+
+    .service_new_first_section_heading {
+        font-size: clamp(39px, 11vw, 53px);
+
+        line-height: 1;
+
+        letter-spacing: -1.5px;
+    }
+
+
+    .service_new_first_section_red_line {
+        width: 120px;
+
+        margin: 12px auto 0;
+    }
+
+
+    .service_new_first_section_description {
+        margin: 18px auto 25px;
+
+        max-width: 620px;
+
+        font-size: 15px;
+
+        line-height: 1.55;
+    }
+
+
+    /* BENEFITS */
+
+    .service_new_first_section_benefits {
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 15px 5px;
+    }
+
+
+    .service_new_first_section_benefit {
+        width: 24%;
+        min-width: 70px;
+    }
+
+
+    .service_new_first_section_benefit_divider {
+        display: none;
+    }
+
+
+    .service_new_first_section_benefit_icon {
+        width: 58px;
+        height: 58px;
+
+        font-size: 22px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .service_new_first_section_benefit h6 {
+        font-size: 11px;
+    }
+
+
+    /* RIGHT VISUAL */
+
+    .service_new_first_section_visual {
+        width: 100%;
+
+        height: 400px;
+
+        margin-top: 20px;
+    }
+
+
+    .service_new_first_section_visual_ring,
+    .service_new_first_section_main_image {
+        width: min(82vw, 350px);
+        height: min(82vw, 350px);
+    }
+
+
+    .service_new_first_section_floating_icon {
+        width: 75px;
+        height: 75px;
+    }
+
+
+    .service_new_first_section_floating_icon_circle {
+        width: 54px;
+        height: 54px;
+
+        font-size: 22px;
+    }
+
+
+    .service_new_first_section_floating_icon_one {
+        left: 2%;
+        top: 8%;
+    }
+
+
+    .service_new_first_section_floating_icon_two {
+        right: 0;
+        bottom: 12%;
+    }
+
+
+    .service_new_first_section_side_text {
+        right: 0;
+        top: 18%;
+
+        font-size: 25px;
+    }
+
+
+    .service_new_first_section_side_text::after {
+        width: 65px;
+        height: 3px;
+    }
+
+
+    .service_new_first_section_star {
+        font-size: 20px;
+    }
+
+
+    .service_new_first_section_waves {
+        height: 105px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .service_new_first_section_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .service_new_first_section_heading {
+        font-size: 37px;
+    }
+
+
+    .service_new_first_section_description {
+        font-size: 14px;
+    }
+
+
+    .service_new_first_section_benefit {
+        width: 25%;
+    }
+
+
+    .service_new_first_section_benefit_icon {
+        width: 52px;
+        height: 52px;
+
+        font-size: 20px;
+    }
+
+
+    .service_new_first_section_benefit h6 {
+        font-size: 10px;
+    }
+
+
+    .service_new_first_section_visual {
+        height: 350px;
+    }
+
+
+    .service_new_first_section_visual_ring,
+    .service_new_first_section_main_image {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .service_new_first_section_floating_icon {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    .service_new_first_section_floating_icon_circle {
+        width: 46px;
+        height: 46px;
+        font-size: 18px;
+    }
+
+
+    .service_new_first_section_side_text {
+        font-size: 21px;
+    }
+
+}
