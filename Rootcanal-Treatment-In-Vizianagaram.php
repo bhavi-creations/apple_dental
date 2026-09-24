@@ -353,9 +353,9 @@ include 'header.php';
 
 </section> -->
 
-<section class="my-5 service_bg_page">
+<!-- <section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 1: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -368,16 +368,16 @@ include 'header.php';
 
 
 
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                         <h5 class="card-title"> <strong>Reasons</strong> </h5>
                         <p class="card-text text-left">
                             1) Deep tooth decay reaching the pulp, causing infection <br>
                             2) Cracked or damaged tooth allowing bacteria to enter</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -388,35 +388,35 @@ include 'header.php';
                     </div>
 
 
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                         <h5 class="card-title"> <strong>Symptoms</strong></h5>
                         <p class="card-text">1) Persistent pain or sensitivity to hot and cold <br>
                             2) Swelling or abscess near the affected tooth</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        Row 2: 1st and 3rd columns are empty, 2nd column contains an image
         <div class="row">
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/1.png" class="card-img-top" alt="Image">
                     <img src="images1/services/services_img/rootcanal.jpg" class="card-img-top" alt="Root Canal Treatment in Vizianagaram">
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
+                </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
         </div>
 
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 3: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -429,16 +429,16 @@ include 'header.php';
 
 
 
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                         <h5 class="card-title"> <strong>Treatment</strong></h5>
                         <p class="card-text">
                             1) Removal of infected pulp and cleaning of root canals <br>
                             2) Sealing the tooth and placing a crown for protection</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -449,12 +449,12 @@ include 'header.php';
                             2) Visit the dentist for follow-up and crown placement</p>
                     </div>
 
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                         <h5 class="card-title"> <strong>After Treatment</strong> </h5>
                         <p class="card-text">
                             1) Avoid hard foods and maintain proper oral hygiene <br>
                             2) Follow up with the dentist for monitoring and crown placement</p>
-                    </div> -->
+                    </div>
 
 
 
@@ -462,6 +462,512 @@ include 'header.php';
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+<section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        ROOT CANAL
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Save</span>
+        <span>Your</span>
+        <span>Natural</span>
+        <span>Tooth</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>PAIN FREE</span>
+            <span>BRIGHTER</span>
+            <span>TOMORROWS</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DENTAL MIRROR -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/root-canal-mirror.png"
+             alt="Dental Mirror">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    COMPLETE CARE FOR A HEALTHIER YOU
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Root Canal
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Relieve Pain
+
+                <i></i>
+
+                Remove Infection
+
+                <i></i>
+
+                Save Your Natural Tooth
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/root-canal-process-main.png"
+                             alt="Root Canal Tooth">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Healthy Roots</span>
+                        <span>Brighter Smiles</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Why it’s Needed
+                    </h3>
+
+                    <p>
+                        Deep decay or infection reaches the pulp,
+                        causing pain, swelling or sensitivity.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-1.png"
+                         alt="Why Root Canal is Needed">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Detailed Diagnosis
+                    </h3>
+
+                    <p>
+                        Digital X-rays and advanced tools help us
+                        find the exact problem.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-2.png"
+                         alt="Detailed Diagnosis">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Pain-Free Treatment
+                    </h3>
+
+                    <p>
+                        The infected pulp is carefully removed,
+                        the canals are cleaned and shaped using
+                        modern technology.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-3.png"
+                         alt="Pain Free Treatment">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-4.png"
+                         alt="Sealing and Protection">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Sealing &amp; Protection
+                    </h3>
+
+                    <p>
+                        The canals are filled and sealed to prevent
+                        reinfection. A crown is often placed for
+                        long-lasting strength.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-5.png"
+                         alt="Recovery and Care">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Recovery &amp; Care
+                    </h3>
+
+                    <p>
+                        Most patients return to normal activities
+                        quickly with minimal discomfort.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-6.png"
+                         alt="Long Term Benefits">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Long-Term Benefits
+                    </h3>
+
+                    <p>
+                        Stops pain, saves your natural tooth,
+                        restores function and keeps your smile
+                        healthy for years.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/root-canal-step-7.png"
+                         alt="After Treatment Care">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        After Treatment Care
+                    </h3>
+
+                    <p>
+                        Maintain good oral hygiene, regular
+                        check-ups and avoid hard foods initially.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <p>
+                    Advanced<br>
+                    Technology
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-people-fill"></i>
+                </span>
+
+                <p>
+                    Experienced<br>
+                    Dental Team
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                </span>
+
+                <p>
+                    Personalized<br>
+                    Treatment Plans
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-check-lg"></i>
+                </span>
+
+                <p>
+                    Safe, Comfortable<br>
+                    &amp; Effective
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 </section>
 
 

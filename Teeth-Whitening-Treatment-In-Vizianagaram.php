@@ -339,9 +339,9 @@ include 'header.php';
 </section> -->
 
 
-<section class="my-5 service_bg_page">
+<!-- <section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 1: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -356,7 +356,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -372,26 +372,26 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        Row 2: 1st and 3rd columns are empty, 2nd column contains an image
         <div class="row">
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/1.png" class="card-img-top" alt="Image">
                     <img src="images1/services/services_img/s7.png" class="card-img-top" alt="Teeth Whitening in Vizianagaram">
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
+                </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
         </div>
 
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 3: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -406,7 +406,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -422,6 +422,517 @@ include 'header.php';
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+<section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        TEETH WHITENING
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Brighten</span>
+        <span>Your</span>
+        <span>Beautiful</span>
+        <span>Smile</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>BRIGHTER TEETH</span>
+            <span>FRESHER SMILE</span>
+            <span>MORE CONFIDENCE</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DECOR IMAGE -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/teeth-whitening-side.png"
+             alt="Teeth Whitening Treatment">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    PROFESSIONAL CARE FOR A BRIGHTER SMILE
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Teeth Whitening
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Reduce Stains
+
+                <i></i>
+
+                Brighten Your Teeth
+
+                <i></i>
+
+                Refresh Your Smile
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/teeth-whitening-process-main.png"
+                             alt="Teeth Whitening Treatment in Vizianagaram">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Brighter Teeth</span>
+                        <span>Confident Smile</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Consultation &amp; Smile Evaluation
+                    </h3>
+
+                    <p>
+                        We examine your teeth and discuss staining,
+                        discoloration and your expectations for
+                        a brighter-looking smile.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-1.png"
+                         alt="Teeth Whitening Consultation">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Initial Shade Assessment
+                    </h3>
+
+                    <p>
+                        Your current tooth shade is assessed before
+                        treatment to help plan the whitening procedure
+                        and compare the final result.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-2.png"
+                         alt="Teeth Shade Assessment">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Teeth Cleaning &amp; Preparation
+                    </h3>
+
+                    <p>
+                        The teeth are prepared and surface deposits
+                        are addressed when required so the whitening
+                        treatment can be performed effectively.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-3.png"
+                         alt="Teeth Cleaning Before Whitening">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-4.png"
+                         alt="Gum Protection for Teeth Whitening">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Gum &amp; Soft Tissue Protection
+                    </h3>
+
+                    <p>
+                        The gums and surrounding soft tissues are
+                        carefully protected before the whitening
+                        material is applied to the teeth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-5.png"
+                         alt="Professional Whitening Gel Application">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Whitening Gel Application
+                    </h3>
+
+                    <p>
+                        Professional whitening material is carefully
+                        applied to the teeth and monitored according
+                        to the planned treatment protocol.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-6.png"
+                         alt="Final Teeth Whitening Shade Check">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Final Shade Evaluation
+                    </h3>
+
+                    <p>
+                        After whitening, the teeth are cleaned and
+                        the final shade is reviewed to evaluate
+                        the improvement in brightness.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/teeth-whitening-step-7.png"
+                         alt="Teeth Whitening Aftercare">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Aftercare &amp; Smile Maintenance
+                    </h3>
+
+                    <p>
+                        Proper brushing, regular dental care and
+                        limiting stain-causing foods and drinks can
+                        help maintain your brighter smile.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-stars"></i>
+                </span>
+
+                <p>
+                    Brighter-Looking<br>
+                    Teeth
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-droplet-fill"></i>
+                </span>
+
+                <p>
+                    Helps Reduce<br>
+                    Stains
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-lightning-charge-fill"></i>
+                </span>
+
+                <p>
+                    Professional<br>
+                    Whitening Care
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-emoji-smile"></i>
+                </span>
+
+                <p>
+                    Fresh &amp;<br>
+                    Confident Smile
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 </section>
 
 

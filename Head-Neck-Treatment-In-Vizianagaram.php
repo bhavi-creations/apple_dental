@@ -339,9 +339,9 @@ include 'header.php';
 </section> -->
 
 
-<section class="my-5 service_bg_page">
+<!-- <section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 1: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -356,7 +356,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -372,26 +372,26 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        Row 2: 1st and 3rd columns are empty, 2nd column contains an image
         <div class="row">
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/1.png" class="card-img-top" alt="Image">
                     <img src="images1/services/services_img/s3.png" class="card-img-top" alt="Head & Neck Surgery in Vizianagaram">
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
+                </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
         </div>
 
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 3: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -406,7 +406,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -422,6 +422,518 @@ include 'header.php';
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+
+<section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        HEAD &amp; NECK CARE
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Expert</span>
+        <span>Care</span>
+        <span>Better</span>
+        <span>Recovery</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>EXPERT DIAGNOSIS</span>
+            <span>PRECISE TREATMENT</span>
+            <span>BETTER RECOVERY</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DECOR IMAGE -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/head-neck-side.png"
+             alt="Head and Neck Treatment">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    SPECIALIZED CARE FOR HEAD &amp; NECK CONDITIONS
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Head &amp; Neck
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Detailed Diagnosis
+
+                <i></i>
+
+                Personalized Treatment
+
+                <i></i>
+
+                Comprehensive Follow-Up
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/head-neck-process-main.png"
+                             alt="Head and Neck Treatment in Vizianagaram">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Expert Care</span>
+                        <span>Better Healing</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Consultation &amp; Evaluation
+                    </h3>
+
+                    <p>
+                        We begin with a detailed consultation to
+                        understand your symptoms, medical history
+                        and specific head or neck concerns.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-1.png"
+                         alt="Head and Neck Consultation">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Clinical Examination
+                    </h3>
+
+                    <p>
+                        The affected area is carefully examined to
+                        assess swelling, pain, movement, function
+                        and other clinical findings.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-2.png"
+                         alt="Head and Neck Clinical Examination">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Imaging &amp; Diagnosis
+                    </h3>
+
+                    <p>
+                        Appropriate imaging or diagnostic tests may
+                        be advised to understand the condition and
+                        plan treatment accurately.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-3.png"
+                         alt="Head and Neck Imaging and Diagnosis">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-4.png"
+                         alt="Head and Neck Treatment Planning">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Personalized Treatment Plan
+                    </h3>
+
+                    <p>
+                        A treatment plan is created according to
+                        the diagnosis, severity of the condition
+                        and individual clinical requirements.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-5.png"
+                         alt="Head and Neck Treatment Procedure">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Treatment &amp; Procedure
+                    </h3>
+
+                    <p>
+                        The recommended medical or surgical procedure
+                        is performed with careful attention to safety,
+                        precision and functional outcomes.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-6.png"
+                         alt="Head and Neck Recovery Care">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Recovery &amp; Post-Treatment Care
+                    </h3>
+
+                    <p>
+                        After treatment, appropriate care instructions
+                        are provided to support healing, comfort
+                        and restoration of normal function.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/head-neck-step-7.png"
+                         alt="Head and Neck Follow Up Care">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Follow-Up &amp; Monitoring
+                    </h3>
+
+                    <p>
+                        Regular follow-up visits help monitor healing,
+                        assess treatment outcomes and manage any
+                        further care that may be required.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-person-check-fill"></i>
+                </span>
+
+                <p>
+                    Expert<br>
+                    Evaluation
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-clipboard2-pulse-fill"></i>
+                </span>
+
+                <p>
+                    Detailed<br>
+                    Diagnosis
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <p>
+                    Personalized<br>
+                    Treatment
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                </span>
+
+                <p>
+                    Recovery &amp;<br>
+                    Follow-Up Care
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 </section>
 
 <?php include 'footer.php'; ?>

@@ -338,9 +338,9 @@ include 'header.php';
 </section> -->
 
 
-    <section class="my-5   service_bg_page">
+    <!-- <section class="my-5   service_bg_page">
         <div class="container my-4 dental-steps">
-            <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+            Row 1: 1st and 3rd columns with cards, 2nd column is empty
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -355,7 +355,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-4 empty-column">
-                    <!-- Empty -->
+                    Empty
                 </div>
                 <div class="col-md-4">
                     <div class="card">
@@ -371,26 +371,26 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+            Row 2: 1st and 3rd columns are empty, 2nd column contains an image
             <div class="row">
                 <div class="col-md-4 empty-column">
-                    <!-- Empty -->
+                    Empty
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                        <img src="images1/services/1.png" class="card-img-top" alt="Image">
                         <img src="images1/services/services_img/s12.png" class="card-img-top" alt="Gum Surgery in Vizianagaram">
-                        <!-- <div class="card-body">
+                        <div class="card-body">
                         <img src="images1/services/1.png" alt="" class="img-fluid">
-                    </div> -->
+                    </div>
                     </div>
                 </div>
                 <div class="col-md-4 empty-column">
-                    <!-- Empty -->
+                    Empty
                 </div>
             </div>
 
-            <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+            Row 3: 1st and 3rd columns with cards, 2nd column is empty
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -405,7 +405,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-4 empty-column">
-                    <!-- Empty -->
+                    Empty
                 </div>
                 <div class="col-md-4">
                     <div class="card">
@@ -421,7 +421,519 @@ include 'header.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+
+
+
+    <section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        GUM SURGERY
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Restore</span>
+        <span>Healthy</span>
+        <span>Strong</span>
+        <span>Gums</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>HEALTHIER GUMS</span>
+            <span>STRONGER SUPPORT</span>
+            <span>CONFIDENT SMILES</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DECOR IMAGE -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/gum-surgery-side.png"
+             alt="Gum Surgery Treatment">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    ADVANCED CARE FOR HEALTHIER GUMS
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Gum Surgery
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Treat Gum Problems
+
+                <i></i>
+
+                Restore Gum Health
+
+                <i></i>
+
+                Strengthen Tooth Support
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/gum-surgery-process-main.png"
+                             alt="Gum Surgery Treatment in Vizianagaram">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Healthy Gums</span>
+                        <span>Strong Foundations</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Consultation &amp; Gum Evaluation
+                    </h3>
+
+                    <p>
+                        We evaluate your gums, teeth and symptoms
+                        to understand the condition and determine
+                        whether gum surgery is required.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-1.png"
+                         alt="Gum Surgery Consultation">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Detailed Periodontal Examination
+                    </h3>
+
+                    <p>
+                        Gum pockets, recession, bone support and
+                        surrounding tissues are carefully assessed
+                        to plan the appropriate treatment.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-2.png"
+                         alt="Periodontal Examination">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Pre-Surgical Gum Cleaning
+                    </h3>
+
+                    <p>
+                        Plaque, tartar and infection are controlled
+                        before surgery to create a cleaner and
+                        healthier treatment area.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-3.png"
+                         alt="Pre Surgical Gum Cleaning">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-4.png"
+                         alt="Gum Surgery Procedure">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Gum Surgery Procedure
+                    </h3>
+
+                    <p>
+                        The required surgical procedure is performed
+                        under appropriate anesthesia to treat the
+                        affected gum tissues precisely.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-5.png"
+                         alt="Gum Tissue Restoration">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Tissue Reshaping &amp; Restoration
+                    </h3>
+
+                    <p>
+                        Depending on the condition, gum tissue may
+                        be reshaped, repositioned or restored to
+                        improve health and tooth support.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-6.png"
+                         alt="Gum Surgery Healing">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Suturing &amp; Healing
+                    </h3>
+
+                    <p>
+                        The treated area is protected as needed,
+                        and post-surgical instructions are provided
+                        to support comfortable healing.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/gum-surgery-step-7.png"
+                         alt="Gum Surgery Follow Up">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Follow-Up &amp; Gum Maintenance
+                    </h3>
+
+                    <p>
+                        Follow-up visits help monitor healing,
+                        maintain gum health and reduce the risk
+                        of recurring periodontal problems.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <p>
+                    Treats Advanced<br>
+                    Gum Problems
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                </span>
+
+                <p>
+                    Restores Healthy<br>
+                    Gum Tissue
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-fill-check"></i>
+                </span>
+
+                <p>
+                    Strengthens Tooth<br>
+                    Support
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-emoji-smile"></i>
+                </span>
+
+                <p>
+                    Healthier &amp;<br>
+                    Confident Smile
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
 
 
 

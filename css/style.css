@@ -5877,3 +5877,1766 @@ a {
         height: 42px;
     }
 }
+
+
+
+
+
+
+/* services new design second section stylings */
+/* =========================================================
+   SERVICE NEW SECOND SECTION
+========================================================= */
+
+.service_new_second_section {
+    position: relative;
+
+    width: 100%;
+    min-height: 1020px;
+
+    padding:
+        30px
+        0
+        50px;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(255,255,255,.98) 0%,
+            rgba(232,247,255,.96) 45%,
+            rgba(177,224,255,.95) 100%
+        );
+
+    font-family:
+        "DM Sans",
+        sans-serif;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.service_new_second_section_container {
+    position: relative;
+
+    z-index: 10;
+
+    width: 100%;
+    max-width: 1600px;
+
+    margin: auto;
+
+    padding:
+        0
+        110px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.service_new_second_section_header {
+    position: relative;
+
+    z-index: 20;
+
+    max-width: 900px;
+
+    margin:
+        0
+        auto
+        25px;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   EYEBROW
+========================================================= */
+
+.service_new_second_section_eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-bottom: 10px;
+}
+
+
+.service_new_second_section_eyebrow > span {
+    width: 48px;
+    height: 1px;
+
+    background:
+        #142f7a;
+}
+
+
+.service_new_second_section_eyebrow p {
+    margin: 0;
+
+    color:
+        #172d70;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    letter-spacing: 6px;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.service_new_second_section_title {
+    margin: 0;
+
+    color:
+        #15225d;
+
+    font-size: 52px;
+    font-weight: 800;
+
+    line-height: 1;
+
+    letter-spacing: -1.5px;
+}
+
+
+.service_new_second_section_title span {
+    color:
+        #1473eb;
+}
+
+
+/* =========================================================
+   SUBTITLE
+========================================================= */
+
+.service_new_second_section_subtitle {
+    margin:
+        9px
+        0
+        0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    color:
+        #6b7694;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.service_new_second_section_subtitle i {
+    width: 1px;
+    height: 17px;
+
+    display: block;
+
+    background:
+        #7383a4;
+}
+
+
+/* =========================================================
+   PROCESS
+========================================================= */
+
+.service_new_second_section_process {
+    position: relative;
+
+    width: 100%;
+    height: 670px;
+
+    margin:
+        15px
+        auto
+        0;
+}
+
+
+/* =========================================================
+   CENTER
+========================================================= */
+
+.service_new_second_section_center {
+    position: absolute;
+
+    z-index: 10;
+
+    left: 50%;
+    top: 50%;
+
+    width: 420px;
+    height: 420px;
+
+    transform:
+        translate(-50%, -50%);
+}
+
+
+/* =========================================================
+   CENTER CIRCLE
+========================================================= */
+
+.service_new_second_section_center_circle {
+    position: absolute;
+
+    z-index: 10;
+
+    inset: 35px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(
+            circle at 50% 35%,
+            #ffffff 0%,
+            #e8f7ff 50%,
+            #d5efff 100%
+        );
+
+    border:
+        5px solid
+        #2690ee;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0
+        13px
+        35px
+        rgba(41,128,191,.18);
+}
+
+
+/* =========================================================
+   CENTER IMAGE
+========================================================= */
+
+.service_new_second_section_center_image {
+    position: absolute;
+
+    z-index: 3;
+
+    top: 12px;
+    left: 50%;
+
+    width: 255px;
+    height: 285px;
+
+    transform:
+        translateX(-50%);
+}
+
+
+.service_new_second_section_center_image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(
+            0
+            10px
+            12px
+            rgba(45,115,163,.10)
+        );
+}
+
+
+/* =========================================================
+   CENTER NOTE
+========================================================= */
+
+.service_new_second_section_center_note {
+    position: absolute;
+
+    z-index: 5;
+
+    left: 50%;
+    bottom: 25px;
+
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color:
+        #112d80;
+
+    font-family:
+        "Segoe Script",
+        "Brush Script MT",
+        cursive;
+
+    font-size: 25px;
+    font-weight: 500;
+
+    line-height: .85;
+
+    text-align: center;
+
+    transform:
+        translateX(-50%)
+        rotate(-5deg);
+}
+
+
+.service_new_second_section_center_note span:last-of-type {
+    margin-top: 5px;
+}
+
+
+.service_new_second_section_center_note i {
+    width: 80px;
+    height: 20px;
+
+    margin-top: 2px;
+
+    border-bottom:
+        4px solid #f22438;
+
+    transform:
+        rotate(-11deg);
+}
+
+
+/* =========================================================
+   ORBITS
+========================================================= */
+
+.service_new_second_section_orbit {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+.service_new_second_section_orbit_one {
+    width: 450px;
+    height: 450px;
+
+    border:
+        1px dashed
+        rgba(38,139,225,.76);
+
+    transform:
+        translate(-50%, -50%);
+}
+
+
+.service_new_second_section_orbit_two {
+    width: 500px;
+    height: 500px;
+
+    border:
+        1px dotted
+        rgba(38,139,225,.35);
+
+    transform:
+        translate(-50%, -50%);
+}
+
+
+/* =========================================================
+   TOP MARK
+========================================================= */
+
+.service_new_second_section_top_mark {
+    position: absolute;
+
+    z-index: 20;
+
+    left: 50%;
+    top: -32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5px;
+
+    transform:
+        translateX(-50%);
+}
+
+
+.service_new_second_section_top_mark span {
+    width: 8px;
+    height: 8px;
+
+    background:
+        #267ce4;
+
+    transform:
+        rotate(45deg);
+}
+
+
+.service_new_second_section_top_mark i {
+    width: 5px;
+    height: 5px;
+
+    display: block;
+
+    background:
+        #ef4261;
+
+    border-radius: 50%;
+}
+
+
+/* =========================================================
+   STEP COMMON
+========================================================= */
+
+.service_new_second_section_step {
+    position: absolute;
+
+    z-index: 20;
+
+    min-height: 145px;
+
+    padding:
+        13px
+        13px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.96),
+            rgba(240,249,255,.93)
+        );
+
+    border:
+        1px solid
+        rgba(255,255,255,.97);
+
+    border-radius:
+        75px;
+
+    box-shadow:
+        0
+        13px
+        27px
+        rgba(41,106,155,.12);
+
+    backdrop-filter:
+        blur(7px);
+}
+
+
+/* =========================================================
+   STEP NUMBER
+========================================================= */
+
+.service_new_second_section_number {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+.service_new_second_section_step_blue
+.service_new_second_section_number {
+
+    background:
+        linear-gradient(
+            145deg,
+            #248cf0,
+            #1268dd
+        );
+}
+
+
+.service_new_second_section_step_red
+.service_new_second_section_number {
+
+    background:
+        linear-gradient(
+            145deg,
+            #ff5062,
+            #ef2846
+        );
+}
+
+
+/* =========================================================
+   STEP CONTENT
+========================================================= */
+
+.service_new_second_section_step_content {
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+.service_new_second_section_step_content h3 {
+    margin:
+        0
+        0
+        7px;
+
+    color:
+        #14266e;
+
+    font-size: 17px;
+    font-weight: 800;
+
+    line-height: 1.2;
+}
+
+
+.service_new_second_section_step_content p {
+    margin: 0;
+
+    color:
+        #506285;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   STEP ICON
+========================================================= */
+
+.service_new_second_section_step_icon {
+    width: 105px;
+    min-width: 105px;
+    height: 105px;
+
+    padding: 8px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0
+        8px
+        20px
+        rgba(33,100,166,.18);
+}
+
+
+.service_new_second_section_step_blue
+.service_new_second_section_step_icon {
+
+    background:
+        linear-gradient(
+            145deg,
+            #2d96f1,
+            #145fd2
+        );
+
+    border:
+        8px solid
+        #a9ddff;
+}
+
+
+.service_new_second_section_step_red
+.service_new_second_section_step_icon {
+
+    background:
+        linear-gradient(
+            145deg,
+            #ff5266,
+            #eb2846
+        );
+
+    border:
+        8px solid
+        #ffd0d8;
+}
+
+
+.service_new_second_section_step_icon img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: contain;
+
+    border-radius: 50%;
+}
+
+
+/* =========================================================
+   EXACT DESKTOP POSITIONS
+========================================================= */
+
+/* STEP 1 */
+
+.service_new_second_section_step_01 {
+    left: 3%;
+    top: 20px;
+
+    width: 435px;
+}
+
+
+/* STEP 2 */
+
+.service_new_second_section_step_02 {
+    left: -1%;
+    top: 185px;
+
+    width: 430px;
+}
+
+
+/* STEP 3 */
+
+.service_new_second_section_step_03 {
+    left: 2%;
+    top: 365px;
+
+    width: 440px;
+}
+
+
+/* STEP 4 */
+
+.service_new_second_section_step_04 {
+    left: 50%;
+    bottom: -10px;
+
+    width: 445px;
+
+    transform:
+        translateX(-50%);
+}
+
+
+/* STEP 5 */
+
+.service_new_second_section_step_05 {
+    right: 2%;
+    top: 365px;
+
+    width: 440px;
+}
+
+
+/* STEP 6 */
+
+.service_new_second_section_step_06 {
+    right: -1%;
+    top: 185px;
+
+    width: 430px;
+}
+
+
+/* STEP 7 */
+
+.service_new_second_section_step_07 {
+    right: 3%;
+    top: 20px;
+
+    width: 435px;
+}
+
+
+/* =========================================================
+   STEP 4 SPECIAL
+========================================================= */
+
+.service_new_second_section_step_04
+.service_new_second_section_step_icon {
+
+    order: 1;
+}
+
+
+.service_new_second_section_step_04
+.service_new_second_section_number {
+
+    order: 2;
+}
+
+
+.service_new_second_section_step_04
+.service_new_second_section_step_content {
+
+    order: 3;
+}
+
+
+/* =========================================================
+   RIGHT STEPS
+========================================================= */
+
+.service_new_second_section_step_05,
+.service_new_second_section_step_06,
+.service_new_second_section_step_07 {
+
+    flex-direction: row;
+}
+
+
+/* =========================================================
+   BOTTOM BENEFIT STRIP
+========================================================= */
+
+.service_new_second_section_bottom {
+    position: relative;
+
+    z-index: 25;
+
+    width: 100%;
+    max-width: 1140px;
+
+    min-height: 85px;
+
+    margin:
+        20px
+        auto
+        0;
+
+    padding:
+        14px
+        35px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1px
+        1fr
+        1px
+        1fr
+        1px
+        1fr;
+
+    align-items: center;
+
+    gap: 30px;
+
+    background:
+        rgba(255,255,255,.88);
+
+    border:
+        1px solid
+        rgba(255,255,255,.95);
+
+    border-radius:
+        24px;
+
+    box-shadow:
+        0
+        13px
+        30px
+        rgba(37,97,148,.09);
+}
+
+
+/* =========================================================
+   BOTTOM ITEM
+========================================================= */
+
+.service_new_second_section_bottom_item {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    color:
+        #536589;
+}
+
+
+.service_new_second_section_bottom_icon {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            145deg,
+            #318ff1,
+            #1265d9
+        );
+
+    border-radius: 50%;
+
+    font-size: 22px;
+}
+
+
+.service_new_second_section_bottom_item p {
+    margin: 0;
+
+    color:
+        #536589;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    line-height: 1.4;
+}
+
+
+/* =========================================================
+   BOTTOM DIVIDER
+========================================================= */
+
+.service_new_second_section_bottom_divider {
+    width: 1px;
+    height: 45px;
+
+    background:
+        #74ade1;
+}
+
+
+/* =========================================================
+   VERTICAL LEFT TEXT
+========================================================= */
+
+.service_new_second_section_vertical_text {
+    position: absolute;
+
+    z-index: 2;
+
+    left: -78px;
+    top: 370px;
+
+    color:
+        rgba(50,159,225,.18);
+
+    font-size: 85px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    transform:
+        rotate(-90deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   RIGHT NOTE
+========================================================= */
+
+.service_new_second_section_right_note {
+    position: absolute;
+
+    z-index: 15;
+
+    right: 50px;
+    top: 55px;
+
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color:
+        #102d8c;
+
+    font-family:
+        "Segoe Script",
+        "Brush Script MT",
+        cursive;
+
+    font-size: 28px;
+    font-weight: 600;
+
+    line-height: .88;
+
+    text-align: center;
+
+    transform:
+        rotate(-7deg);
+}
+
+
+.service_new_second_section_right_note span {
+    margin-top: 4px;
+}
+
+
+.service_new_second_section_right_note i {
+    width: 83px;
+    height: 28px;
+
+    margin-top: 4px;
+
+    border-bottom:
+        4px solid
+        #f12136;
+
+    transform:
+        rotate(-12deg);
+}
+
+
+/* =========================================================
+   LEFT BOTTOM NOTE
+========================================================= */
+
+.service_new_second_section_left_note {
+    position: absolute;
+
+    z-index: 15;
+
+    left: 135px;
+    bottom: 165px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    color:
+        #173d99;
+}
+
+
+.service_new_second_section_left_note > i {
+    color:
+        #164aaf;
+
+    font-size: 54px;
+}
+
+
+.service_new_second_section_left_note div {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    line-height: 1.5;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   MIRROR
+========================================================= */
+
+.service_new_second_section_mirror {
+    position: absolute;
+
+    z-index: 3;
+
+    right: -10px;
+    bottom: -5px;
+
+    width: 300px;
+    height: 310px;
+
+    opacity: .58;
+
+    transform:
+        rotate(-14deg);
+}
+
+
+.service_new_second_section_mirror img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(
+            0
+            12px
+            18px
+            rgba(50,90,126,.14)
+        );
+}
+
+
+/* =========================================================
+   DOTS
+========================================================= */
+
+.service_new_second_section_dots {
+    position: absolute;
+
+    z-index: 2;
+
+    width: 95px;
+    height: 95px;
+
+    opacity: .40;
+
+    background-image:
+        radial-gradient(
+            #4da4e5 2.5px,
+            transparent 2.5px
+        );
+
+    background-size:
+        20px
+        20px;
+}
+
+
+.service_new_second_section_dots_one {
+    left: 190px;
+    top: 15px;
+}
+
+
+.service_new_second_section_dots_two {
+    right: 40px;
+    top: 135px;
+}
+
+
+/* =========================================================
+   BACKGROUND SHAPES
+========================================================= */
+
+.service_new_second_section_bg_shape {
+    position: absolute;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+
+.service_new_second_section_bg_shape_one {
+    left: -300px;
+    top: -330px;
+
+    width: 850px;
+    height: 720px;
+
+    background:
+        rgba(92,190,244,.13);
+
+    border-radius: 50%;
+}
+
+
+.service_new_second_section_bg_shape_two {
+    left: -300px;
+    bottom: -430px;
+
+    width: 950px;
+    height: 650px;
+
+    background:
+        rgba(91,184,241,.17);
+
+    border-radius: 50%;
+
+    transform:
+        rotate(12deg);
+}
+
+
+.service_new_second_section_bg_shape_three {
+    right: -270px;
+    bottom: -300px;
+
+    width: 850px;
+    height: 600px;
+
+    background:
+        rgba(80,174,235,.18);
+
+    border-radius: 50%;
+
+    transform:
+        rotate(-13deg);
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1600px) {
+
+    .service_new_second_section {
+        min-height: 1050px;
+    }
+
+
+    .service_new_second_section_container {
+        max-width: 1700px;
+
+        padding:
+            0
+            120px;
+    }
+
+
+    .service_new_second_section_title {
+        font-size: 56px;
+    }
+
+
+    .service_new_second_section_process {
+        height: 690px;
+    }
+
+
+    .service_new_second_section_center {
+        width: 450px;
+        height: 450px;
+    }
+
+
+    .service_new_second_section_orbit_one {
+        width: 485px;
+        height: 485px;
+    }
+
+
+    .service_new_second_section_orbit_two {
+        width: 535px;
+        height: 535px;
+    }
+
+}
+
+
+/* =========================================================
+   DESKTOP / LAPTOP
+========================================================= */
+
+@media (max-width: 1399.98px) {
+
+    .service_new_second_section {
+        min-height: 950px;
+    }
+
+
+    .service_new_second_section_container {
+        padding:
+            0
+            55px;
+    }
+
+
+    .service_new_second_section_title {
+        font-size: 46px;
+    }
+
+
+    .service_new_second_section_process {
+        height: 640px;
+    }
+
+
+    .service_new_second_section_center {
+        width: 365px;
+        height: 365px;
+    }
+
+
+    .service_new_second_section_center_image {
+        width: 215px;
+        height: 245px;
+    }
+
+
+    .service_new_second_section_center_note {
+        font-size: 21px;
+    }
+
+
+    .service_new_second_section_orbit_one {
+        width: 395px;
+        height: 395px;
+    }
+
+
+    .service_new_second_section_orbit_two {
+        width: 440px;
+        height: 440px;
+    }
+
+
+    .service_new_second_section_step {
+        min-height: 130px;
+
+        padding:
+            17px
+            18px;
+
+        gap: 13px;
+    }
+
+
+    .service_new_second_section_step_icon {
+        width: 90px;
+        min-width: 90px;
+        height: 90px;
+
+        border-width: 7px;
+    }
+
+
+    .service_new_second_section_step_content h3 {
+        font-size: 15px;
+    }
+
+
+    .service_new_second_section_step_content p {
+        font-size: 10px;
+    }
+
+
+    .service_new_second_section_step_01,
+    .service_new_second_section_step_07 {
+
+        width: 365px;
+    }
+
+
+    .service_new_second_section_step_02,
+    .service_new_second_section_step_06 {
+
+        width: 365px;
+    }
+
+
+    .service_new_second_section_step_03,
+    .service_new_second_section_step_05 {
+
+        width: 380px;
+    }
+
+
+    .service_new_second_section_step_04 {
+        width: 400px;
+    }
+
+
+    .service_new_second_section_right_note,
+    .service_new_second_section_left_note {
+
+        opacity: .55;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .service_new_second_section {
+        min-height: auto;
+
+        padding:
+            45px
+            0;
+    }
+
+
+    .service_new_second_section_container {
+        padding:
+            0
+            25px;
+    }
+
+
+    .service_new_second_section_header {
+        margin-bottom: 35px;
+    }
+
+
+    .service_new_second_section_title {
+        font-size: 42px;
+    }
+
+
+    .service_new_second_section_subtitle {
+        flex-wrap: wrap;
+
+        font-size: 13px;
+    }
+
+
+    /*
+       DESKTOP ABSOLUTE COMPOSITION OFF
+    */
+
+    .service_new_second_section_process {
+        height: auto;
+
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 18px;
+    }
+
+
+    /* CENTER FIRST */
+
+    .service_new_second_section_center {
+        position: relative;
+
+        left: auto;
+        top: auto;
+
+        width: 400px;
+        height: 400px;
+
+        margin:
+            0
+            auto
+            25px;
+
+        grid-column:
+            1 / -1;
+
+        transform: none;
+    }
+
+
+    /* ALL STEPS NORMAL FLOW */
+
+    .service_new_second_section_step,
+    .service_new_second_section_step_01,
+    .service_new_second_section_step_02,
+    .service_new_second_section_step_03,
+    .service_new_second_section_step_04,
+    .service_new_second_section_step_05,
+    .service_new_second_section_step_06,
+    .service_new_second_section_step_07 {
+
+        position: relative;
+
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+
+        width: 100%;
+        min-height: 150px;
+
+        transform: none;
+    }
+
+
+    .service_new_second_section_step_04 {
+        grid-column:
+            1 / -1;
+
+        max-width: 600px;
+
+        margin: auto;
+    }
+
+
+    .service_new_second_section_vertical_text,
+    .service_new_second_section_right_note,
+    .service_new_second_section_left_note,
+    .service_new_second_section_mirror {
+
+        display: none;
+    }
+
+
+    .service_new_second_section_bottom {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        max-width: 720px;
+
+        gap: 12px;
+
+        margin-top: 35px;
+    }
+
+
+    .service_new_second_section_bottom_divider {
+        display: none;
+    }
+
+
+    .service_new_second_section_bottom_item {
+        min-height: 70px;
+
+        padding:
+            10px;
+
+        background:
+            rgba(222,243,255,.40);
+
+        border-radius: 15px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .service_new_second_section {
+        padding:
+            38px
+            0;
+    }
+
+
+    .service_new_second_section_container {
+        padding:
+            0
+            14px;
+    }
+
+
+    /* HEADER */
+
+    .service_new_second_section_eyebrow {
+        gap: 9px;
+    }
+
+
+    .service_new_second_section_eyebrow > span {
+        width: 25px;
+    }
+
+
+    .service_new_second_section_eyebrow p {
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .service_new_second_section_title {
+        font-size: 34px;
+    }
+
+
+    .service_new_second_section_title span {
+        display: block;
+
+        margin-top: 3px;
+    }
+
+
+    .service_new_second_section_subtitle {
+        gap: 7px;
+
+        font-size: 11px;
+
+        line-height: 1.5;
+    }
+
+
+    /* CENTER */
+
+    .service_new_second_section_center {
+        width: 300px;
+        height: 300px;
+
+        margin-bottom: 22px;
+    }
+
+
+    .service_new_second_section_center_circle {
+        inset: 24px;
+
+        border-width: 4px;
+    }
+
+
+    .service_new_second_section_center_image {
+        width: 175px;
+        height: 195px;
+    }
+
+
+    .service_new_second_section_center_note {
+        bottom: 18px;
+
+        font-size: 16px;
+    }
+
+
+    .service_new_second_section_center_note i {
+        width: 55px;
+    }
+
+
+    .service_new_second_section_orbit_one {
+        width: 320px;
+        height: 320px;
+    }
+
+
+    .service_new_second_section_orbit_two {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    /* STEPS */
+
+    .service_new_second_section_process {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+    }
+
+
+    .service_new_second_section_step,
+    .service_new_second_section_step_04 {
+
+        grid-column: auto;
+
+        max-width: 470px;
+
+        min-height: 120px;
+
+        margin:
+            0
+            auto;
+
+        padding:
+            13px
+            15px;
+
+        border-radius: 25px;
+    }
+
+
+    .service_new_second_section_step_icon {
+        width: 72px;
+        min-width: 72px;
+        height: 72px;
+
+        padding: 5px;
+
+        border-width: 5px;
+    }
+
+
+    .service_new_second_section_number {
+        width: 34px;
+        min-width: 34px;
+        height: 34px;
+
+        font-size: 11px;
+    }
+
+
+    .service_new_second_section_step_content h3 {
+        margin-bottom: 4px;
+
+        font-size: 14px;
+    }
+
+
+    .service_new_second_section_step_content p {
+        font-size: 11px;
+    }
+
+
+    /* Reset step 4 ordering on mobile */
+
+    .service_new_second_section_step_04
+    .service_new_second_section_step_icon {
+
+        order: 3;
+    }
+
+
+    .service_new_second_section_step_04
+    .service_new_second_section_number {
+
+        order: 1;
+    }
+
+
+    .service_new_second_section_step_04
+    .service_new_second_section_step_content {
+
+        order: 2;
+    }
+
+
+    /* BOTTOM */
+
+    .service_new_second_section_bottom {
+        grid-template-columns: 1fr;
+
+        padding:
+            14px;
+
+        margin-top: 25px;
+    }
+
+
+    .service_new_second_section_bottom_item {
+        justify-content: flex-start;
+    }
+
+
+    .service_new_second_section_bottom_icon {
+        width: 45px;
+        min-width: 45px;
+        height: 45px;
+
+        font-size: 19px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+    .service_new_second_section_title {
+        font-size: 29px;
+    }
+
+
+    .service_new_second_section_subtitle i {
+        display: none;
+    }
+
+
+    .service_new_second_section_subtitle {
+        flex-direction: column;
+
+        gap: 2px;
+    }
+
+
+    .service_new_second_section_center {
+        width: 270px;
+        height: 270px;
+    }
+
+
+    .service_new_second_section_center_circle {
+        inset: 22px;
+    }
+
+
+    .service_new_second_section_center_image {
+        width: 155px;
+        height: 175px;
+    }
+
+
+    .service_new_second_section_orbit_one {
+        width: 285px;
+        height: 285px;
+    }
+
+
+    .service_new_second_section_orbit_two {
+        width: 310px;
+        height: 310px;
+    }
+
+
+    .service_new_second_section_step {
+        gap: 9px;
+    }
+
+
+    .service_new_second_section_step_icon {
+        width: 62px;
+        min-width: 62px;
+        height: 62px;
+    }
+
+
+    .service_new_second_section_step_content h3 {
+        font-size: 13px;
+    }
+
+
+    .service_new_second_section_step_content p {
+        font-size: 10px;
+    }
+
+}

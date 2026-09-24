@@ -336,9 +336,9 @@ include 'header.php';
 </section> -->
 
 
-<section class="my-5 service_bg_page">
+<!-- <section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 1: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -353,7 +353,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -369,26 +369,26 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        Row 2: 1st and 3rd columns are empty, 2nd column contains an image
         <div class="row">
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/1.png" class="card-img-top" alt="Image">
                     <img src="images1/services/services_img/crown3.png" class="card-img-top" alt="Dental Crowns & Bridges in Vizianagaram">
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
+                </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
         </div>
 
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 3: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -403,7 +403,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -419,6 +419,517 @@ include 'header.php';
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+<section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        CROWNS &amp; BRIDGES
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Restore</span>
+        <span>Strength</span>
+        <span>Beauty</span>
+        <span>Confidence</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>RESTORE FUNCTION</span>
+            <span>PROTECT TEETH</span>
+            <span>COMPLETE YOUR SMILE</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DECOR IMAGE -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/crown-bridge-side.png"
+             alt="Dental Crown and Bridge Treatment">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    RESTORING STRENGTH, FUNCTION &amp; YOUR SMILE
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Dental Crown &amp; Bridge
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Protect Damaged Teeth
+
+                <i></i>
+
+                Replace Missing Teeth
+
+                <i></i>
+
+                Restore Natural Function
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/crown-bridge-process-main.png"
+                             alt="Dental Crown and Bridge Treatment in Vizianagaram">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Restore Strength</span>
+                        <span>Rebuild Your Smile</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Consultation &amp; Evaluation
+                    </h3>
+
+                    <p>
+                        We examine the damaged or missing teeth,
+                        gums and bite to determine the most suitable
+                        crown or bridge treatment.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-1.png"
+                         alt="Crown and Bridge Consultation">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Digital Scan &amp; X-Ray
+                    </h3>
+
+                    <p>
+                        Digital imaging helps assess tooth roots,
+                        supporting teeth and surrounding structures
+                        for accurate treatment planning.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-2.png"
+                         alt="Dental Crown and Bridge Digital Scan">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Tooth Preparation
+                    </h3>
+
+                    <p>
+                        The supporting tooth is carefully shaped
+                        so the crown or bridge can fit securely,
+                        comfortably and naturally.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-3.png"
+                         alt="Tooth Preparation for Dental Crown">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-4.png"
+                         alt="Dental Impression for Crown and Bridge">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Impression &amp; Shade Selection
+                    </h3>
+
+                    <p>
+                        A precise impression or digital scan is taken
+                        and the shade is selected to match your
+                        surrounding natural teeth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-5.png"
+                         alt="Temporary Dental Crown">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Temporary Restoration
+                    </h3>
+
+                    <p>
+                        A temporary crown or bridge may be placed
+                        to protect the prepared teeth while the
+                        final restoration is being made.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-6.png"
+                         alt="Final Crown and Bridge Placement">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Final Crown / Bridge Placement
+                    </h3>
+
+                    <p>
+                        The custom restoration is checked for fit,
+                        bite and appearance before being securely
+                        fixed in its final position.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/crown-bridge-step-7.png"
+                         alt="Crown and Bridge Aftercare">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Aftercare &amp; Maintenance
+                    </h3>
+
+                    <p>
+                        Good oral hygiene, proper cleaning and
+                        regular dental check-ups help protect your
+                        crown or bridge for long-lasting results.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <p>
+                    Protects<br>
+                    Damaged Teeth
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-grid-fill"></i>
+                </span>
+
+                <p>
+                    Replaces<br>
+                    Missing Teeth
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-emoji-smile"></i>
+                </span>
+
+                <p>
+                    Restores<br>
+                    Chewing Function
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-stars"></i>
+                </span>
+
+                <p>
+                    Natural-Looking<br>
+                    Smile
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 </section>
 
 

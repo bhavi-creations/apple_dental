@@ -295,7 +295,6 @@ include 'header.php';
 </section>
 
 <!-- <section class="my-5 dental-steps">
-
 <div class="container mt-5">
     <div class="row g-4">
         <div class="col-md-4">
@@ -341,9 +340,9 @@ include 'header.php';
 </section> -->
 
 
-<section class="my-5 service_bg_page">
+<!-- <section class="my-5 service_bg_page">
     <div class="container my-4 dental-steps">
-        <!-- Row 1: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 1: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -358,7 +357,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -374,26 +373,26 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Row 2: 1st and 3rd columns are empty, 2nd column contains an image -->
+        Row 2: 1st and 3rd columns are empty, 2nd column contains an image
         <div class="row my-5">
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <!-- <img src="images1/services/1.png" class="card-img-top" alt="Image"> -->
+                    <img src="images1/services/1.png" class="card-img-top" alt="Image">
                     <img src="images1/services/services_img/s6.png" class="card-img-top" alt="Tooth Jewellery in Vizianagaram">
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                     <img src="images1/services/1.png" alt="" class="img-fluid">
-                </div> -->
+                </div>
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
         </div>
 
-        <!-- Row 3: 1st and 3rd columns with cards, 2nd column is empty -->
+        Row 3: 1st and 3rd columns with cards, 2nd column is empty
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -408,7 +407,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-md-4 empty-column">
-                <!-- Empty -->
+                Empty
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -424,6 +423,517 @@ include 'header.php';
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+<section class="service_new_second_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_one"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_two"></div>
+    <div class="service_new_second_section_bg_shape service_new_second_section_bg_shape_three"></div>
+
+    <div class="service_new_second_section_dots service_new_second_section_dots_one"></div>
+    <div class="service_new_second_section_dots service_new_second_section_dots_two"></div>
+
+
+    <!-- LEFT LARGE VERTICAL TEXT -->
+    <div class="service_new_second_section_vertical_text">
+        TOOTH JEWELLERY
+    </div>
+
+
+    <!-- RIGHT HANDWRITTEN NOTE -->
+    <div class="service_new_second_section_right_note">
+
+        <span>Add</span>
+        <span>Sparkle</span>
+        <span>To Your</span>
+        <span>Smile</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM NOTE -->
+    <div class="service_new_second_section_left_note">
+
+        <i class="bi bi-heart"></i>
+
+        <div>
+            <span>STYLISH SPARKLE</span>
+            <span>QUICK APPLICATION</span>
+            <span>UNIQUE SMILE</span>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT DECOR IMAGE -->
+    <div class="service_new_second_section_mirror">
+
+        <img src="assets/img/services/tooth-jewellery-side.png"
+             alt="Tooth Jewellery Treatment">
+
+    </div>
+
+
+
+    <div class="container-fluid service_new_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="service_new_second_section_header">
+
+            <div class="service_new_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    ADD A UNIQUE SPARKLE TO YOUR SMILE
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="service_new_second_section_title">
+
+                Tooth Jewellery
+
+                <span>
+                    Treatment
+                </span>
+
+            </h2>
+
+
+            <p class="service_new_second_section_subtitle">
+
+                Stylish Smile Accent
+
+                <i></i>
+
+                Simple Application
+
+                <i></i>
+
+                Personalized Look
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             PROCESS AREA
+        ====================================================== -->
+        <div class="service_new_second_section_process">
+
+
+            <!-- =================================================
+                 CENTER CIRCLE
+            ================================================== -->
+            <div class="service_new_second_section_center">
+
+                <!-- ORBIT CIRCLES -->
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_one"></div>
+
+                <div class="service_new_second_section_orbit
+                            service_new_second_section_orbit_two"></div>
+
+
+                <!-- TOP SMALL DECOR -->
+                <div class="service_new_second_section_top_mark">
+
+                    <span></span>
+                    <i></i>
+                    <span></span>
+
+                </div>
+
+
+                <!-- MAIN CENTER CIRCLE -->
+                <div class="service_new_second_section_center_circle">
+
+                    <div class="service_new_second_section_center_image">
+
+                        <img src="assets/img/services/tooth-jewellery-process-main.png"
+                             alt="Tooth Jewellery Treatment in Vizianagaram">
+
+                    </div>
+
+
+                    <div class="service_new_second_section_center_note">
+
+                        <span>Little Sparkle</span>
+                        <span>Big Smile</span>
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STEP 01
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_01
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    01
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Smile Consultation
+                    </h3>
+
+                    <p>
+                        We examine your teeth and discuss the
+                        jewellery style and placement that best
+                        suits your smile.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-1.png"
+                         alt="Tooth Jewellery Consultation">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 02
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_02
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    02
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Jewellery Selection
+                    </h3>
+
+                    <p>
+                        Choose a suitable tooth gem or decorative
+                        design based on your preferred style,
+                        size and appearance.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-2.png"
+                         alt="Tooth Jewellery Selection">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 03
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_03
+                            service_new_second_section_step_blue">
+
+                <span class="service_new_second_section_number">
+                    03
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Tooth Surface Cleaning
+                    </h3>
+
+                    <p>
+                        The selected tooth surface is carefully
+                        cleaned and prepared to support proper
+                        bonding of the jewellery.
+                    </p>
+
+                </div>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-3.png"
+                         alt="Tooth Surface Cleaning">
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 04
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_04
+                            service_new_second_section_step_red">
+
+                <span class="service_new_second_section_number">
+                    04
+                </span>
+
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-4.png"
+                         alt="Tooth Jewellery Placement">
+
+                </div>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Precise Jewellery Placement
+                    </h3>
+
+                    <p>
+                        The jewellery is positioned carefully on
+                        the selected tooth to achieve the desired
+                        appearance and alignment.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 05
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_05
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-5.png"
+                         alt="Tooth Jewellery Bonding">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    05
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Dental Bonding
+                    </h3>
+
+                    <p>
+                        A dental bonding material is used to
+                        secure the jewellery to the tooth surface
+                        without routine drilling.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 06
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_06
+                            service_new_second_section_step_red">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-6.png"
+                         alt="Final Tooth Jewellery Check">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    06
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Final Check &amp; Finish
+                    </h3>
+
+                    <p>
+                        The placement and bonding are checked
+                        carefully to ensure the jewellery sits
+                        neatly and comfortably on the tooth.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 STEP 07
+            ================================================== -->
+            <article class="service_new_second_section_step
+                            service_new_second_section_step_07
+                            service_new_second_section_step_blue">
+
+                <div class="service_new_second_section_step_icon">
+
+                    <img src="assets/img/services/tooth-jewellery-step-7.png"
+                         alt="Tooth Jewellery Aftercare">
+
+                </div>
+
+
+                <span class="service_new_second_section_number">
+                    07
+                </span>
+
+
+                <div class="service_new_second_section_step_content">
+
+                    <h3>
+                        Aftercare &amp; Maintenance
+                    </h3>
+
+                    <p>
+                        Proper brushing, gentle cleaning around
+                        the jewellery and regular dental check-ups
+                        help maintain your smile.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="service_new_second_section_bottom">
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-gem"></i>
+                </span>
+
+                <p>
+                    Stylish<br>
+                    Smile Sparkle
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-emoji-smile"></i>
+                </span>
+
+                <p>
+                    Comfortable<br>
+                    Application
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <p>
+                    No Routine<br>
+                    Drilling
+                </p>
+
+            </div>
+
+
+            <div class="service_new_second_section_bottom_divider"></div>
+
+
+            <div class="service_new_second_section_bottom_item">
+
+                <span class="service_new_second_section_bottom_icon">
+                    <i class="bi bi-stars"></i>
+                </span>
+
+                <p>
+                    Unique &amp;<br>
+                    Fashionable Smile
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 </section>
 
 <?php include 'footer.php'; ?>
