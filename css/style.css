@@ -4997,3 +4997,883 @@ a {
     }
 
 }
+
+
+
+
+
+/* =========================================================
+   SERVICE HERO PREMIUM DECORATIVE OVERRIDES
+   - same class names
+   - same structure
+   - same SVG paths
+   - extra curved edge lines
+   - dotted texture
+   - background tooth icons
+   - title glow
+   - animated wave shining
+========================================================= */
+
+
+/* =========================================================
+   SECTION BASE ENHANCEMENT
+========================================================= */
+
+.service_new_first_section {
+    background:
+        radial-gradient(
+            circle at 78% 30%,
+            rgba(0, 132, 255, 0.13),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 17% 12%,
+            rgba(91, 189, 255, 0.11),
+            transparent 21%
+        ),
+        radial-gradient(
+            circle at 84% 78%,
+            rgba(83, 185, 255, 0.09),
+            transparent 20%
+        ),
+        linear-gradient(
+            110deg,
+            #f9fcff 0%,
+            #edf8ff 44%,
+            #ffffff 100%
+        );
+
+    isolation: isolate;
+}
+
+
+/* =========================================================
+   TOP LEFT CURVED LINE + DOT TEXTURE
+========================================================= */
+
+.service_new_first_section::before {
+    content: "";
+
+    position: absolute;
+    z-index: 1;
+
+    width: 580px;
+    height: 340px;
+
+    left: -305px;
+    top: -180px;
+
+    border-radius: 50%;
+
+    border: 2px solid rgba(255, 255, 255, 0.96);
+    border-right-color: rgba(85, 194, 255, 0.84);
+    border-bottom-color: rgba(8, 120, 238, 0.92);
+
+    transform: rotate(-11deg);
+
+    pointer-events: none;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(8, 120, 238, 0.52) 1.4px,
+            transparent 1.8px
+        );
+
+    background-size: 13px 13px;
+    background-position: 270px 150px;
+
+    box-shadow:
+        0 0 22px rgba(255,255,255,0.90),
+        0 0 44px rgba(85, 194, 255, 0.22),
+        inset 0 0 26px rgba(72, 184, 255, 0.08);
+
+    opacity: 0.95;
+
+    -webkit-mask-image:
+        radial-gradient(
+            ellipse at center,
+            #000 24%,
+            rgba(0,0,0,0.95) 54%,
+            transparent 82%
+        );
+
+    mask-image:
+        radial-gradient(
+            ellipse at center,
+            #000 24%,
+            rgba(0,0,0,0.95) 54%,
+            transparent 82%
+        );
+}
+
+
+/* =========================================================
+   TOP RIGHT CURVED LINE + DOT TEXTURE
+========================================================= */
+
+.service_new_first_section::after {
+    content: "";
+
+    position: absolute;
+    z-index: 1;
+
+    width: 565px;
+    height: 335px;
+
+    right: -290px;
+    top: -185px;
+
+    border-radius: 50%;
+
+    border: 2px solid rgba(255, 255, 255, 0.96);
+    border-left-color: rgba(85, 194, 255, 0.84);
+    border-bottom-color: rgba(8, 120, 238, 0.92);
+
+    transform: rotate(13deg);
+
+    pointer-events: none;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(8, 120, 238, 0.52) 1.4px,
+            transparent 1.8px
+        );
+
+    background-size: 13px 13px;
+    background-position: 45px 148px;
+
+    box-shadow:
+        0 0 22px rgba(255,255,255,0.90),
+        0 0 44px rgba(85, 194, 255, 0.22),
+        inset 0 0 26px rgba(72, 184, 255, 0.08);
+
+    opacity: 0.95;
+
+    -webkit-mask-image:
+        radial-gradient(
+            ellipse at center,
+            #000 24%,
+            rgba(0,0,0,0.95) 54%,
+            transparent 82%
+        );
+
+    mask-image:
+        radial-gradient(
+            ellipse at center,
+            #000 24%,
+            rgba(0,0,0,0.95) 54%,
+            transparent 82%
+        );
+}
+
+
+/* =========================================================
+   CONTAINER DECORATIVE TOP LIGHTS
+========================================================= */
+
+.service_new_first_section_container {
+    position: relative;
+    z-index: 3;
+}
+
+.service_new_first_section_container::before {
+    content: "";
+
+    position: absolute;
+    z-index: 0;
+
+    width: 760px;
+    height: 190px;
+
+    left: 50%;
+    top: -155px;
+
+    transform: translateX(-50%);
+
+    border-radius: 0 0 50% 50%;
+
+    border-bottom: 2px solid rgba(88, 191, 255, 0.44);
+
+    background:
+        radial-gradient(
+            ellipse at 50% 100%,
+            rgba(255,255,255,0.90) 0%,
+            rgba(95, 196, 255, 0.12) 38%,
+            transparent 70%
+        );
+
+    box-shadow:
+        0 0 25px rgba(255,255,255,0.75),
+        0 0 38px rgba(61, 179, 255, 0.10);
+
+    pointer-events: none;
+}
+
+.service_new_first_section_container::after {
+    content: "";
+
+    position: absolute;
+    z-index: 0;
+
+    width: 480px;
+    height: 85px;
+
+    left: 50%;
+    top: -18px;
+
+    transform: translateX(-50%);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(255,255,255,0.95) 0%,
+            rgba(114, 206, 255, 0.22) 35%,
+            rgba(23, 155, 245, 0.06) 60%,
+            transparent 80%
+        );
+
+    filter: blur(8px);
+
+    opacity: 0.82;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE EXTRA DESIGNS
+========================================================= */
+
+.service_new_first_section_row {
+    position: relative;
+    z-index: 3;
+}
+
+.service_new_first_section_content,
+.service_new_first_section_visual {
+    position: relative;
+    z-index: 4;
+}
+
+
+/* =========================================================
+   BACKGROUND DECORATIVE TOOTH ICONS + DOTS
+========================================================= */
+
+.service_new_first_section_content::before {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+
+    width: 160px;
+    height: 160px;
+
+    left: -70px;
+    top: 38px;
+
+    opacity: 0.075;
+
+    background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230878ee' d='M32 6c-10.8 0-18 7.5-18 18.6 0 7.4 2.9 11.9 2.9 18 0 6.5 2.9 9.4 6.8 9.4 4.5 0 5.7-6.8 8.3-10.2 2.6 3.4 3.8 10.2 8.3 10.2 3.9 0 6.8-2.9 6.8-9.4 0-6.1 2.9-10.6 2.9-18C50 13.5 42.8 6 32 6z'/%3E%3C/svg%3E")
+        center / contain no-repeat;
+
+    animation: service_new_first_section_bg_float_one 7s ease-in-out infinite;
+}
+
+.service_new_first_section_content::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+
+    width: 120px;
+    height: 90px;
+
+    left: -48px;
+    top: 160px;
+
+    opacity: 0.40;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(8, 120, 238, 0.52) 1.5px,
+            transparent 1.9px
+        );
+
+    background-size: 12px 12px;
+
+    animation: service_new_first_section_dots_float 8s ease-in-out infinite;
+}
+
+.service_new_first_section_visual::before {
+    content: "";
+
+    position: absolute;
+    z-index: 1;
+
+    width: 125px;
+    height: 125px;
+
+    right: 42px;
+    top: 55px;
+
+    opacity: 0.08;
+
+    background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230878ee' d='M32 6c-10.8 0-18 7.5-18 18.6 0 7.4 2.9 11.9 2.9 18 0 6.5 2.9 9.4 6.8 9.4 4.5 0 5.7-6.8 8.3-10.2 2.6 3.4 3.8 10.2 8.3 10.2 3.9 0 6.8-2.9 6.8-9.4 0-6.1 2.9-10.6 2.9-18C50 13.5 42.8 6 32 6z'/%3E%3C/svg%3E")
+        center / contain no-repeat;
+
+    animation: service_new_first_section_bg_float_two 6.5s ease-in-out infinite;
+}
+
+.service_new_first_section_visual::after {
+    content: "";
+
+    position: absolute;
+    z-index: 1;
+
+    width: 118px;
+    height: 88px;
+
+    right: 10px;
+    bottom: 100px;
+
+    opacity: 0.34;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(8, 120, 238, 0.50) 1.5px,
+            transparent 1.9px
+        );
+
+    background-size: 12px 12px;
+
+    animation: service_new_first_section_dots_float_two 8s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   TITLE GLOW / OPACITY EFFECT
+========================================================= */
+
+.service_new_first_section_top_title span {
+    color: rgba(8, 120, 238, 0.94);
+
+    text-shadow:
+        0 0 10px rgba(8, 120, 238, 0.14),
+        0 0 22px rgba(120, 200, 255, 0.18);
+}
+
+.service_new_first_section_heading {
+    text-shadow:
+        0 3px 10px rgba(255,255,255,0.55);
+}
+
+.service_new_first_section_heading span {
+    color: rgba(8, 120, 238, 0.95);
+
+    text-shadow:
+        0 0 18px rgba(77, 186, 255, 0.22),
+        0 6px 20px rgba(8, 120, 238, 0.12);
+}
+
+.service_new_first_section_description {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   EXTRA SHINE FOR BENEFIT ICONS
+========================================================= */
+
+.service_new_first_section_benefit_icon {
+    position: relative;
+    overflow: hidden;
+}
+
+.service_new_first_section_benefit_icon::before {
+    content: "";
+
+    position: absolute;
+    top: -25%;
+    left: -65%;
+
+    width: 50%;
+    height: 150%;
+
+    transform: rotate(24deg);
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255,255,255,0.75),
+            transparent
+        );
+
+    opacity: 0.65;
+
+    animation: service_new_first_section_icon_shine 4.8s linear infinite;
+}
+
+
+/* =========================================================
+   BLOBS LITTLE MORE PREMIUM
+========================================================= */
+
+.service_new_first_section_blob_one {
+    box-shadow:
+        60px 25px 100px rgba(79, 188, 255, 0.10);
+}
+
+.service_new_first_section_blob_two {
+    box-shadow:
+        -60px -30px 100px rgba(79, 188, 255, 0.08);
+}
+
+
+/* =========================================================
+   BOTTOM WAVES - SHINING ANIMATION
+========================================================= */
+
+.service_new_first_section_waves {
+    isolation: isolate;
+    overflow: visible;
+
+    filter:
+        drop-shadow(0 -5px 9px rgba(255,255,255,0.88))
+        drop-shadow(0 -12px 22px rgba(79,188,255,0.14));
+}
+
+.service_new_first_section_waves svg {
+    position: relative;
+    z-index: 3;
+
+    filter:
+        drop-shadow(0 -4px 8px rgba(255,255,255,0.65))
+        drop-shadow(0 -8px 16px rgba(58,181,255,0.08));
+}
+
+.service_new_first_section_waves::before {
+    content: "";
+
+    position: absolute;
+    z-index: 2;
+
+    left: -10%;
+    bottom: 18px;
+
+    width: 44%;
+    height: 82px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(255,255,255,0.95) 0%,
+            rgba(120, 208, 255, 0.22) 38%,
+            transparent 74%
+        );
+
+    filter: blur(11px);
+
+    opacity: 0.62;
+
+    animation: service_new_first_section_wave_glow_left 6.5s ease-in-out infinite;
+}
+
+.service_new_first_section_waves::after {
+    content: "";
+
+    position: absolute;
+    z-index: 2;
+
+    right: -8%;
+    bottom: 20px;
+
+    width: 48%;
+    height: 95px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(255,255,255,0.92) 0%,
+            rgba(120, 208, 255, 0.20) 38%,
+            transparent 75%
+        );
+
+    filter: blur(13px);
+
+    opacity: 0.62;
+
+    animation: service_new_first_section_wave_glow_right 7.5s ease-in-out infinite;
+}
+
+.service_new_first_section_wave_light,
+.service_new_first_section_wave_blue,
+.service_new_first_section_wave_red,
+.service_new_first_section_wave_white {
+    transform-origin: center bottom;
+}
+
+.service_new_first_section_wave_light {
+    animation: service_new_first_section_wave_breathe 5.5s ease-in-out infinite;
+}
+
+.service_new_first_section_wave_blue {
+    animation: service_new_first_section_wave_breathe 5.5s ease-in-out infinite;
+    animation-delay: -1.1s;
+}
+
+.service_new_first_section_wave_red {
+    animation: service_new_first_section_wave_breathe 5.5s ease-in-out infinite;
+    animation-delay: -2s;
+}
+
+.service_new_first_section_wave_white {
+    animation: service_new_first_section_wave_breathe 5.5s ease-in-out infinite;
+    animation-delay: -2.8s;
+}
+
+
+/* =========================================================
+   SIDE TEXT LITTLE MORE PREMIUM
+========================================================= */
+
+.service_new_first_section_side_text {
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.55),
+        0 0 20px rgba(84, 193, 255, 0.16),
+        0 4px 12px rgba(8,120,238,0.09);
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes service_new_first_section_bg_float_one {
+    0%, 100% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-12px) translateX(6px) rotate(3deg);
+    }
+}
+
+@keyframes service_new_first_section_bg_float_two {
+    0%, 100% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(10px) translateX(-6px) rotate(-3deg);
+    }
+}
+
+@keyframes service_new_first_section_dots_float {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 0.32;
+    }
+    50% {
+        transform: translateY(-10px);
+        opacity: 0.48;
+    }
+}
+
+@keyframes service_new_first_section_dots_float_two {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 0.28;
+    }
+    50% {
+        transform: translateY(8px);
+        opacity: 0.42;
+    }
+}
+
+@keyframes service_new_first_section_icon_shine {
+    0% {
+        left: -70%;
+    }
+    100% {
+        left: 130%;
+    }
+}
+
+@keyframes service_new_first_section_wave_breathe {
+    0%, 100% {
+        opacity: 0.90;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes service_new_first_section_wave_glow_left {
+    0%, 100% {
+        transform: translateX(0);
+        opacity: 0.48;
+    }
+    50% {
+        transform: translateX(48px);
+        opacity: 0.72;
+    }
+}
+
+@keyframes service_new_first_section_wave_glow_right {
+    0%, 100% {
+        transform: translateX(0);
+        opacity: 0.45;
+    }
+    50% {
+        transform: translateX(-52px);
+        opacity: 0.70;
+    }
+}
+
+
+/* =========================================================
+   LARGE TABLET / SMALL LAPTOP
+========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .service_new_first_section::before {
+        width: 455px;
+        height: 275px;
+        left: -245px;
+        top: -145px;
+        background-size: 11px 11px;
+    }
+
+    .service_new_first_section::after {
+        width: 445px;
+        height: 270px;
+        right: -235px;
+        top: -145px;
+        background-size: 11px 11px;
+    }
+
+    .service_new_first_section_container::before {
+        width: 620px;
+        height: 155px;
+        top: -132px;
+    }
+
+    .service_new_first_section_container::after {
+        width: 360px;
+        height: 72px;
+    }
+
+    .service_new_first_section_content::before {
+        width: 130px;
+        height: 130px;
+        left: -35px;
+        top: 45px;
+    }
+
+    .service_new_first_section_content::after {
+        left: -16px;
+        top: 170px;
+    }
+
+    .service_new_first_section_visual::before {
+        width: 105px;
+        height: 105px;
+        right: 30px;
+        top: 54px;
+    }
+
+    .service_new_first_section_visual::after {
+        width: 95px;
+        height: 72px;
+        right: 10px;
+        bottom: 86px;
+    }
+
+    .service_new_first_section_waves::before {
+        height: 70px;
+    }
+
+    .service_new_first_section_waves::after {
+        height: 80px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE / TABLET PORTRAIT
+========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .service_new_first_section::before {
+        width: 310px;
+        height: 200px;
+        left: -195px;
+        top: -105px;
+        border-width: 1.5px;
+        background-size: 10px 10px;
+        opacity: 0.74;
+    }
+
+    .service_new_first_section::after {
+        width: 300px;
+        height: 195px;
+        right: -180px;
+        top: -106px;
+        border-width: 1.5px;
+        background-size: 10px 10px;
+        opacity: 0.74;
+    }
+
+    .service_new_first_section_container::before {
+        width: 82vw;
+        height: 115px;
+        top: -98px;
+        opacity: 0.70;
+    }
+
+    .service_new_first_section_container::after {
+        width: 240px;
+        height: 60px;
+        top: -18px;
+        opacity: 0.62;
+    }
+
+    .service_new_first_section_content::before {
+        width: 90px;
+        height: 90px;
+        left: 0;
+        top: 25px;
+        opacity: 0.055;
+    }
+
+    .service_new_first_section_content::after {
+        width: 82px;
+        height: 65px;
+        left: 8px;
+        top: 110px;
+        opacity: 0.28;
+    }
+
+    .service_new_first_section_visual::before {
+        width: 78px;
+        height: 78px;
+        right: 20px;
+        top: 34px;
+        opacity: 0.06;
+    }
+
+    .service_new_first_section_visual::after {
+        width: 72px;
+        height: 55px;
+        right: 10px;
+        bottom: 72px;
+        opacity: 0.24;
+    }
+
+    .service_new_first_section_top_title span {
+        text-shadow:
+            0 0 8px rgba(8, 120, 238, 0.12);
+    }
+
+    .service_new_first_section_heading span {
+        text-shadow:
+            0 0 12px rgba(77, 186, 255, 0.16);
+    }
+
+    .service_new_first_section_waves::before {
+        bottom: 9px;
+        width: 55%;
+        height: 46px;
+    }
+
+    .service_new_first_section_waves::after {
+        bottom: 10px;
+        width: 60%;
+        height: 52px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .service_new_first_section::before {
+        width: 245px;
+        height: 160px;
+        left: -150px;
+        top: -82px;
+        opacity: 0.62;
+    }
+
+    .service_new_first_section::after {
+        width: 235px;
+        height: 155px;
+        right: -145px;
+        top: -84px;
+        opacity: 0.62;
+    }
+
+    .service_new_first_section_container::before {
+        width: 74vw;
+        height: 90px;
+        top: -78px;
+    }
+
+    .service_new_first_section_container::after {
+        width: 180px;
+        height: 46px;
+    }
+
+    .service_new_first_section_content::before {
+        width: 72px;
+        height: 72px;
+        top: 18px;
+    }
+
+    .service_new_first_section_content::after {
+        width: 64px;
+        height: 52px;
+        top: 86px;
+        left: 12px;
+    }
+
+    .service_new_first_section_visual::before {
+        width: 62px;
+        height: 62px;
+        right: 18px;
+        top: 28px;
+    }
+
+    .service_new_first_section_visual::after {
+        width: 60px;
+        height: 44px;
+        right: 10px;
+        bottom: 60px;
+    }
+
+    .service_new_first_section_waves::before {
+        height: 38px;
+    }
+
+    .service_new_first_section_waves::after {
+        height: 42px;
+    }
+}
