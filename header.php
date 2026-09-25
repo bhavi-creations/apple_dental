@@ -59,6 +59,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/New_stylings.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -275,448 +276,843 @@
   </script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  
+
 </head>
 
 
 <body>
 
+<!-- =========================================================
+     NEW PREMIUM RESPONSIVE HEADER
+========================================================== -->
+<header class="header_new_section">
+
+
+    <!-- =====================================================
+         TOP MARQUEE BAR
+    ====================================================== -->
+    <div class="header_new_section_marquee_bar">
+
+        <div class="header_new_section_marquee_icon">
+            <i class="fa-solid fa-tooth"></i>
+        </div>
+
+        <div class="header_new_section_marquee_wrap">
+
+            <marquee
+                class="header_new_section_marquee"
+                behavior="scroll"
+                direction="left"
+                scrollamount="5">
+
+                <span class="header_new_section_marquee_strong">
+                    Apple Dental Specialities: Your Trusted Partner for Comprehensive Oral Health.
+                </span>
+
+                <span class="header_new_section_marquee_separator"></span>
+
+                <span>
+                    Experience the Future of Dentistry with Apple Dental Specialities Advanced Solutions
+                </span>
+
+                <span class="header_new_section_marquee_separator"></span>
+
+                <span>
+                    (Employees Health Scheme)EHS &nbsp; Available
+                </span>
+
+            </marquee>
+
+        </div>
+
+
+        <div class="header_new_section_marquee_icon
+                    header_new_section_marquee_icon_right">
+
+            <i class="fa-solid fa-tooth"></i>
+
+        </div>
+
+    </div>
 
 
 
+    <!-- =====================================================
+         LOGO + CONTACT INFORMATION
+    ====================================================== -->
+    <div class="header_new_section_info_area">
+
+        <div class="container-fluid header_new_section_container">
+
+            <div class="header_new_section_info_row">
 
 
+                <!-- LOGO -->
+                <div class="header_new_section_logo_area">
 
-  <!-- Navbar -->
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-   
-      <a class="navbar-brand" href="https://appledentalvzm.in/Home.php">
-        <img src="images1/apple-dental-vzm-logo.png" alt="Logo" style="height: 50px;">
-      </a>
-     
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-     
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="Home.php"><b>Home</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.php"><b>About Us</b></a>
-          </li>
+                    <a href="Home.php"
+                       class="header_new_section_logo_link">
 
+                        <img
+                            src="images1/apple-dental-vzm-logo.png"
+                            alt="Apple Dental Specialities"
+                            class="header_new_section_logo">
 
+                    </a>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="Service.php" id="treatmentsDropdown" role="button">
-              <b>Treatments</b>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="treatmentsDropdown">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-4">
-                    <li><a href="rootcanal.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt="">  Root Canal </a></li>
-                    <li><a href="dental_implants.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-                    <li><a href="tooth_extraction.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-                    <li><a href="periapical_surgery.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png " alt=""> Periapical Surgery</a></li>
-                    <li><a href="gum_surgery.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                    <li><a href="crowns_bridges.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-
-                  </div>
-                  <div class="col-md-4">
-                  <li><a href="veneers.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                  <li><a href="aligners.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt="">  Aligners</a></li>
-
-                    <li><a href="laser_dentistry.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry </a></li>
-                    <li><a href="teeth_whitening.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth whitening </a></li>
-                    <li><a href="smile_makeover.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-                    <li><a href="gum_care.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-                 
-                  </div>
-                  <div class="col-md-4">
-                  <li><a href="teeth_jewellery.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-
-                    <li><a href="child_dental_dare.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-                    <li><a href="head_neck.php" class="dropdown-item"><img src="images1/icons_nav/pain.png " alt=""> Major Head & <br> Neck Surgeries</a></li>
-                    <li><a href="ehs.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
-                  </div>
                 </div>
-              </div>
-            </ul>
-          </li>
 
 
 
+                <!-- MOBILE / TABLET MENU TOGGLE -->
+                <button
+                    class="header_new_section_toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#headerNewNavigation"
+                    aria-controls="headerNewNavigation"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
 
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
-          <li class="nav-item">
-            <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
-              <b>Book Appointment</b>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
-  <style>
-
-  </style>
+                </button>
 
 
 
-  <section class="marquee-section">
-    <div class="marquee_content">
-      <marquee behavior="scroll" direction="left" class="marquee">
-        <p class="marquee_section">
-          Apple Dental Specialities: Your Trusted Partner for Comprehensive Oral Health. &nbsp; &nbsp;&nbsp;&nbsp; Experience the Future of Dentistry with Apple Dental Specialities Advanced Solutions &nbsp; &nbsp;&nbsp;&nbsp; (Employees Health Scheme)EHS &nbsp; Available
-        </p>
+                <!-- CONTACT DETAILS -->
+                <div class="header_new_section_contact_area">
 
-      </marquee>
-    </div>
-  </section>
 
-  <!-- Header Section with Logo and Contact Info -->
-  <section class="header-container d-none d-lg-block py-3">
-    <div class="container">
-      <div class="row header-row">
-        <!-- Logo Section -->
-        <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center ">
-          <a class="navbar-brand" href="Home.php">
-            <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="logo img-fluid" />
-          </a>
-        </div>
-        <!-- Contact Information Section (Hidden on mobile) -->
-        <!-- Contact Information Section (Hidden on mobile and tablet, visible on large devices) -->
-        <div class="col-12 col-md-6 col-lg-2 d-none d-lg-flex align-items-center">
-          <div class="header-item">
-            <img src="images1/icons/call.png" alt="Call Icon" class="header_icons">
-            <p class="header-text">Mobile No:<br><strong> 9494193344 </strong></p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 d-none d-lg-flex align-items-center">
-          <div class="header-item">
-            <img src="images1/icons/email.png" alt="Email Icon" class="header_icons">
-            <p class="header-text ">Email:<br> <strong>info@appledentalspecialities.com </strong></p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 d-none d-lg-flex align-items-center">
-          <div class="header-item">
-            <img src="images1/icons/time.png" alt="Time Icon" class="header_icons">
-            <p class="header-text">Monday - sunday <br> <strong> 9 AM - 8 PM | <br> tuesday: 9 AM - 2 PM </strong></p>
-          </div>
-        </div>
+                    <!-- PHONE -->
+                    <a href="tel:+919494193344"
+                       class="header_new_section_contact_item">
 
-      </div>
-    </div>
-  </section>
+                        <span class="header_new_section_contact_icon">
 
-  <!-- Navbar Section (Below Marquee) -->
-  <section class="navbar-section d-none d-lg-block">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-center header_background footer_content" style="background-color: #043494;">
-      <div class="container">
-        <!-- Toggle Button for Mobile (only visible on mobile) -->
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                            <img
+                                src="images1/icons/call.png"
+                                alt="Call">
 
-        <!-- Collapsible Navbar -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav g-3">
-            <li class="nav-item">
-              <a class="nav-link active" href="Home.php"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="About.php"><b>About Us</b></a>
-            </li>
+                        </span>
 
-            <!-- Treatments Dropdown -->
-            <li class="nav-item dropdown position-static">
-              <a class="nav-link text-white" href="service.php" id="treatmentsDropdown">
-                <b>Treatments</b>
-              </a>
-              <ul class="dropdown-menu px-3 py-2" aria-labelledby="treatmentsDropdown"
-                style="width: 600px; background-color: #ffffff; display: none;">
-                <div class="container">
-                  <div class="row">
-                    <!-- Column 1 -->
-                    <div class="col-4">
-                      <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-                      <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-                      <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-                      <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-                      <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                      <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
+                        <span class="header_new_section_contact_content">
+
+                            <small>Mobile No:</small>
+
+                            <strong>
+                                9494193344
+                            </strong>
+
+                        </span>
+
+                    </a>
+
+
+                    <span class="header_new_section_info_divider"></span>
+
+
+
+                    <!-- EMAIL -->
+                    <a href="mailto:info@appledentalspecialities.com"
+                       class="header_new_section_contact_item
+                              header_new_section_email_item">
+
+                        <span class="header_new_section_contact_icon">
+
+                            <img
+                                src="images1/icons/email.png"
+                                alt="Email">
+
+                        </span>
+
+                        <span class="header_new_section_contact_content">
+
+                            <small>Email:</small>
+
+                            <strong>
+                                info@appledentalspecialities.com
+                            </strong>
+
+                        </span>
+
+                    </a>
+
+
+                    <span class="header_new_section_info_divider"></span>
+
+
+
+                    <!-- TIME -->
+                    <div class="header_new_section_contact_item
+                                header_new_section_time_item">
+
+                        <span class="header_new_section_contact_icon">
+
+                            <img
+                                src="images1/icons/time.png"
+                                alt="Opening Hours">
+
+                        </span>
+
+                        <span class="header_new_section_contact_content">
+
+                            <small>
+                                Monday - sunday
+                            </small>
+
+                            <strong>
+                                9 AM - 8 PM
+                            </strong>
+
+                            <span>
+                                tuesday: 9 AM - 2 PM
+                            </span>
+
+                        </span>
+
                     </div>
 
-                    <!-- Column 2 -->
-                    <div class="col-4">
-                      <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                      <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-                      <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-                      <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-                      <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-                      <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-                    </div>
 
-                    <!-- Column 3 -->
-                    <div class="col-4">
-                      <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                      <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-                      <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck <br> Surgeries</a></li>
-                      <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
-                    </div>
-                  </div>
                 </div>
-              </ul>
-            </li>
 
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
-            </li>
-            <li class="nav-item">
-              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
-                <b>Book Appointment</b>
-              </a>
-            </li>
-          </ul>
         </div>
-      </div>
-    </nav>
-  </section>
+
+    </div>
 
 
 
+    <!-- =====================================================
+         NAVIGATION BAR
+    ====================================================== -->
+    <nav class="header_new_section_nav">
+
+        <div class="container-fluid header_new_section_container">
+
+
+            <div
+                class="collapse navbar-collapse header_new_section_nav_collapse"
+                id="headerNewNavigation">
+
+
+                <ul class="header_new_section_nav_list">
+
+
+                    <!-- HOME -->
+                    <li class="header_new_section_nav_item">
+
+                        <a
+                            href="Home.php"
+                            class="header_new_section_nav_link">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+
+                    <span class="header_new_section_nav_divider"></span>
 
 
 
-  <!-- Include Bootstrap JS (with Popper) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+                    <!-- ABOUT -->
+                    <li class="header_new_section_nav_item">
 
-  <!-- Include Bootstrap JS (with Popper) -->
-  <section class="d-lg-none">
-    <nav class="navbar navbar-expand-lg navbar-light nav_mb_bg Navebar_content">
-      <div class="container">
-        <a class="navbar-brand" href="Home.php">
-          <img src="images1/apple-dental-vzm-logo.png" alt="Logo" class="img-fluid nav_mini_img" />
-        </a>
+                        <a
+                            href="About.php"
+                            class="header_new_section_nav_link">
 
-        <!-- Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                            About Us
 
-        <!-- Collapsible Navbar -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav g-3">
-            <li class="nav-item">
-              <a class="nav-link active" href="Home.php"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="About.php"><b>About Us</b></a>
-            </li>
+                        </a>
 
-            <!-- Treatments Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#" id="treatmentToggle" role="button" data-toggle="dropdown">
-                <b>Treatments</b>
-              </a>
-              <ul class="dropdown-menu px-3 py-2">
-                <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/root-canal.png" alt=""> Root Canal</a></li>
-                <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/dental-implant.png" alt=""> Dental Implants</a></li>
-                <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/wisdom-tooth.png" alt=""> Tooth Extraction</a></li>
-                <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/sealant.png" alt=""> Periapical Surgery</a></li>
-                <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gum-treatment.png" alt=""> Gum Surgery</a></li>
-                <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/crown.png" alt=""> Crowns & Bridge</a></li>
-                <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/veneer.png" alt=""> Veneers</a></li>
-                <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/aligners.png" alt=""> Aligners</a></li>
-                <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/laser.png" alt=""> Laser Dentistry</a></li>
-                <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/tooth-whitening.png" alt=""> Teeth Whitening</a></li>
-                <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smiling.png" alt=""> Smile Makeovers</a></li>
-                <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/gumcare.png" alt=""> Gum Care</a></li>
-                <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/smile.png" alt=""> Tooth Jewellery</a></li>
-                <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/child.png" alt=""> Child Dental Care</a></li>
-                <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/pain.png" alt=""> Major Head & Neck Surgeries</a></li>
-                <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dropdown-item"><img src="images1/icons_nav/ehs.png" alt=""> EHS Available</a></li>
-              </ul>
-            </li>
+                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="doctor.php"><b>Our Team</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.php"><b>Gallery</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.php"><b>Blogs</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Contact.php"><b>Contact Us</b></a>
-            </li>
-            <li class="nav-item mb-3">
-              <a href="appointment.php" class="navbar-book-btn btn btn-primary text-white px-3 py-1">
-                <b>Book Appointment</b>
-              </a>
-            </li>
-          </ul>
+
+                    <span class="header_new_section_nav_divider"></span>
+
+
+
+                    <!-- =================================================
+                         TREATMENTS
+                    ================================================== -->
+                    <li class="header_new_section_nav_item
+                               header_new_section_treatment_item">
+
+
+                        <div class="header_new_section_treatment_head">
+
+                            <a
+                                href="service.php"
+                                class="header_new_section_nav_link">
+
+                                Treatments
+
+                            </a>
+
+
+                            <!-- MOBILE/TABLET DROPDOWN BUTTON -->
+                            <button
+                                type="button"
+                                class="header_new_section_treatment_toggle"
+                                aria-label="Open Treatments">
+
+                                <i class="bi bi-chevron-down"></i>
+
+                            </button>
+
+                        </div>
+
+
+
+                        <!-- MEGA MENU -->
+                        <div class="header_new_section_mega_menu">
+
+                            <div class="header_new_section_mega_inner">
+
+
+                                <!-- COLUMN 01 -->
+                                <div class="header_new_section_mega_column">
+
+
+                                    <a
+                                        href="Rootcanal-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/root-canal.png"
+                                            alt="">
+
+                                        <span>
+                                            Root Canal
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Dental-Implants-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/dental-implant.png"
+                                            alt="">
+
+                                        <span>
+                                            Dental Implants
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Tooth-Extraction-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/wisdom-tooth.png"
+                                            alt="">
+
+                                        <span>
+                                            Tooth Extraction
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Periapical-Surgery-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/sealant.png"
+                                            alt="">
+
+                                        <span>
+                                            Periapical Surgery
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Gum-Surgery-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/gum-treatment.png"
+                                            alt="">
+
+                                        <span>
+                                            Gum Surgery
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/crown.png"
+                                            alt="">
+
+                                        <span>
+                                            Crowns &amp; Bridge
+                                        </span>
+
+                                    </a>
+
+                                </div>
+
+
+
+                                <!-- COLUMN 02 -->
+                                <div class="header_new_section_mega_column">
+
+
+                                    <a
+                                        href="Dental-Veneers-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/veneer.png"
+                                            alt="">
+
+                                        <span>
+                                            Veneers
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Clear-Aligners-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/aligners.png"
+                                            alt="">
+
+                                        <span>
+                                            Aligners
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Laser-Dentistry-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/laser.png"
+                                            alt="">
+
+                                        <span>
+                                            Laser Dentistry
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Teeth-Whitening-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/tooth-whitening.png"
+                                            alt="">
+
+                                        <span>
+                                            Teeth Whitening
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Smile-Makeover-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/smiling.png"
+                                            alt="">
+
+                                        <span>
+                                            Smile Makeovers
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Gum-Care-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/gumcare.png"
+                                            alt="">
+
+                                        <span>
+                                            Gum Care
+                                        </span>
+
+                                    </a>
+
+                                </div>
+
+
+
+                                <!-- COLUMN 03 -->
+                                <div class="header_new_section_mega_column">
+
+
+                                    <a
+                                        href="Teeth-Jewellery-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/smile.png"
+                                            alt="">
+
+                                        <span>
+                                            Tooth Jewellery
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/child.png"
+                                            alt="">
+
+                                        <span>
+                                            Child Dental Care
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Head-Neck-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/pain.png"
+                                            alt="">
+
+                                        <span>
+                                            Major Head &amp; Neck Surgeries
+                                        </span>
+
+                                    </a>
+
+
+                                    <a
+                                        href="Ehs-Treatment-In-Vizianagaram.php"
+                                        class="header_new_section_mega_link">
+
+                                        <img
+                                            src="images1/icons_nav/ehs.png"
+                                            alt="">
+
+                                        <span>
+                                            EHS Available
+                                        </span>
+
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                    <span class="header_new_section_nav_divider"></span>
+
+
+
+                    <!-- TEAM -->
+                    <li class="header_new_section_nav_item">
+
+                        <a
+                            href="doctor.php"
+                            class="header_new_section_nav_link">
+
+                            Our Team
+
+                        </a>
+
+                    </li>
+
+
+                    <span class="header_new_section_nav_divider"></span>
+
+
+
+                    <!-- GALLERY -->
+                    <li class="header_new_section_nav_item">
+
+                        <a
+                            href="gallery.php"
+                            class="header_new_section_nav_link">
+
+                            Gallery
+
+                        </a>
+
+                    </li>
+
+
+                    <span class="header_new_section_nav_divider"></span>
+
+
+
+                    <!-- BLOGS -->
+                    <li class="header_new_section_nav_item">
+
+                        <a
+                            href="blogs.php"
+                            class="header_new_section_nav_link">
+
+                            Blogs
+
+                        </a>
+
+                    </li>
+
+
+                    <span class="header_new_section_nav_divider"></span>
+
+
+
+                    <!-- CONTACT -->
+                    <li class="header_new_section_nav_item">
+
+                        <a
+                            href="Contact.php"
+                            class="header_new_section_nav_link">
+
+                            Contact Us
+
+                        </a>
+
+                    </li>
+
+
+
+                    <!-- APPOINTMENT -->
+                    <li class="header_new_section_nav_item
+                               header_new_section_appointment_item">
+
+                        <a
+                            href="appointment.php"
+                            class="header_new_section_appointment">
+
+                            <i class="bi bi-calendar3"></i>
+
+                            <span>
+                                Book Appointment
+                            </span>
+
+                        </a>
+
+                    </li>
+
+
+                </ul>
+
+
+
+                <!-- =================================================
+                     MOBILE / TABLET CONTACT INFO
+                ================================================== -->
+                <div class="header_new_section_mobile_contacts">
+
+
+                    <a
+                        href="tel:+919494193344"
+                        class="header_new_section_mobile_contact">
+
+                        <i class="bi bi-telephone-fill"></i>
+
+                        <div>
+
+                            <small>Mobile No:</small>
+
+                            <strong>
+                                9494193344
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <a
+                        href="mailto:info@appledentalspecialities.com"
+                        class="header_new_section_mobile_contact">
+
+                        <i class="bi bi-envelope-fill"></i>
+
+                        <div>
+
+                            <small>Email:</small>
+
+                            <strong>
+                                info@appledentalspecialities.com
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <div class="header_new_section_mobile_contact">
+
+                        <i class="bi bi-clock-fill"></i>
+
+                        <div>
+
+                            <small>
+                                Monday - sunday
+                            </small>
+
+                            <strong>
+                                9 AM - 8 PM
+                            </strong>
+
+                            <span>
+                                Tuesday: 9 AM - 2 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
         </div>
-      </div>
+
     </nav>
-  </section>
 
-  <!-- JavaScript -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const navbarToggler = document.querySelector(".navbar-toggler");
-      const navbarMenu = document.getElementById("navbarNav");
-      const treatmentToggle = document.getElementById("treatmentToggle");
-      const treatmentMenu = document.getElementById("treatmentMenu");
 
-      // Toggle navbar menu
-      navbarToggler.addEventListener("click", function() {
-        navbarMenu.classList.toggle("show");
-      });
+</header>
 
-      // Toggle treatment dropdown menu
-      treatmentToggle.addEventListener("click", function(event) {
-        event.preventDefault();
-        treatmentMenu.classList.toggle("show");
-      });
+<!-- =========================================================
+     NEW HEADER RESPONSIVE SCRIPT
+========================================================== -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-      // Close navbar and dropdown when clicking outside
-      document.addEventListener("click", function(event) {
-        if (!navbarToggler.contains(event.target) && !navbarMenu.contains(event.target)) {
-          navbarMenu.classList.remove("show");
+    const header = document.querySelector(".header_new_section");
+    if (!header) return;
+
+    const treatmentItem = header.querySelector(
+        ".header_new_section_treatment_item"
+    );
+
+    const treatmentToggle = header.querySelector(
+        ".header_new_section_treatment_toggle"
+    );
+
+    if (treatmentItem && treatmentToggle) {
+        treatmentToggle.addEventListener("click", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            treatmentItem.classList.toggle("open");
+        });
+    }
+
+    document.addEventListener("click", function (event) {
+        if (
+            window.innerWidth < 992 &&
+            treatmentItem &&
+            !treatmentItem.contains(event.target)
+        ) {
+            treatmentItem.classList.remove("open");
         }
-        if (!treatmentToggle.contains(event.target) && !treatmentMenu.contains(event.target)) {
-          treatmentMenu.classList.remove("show");
+    });
+
+    window.addEventListener("resize", function () {
+        if (window.innerWidth >= 992 && treatmentItem) {
+            treatmentItem.classList.remove("open");
         }
-      });
     });
-  </script>
 
+    let currentPage = window.location.pathname
+        .split("/")
+        .filter(Boolean)
+        .pop() || "Home.php";
 
+    currentPage = currentPage.toLowerCase();
 
+    const navLinks = header.querySelectorAll(
+        ".header_new_section_nav_link"
+    );
 
+    navLinks.forEach(function (link) {
+        const href = link.getAttribute("href");
+        if (!href) return;
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const treatmentsDropdown = document.getElementById("treatmentsDropdown");
-      const dropdownMenu = treatmentsDropdown.nextElementSibling;
+        const targetPage = href
+            .split("/")
+            .filter(Boolean)
+            .pop()
+            .toLowerCase();
 
-      // Show dropdown on hover
-      treatmentsDropdown.parentElement.addEventListener("mouseenter", function() {
-        dropdownMenu.style.display = "block";
-      });
-
-      // Hide dropdown when the mouse leaves
-      treatmentsDropdown.parentElement.addEventListener("mouseleave", function() {
-        dropdownMenu.style.display = "none";
-      });
-    });
-  </script>
-  <!-- JavaScript for Navbar Toggle and Dropdown -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Navbar toggle
-      const navbarToggler = document.querySelector(".navbar-toggler");
-      const navbarMenu = document.getElementById("navbarNav");
-
-      navbarToggler.addEventListener("click", function() {
-        navbarMenu.classList.toggle("show");
-      });
-
-      // Treatments dropdown toggle
-      const treatmentToggle = document.getElementById("treatmentToggle");
-      const treatmentMenu = document.getElementById("treatmentMenu");
-
-      treatmentToggle.addEventListener("click", function(event) {
-        event.preventDefault();
-        treatmentMenu.style.display = treatmentMenu.style.display === "none" ? "block" : "none";
-      });
-    });
-  </script>
-
-
-
-  <!-- Bootstrap JavaScript (Ensure This is Included) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-  <!-- <script>
-    document.querySelectorAll('.dropdown-submenu > a').forEach(item => {
-      item.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        let submenu = this.nextElementSibling;
-        if (submenu) {
-          submenu.classList.toggle('show');
+        if (targetPage === currentPage) {
+            link.classList.add("active");
         }
-      });
     });
-  </script> -->
 
+    const mainCollapse = document.getElementById(
+        "headerNewNavigation"
+    );
 
+    const regularLinks = header.querySelectorAll(
+        ".header_new_section_nav_link:not([href='service.php'])," +
+        ".header_new_section_appointment," +
+        ".header_new_section_mega_link"
+    );
 
+    regularLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            if (window.innerWidth >= 992 || !mainCollapse) return;
 
-  <!-- Optional JavaScript (if needed) -->
-  <!-- <script>
-    document.querySelectorAll('.dropdown-submenu > a').forEach(item => {
-      item.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        let submenu = this.nextElementSibling;
-        if (submenu) {
-          submenu.classList.toggle('show');
-        }
-      });
+            if (typeof bootstrap !== "undefined" && bootstrap.Collapse) {
+                const instance = bootstrap.Collapse.getOrCreateInstance(
+                    mainCollapse,
+                    { toggle: false }
+                );
+                instance.hide();
+            }
+        });
     });
-  </script> -->
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Toggle submenus when clicked
-      function toggleSubMenu(event, submenuId) {
-        event.preventDefault(); // Prevent the default link action (redirect)
-        const submenu = document.getElementById(submenuId);
-        if (submenu.style.display === "none" || submenu.style.display === "") {
-          submenu.style.display = "block";
-        } else {
-          submenu.style.display = "none";
-        }
-      }
-
-      // Add click event to each "Services" and "Equipment" submenu
-      window.toggleSubMenu = toggleSubMenu;
-    });
-  </script>
+});
+</script>

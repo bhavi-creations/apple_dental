@@ -1,17 +1,18 @@
 <?php include 'header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/services/services_img/about.png'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+     <img src="images1/services/services_img/About-bg.png" alt="About Us" class="img-fluid">
+    <!-- <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/services/services_img/about.png'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
         <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">About Us</h1>
-    </section>
+    </section> -->
 
 
 
     <!-- About Section -->
-    <section class="dsdl1-about-section" data-aos="fade-up">
+    <!-- <section class="dsdl1-about-section" data-aos="fade-up">
         <div class="dsdl1-container">
-            <!-- Section Heading -->
+            Section Heading
             <div class="col-12 text-center mb-5" data-aos="fade-up">
                 <div class="dsdl1-section-heading">
 
@@ -21,9 +22,9 @@
                 </div>
 
             </div>
-            <!-- Content and Image Row -->
+            Content and Image Row
             <div class="dsdl1-row">
-            <!-- Tabs Content -->
+            Tabs Content
             <div class="dsdl1-content" data-aos="fade-left" data-aos-duration="1000">
                 <div class="dsdl1-tabs">
                     <ul class="nav nav-pills" id="dsdl1-about-tabs" role="tablist">
@@ -72,7 +73,7 @@
                             <div class="col-12 col-lg-6">
 
                                 <div class="dsdl1-about-image" style="background-image: url('images1/home/what.png');">
-                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                    <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
                                 </div>
 
 
@@ -105,7 +106,7 @@
                             <div class="col-12 col-lg-6">
 
                                 <div class="dsdl1-about-image" style="background-image: url('images1/home/mission.png');">
-                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                    <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
                                 </div>
                             </div>
                         </div>
@@ -132,7 +133,7 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <div class="dsdl1-about-image" style="background-image: url('images1/home/vision.png');">
-                                    <!-- <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image"> -->
+                                    <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
                                 </div>
                             </div>
                         </div>
@@ -142,13 +143,367 @@
                 </div>
             </div>
 
-            <!-- Image Section -->
-            <!-- <div class="dsdl1-about-image" style="background-image: url('https://appledentalvzm.in/images1/apple.jpg');">
+            Image Section
+            <div class="dsdl1-about-image" style="background-image: url('https://appledentalvzm.in/images1/apple.jpg');">
                 <img src="images1/apple.jpg" alt="About Us Image" class="responsive-image">
-            </div> -->
+            </div>
         </div>
         </div>
-    </section>
+    </section> -->
+
+
+
+
+
+    <section class="index_first_section">
+
+    <!-- Decorative Background Shapes -->
+    <div class="index_first_section_shape index_first_section_shape_one"></div>
+    <div class="index_first_section_shape index_first_section_shape_two"></div>
+    <div class="index_first_section_shape index_first_section_shape_three"></div>
+
+    <div class="index_first_section_dots index_first_section_dots_one"></div>
+    <div class="index_first_section_dots index_first_section_dots_two"></div>
+
+
+    <!-- LEFT HAND WRITING -->
+    <div class="index_first_section_left_note">
+        <span>Your</span>
+        <span>Smile</span>
+        <span>Our Priority</span>
+        <i></i>
+    </div>
+
+
+    <!-- TOP RIGHT DECORATION -->
+    <div class="index_first_section_top_tooth">
+        <img src="assets/img/index/index-first-tooth.png" alt="">
+    </div>
+
+    <div class="index_first_section_top_right_text">
+        <span>ADVANCED</span>
+        <span>DENTAL CARE</span>
+        <span>FOR A</span>
+        <span>BRIGHTER</span>
+        <span>TOMORROW</span>
+        <i></i>
+    </div>
+
+
+    <div class="container-fluid index_first_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="index_first_section_header">
+
+            <div class="index_first_section_eyebrow">
+                <span></span>
+                <p>GET TO KNOW US</p>
+                <span></span>
+            </div>
+
+
+            <h2 class="index_first_section_main_title">
+                Best Dental Clinic in vizianagaram
+            </h2>
+
+
+            <h3 class="index_first_section_second_title">
+                About Our Journey
+            </h3>
+
+            <div class="index_first_section_title_underline"></div>
+
+
+            <p class="index_first_section_header_text">
+                Discover who we are and what drives us to make a difference.
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             TABS
+        ====================================================== -->
+        <div class="index_first_section_tabs">
+
+            <button type="button"
+                    class="index_first_section_tab active"
+                    data-tab="what">
+
+                <i class="bi bi-people-fill"></i>
+
+                <span>What We Do</span>
+
+            </button>
+
+
+            <button type="button"
+                    class="index_first_section_tab"
+                    data-tab="mission">
+
+                <i class="bi bi-bullseye"></i>
+
+                <span>Our Mission</span>
+
+            </button>
+
+
+            <button type="button"
+                    class="index_first_section_tab"
+                    data-tab="vision">
+
+                <i class="bi bi-eye-fill"></i>
+
+                <span>Our Vision</span>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             MAIN GRID
+        ====================================================== -->
+        <div class="row g-3 index_first_section_main_row">
+
+
+            <!-- =================================================
+                 LEFT CONTENT CARD
+            ================================================== -->
+            <div class="col-lg-6">
+
+                <div class="index_first_section_content_card">
+
+
+                    <h3 class="index_first_section_content_title">
+
+                        <span id="indexFirstTitleDark">
+                            Transforming
+                        </span>
+
+                        <span id="indexFirstTitleBlue">
+                            Smiles
+                        </span>
+
+                    </h3>
+
+
+                    <h4 id="indexFirstSubtitle">
+                        with Expert Specialities
+                    </h4>
+
+
+                    <div class="index_first_section_small_line"></div>
+
+
+                    <div class="index_first_section_paragraphs">
+
+                        <p id="indexFirstParagraphOne">
+                            At Apple Dental Specialities, recognized as one of the
+                            best dental clinics in Vizianagaram and a trusted dental
+                            clinic in Vizianagaram, we are dedicated to improving
+                            your oral health with modern dental technology and advanced
+                            treatment solutions. Whether you need routine dental
+                            check-ups or specialized procedures, our team focuses on
+                            delivering high-quality care tailored to your needs.
+                        </p>
+
+
+                        <p id="indexFirstParagraphTwo">
+                            Our experienced dental professionals ensure a comfortable
+                            and stress-free experience, guiding you through every step
+                            of your treatment. At Apple Dental Specialities, your
+                            confidence begins with a healthy and beautiful smile.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         FEATURES
+                    ========================================== -->
+                    <div class="index_first_section_features">
+
+
+                        <div class="index_first_section_feature">
+
+                            <div class="index_first_section_feature_icon">
+                                <i id="indexFirstFeatureIcon1"
+                                   class="bi bi-headset"></i>
+                            </div>
+
+                            <p id="indexFirstFeature1">
+                                Modern Dental Technology<br>
+                                for Accurate Diagnoses
+                            </p>
+
+                        </div>
+
+
+                        <div class="index_first_section_feature_divider"></div>
+
+
+                        <div class="index_first_section_feature">
+
+                            <div class="index_first_section_feature_icon">
+                                <i id="indexFirstFeatureIcon2"
+                                   class="bi bi-shield-fill-check"></i>
+                            </div>
+
+                            <p id="indexFirstFeature2">
+                                Customized Dental<br>
+                                Treatments for Healthy Smiles
+                            </p>
+
+                        </div>
+
+
+                        <div class="index_first_section_feature_divider"></div>
+
+
+                        <div class="index_first_section_feature">
+
+                            <div class="index_first_section_feature_icon">
+                                <i id="indexFirstFeatureIcon3"
+                                   class="bi bi-people-fill"></i>
+                            </div>
+
+                            <p id="indexFirstFeature3">
+                                Skilled Dentists Providing<br>
+                                Safe &amp; Quality Care
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 RIGHT IMAGE
+            ================================================== -->
+            <div class="col-lg-6">
+
+                <div class="index_first_section_visual_card">
+
+
+                    <img src="assets/img/index/index-first-about.jpg"
+                         alt="Dental Treatment"
+                         class="index_first_section_main_image">
+
+
+                    <!-- BLUE QUOTE CARD -->
+                    <div class="index_first_section_quote_box">
+
+                        <div class="index_first_section_quote_mark">
+                            “
+                        </div>
+
+                        <p id="indexFirstQuote">
+                            Healthy<br>
+                            Smiles<br>
+                            Happier<br>
+                            Lives
+                        </p>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- HAND WRITING -->
+                    <div class="index_first_section_image_note">
+
+                        <span>Care</span>
+                        <span>Beyond</span>
+                        <span>Teeth</span>
+
+                        <i></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM VALUES
+        ====================================================== -->
+        <div class="index_first_section_bottom_values">
+
+            <span class="index_first_section_bottom_line"></span>
+
+
+            <div class="index_first_section_bottom_item">
+
+                <div class="index_first_section_bottom_icon">
+                    <i class="bi bi-emoji-smile-fill"></i>
+                </div>
+
+                <span>Healthier Smiles</span>
+
+            </div>
+
+
+            <div class="index_first_section_bottom_divider"></div>
+
+
+            <div class="index_first_section_bottom_item">
+
+                <div class="index_first_section_bottom_icon">
+                    <i class="bi bi-heart-fill"></i>
+                </div>
+
+                <span>Brighter Futures</span>
+
+            </div>
+
+
+            <div class="index_first_section_bottom_divider"></div>
+
+
+            <div class="index_first_section_bottom_item">
+
+                <div class="index_first_section_bottom_icon">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+
+                <span>Stronger Communities</span>
+
+            </div>
+
+
+            <span class="index_first_section_bottom_line"></span>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- BOTTOM LEFT TOOTH -->
+    <div class="index_first_section_bottom_tooth">
+        <img src="assets/img/index/index-first-small-tooth.png" alt="">
+    </div>
+
+</section>
 
     <!-- CSS Styles -->
 
