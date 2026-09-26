@@ -34,7 +34,7 @@ $_SESSION['form_time'] = time();
      <img src="images1/services/services_img/Appointment-bg.png" alt="About Us" class="img-fluid">
 
 
- <section class=" my-5 card_wrapper">
+ <!-- <section class=" my-5 card_wrapper">
      <div class="container">
          <h1 class="text-center">Appointment Form</h1>
          <div class="row">
@@ -109,7 +109,721 @@ $_SESSION['form_time'] = time();
 
 
      </div>
- </section>
+ </section> -->
+
+
+
+
+ <section class="appointment_first_section">
+
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="appointment_first_section_bg appointment_first_section_bg_one"></div>
+    <div class="appointment_first_section_bg appointment_first_section_bg_two"></div>
+    <div class="appointment_first_section_bg appointment_first_section_bg_three"></div>
+
+    <div class="appointment_first_section_dots"></div>
+
+
+    <!-- =========================================================
+         LEFT HAND WRITTEN TEXT
+    ========================================================== -->
+    <div class="appointment_first_section_left_note">
+        <span>Care</span>
+        <span>Today</span>
+        <span>for a</span>
+        <span>Brighter</span>
+        <span>Tomorrow</span>
+        <i></i>
+    </div>
+
+
+    <!-- =========================================================
+         RIGHT TOP HAND WRITTEN TEXT
+    ========================================================== -->
+    <div class="appointment_first_section_right_note">
+        <span>Your</span>
+        <span>Healthy Smile</span>
+        <span>Starts Here</span>
+        <i></i>
+    </div>
+
+
+    <!-- =========================================================
+         LEFT BOTTOM TOOTH
+    ========================================================== -->
+    <div class="appointment_first_section_tooth">
+
+        <img src="assets/img/appointment/appointment-tooth.png"
+             alt="Dental Care">
+
+        <div class="appointment_first_section_tooth_ring"></div>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM TEXT -->
+    <div class="appointment_first_section_bottom_left_text">
+        <span>HEALTHY</span>
+        <span>SMILES</span>
+        <span>HAPPIER</span>
+        <span>LIVES</span>
+        <i></i>
+    </div>
+
+
+    <!-- RIGHT BOTTOM NOTE -->
+    <div class="appointment_first_section_bottom_right_note">
+        <span>Let's Create</span>
+        <span>Healthier Smiles</span>
+        <i></i>
+    </div>
+
+
+
+    <div class="container-fluid appointment_first_section_container">
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="appointment_first_section_header">
+
+            <div class="appointment_first_section_eyebrow">
+
+                <span></span>
+
+                <p>BOOK YOUR VISIT</p>
+
+                <span></span>
+
+            </div>
+
+
+            <h1 class="appointment_first_section_title">
+
+                Appointment
+
+                <span>Form</span>
+
+            </h1>
+
+
+            <p class="appointment_first_section_subtitle">
+                Fill in your details and we’ll get back to you to confirm your appointment.
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             MAIN ROW
+        ====================================================== -->
+        <div class="row g-4 appointment_first_section_main_row">
+
+
+            <!-- =================================================
+                 LEFT APPOINTMENT FORM
+            ================================================== -->
+            <div class="col-xl-5 col-lg-5">
+
+                <div class="appointment_first_section_card
+                            appointment_first_section_form_card">
+
+
+                    <!-- FORM HEADER -->
+                    <div class="appointment_first_section_form_header">
+
+                        <div class="appointment_first_section_main_icon">
+
+                            <i class="bi bi-calendar3"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h2>
+                                Book an
+                                <span>Appointment</span>
+                            </h2>
+
+                            <p>
+                                Take the first step towards a healthier,
+                                brighter smile.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FORM -->
+                    <form class="appointment_first_section_form"
+                          action="#"
+                          method="post">
+
+
+                        <div class="row g-3">
+
+
+                            <!-- FULL NAME -->
+                            <div class="col-md-6">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-person-fill"></i>
+
+                                    <span>
+                                        Full Name
+                                        <b>*</b>
+                                    </span>
+
+                                </label>
+
+
+                                <input type="text"
+                                       name="name"
+                                       class="appointment_first_section_input"
+                                       placeholder="Enter your name"
+                                       required>
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+                            <div class="col-md-6">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-envelope-fill"></i>
+
+                                    <span>
+                                        Email Address
+                                        <b>*</b>
+                                    </span>
+
+                                </label>
+
+
+                                <input type="email"
+                                       name="email"
+                                       class="appointment_first_section_input"
+                                       placeholder="example@gmail.com"
+                                       required>
+
+                            </div>
+
+
+                            <!-- CONTACT -->
+                            <div class="col-md-6">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-telephone-fill"></i>
+
+                                    <span>
+                                        Contact Number
+                                        <b>*</b>
+                                    </span>
+
+                                </label>
+
+
+                                <input type="tel"
+                                       name="phone"
+                                       class="appointment_first_section_input"
+                                       placeholder="+91 00000 00000"
+                                       required>
+
+                            </div>
+
+
+                            <!-- DATE -->
+                            <div class="col-md-6">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-calendar3"></i>
+
+                                    <span>
+                                        Select Date
+                                        <b>*</b>
+                                    </span>
+
+                                </label>
+
+
+                                <input type="date"
+                                       name="date"
+                                       class="appointment_first_section_input"
+                                       required>
+
+                            </div>
+
+
+                            <!-- TIME -->
+                            <div class="col-12">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-clock-fill"></i>
+
+                                    <span>
+                                        Select Time Slot
+                                        <b>*</b>
+                                    </span>
+
+                                </label>
+
+
+                                <select name="time"
+                                        class="appointment_first_section_input
+                                               appointment_first_section_select"
+                                        required>
+
+                                    <option value="">
+                                        -- Select Time Slot --
+                                    </option>
+
+                                    <option value="09:00">
+                                        09:00 AM
+                                    </option>
+
+                                    <option value="10:00">
+                                        10:00 AM
+                                    </option>
+
+                                    <option value="11:00">
+                                        11:00 AM
+                                    </option>
+
+                                    <option value="12:00">
+                                        12:00 PM
+                                    </option>
+
+                                    <option value="16:00">
+                                        04:00 PM
+                                    </option>
+
+                                    <option value="17:00">
+                                        05:00 PM
+                                    </option>
+
+                                    <option value="18:00">
+                                        06:00 PM
+                                    </option>
+
+                                    <option value="19:00">
+                                        07:00 PM
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- MESSAGE -->
+                            <div class="col-12">
+
+                                <label class="appointment_first_section_label">
+
+                                    <i class="bi bi-chat-left-text-fill"></i>
+
+                                    <span>
+                                        Message (Optional)
+                                    </span>
+
+                                </label>
+
+
+                                <textarea name="message"
+                                          class="appointment_first_section_input
+                                                 appointment_first_section_message"
+                                          placeholder="Any additional information..."></textarea>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- SUBMIT -->
+                        <button type="submit"
+                                class="appointment_first_section_submit">
+
+                            <span class="appointment_first_section_submit_calendar">
+
+                                <i class="bi bi-calendar2-check-fill"></i>
+
+                            </span>
+
+
+                            <strong>
+                                Book Appointment
+                            </strong>
+
+
+                            <span class="appointment_first_section_submit_arrow">
+
+                                <i class="bi bi-chevron-right"></i>
+
+                            </span>
+
+                        </button>
+
+
+                        <!-- SECURE -->
+                        <div class="appointment_first_section_secure">
+
+                            <i class="bi bi-lock-fill"></i>
+
+                            <span>
+                                Your information is secure with us.
+                            </span>
+
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 RIGHT LOCATION
+            ================================================== -->
+            <div class="col-xl-7 col-lg-7">
+
+                <div class="appointment_first_section_card
+                            appointment_first_section_location_card">
+
+
+                    <!-- LOCATION HEADER -->
+                    <div class="appointment_first_section_location_header">
+
+                        <div class="appointment_first_section_location_title">
+
+                            <div class="appointment_first_section_main_icon">
+
+                                <i class="bi bi-geo-alt-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <h2>
+                                    Our
+                                    <span>Location</span>
+                                </h2>
+
+                                <p>
+                                    Visit us for personalized dental care.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <a href="https://maps.google.com/?q=Apple+Dental+Specialities+Vizianagaram"
+                           target="_blank"
+                           class="appointment_first_section_direction_btn">
+
+                            <i class="bi bi-arrow-up-right"></i>
+
+                            <span>
+                                Get Directions
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         MAP
+                    ================================================== -->
+                    <div class="appointment_first_section_map">
+
+                        <iframe
+                            src="https://www.google.com/maps?q=Apple+Dental+Specialities+Vizianagaram&output=embed"
+                            loading="lazy"
+                            allowfullscreen=""
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                         LOCATION INFORMATION
+                    ================================================== -->
+                    <div class="appointment_first_section_location_info">
+
+
+                        <!-- ADDRESS -->
+                        <div class="appointment_first_section_location_item">
+
+                            <div class="appointment_first_section_location_icon">
+
+                                <i class="bi bi-geo-alt-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Address
+                                </strong>
+
+                                <p>
+                                    D.No.22-1-10, 1st Floor,<br>
+                                    A.G. Complex, Phool Baugh Road,<br>
+                                    Near Ambatisatram Jn.,<br>
+                                    Vizianagaram - 535 002
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DIVIDER -->
+                        <div class="appointment_first_section_location_divider"></div>
+
+
+                        <!-- CALL -->
+                        <div class="appointment_first_section_location_item">
+
+                            <div class="appointment_first_section_location_icon">
+
+                                <i class="bi bi-telephone-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Call Us
+                                </strong>
+
+                                <p>
+
+                                    <a href="tel:+919293056083">
+                                        +91 9293056083
+                                    </a>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DIVIDER -->
+                        <div class="appointment_first_section_location_divider"></div>
+
+
+                        <!-- EMAIL -->
+                        <div class="appointment_first_section_location_item">
+
+                            <div class="appointment_first_section_location_icon">
+
+                                <i class="bi bi-envelope-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Email Us
+                                </strong>
+
+                                <p>
+
+                                    <a href="mailto:info@appledentalvzm.in">
+                                        info@appledentalvzm.in
+                                    </a>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DIVIDER -->
+                        <div class="appointment_first_section_location_divider"></div>
+
+
+                        <!-- HOURS -->
+                        <div class="appointment_first_section_location_item">
+
+                            <div class="appointment_first_section_location_icon">
+
+                                <i class="bi bi-clock-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Working Hours
+                                </strong>
+
+                                <p>
+                                    Mon - Sun: 9 AM - 8 PM<br>
+                                    Tuesday: 9 AM - 2 PM
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="appointment_first_section_features">
+
+
+            <!-- FEATURE 01 -->
+            <div class="appointment_first_section_feature">
+
+                <div class="appointment_first_section_feature_icon">
+
+                    <i class="bi bi-people-fill"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        Experienced
+                    </strong>
+
+                    <span>
+                        Dental Team
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="appointment_first_section_feature_divider"></div>
+
+
+            <!-- FEATURE 02 -->
+            <div class="appointment_first_section_feature">
+
+                <div class="appointment_first_section_feature_icon">
+
+                    <i class="bi bi-shield-fill-check"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        Safe &amp; Hygienic
+                    </strong>
+
+                    <span>
+                        Environment
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="appointment_first_section_feature_divider"></div>
+
+
+            <!-- FEATURE 03 -->
+            <div class="appointment_first_section_feature">
+
+                <div class="appointment_first_section_feature_icon">
+
+                    <i class="bi bi-calendar3"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        Flexible
+                    </strong>
+
+                    <span>
+                        Appointments
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="appointment_first_section_feature_divider"></div>
+
+
+            <!-- FEATURE 04 -->
+            <div class="appointment_first_section_feature">
+
+                <div class="appointment_first_section_feature_icon">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        Better Smiles
+                    </strong>
+
+                    <span>
+                        Brighter Tomorrow
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
 
 
 
