@@ -2754,7 +2754,7 @@ $facility_cards = [
                     <!-- IMAGE -->
                     <div class="index_fourth_section_image">
 
-                        <img src="assets/img/index/why-choose-us.jpg"
+                        <img src="images1/2.png"
                              alt="Dental Treatment">
 
                     </div>
