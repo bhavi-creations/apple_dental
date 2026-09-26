@@ -188,7 +188,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image">
 
                         <img
-                            src="assets/images/dental-implant-hero.png"
+                            src="images1/services/services_img/dental-implants-rec-1.png"
                             alt="Dental Implant Treatment"
                         >
 

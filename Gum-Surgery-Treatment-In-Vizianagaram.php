@@ -188,7 +188,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image"> 
  
                         <img 
-                            src="assets/images/gum-surgery-hero.png" 
+                            src="images1/services/services_img/Gum-surgery-sq.png" 
                             alt="Gum Surgery in Vizianagaram"
                         > 
  

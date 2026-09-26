@@ -263,13 +263,13 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-kalyan.jpg"
+                            <img src="images1/kalyan.png"
                                  alt="Dr. Kalyan Chakravarty"
                                  class="index_third_section_doctor_image">
 
 
                             <!-- LEFT QUOTE -->
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -283,10 +283,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -385,12 +385,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-madhuri.jpg"
+                            <img src="images1/madhuri.png"
                                  alt="Dr. T. Madhuri"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -403,10 +403,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -430,7 +430,7 @@
                                     </h3>
 
                                     <p>
-                                        BDS
+                                        B.D.S (Chief Dental Surgeon)
                                     </p>
 
                                 </div>
@@ -503,12 +503,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-sarath.jpg"
+                            <img src="images1/sarath.png"
                                  alt="Dr. Sarath Chandra"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -521,10 +521,10 @@
                                     Confidence
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -548,7 +548,7 @@
                                     </h3>
 
                                     <p>
-                                        Prosthodontist
+                                        B.D.S (Prosthodontist)
                                     </p>
 
                                 </div>
@@ -622,12 +622,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-four.jpg"
-                                 alt="Dental Specialist"
+                            <img src="images1/Dr.sharon.jpg"
+                                 alt="Dr. B. Sharon"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -640,10 +640,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -663,11 +663,11 @@
                                 <div class="index_third_section_name">
 
                                     <h3>
-                                        Dental Specialist
+                                        Dr. A. Deol Aslesha
                                     </h3>
 
                                     <p>
-                                        Specialist Dentist
+                                       B.D.S (Dental Surgeon) 
                                     </p>
 
                                 </div>
@@ -834,7 +834,7 @@
             </div>
 
 
-            <a href="doctor.php"
+            <!-- <a href="doctor.php"
                class="index_third_section_view_all">
 
                 <span>
@@ -843,7 +843,7 @@
 
                 <i class="bi bi-arrow-right"></i>
 
-            </a>
+            </a> -->
 
 
         </div>

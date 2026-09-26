@@ -187,7 +187,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image"> 
  
                         <img 
-                            src="assets/images/dental-veneers-hero.png" 
+                            src="images1/services/services_img/veneers-im-sq.png" 
                             alt="Dental Veneers in Vizianagaram"
                         > 
  

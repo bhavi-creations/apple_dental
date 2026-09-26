@@ -188,7 +188,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image">
 
                         <img
-                            src="assets/images/clear-aligners-hero.png"
+                            src="images1/services/services_img/s2.png"
                             alt="Clear Aligners Treatment in Vizianagaram"
                         >
 
@@ -484,7 +484,7 @@ include 'header.php';
     <!-- RIGHT DENTAL MIRROR / DECOR IMAGE -->
     <div class="service_new_second_section_mirror">
 
-        <img src="assets/img/services/clear-aligners-side.png"
+        <img src="images1/services/services_img/"
              alt="Clear Aligners Treatment">
 
     </div>
@@ -575,7 +575,7 @@ include 'header.php';
 
                     <div class="service_new_second_section_center_image">
 
-                        <img src="assets/img/services/clear-aligners-process-main.png"
+                        <img src="images1/services/services_img/clear-aligners_1.png"
                              alt="Clear Aligners Treatment in Vizianagaram">
 
                     </div>

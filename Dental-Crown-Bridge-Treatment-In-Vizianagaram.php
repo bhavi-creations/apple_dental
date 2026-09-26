@@ -187,7 +187,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image"> 
  
                         <img 
-                            src="assets/images/dental-crowns-bridges-hero.png" 
+                            src="images1/services/services_img/dental_crowns.jpg" 
                             alt="Dental Crowns and Bridges in Vizianagaram"
                         > 
  

@@ -189,7 +189,7 @@ include 'header.php';
                     <div class="service_new_first_section_main_image"> 
  
                         <img 
-                            src="assets/images/gum-care-treatment-hero.png" 
+                            src="images1/services/services_img/gumcare2.png" 
                             alt="Gum Care and Treatment in Vizianagaram"
                         > 
  
