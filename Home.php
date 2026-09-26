@@ -677,7 +677,7 @@
                 <div class="index_first_section_visual_card">
 
 
-                    <img src="assets/img/index/index-first-about.jpg"
+                    <img src="./images1/home/what_1.jpeg"
                          alt="Dental Treatment"
                          class="index_first_section_main_image">
 
@@ -968,13 +968,13 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-kalyan.jpg"
+                            <img src="images1/kalyan.png"
                                  alt="Dr. Kalyan Chakravarty"
                                  class="index_third_section_doctor_image">
 
 
                             <!-- LEFT QUOTE -->
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -988,10 +988,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -1090,12 +1090,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-madhuri.jpg"
+                            <img src="images1/madhuri.png"
                                  alt="Dr. T. Madhuri"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -1108,10 +1108,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -1208,12 +1208,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-sarath.jpg"
+                            <img src="images1/sarath.png"
                                  alt="Dr. Sarath Chandra"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -1226,10 +1226,10 @@
                                     Confidence
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -1810,7 +1810,7 @@
                     <!-- IMAGE -->
                     <div class="index_second_section_treatment_image index_second_section_image_pink">
 
-                        <img src="assets/img/index/dental-implants.png"
+                        <img src="./images1/icons/dental-implant.png"
                              alt="Dental Implants">
 
                     </div>
@@ -1833,7 +1833,7 @@
                         </p>
 
 
-                        <a href="dental-implants.php"
+                        <a href="Dental-Implants-Treatment-In-Vizianagaram.php"
                            class="index_second_section_learn_more">
 
                             <span>
@@ -1876,7 +1876,7 @@
 
                     <div class="index_second_section_treatment_image index_second_section_image_blue">
 
-                        <img src="assets/img/index/root-canal.png"
+                        <img src="./images1/icons/root-canal.png"
                              alt="Root Canal Treatment">
 
                     </div>
@@ -1898,7 +1898,7 @@
                         </p>
 
 
-                        <a href="root-canal.php"
+                        <a href="Rootcanal-Treatment-In-Vizianagaram.php"
                            class="index_second_section_learn_more">
 
                             <span>
@@ -1940,7 +1940,7 @@
 
                     <div class="index_second_section_treatment_image index_second_section_image_pink">
 
-                        <img src="assets/img/index/clear-aligners.png"
+                        <img src="./images1/icons/orthodontic.png"
                              alt="Clear Aligners">
 
                     </div>
@@ -1962,7 +1962,7 @@
                         </p>
 
 
-                        <a href="clear-aligners.php"
+                        <a href="Clear-Aligners-In-Vizianagaram.php"
                            class="index_second_section_learn_more">
 
                             <span>
@@ -2004,7 +2004,7 @@
 
                     <div class="index_second_section_treatment_image index_second_section_image_blue">
 
-                        <img src="assets/img/index/smile-makeover.png"
+                        <img src="./images1/icons/smile.png"
                              alt="Smile Makeover">
 
                     </div>
@@ -2026,7 +2026,7 @@
                         </p>
 
 
-                        <a href="smile-makeover.php"
+                        <a href="Smile-Makeover-Treatment-In-Vizianagaram.php"
                            class="index_second_section_learn_more">
 
                             <span>

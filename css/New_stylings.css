@@ -4610,8 +4610,8 @@
 
 
 .index_second_section_treatment_image img {
-    width: 84%;
-    height: 84%;
+    width: 65%;
+    height: 65%;
 
     display: block;
 
@@ -6072,13 +6072,13 @@
 
     color: #152a68;
 
-    background:
+    /* background:
         linear-gradient(
             115deg,
             rgba(255,255,255,.93),
             rgba(255,255,255,.60) 68%,
             transparent 100%
-        );
+        ); */
 }
 
 
