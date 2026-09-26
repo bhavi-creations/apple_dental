@@ -398,7 +398,7 @@
                 <div class="index_first_section_visual_card">
 
 
-                    <img src="assets/img/index/index-first-about.jpg"
+                    <img src="images1/home/what.png"
                          alt="Dental Treatment"
                          class="index_first_section_main_image">
 
