@@ -15470,3 +15470,927 @@
     }
 
 }
+
+
+
+
+
+/* contact second second new stylings */
+/* =========================================================
+   CONTACT SECOND SECTION
+========================================================== */
+
+.contact_second_section {
+    --contact-second-blue: #1470ed;
+    --contact-second-dark: #173550;
+    --contact-second-cyan: #22a7d8;
+    --contact-second-light: #effbff;
+
+    position: relative;
+
+    width: 100%;
+
+    padding:
+        42px 0
+        24px;
+
+    overflow: hidden;
+
+    background:
+
+        radial-gradient(
+            circle at 7% 18%,
+            rgba(96, 190, 236, .22),
+            transparent 25%
+        ),
+
+        radial-gradient(
+            circle at 91% 76%,
+            rgba(112, 197, 240, .20),
+            transparent 29%
+        ),
+
+        linear-gradient(
+            135deg,
+            #edfaff 0%,
+            #f9fdff 45%,
+            #e8f7ff 100%
+        );
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================== */
+
+.contact_second_section_container {
+    position: relative;
+    z-index: 3;
+
+    width: min(1280px, 86%);
+
+    margin: 0 auto;
+
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+/* =========================================================
+   BACKGROUND DECOR
+========================================================== */
+
+.contact_second_section_bg_circle {
+    position: absolute;
+
+    pointer-events: none;
+
+    border-radius: 50%;
+}
+
+
+.contact_second_section_bg_circle_left {
+    width: 370px;
+    height: 370px;
+
+    left: -125px;
+    top: -180px;
+
+    background:
+        rgba(115, 199, 239, .12);
+}
+
+
+.contact_second_section_dots {
+    position: absolute;
+
+    width: 95px;
+    height: 95px;
+
+    pointer-events: none;
+
+    opacity: .25;
+
+    background-image:
+        radial-gradient(
+            circle,
+            #2679a7 1.5px,
+            transparent 1.7px
+        );
+
+    background-size:
+        13px 13px;
+}
+
+
+.contact_second_section_dots_left {
+    left: 9%;
+    top: 5px;
+}
+
+
+.contact_second_section_dots_right {
+    right: 7%;
+    bottom: 38px;
+}
+
+
+/* =========================================================
+   LARGE TOOTH WATERMARK
+========================================================== */
+
+.contact_second_section_tooth_art {
+    position: absolute;
+
+    top: 25px;
+    right: 29%;
+
+    color:
+        #acdafe;
+
+    font-size: 125px;
+
+    line-height: 1;
+
+    transform:
+        rotate(-7deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================== */
+
+.contact_second_section_header {
+    position: relative;
+
+    max-width: 720px;
+
+    margin:
+        0 auto 30px;
+
+    text-align: center;
+}
+
+
+.contact_second_section_eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-bottom: 5px;
+}
+
+
+.contact_second_section_eyebrow span {
+    display: block;
+
+    width: 48px;
+    height: 1px;
+
+    background:
+        #f12740;
+}
+
+
+.contact_second_section_eyebrow p {
+    margin: 0;
+
+    color: #f12740;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    letter-spacing: 6px;
+}
+
+
+.contact_second_section_title {
+    margin: 0;
+
+    color: #f12740;
+
+    font-size:
+        clamp(32px, 4vw, 48px);
+
+    font-weight: 800;
+
+    line-height: 1.05;
+}
+
+
+.contact_second_section_title span {
+    color:
+        var(--contact-second-blue);
+}
+
+
+.contact_second_section_subtitle {
+    margin:
+        8px 0 0;
+
+    color: #48515a;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   MAP GRID
+========================================================== */
+
+.contact_second_section_maps {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+
+    align-items: stretch;
+}
+
+
+/* =========================================================
+   MAP CARD
+========================================================== */
+
+.contact_second_section_map_card {
+    position: relative;
+
+    min-width: 0;
+
+    padding: 8px;
+
+    overflow: hidden;
+
+    border:
+        1px solid rgba(61, 162, 211, .13);
+
+    border-radius: 12px;
+
+    background:
+        rgba(255,255,255,.96);
+
+    box-shadow:
+        0 10px 27px rgba(19, 76, 112, .15),
+        0 2px 6px rgba(0,0,0,.05);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+
+.contact_second_section_map_card:hover {
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 15px 32px rgba(19, 76, 112, .2),
+        0 4px 10px rgba(0,0,0,.06);
+}
+
+
+/* =========================================================
+   OPTIONAL CARD TOP
+========================================================== */
+
+.contact_second_section_card_top {
+    display: none;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 8px;
+
+    padding:
+        3px 3px 5px;
+}
+
+
+.contact_second_section_card_icon {
+    width: 38px;
+    height: 38px;
+
+    flex: 0 0 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            145deg,
+            #33b5e7,
+            #0871bc
+        );
+
+    box-shadow:
+        0 4px 10px
+        rgba(13, 121, 179, .2);
+}
+
+
+.contact_second_section_card_top small {
+    display: block;
+
+    color: #7b858c;
+
+    font-size: 10px;
+}
+
+
+.contact_second_section_card_top h3 {
+    margin: 1px 0 0;
+
+    color: #193953;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   IFRAMES
+========================================================== */
+
+.contact_second_section_iframe_wrap {
+    position: relative;
+
+    width: 100%;
+
+    height: 300px;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+    background: #e9f6fc;
+}
+
+
+.contact_second_section_iframe_wrap iframe {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+}
+
+
+/* =========================================================
+   LEFT HANDWRITING NOTE
+========================================================== */
+
+.contact_second_section_left_note {
+    position: absolute;
+
+    left: 2.5%;
+    top: 36%;
+
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #5591aa;
+
+    font-family:
+        "Comic Sans MS",
+        cursive;
+
+    font-size: 15px;
+
+    line-height: 1.05;
+
+    transform:
+        rotate(-7deg);
+}
+
+
+.contact_second_section_left_note i {
+    display: block;
+
+    width: 60px;
+    height: 20px;
+
+    margin-top: 5px;
+
+    border-bottom:
+        2px solid #5591aa;
+
+    border-radius:
+        50%;
+}
+
+
+/* =========================================================
+   RIGHT NOTE
+========================================================== */
+
+.contact_second_section_right_note {
+    position: absolute;
+
+    top: 15px;
+    right: 4%;
+
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #153dc0;
+
+    font-family:
+        "Comic Sans MS",
+        cursive;
+
+    font-size: 27px;
+
+    line-height: 1;
+
+    transform:
+        rotate(-6deg);
+}
+
+
+.contact_second_section_right_note i {
+    display: block;
+
+    width: 48px;
+    height: 15px;
+
+    margin-top: 3px;
+
+    border-bottom: 4px solid #ef1f30;
+
+    border-radius: 50%;
+}
+
+
+/* =========================================================
+   SIDE LABEL
+========================================================== */
+
+.contact_second_section_side_label {
+    position: absolute;
+
+    left: 3px;
+    top: 64%;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+
+    color: #294c5e;
+
+    font-size: 11px;
+}
+
+
+.contact_second_section_side_label i {
+    color: #308eba;
+
+    font-size: 21px;
+}
+
+
+/* =========================================================
+   BOTTOM NOTE
+========================================================== */
+
+.contact_second_section_bottom_note {
+    position: absolute;
+
+    right: 3%;
+    bottom: 12px;
+
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #43869f;
+
+    font-family:
+        "Comic Sans MS",
+        cursive;
+
+    font-size: 12px;
+
+    line-height: 1;
+
+    transform:
+        rotate(5deg);
+}
+
+
+.contact_second_section_bottom_note i {
+    width: 54px;
+    height: 15px;
+
+    margin-top: 2px;
+
+    border-top:
+        2px solid #43869f;
+
+    border-radius: 50%;
+}
+
+
+/* =========================================================
+   BOTTOM FEATURE STRIP
+========================================================== */
+
+.contact_second_section_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 28px;
+
+    margin-top: 15px;
+}
+
+
+.contact_second_section_bottom_item {
+    min-width: 0;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.contact_second_section_bottom_icon {
+    width: 38px;
+    height: 38px;
+
+    flex: 0 0 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 16px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(145deg, #1193f0, #0865dc);
+
+    box-shadow:
+        0 4px 10px
+        rgba(16, 119, 169, .18);
+}
+
+
+.contact_second_section_bottom_item div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact_second_section_bottom_item strong {
+    color: #294451;
+
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.contact_second_section_bottom_item small {
+    color: #687781;
+
+    font-size: 8px;
+}
+
+
+.contact_second_section_bottom_divider {
+    width: 1px;
+    height: 38px;
+
+    background:
+        rgba(55, 119, 151, .22);
+}
+
+
+
+/* =========================================================
+   1200 - 1399
+========================================================== */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .contact_second_section_container {
+        width: 88%;
+    }
+
+
+    .contact_second_section_iframe_wrap {
+        height: 280px;
+    }
+
+
+    .contact_second_section_left_note {
+        left: 1%;
+    }
+
+
+    .contact_second_section_right_note {
+        right: 2%;
+    }
+
+}
+
+
+
+/* =========================================================
+   992 - 1199
+========================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .contact_second_section {
+        padding-top: 36px;
+    }
+
+
+    .contact_second_section_container {
+        width: 91%;
+    }
+
+
+    .contact_second_section_header {
+        margin-bottom: 24px;
+    }
+
+
+    .contact_second_section_maps {
+        gap: 15px;
+    }
+
+
+    .contact_second_section_iframe_wrap {
+        height: 255px;
+    }
+
+
+    .contact_second_section_left_note,
+    .contact_second_section_right_note,
+    .contact_second_section_side_label,
+    .contact_second_section_bottom_note {
+
+        opacity: .55;
+    }
+
+
+    .contact_second_section_bottom {
+        gap: 18px;
+    }
+
+}
+
+
+
+/* =========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991.98px) {
+
+    .contact_second_section {
+        padding:
+            38px 0
+            25px;
+    }
+
+
+    .contact_second_section_container {
+        width: 94%;
+    }
+
+
+    .contact_second_section_maps {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+
+    .contact_second_section_iframe_wrap {
+        height: 310px;
+    }
+
+
+    .contact_second_section_left_note,
+    .contact_second_section_right_note,
+    .contact_second_section_side_label,
+    .contact_second_section_bottom_note {
+
+        display: none;
+    }
+
+
+    .contact_second_section_tooth_art {
+        top: 35px;
+        right: 7%;
+
+        font-size: 90px;
+    }
+
+
+    .contact_second_section_bottom {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 13px;
+
+        max-width: 600px;
+
+        margin:
+            20px auto 0;
+    }
+
+
+    .contact_second_section_bottom_divider {
+        display: none;
+    }
+
+
+    .contact_second_section_bottom_item {
+        padding: 9px 12px;
+
+        border:
+            1px solid rgba(45, 142, 190, .12);
+
+        border-radius: 10px;
+
+        background:
+            rgba(255,255,255,.5);
+    }
+
+}
+
+
+
+/* =========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 575.98px) {
+
+    .contact_second_section {
+        padding:
+            30px 0
+            20px;
+    }
+
+
+    .contact_second_section_container {
+        width: 100%;
+
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+
+    .contact_second_section_header {
+        margin-bottom: 20px;
+    }
+
+
+    .contact_second_section_eyebrow {
+        gap: 10px;
+    }
+
+
+    .contact_second_section_eyebrow span {
+        width: 30px;
+    }
+
+
+    .contact_second_section_eyebrow p {
+        font-size: 9px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .contact_second_section_title {
+        font-size: 31px;
+    }
+
+
+    .contact_second_section_subtitle {
+        max-width: 310px;
+
+        margin:
+            7px auto 0;
+
+        font-size: 12px;
+
+        line-height: 1.5;
+    }
+
+
+    .contact_second_section_map_card {
+        padding: 6px;
+
+        border-radius: 10px;
+    }
+
+
+    .contact_second_section_iframe_wrap {
+        height: 240px;
+
+        border-radius: 7px;
+    }
+
+
+    .contact_second_section_bottom {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+
+        margin-top: 15px;
+    }
+
+
+    .contact_second_section_bottom_item {
+        min-height: 55px;
+
+        padding: 8px 12px;
+    }
+
+
+    .contact_second_section_bottom_icon {
+        width: 34px;
+        height: 34px;
+
+        flex-basis: 34px;
+
+        font-size: 14px;
+    }
+
+
+    .contact_second_section_bottom_item strong {
+        font-size: 11px;
+    }
+
+
+    .contact_second_section_bottom_item small {
+        font-size: 9px;
+    }
+
+
+    .contact_second_section_tooth_art {
+        display: none;
+    }
+
+
+    .contact_second_section_dots {
+        opacity: .12;
+    }
+
+}
+
+
+
+/* =========================================================
+   EXTRA SMALL
+========================================================== */
+
+@media (max-width: 380px) {
+
+    .contact_second_section_iframe_wrap {
+        height: 215px;
+    }
+
+
+    .contact_second_section_title {
+        font-size: 28px;
+    }
+
+}

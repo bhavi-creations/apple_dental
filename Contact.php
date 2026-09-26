@@ -524,29 +524,364 @@
 </section>
 
 <!-- Embedded Google Map and 360-Degree View -->
-<section style="padding: 50px 0; background-color: #f1f1f1;" data-aos="fade-up">
+<!-- <section style="padding: 50px 0; background-color: #f1f1f1;" data-aos="fade-up">
     <div class="container">
-        <!-- Section Heading -->
+        Section Heading
         <div class="text-center mb-5" data-aos="zoom-in">
             <h2 style="font-weight: bold; font-size: 2rem; color: #333;">Find Us Here</h2>
             <p style="font-size: 1rem; color: #666;">Explore our location and take a 360-degree view of our facility.</p>
         </div>
 
         <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
-            <!-- Embedded Google Map -->
+            Embedded Google Map
             <div class="google-map" data-aos="fade-right" data-aos-delay="100" style="flex: 1; min-width: 45%; background: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30334.605525010476!2d83.38071781801781!3d18.12583900511469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.136257!2d83.3896213!4m5!1s0x3a3be551bb580c3f%3A0xa15d74cd17e1d939!2sD.%20NO.%2022-1-10%2C%20Ist%20Floor%2C%20Apple%20Dental%20Specialities%2C%20A.G%20Complex%2C%20Ananda%20Gajapathi%20Rd%2C%20Ambati%20Satram%20Area%2C%20Vizianagaram%2C%20Andhra%20Pradesh%20535002!3m2!1d18.115064399999998!2d83.4140839!5e0!3m2!1sen!2sin!4v1735639081429!5m2!1sen!2sin"
                     width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
 
-            <!-- Embedded 360-Degree View -->
+            Embedded 360-Degree View
             <div class="logo-section" data-aos="fade-left" data-aos-delay="200" style="flex: 1; min-width: 45%; background: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <iframe src="https://www.google.com/maps/embed?pb=!4v1737188141527!6m8!1m7!1sCAoSLEFGMVFpcFBfeE9wY251a3hwUFFhYnNSVlh5a2lHZ05Sb0k3MExqT29RUWJp!2m2!1d18.11568935919561!2d83.41469168614333!3f97.03479452054793!4f0.1282191780821904!5f0.7820865974627469" width="100%"
                     height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+
+<section class="contact_second_section" data-aos="fade-up">
+
+    <!-- =====================================================
+         BACKGROUND DECORATIONS
+    ====================================================== -->
+    <div class="contact_second_section_bg_circle
+                contact_second_section_bg_circle_left"></div>
+
+    <div class="contact_second_section_dots
+                contact_second_section_dots_left"></div>
+
+    <div class="contact_second_section_dots
+                contact_second_section_dots_right"></div>
+
+
+    <!-- LEFT HANDWRITTEN NOTE -->
+    <div class="contact_second_section_left_note">
+
+        <span>Care Today</span>
+        <span>For a</span>
+        <span>Brighter</span>
+        <span>Tomorrow</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- RIGHT TOP NOTE -->
+    <div class="contact_second_section_right_note">
+
+        <span>Your</span>
+        <span>Healthy</span>
+        <span>Smile</span>
+        <span>Starts Here</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- LEFT SIDE LABEL -->
+    <div class="contact_second_section_side_label">
+
+        <i class="fa-solid fa-tooth"></i>
+
+        <span>
+            Dental Care
+        </span>
+
+    </div>
+
+
+    <!-- LARGE TOOTH DECORATION -->
+    <div class="contact_second_section_tooth_art">
+
+        <i class="fa-solid fa-tooth"></i>
+
+    </div>
+
+
+
+    <div class="container-fluid contact_second_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="contact_second_section_header"
+             data-aos="zoom-in">
+
+
+            <div class="contact_second_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    BOOK YOUR VISIT
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="contact_second_section_title">
+
+                Find Us
+
+                <span>
+                    Here
+                </span>
+
+            </h2>
+
+
+            <p class="contact_second_section_subtitle">
+                Explore our location and take a 360-degree view of our facility.
+            </p>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             MAPS GRID
+        ====================================================== -->
+        <div class="contact_second_section_maps">
+
+
+            <!-- =================================================
+                 GOOGLE MAP
+            ================================================== -->
+            <div class="contact_second_section_map_card"
+                 data-aos="fade-right"
+                 data-aos-delay="100">
+
+
+                <div class="contact_second_section_card_top">
+
+                    <span class="contact_second_section_card_icon">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            Our Location
+                        </small>
+
+                        <h3>
+                            Find Apple Dental
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact_second_section_iframe_wrap">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30334.605525010476!2d83.38071781801781!3d18.12583900511469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.136257!2d83.3896213!4m5!1s0x3a3be551bb580c3f%3A0xa15d74cd17e1d939!2sD.%20NO.%2022-1-10%2C%20Ist%20Floor%2C%20Apple%20Dental%20Specialities%2C%20A.G%20Complex%2C%20Ananda%20Gajapathi%20Rd%2C%20Ambati%20Satram%20Area%2C%20Vizianagaram%2C%20Andhra%20Pradesh%20535002!3m2!1d18.115064399999998!2d83.4140839!5e0!3m2!1sen!2sin!4v1735639081429!5m2!1sen!2sin"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 360 DEGREE VIEW
+            ================================================== -->
+            <div class="contact_second_section_map_card"
+                 data-aos="fade-left"
+                 data-aos-delay="200">
+
+
+                <div class="contact_second_section_card_top">
+
+                    <span class="contact_second_section_card_icon">
+
+                        <i class="bi bi-badge-3d-fill"></i>
+
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            Explore Our Clinic
+                        </small>
+
+                        <h3>
+                            360° Facility View
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact_second_section_iframe_wrap">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!4v1737188141527!6m8!1m7!1sCAoSLEFGMVFpcFBfeE9wY251a3hwUFFhYnNSVlh5a2lHZ05Sb0k3MExqT29RUWJp!2m2!1d18.11568935919561!2d83.41469168614333!3f97.03479452054793!4f0.1282191780821904!5f0.7820865974627469"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM FEATURES
+        ====================================================== -->
+        <div class="contact_second_section_bottom">
+
+
+            <div class="contact_second_section_bottom_item">
+
+                <span class="contact_second_section_bottom_icon">
+                    <i class="bi bi-people-fill"></i>
+                </span>
+
+                <div>
+                    <strong>
+                        Experienced
+                    </strong>
+
+                    <small>
+                        Dental Team
+                    </small>
+                </div>
+
+            </div>
+
+
+            <span class="contact_second_section_bottom_divider"></span>
+
+
+
+            <div class="contact_second_section_bottom_item">
+
+                <span class="contact_second_section_bottom_icon">
+                    <i class="bi bi-shield-check"></i>
+                </span>
+
+                <div>
+                    <strong>
+                        Safe &amp; Hygienic
+                    </strong>
+
+                    <small>
+                        Environment
+                    </small>
+                </div>
+
+            </div>
+
+
+            <span class="contact_second_section_bottom_divider"></span>
+
+
+
+            <div class="contact_second_section_bottom_item">
+
+                <span class="contact_second_section_bottom_icon">
+                    <i class="bi bi-calendar3"></i>
+                </span>
+
+                <div>
+                    <strong>
+                        Flexible
+                    </strong>
+
+                    <small>
+                        Appointments
+                    </small>
+                </div>
+
+            </div>
+
+
+            <span class="contact_second_section_bottom_divider"></span>
+
+
+
+            <div class="contact_second_section_bottom_item">
+
+                <span class="contact_second_section_bottom_icon">
+                    <i class="bi bi-heart-fill"></i>
+                </span>
+
+                <div>
+                    <strong>
+                        Better Smiles
+                    </strong>
+
+                    <small>
+                        Brighter Tomorrow
+                    </small>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- RIGHT BOTTOM NOTE -->
+    <div class="contact_second_section_bottom_note">
+
+        <span>Let's Create</span>
+        <span>Healthier</span>
+        <span>Smiles</span>
+
+        <i></i>
+
+    </div>
+
+
 </section>
 
 
