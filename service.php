@@ -353,14 +353,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/root-canal.jpg"
+                        <img src="images1/services/1.png"
                              alt="Root Canal">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-pulse-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -387,14 +387,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/dental-implants.jpg"
+                        <img src="images1/services/2.png"
                              alt="Dental Implants">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-pulse-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -420,14 +420,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/tooth-extraction.jpg"
+                        <img src="images1/services/3.png"
                              alt="Tooth Extraction">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-link-45deg"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -453,14 +453,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/periodontal-surgery.jpg"
+                        <img src="images1/services/4.png"
                              alt="Periodontal Surgery">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-pulse"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -486,14 +486,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/gum-surgery.jpg"
+                        <img src="images1/services/5.png"
                              alt="Gum Surgery">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-pulse-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -519,14 +519,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/crowns-bridges.jpg"
+                        <img src="images1/services/6.png"
                              alt="Crowns and Bridges">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-gem"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -552,14 +552,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/veneers.jpg"
+                        <img src="images1/services/7.png"
                              alt="Veneers">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -585,14 +585,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/aligners.jpg"
+                        <img src="images1/services/8.png"
                              alt="Aligners">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-emoji-smile-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -618,14 +618,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/laser-dentistry.jpg"
+                        <img src="images1/services/9.png"
                              alt="Laser Dentistry">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-brightness-high-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -651,14 +651,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/teeth-whitening.jpg"
+                        <img src="images1/services/10.png"
                              alt="Teeth Whitening">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-stars"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -684,14 +684,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/smile-makeover.jpg"
+                        <img src="images1/services/11.png"
                              alt="Smile Makeover">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-emoji-smile"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -717,14 +717,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/gum-care.jpg"
+                        <img src="images1/services/12.png"
                              alt="Gum Care">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-person-heart"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -750,14 +750,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/tooth-jewellery.jpg"
+                        <img src="images1/services/13.png"
                              alt="Tooth Jewellery">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-gem"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -783,14 +783,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/child-dental-care.jpg"
+                        <img src="images1/services/14.png"
                              alt="Child Dental Care">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-heart-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -816,14 +816,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/mouth-neck-surgery.jpg"
+                        <img src="images1/services/15.png"
                              alt="Major Head and Neck Surgeries">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-person-badge-fill"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
@@ -852,14 +852,14 @@
 
                     <div class="service_first_section_card_image">
 
-                        <img src="assets/img/services/ehs-available.png"
+                        <img src="images1/services/16.png"
                              alt="EHS Available">
 
                         <span class="service_first_section_card_icon">
                             <i class="bi bi-shield-fill-check"></i>
                         </span>
 
-                        <div class="service_first_section_image_curve"></div>
+                        <!-- <div class="service_first_section_image_curve"></div> -->
 
                     </div>
 
