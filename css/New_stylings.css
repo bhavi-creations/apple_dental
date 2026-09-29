@@ -1967,9 +1967,9 @@
     left: 103px;
     top: 153px;
 
-    width: 53px;
+    width: 68px;
     min-width: 53px;
-    height: 53px;
+    height: 68px;
 
     display: flex;
     align-items: center;
@@ -2756,9 +2756,9 @@
 
 
     .service_first_section_card_icon {
-        width: 48px;
+        width: 61px;
         min-width: 48px;
-        height: 48px;
+        height: 61px;
 
         font-size: 17px;
     }

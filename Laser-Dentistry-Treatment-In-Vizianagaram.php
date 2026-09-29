@@ -4,10 +4,11 @@ $meta_description = "Experience painless, precise laser dentistry in Vizianagara
 include 'header.php';
 ?>
 
-<section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+<!-- <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
     <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Laser dentistry</h1>
-</section>
+</section> -->
+ <img src="images1/services/Dental/Laser-Dentistry-main.png" alt="Contact Us" class="img-fluid">
 
 
 <!-- <section class="mt-5">
@@ -187,10 +188,11 @@ include 'header.php';
                     <!-- Main Laser Dentistry Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
+                        <!-- <img 
                             src="images1/services/services_img/s4.png" 
                             alt="Laser Dentistry in Vizianagaram"
-                        > 
+                        >  -->
+                        <img src="images1/services/Untitled_design/15.png" alt="Contact Us" class="img-fluid">  
  
                     </div> 
  
@@ -234,13 +236,13 @@ include 'header.php';
  
  
                     <!-- Side handwritten text --> 
-                    <div class="service_new_first_section_side_text"> 
+                    <!-- <div class="service_new_first_section_side_text"> 
  
                         <span>Precision</span> 
                         <span>Comfort</span> 
                         <span>Faster Healing</span> 
  
-                    </div> 
+                    </div>  -->
  
  
                 </div> 
@@ -564,22 +566,25 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <div class="service_new_first_section_main_image"> 
+ 
+                        <!-- <img 
+                            src="images1/services/services_img/s4.png" 
+                            alt="Laser Dentistry in Vizianagaram"
+                        >  -->
+                        <img src="images1/services/Untitled_design/16.png" alt="Contact Us" class="img-fluid">  
+ 
+                    </div> 
 
-                        <img src="assets/img/services/laser-dentistry-process-main.png"
-                             alt="Laser Dentistry Treatment in Vizianagaram">
 
-                    </div>
-
-
-                    <div class="service_new_second_section_center_note">
+                    <!-- <div class="service_new_second_section_center_note">
 
                         <span>Precision Care</span>
                         <span>Healthier Smiles</span>
 
                         <i></i>
 
-                    </div>
+                    </div> -->
 
                 </div>
 

@@ -9,11 +9,11 @@ include 'header.php';
 
 ?>
 
-<section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+<!-- <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
     <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Root Canal</h1>
-</section>
-
+</section> -->
+ <img src="images1/services/Dental/Root-canal-main.png" alt="Contact Us" class="img-fluid">
 
 <!-- <section class="mt-5">
     <div class="container">
@@ -211,7 +211,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/root-canal.png" alt="Root Canal" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -223,7 +224,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-syringe"></i> 
+                            <!-- <i class="fa-solid fa-syringe"></i>  -->
+                            <img src="images1/services/root-canal.png" alt="Root Canal" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -245,13 +247,13 @@ include 'header.php';
  
  
                     <!-- Side handwritten text --> 
-                    <div class="service_new_first_section_side_text"> 
+                    <!-- <div class="service_new_first_section_side_text"> 
  
                         <span>Save</span> 
                         <span>Your Natural</span> 
                         <span>Tooth</span> 
  
-                    </div> 
+                    </div>  -->
  
  
                 </div> 
@@ -604,22 +606,28 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
-                        <img src="assets/img/services/root-canal-process-main.png"
-                             alt="Root Canal Tooth">
-
-                    </div>
+                         <img src="images1/services/Untitled design/2.png" alt="Contact Us" class="img-fluid">
 
 
-                    <div class="service_new_second_section_center_note">
+                    </div> -->
+
+                    <div class="service_new_first_section_main_image"> 
+ 
+                      <img src="images1/services/Untitled_design/2.png" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
+
+
+                    <!-- <div class="service_new_second_section_center_note">
 
                         <span>Healthy Roots</span>
                         <span>Brighter Smiles</span>
 
                         <i></i>
 
-                    </div>
+                    </div> -->
 
                 </div>
 

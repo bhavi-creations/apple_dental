@@ -4,7 +4,7 @@ $meta_description = "Gentle, kid-friendly dental care in Vizianagaram for childr
 include 'header.php';
 ?>
 
- <img src="images1/services/services_img/child-dental-care-bg.png" alt="Contact Us" class="img-fluid">
+ <img src="images1/services/Dental/Child-Dental-Care-main.png" alt="Contact Us" class="img-fluid">
 <!-- <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
     <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Child Dental Care</h1>

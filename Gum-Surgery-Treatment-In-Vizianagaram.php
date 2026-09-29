@@ -5,11 +5,11 @@ include 'header.php';
 ?>
 
 
-<section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+<!-- <section class="dsdl-hero text-center" style="position: relative; height: 40vh; background-image: url('images1/about-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
     <h1 style="position: relative; z-index: 2; color: white; font-size: 2.5rem; font-weight: bold; text-transform: uppercase;">Gum surgery</h1>
-</section>
-
+</section> -->
+ <img src="images1/services/Dental/Gum-Surgery-main.png" alt="Contact Us" class="img-fluid">
 
 <!-- <section class="mt-5">
     <div class="container">
@@ -187,10 +187,7 @@ include 'header.php';
                     <!-- Main Gum Surgery Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
-                            src="images1/services/services_img/Gum-surgery-sq.png" 
-                            alt="Gum Surgery in Vizianagaram"
-                        > 
+                        <img src="images1/services/Untitled_design/7.png" alt="Contact Us" class="img-fluid">
  
                     </div> 
  
@@ -565,22 +562,28 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
                         <img src="assets/img/services/gum-surgery-process-main.png"
                              alt="Gum Surgery Treatment in Vizianagaram">
 
+                    </div> -->
+
+                    <div class="service_new_first_section_main_image"> 
+ 
+                        <img src="images1/services/Untitled_design/8.png" alt="Contact Us" class="img-fluid">
+ 
                     </div>
 
 
-                    <div class="service_new_second_section_center_note">
+                    <!-- <div class="service_new_second_section_center_note">
 
                         <span>Healthy Gums</span>
                         <span>Strong Foundations</span>
 
                         <i></i>
 
-                    </div>
+                    </div> -->
 
                 </div>
 

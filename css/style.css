@@ -4827,7 +4827,7 @@ a {
 
         flex-wrap: wrap;
 
-        gap: 15px 5px;
+        gap: -1px 5px;
     }
 
 
@@ -4940,7 +4940,7 @@ a {
 
 
     .service_new_first_section_heading {
-        font-size: 30px;
+        font-size: 24px;
     }
 
 
@@ -6081,10 +6081,10 @@ a {
     z-index: 10;
 
     left: 50%;
-    top: 50%;
+    top: 39%;
 
-    width: 420px;
-    height: 420px;
+    width: 553px;
+    height: 484px;
 
     transform:
         translate(-50%, -50%);
@@ -7573,7 +7573,7 @@ a {
 @media (max-width: 420px) {
 
     .service_new_second_section_title {
-        font-size: 29px;
+        font-size: 25px;
     }
 
 
