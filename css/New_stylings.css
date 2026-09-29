@@ -4112,6 +4112,7 @@
         right: 10px;
 
         font-size: 21px;
+        display:none
     }
 
 
@@ -16393,4 +16394,81 @@
         font-size: 28px;
     }
 
+}
+
+
+
+
+/* tooth icon in treatments bg stylings*/
+/* Parent container relative gaa undali */
+section.service_first_section {
+    position: relative !important;
+}
+
+/* Tooth Icon & Ring Main Box Positioning */
+.service_first_section_top_tooth {
+    position: absolute !important;
+    top: 40px !important;            /* Ring lopaliki ravalaniki top offset */
+    right: 8% !important;           /* Red ring center ki align avvadaniki */
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+/* Tooth Icon Stylings (Ring Lopala 3D Glow Look Kosam) */
+.service_first_section_top_tooth i.fa-solid.fa-tooth {
+    font-size: 85px !important;       /* Icon Size */
+    color: #ffffff !important;        /* White Color */
+    /* 3D Soft Shadow & Soft Blue Glow */
+    filter: drop-shadow(0px 8px 15px rgba(11, 97, 214, 0.4)) 
+            drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+    transform: rotate(-8deg);         /* Ring curve ki thaggattu chinna tilt */
+    transition: all 0.3s ease;
+}
+
+/* Tooth Ring Styling (Ring Overlay/Glow) */
+.service_first_section_tooth_ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+
+
+/* 1. Image container lo overflow visible cheyali (icon cut avvakunda undadaniki) */
+.service_first_section_card_image {
+    position: relative !important;
+    overflow: visible !important; /* Cut avvadam aapi outer icon ni chupistundi */
+}
+
+/* Rounded corners kevalam image ki matrame apply cheyali */
+.service_first_section_card_image img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    display: block;
+}
+
+/* 2. Circular Icon Positioning (Bottom Center Alignment) */
+.service_first_section_card_icon {
+    position: absolute !important;
+    top: auto !important;             /* Old top value ni override cheyadaniki */
+    bottom: -18px !important;         /* Image bottom edge ki center lo overlay avvadaniki */
+    left: 50% !important;             /* Horizontal center alignment */
+    transform: translateX(-50%) !important;
+    z-index: 10 !important;           /* Upper layer lo icon cut avvakunda kanipinchadaniki */
+}
+
+/* 3. Title spacing (Icon paina vaalakunda title ni chinna gap ivvadaniki) */
+.service_first_section_card h3,
+.service_first_section_card_title,
+.service_first_section_card {
+    padding-top: 10px;
 }

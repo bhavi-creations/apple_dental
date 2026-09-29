@@ -295,8 +295,7 @@
     <!-- TOP RIGHT TOOTH -->
     <div class="service_first_section_top_tooth">
 
-        <img src="assets/img/services/services-top-tooth.png"
-             alt="Dental Care">
+        <i class="fa-solid fa-tooth"></i>
 
         <div class="service_first_section_tooth_ring"></div>
 
@@ -354,10 +353,11 @@
                     <div class="service_first_section_card_image">
 
                         <img src="images1/services/1.png"
-                             alt="Root Canal">
+                        alt="Root Canal">
 
-                        <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-pulse-fill"></i>
+                       <span class="service_first_section_card_icon">
+                            <!-- <i class="bi bi-heart-pulse-fill"></i> -->
+                            <img src="images1/services/root-canal.png" alt="Root Canal" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -391,7 +391,8 @@
                              alt="Dental Implants">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-pulse-fill"></i>
+                            <!-- <i class="bi bi-heart-pulse-fill"></i> -->
+                            <img src="images1/services/dental_implants1.png" alt="Dental Implants" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -424,7 +425,8 @@
                              alt="Tooth Extraction">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-link-45deg"></i>
+                            <!-- <i class="bi bi-link-45deg"></i> -->
+                            <img src="images1/services/tooth-extraction.png" alt="Tooth Extraction" style="height: 30px; width: 30px; filter: brightness(1) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -457,7 +459,8 @@
                              alt="Periodontal Surgery">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-pulse"></i>
+                            <!-- <i class="bi bi-heart-pulse"></i> -->
+                            <img src="images1/services/tooth-extraction.png" alt="Gum Surgery" style="height: 30px; width: 30px; filter: brightness(1) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -490,7 +493,8 @@
                              alt="Gum Surgery">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-pulse-fill"></i>
+                            <!-- <i class="bi bi-heart-pulse-fill"></i> -->
+                            <img src="images1/services/dental-surgery.png" alt="Gum Surgery" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -523,7 +527,8 @@
                              alt="Crowns and Bridges">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-gem"></i>
+                            <!-- <i class="bi bi-gem"></i> -->
+                            <img src="images1/services/dental-bridge.png" alt="crown bridge" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -556,7 +561,8 @@
                              alt="Veneers">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-fill"></i>
+                            <!-- <i class="bi bi-heart-fill"></i> -->
+                            <img src="images1/services/dental-veneer.png" alt="Dental Veneers" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -589,7 +595,8 @@
                              alt="Aligners">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-emoji-smile-fill"></i>
+                            <!-- <i class="bi bi-emoji-smile-fill"></i> -->
+                            <img src="images1/services/aligners-icon.png" alt="Aligners" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -622,7 +629,8 @@
                              alt="Laser Dentistry">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-brightness-high-fill"></i>
+                            <!-- <i class="bi bi-brightness-high-fill"></i> -->
+                            <img src="images1/services/clean.png" alt="laser" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -655,7 +663,8 @@
                              alt="Teeth Whitening">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-stars"></i>
+                            <!-- <i class="bi bi-stars"></i> -->
+                            <img src="images1/services/teeth_whitening.png" alt="Teeth Whitening" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -688,7 +697,8 @@
                              alt="Smile Makeover">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-emoji-smile"></i>
+                            <!-- <i class="bi bi-emoji-smile"></i> -->
+                            <img src="images1/services/Smile-Makeover.png" alt="" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -787,7 +797,8 @@
                              alt="Child Dental Care">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-heart-fill"></i>
+                            <!-- <i class="bi bi-heart-fill"></i> -->
+                            <img src="images1/services/child-dentistry.png" alt="" style="height: 40px; width: 40px; filter: brightness(0) invert(1);"> 
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -820,8 +831,9 @@
                              alt="Major Head and Neck Surgeries">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-person-badge-fill"></i>
-                        </span>
+                            <!-- <i class="bi bi-person-badge-fill"></i> -->
+                            <img src="images1/services/jaw-surgery.png" alt="Jaw Surgery" style="height: 30px; width: 30px; filter: invert(1); mix-blend-mode: screen;"> 
+                       </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
 
