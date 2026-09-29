@@ -4070,7 +4070,7 @@ a {
 .service_new_first_section_heading {
     margin: 0;
 
-    font-size: clamp(48px, 4.2vw, 76px);
+    /* font-size: clamp(48px, 4.2vw, 76px); */
 
     line-height: 0.98;
 
@@ -4687,7 +4687,7 @@ a {
 
 
     .service_new_first_section_heading {
-        font-size: 55px;
+        font-size: 40px;
     }
 
 
@@ -4940,7 +4940,7 @@ a {
 
 
     .service_new_first_section_heading {
-        font-size: 37px;
+        font-size: 30px;
     }
 
 
