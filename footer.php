@@ -56,7 +56,7 @@
         </p>
       </div> -->
 
-      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-md-none" data-aos="fade-left">
+      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-md-block" data-aos="fade-left">
       
           <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid my-5">
          
@@ -74,23 +74,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4 col-6 text-center dsdl4 no_need  d-none d-md-block" data-aos="fade-left">
-        <div class="dsdl4-footer-logo-container">
-          <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="dsdl4-footer-logo">
-        </div>
-        <h4 class="dsdl4-footer-title">Contact Us</h4>
-        <p class="dsdl4-footer-text">
-          <strong>Phone:</strong> +91 9494193344
-          <br>
-          <strong>Email:</strong> info@appledentalspecialities.com
-        </p>
-        <ul class="dsdl4-social-icons">
-          <!-- <li><a href="#" class="dsdl4"><i class="fab fa-facebook-f"></i></a></li> -->
-          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4" target="_blank"> <i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-
-        </ul>
-      </div>
+     
 
       <div class="col-md-4  col-6  dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Quick Links</h4>
@@ -412,7 +396,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "<strong>Qualified Team</strong> - Experienced Dental Professionals",
 
             feature3:
-                "<strong>Multiple Specialities</strong> - Comprehensive Dental Care<br><strong>Vizianagaram</strong> - Serving Patients in Andhra Pradesh",
+                "<strong>Multi Specialities</strong> - Best Dental Care in Vizianagaram",
 
             icon1: "bi bi-check2",
 

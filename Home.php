@@ -1226,7 +1226,8 @@
 
                                 <div class="index_third_section_tooth_icon blue">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -1345,7 +1346,8 @@
 
                                 <div class="index_third_section_tooth_icon red">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -1357,7 +1359,7 @@
                                     </h3>
 
                                     <p>
-                                        BDS
+                                        B.D.S (Chief Dental Surgeon)
                                     </p>
 
                                 </div>
@@ -1463,7 +1465,8 @@
 
                                 <div class="index_third_section_tooth_icon blue">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -1475,7 +1478,7 @@
                                     </h3>
 
                                     <p>
-                                        Prosthodontist
+                                        B.D.S (Prosthodontist)
                                     </p>
 
                                 </div>
@@ -1549,12 +1552,12 @@
 
                         <div class="index_third_section_image_area">
 
-                            <img src="assets/img/index/doctor-four.jpg"
-                                 alt="Dental Specialist"
+                           <img src="images1/Dr.sharon.jpg"
+                                 alt="Dr. B. Sharon"
                                  class="index_third_section_doctor_image">
 
 
-                            <div class="index_third_section_image_quote">
+                            <!-- <div class="index_third_section_image_quote">
 
                                 <div class="index_third_section_quote_mark">
                                     “
@@ -1567,10 +1570,10 @@
                                     Smiles
                                 </p>
 
-                            </div>
+                            </div> -->
 
 
-                            <div class="index_third_section_image_curve"></div>
+                            <!-- <div class="index_third_section_image_curve"></div> -->
 
                         </div>
 
@@ -1582,7 +1585,8 @@
 
                                 <div class="index_third_section_tooth_icon red">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -1590,11 +1594,11 @@
                                 <div class="index_third_section_name">
 
                                     <h3>
-                                        Dental Specialist
+                                        Dr. A. Deol Aslesha
                                     </h3>
 
                                     <p>
-                                        Specialist Dentist
+                                        B.D.S (Dental Surgeon)
                                     </p>
 
                                 </div>
@@ -4167,10 +4171,10 @@ $facility_cards = [
                 <!-- =================================================
                      PATIENTS + RATING
                 ================================================== -->
-                <div class="index_sixth_section_social_proof">
+                <!-- <div class="index_sixth_section_social_proof">
 
 
-                    <!-- PATIENT PHOTOS -->
+                    PATIENT PHOTOS
                     <div class="index_sixth_section_avatars">
 
                         <div class="index_sixth_section_avatar">
@@ -4207,7 +4211,7 @@ $facility_cards = [
                     </div>
 
 
-                    <!-- RATING -->
+                    RATING
                     <div class="index_sixth_section_rating">
 
                         <div class="index_sixth_section_stars">
@@ -4227,7 +4231,45 @@ $facility_cards = [
                     </div>
 
 
-                </div>
+                </div> -->
+
+                <!-- =================================================
+                    PATIENTS + RATING
+                ================================================== -->
+             <div class="index_sixth_section_social_proof">
+                  <!-- PATIENT INITIALS -->
+                  <div class="index_sixth_section_avatars">
+                     <div class="index_sixth_section_avatar">
+                         <span class="avatar_initial bg_blue">S</span>
+                     </div>
+
+                     <div class="index_sixth_section_avatar">
+                         <span class="avatar_initial bg_green">P</span>
+                     </div>
+
+                     <div class="index_sixth_section_avatar">
+                         <span class="avatar_initial bg_yellow">R</span>
+                     </div>
+
+                     <div class="index_sixth_section_avatar">
+                         <span class="avatar_initial bg_red">V</span>
+                     </div>
+                 </div>
+
+                  <!-- RATING -->
+                 <div class="index_sixth_section_rating">
+                     <div class="index_sixth_section_stars">
+                         <i class="bi bi-star-fill"></i>
+                         <i class="bi bi-star-fill"></i>
+                         <i class="bi bi-star-fill"></i>
+                         <i class="bi bi-star-fill"></i>
+                         <i class="bi bi-star-fill"></i>
+                     </div>
+                     <strong>
+                         5000+ Happy Patients
+                     </strong>
+                 </div>
+             </div>
 
 
                 <!-- =================================================

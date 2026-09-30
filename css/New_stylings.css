@@ -2940,7 +2940,8 @@
 
 .index_first_section_second_title {
     margin: 4px 0 0;
-    color: #191362;
+    color: #f12630;
+    /* color: #191362; */
     font-size: 44px;
     font-weight: 800;
     line-height: 1.08;
@@ -3124,7 +3125,8 @@
 
 
 .index_first_section_content_title span:first-child {
-    color: #1c1768;
+    /* color: #1c1768; */
+    color: #1670ed;
 }
 
 
@@ -3158,7 +3160,7 @@
 .index_first_section_paragraphs p {
     margin: 0 0 11px;
     color: #4a5d92;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.45;
 }
@@ -3218,7 +3220,7 @@
 .index_first_section_feature p {
     margin: 0;
     color: #172b78;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -9083,11 +9085,11 @@
 .index_sixth_section_avatar {
     position: relative;
 
-    width: 70px;
-    min-width: 70px;
-    height: 70px;
+    width: 58px;
+    min-width: 55px;
+    height: 58px;
 
-    margin-left: -14px;
+    margin-left: -12px;
 
     overflow: hidden;
 
@@ -9749,7 +9751,7 @@
 
     .index_sixth_section {
         padding:
-            70px
+            0px
             0;
     }
 
@@ -9998,7 +10000,7 @@
 
     .index_sixth_section {
         padding:
-            45px
+            0px
             0;
     }
 
@@ -13713,13 +13715,7 @@
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 50% 5%,
-            #ffffff 0%,
-            #edf9ff 42%,
-            #c6eaff 100%
-        );
-
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);
     font-family: "DM Sans", sans-serif;
 }
 
@@ -15484,24 +15480,7 @@
 
     background:
 
-        radial-gradient(
-            circle at 7% 18%,
-            rgba(96, 190, 236, .22),
-            transparent 25%
-        ),
-
-        radial-gradient(
-            circle at 91% 76%,
-            rgba(112, 197, 240, .20),
-            transparent 29%
-        ),
-
-        linear-gradient(
-            135deg,
-            #edfaff 0%,
-            #f9fdff 45%,
-            #e8f7ff 100%
-        );
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff8a 100%);
 }
 
 
@@ -16393,10 +16372,10 @@ section.service_first_section {
 /* Tooth Icon & Ring Main Box Positioning */
 .service_first_section_top_tooth {
     position: absolute !important;
-    top: 40px !important;            /* Ring lopaliki ravalaniki top offset */
-    right: 8% !important;           /* Red ring center ki align avvadaniki */
-    width: 140px;
-    height: 140px;
+    top: -14px !important;            /* Ring lopaliki ravalaniki top offset */
+    right: 2% !important;           /* Red ring center ki align avvadaniki */
+    width: 118px;
+    height: 118px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16405,7 +16384,7 @@ section.service_first_section {
 
 /* Tooth Icon Stylings (Ring Lopala 3D Glow Look Kosam) */
 .service_first_section_top_tooth i.fa-solid.fa-tooth {
-    font-size: 85px !important;       /* Icon Size */
+    font-size: 65px !important;       /* Icon Size */
     color: #ffffff !important;        /* White Color */
     /* 3D Soft Shadow & Soft Blue Glow */
     filter: drop-shadow(0px 8px 15px rgba(11, 97, 214, 0.4)) 
@@ -16419,8 +16398,8 @@ section.service_first_section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     pointer-events: none;
 }
@@ -18648,6 +18627,1131 @@ section.service_first_section {
     .index_achievements_section_leaf {
 
         display: none;
+    }
+
+}
+
+
+
+/* Home Page Patient Reviews + Rating new styings */
+/* Avatar Initial Circle Styling */
+.avatar_initial {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #ffffff; /* అవసరమైతే బార్డర్ ఉంచవచ్చు */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+
+/* Background Color Variants */
+.bg_blue {
+    background-color: #3b82f6;
+}
+
+.bg_green {
+    background-color: #10b981;
+}
+
+.bg_yellow {
+    background-color: #f59e0b;
+}
+
+.bg_red {
+    background-color: #ef4444;
+}
+
+
+
+
+/* About doctor section new stylings */
+/* =========================================================
+   ABOUT DOCTOR SECTION
+========================================================== */
+
+.about_doctor_section {
+    --ads-blue: #2588c5;
+    --ads-blue-dark: #173e66;
+    --ads-blue-soft: #8ed4f1;
+    --ads-cyan: #c8efff;
+    --ads-red: #c74354;
+    --ads-text: #2f3e4b;
+
+    position: relative;
+
+    width: 100%;
+
+    padding:
+        38px 0
+        60px;
+
+    overflow: hidden;
+
+    isolation: isolate;
+
+    font-family:
+        "Open Sans",
+        sans-serif;
+
+    background:
+
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================== */
+
+.about_doctor_section_container {
+    position: relative;
+
+    z-index: 5;
+
+    width: min(1250px, 88%);
+
+    margin: 0 auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================== */
+
+.about_doctor_section_header {
+    max-width: 800px;
+
+    margin:
+        0 auto 38px;
+
+    text-align: center;
+}
+
+
+/* EYEBROW */
+
+.about_doctor_section_eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 14px;
+
+    margin-bottom: 10px;
+}
+
+
+.about_doctor_section_eyebrow span {
+    width: 45px;
+    height: 1px;
+
+    display: block;
+
+    background:
+        #f12630;
+}
+
+
+.about_doctor_section_eyebrow p {
+    margin: 0;
+
+    color:
+        #f12630;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+/* TITLE */
+
+.about_doctor_section_title {
+    margin: 0;
+
+    color: #f12630;
+
+    font-size:
+        clamp(32px, 4vw, 48px);
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    text-shadow:
+        0 2px 4px
+        rgba(0,0,0,.12);
+}
+
+
+.about_doctor_section_title span {
+    color:
+        #2e91ce;
+
+    text-shadow:
+        0 2px 4px
+        rgba(30,111,169,.2);
+}
+
+
+/* SUBTITLE */
+
+.about_doctor_section_subtitle {
+    margin:
+        10px 0 0;
+
+    color: #444;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   MAIN ROW
+========================================================== */
+
+.about_doctor_section_row {
+    position: relative;
+
+    z-index: 4;
+}
+
+
+/* =========================================================
+   IMAGE
+========================================================== */
+
+.about_doctor_section_image_wrap {
+    position: relative;
+
+    max-width: 555px;
+
+    margin: 0 auto;
+
+    padding: 5px;
+
+    border-radius: 8px;
+}
+
+
+/* GLOW */
+
+.about_doctor_section_image_glow {
+    position: absolute;
+
+    inset:
+        12px -10px -14px 12px;
+
+    z-index: -1;
+
+    border-radius: 10px;
+
+    background:
+        rgba(41, 151, 208, .15);
+
+    filter:
+        blur(18px);
+}
+
+
+/* IMAGE */
+
+.about_doctor_section_image {
+    position: relative;
+
+    z-index: 2;
+
+    display: block;
+
+    width: 100%;
+
+    max-height: 410px;
+
+    object-fit: cover;
+
+    border-radius: 7px;
+
+    border:
+        1px solid rgba(255,255,255,.9);
+
+    box-shadow:
+        0 12px 28px
+        rgba(42, 95, 133, .18);
+}
+
+
+/* IMAGE CORNER DETAILS */
+
+.about_doctor_section_image_corner {
+    position: absolute;
+
+    width: 34px;
+    height: 34px;
+
+    z-index: 3;
+
+    pointer-events: none;
+}
+
+
+.about_doctor_section_image_corner_one {
+    left: -2px;
+    top: -2px;
+
+    border-left:
+        2px solid rgba(52, 153, 210, .6);
+
+    border-top:
+        2px solid rgba(52, 153, 210, .6);
+}
+
+
+.about_doctor_section_image_corner_two {
+    right: -2px;
+    bottom: -2px;
+
+    border-right:
+        2px solid rgba(52, 153, 210, .6);
+
+    border-bottom:
+        2px solid rgba(52, 153, 210, .6);
+}
+
+
+/* =========================================================
+   RIGHT CONTENT
+========================================================== */
+
+.about_doctor_section_content {
+    position: relative;
+
+    max-width: 620px;
+
+    margin-left: auto;
+}
+
+
+/* PARAGRAPHS */
+
+.about_doctor_section_paragraph {
+    margin:
+        0 0 22px;
+
+    color:
+        var(--ads-text);
+
+    font-size: 14px;
+
+    line-height: 1.72;
+}
+
+
+.about_doctor_section_paragraph strong {
+    color: #222;
+
+    font-weight: 700;
+}
+
+
+.about_doctor_section_paragraph em {
+    color: #333;
+}
+
+
+/* =========================================================
+   DOCTOR MESSAGE CARD
+========================================================== */
+
+.about_doctor_section_quote {
+    position: relative;
+
+    margin:
+        12px 0 0;
+
+    padding:
+        20px 24px;
+
+    overflow: hidden;
+
+    border:
+        1px solid rgba(255,255,255,.82);
+
+    border-radius: 7px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.96),
+            rgba(247,252,255,.9)
+        );
+
+    box-shadow:
+        0 9px 22px
+        rgba(39, 98, 138, .13);
+}
+
+
+/* BLUE LEFT LINE */
+
+.about_doctor_section_quote_line {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 4px;
+    height: 100%;
+
+    border-radius:
+        4px 0 0 4px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #1f8bc1,
+            #44b5df
+        );
+}
+
+
+.about_doctor_section_quote_content p {
+    margin: 0;
+
+    color: #303b43;
+
+    font-size: 13.5px;
+
+    line-height: 1.65;
+}
+
+
+.about_doctor_section_quote_content p strong {
+    display: inline-block;
+
+    margin-bottom: 4px;
+
+    color: #26333d;
+
+    font-size: 14px;
+}
+
+
+.about_doctor_section_quote_footer {
+    margin-top: 7px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    color: #333;
+
+    font-size: 13px;
+}
+
+
+.about_doctor_section_quote_footer cite {
+    font-style: italic;
+}
+
+
+/* =========================================================
+   LEFT HANDWRITTEN NOTE
+========================================================== */
+
+.about_doctor_section_left_note {
+    position: absolute;
+
+    left: 5%;
+    top: 10%;
+
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #2783a5;
+
+    font-family:
+        "Comic Sans MS",
+        "Segoe Print",
+        cursive;
+
+    font-size: 19px;
+
+    line-height: 1;
+
+    transform:
+        rotate(-9deg);
+}
+
+
+.about_doctor_section_left_note i {
+    width: 70px;
+    height: 20px;
+
+    margin:
+        4px 0 0
+        29px;
+
+    border-bottom:
+        3px solid
+        #b94451;
+
+    border-radius:
+        50%;
+
+    transform:
+        rotate(-6deg);
+}
+
+
+/* =========================================================
+   DOTS
+========================================================== */
+
+.about_doctor_section_dots {
+    position: absolute;
+
+    width: 110px;
+    height: 92px;
+
+    pointer-events: none;
+
+    opacity: .22;
+
+    background-image:
+        radial-gradient(
+            circle,
+            #4c9dc2 2px,
+            transparent 2.5px
+        );
+
+    background-size:
+        15px 15px;
+}
+
+
+.about_doctor_section_dots_left {
+    left: 13%;
+    top: 28px;
+}
+
+
+.about_doctor_section_dots_right {
+    right: 7%;
+    bottom: 15px;
+}
+
+
+/* =========================================================
+   TOOTH DECOR
+========================================================== */
+
+.about_doctor_section_tooth_decor {
+    position: absolute;
+
+    right: 4%;
+    bottom: 81%;
+
+    z-index: 2;
+
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:
+        rgba(255,255,255,.75);
+
+    font-size: 68px;
+
+    pointer-events: none;
+
+    filter:
+        drop-shadow(
+            0 7px 12px
+            rgba(44, 147, 200, .16)
+        );
+}
+
+
+.about_doctor_section_tooth_ring {
+    position: absolute;
+
+    width: 115px;
+    height: 39px;
+
+    border:
+        3px solid
+        rgba(255,255,255,.78);
+
+    border-left-color:
+        transparent;
+
+    border-right-color:
+        transparent;
+
+    border-radius: 50%;
+
+    transform:
+        rotate(-12deg);
+
+    box-shadow:
+        0 0 10px
+        rgba(255,255,255,.7);
+}
+
+
+/* =========================================================
+   SPARKLES
+========================================================== */
+
+.about_doctor_section_sparkle {
+    position: absolute;
+
+    z-index: 3;
+
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+    box-shadow:
+        0 0 5px #fff,
+        0 0 13px #75ccec;
+
+    animation:
+        aboutDoctorSparkle
+        2.4s
+        ease-in-out
+        infinite;
+}
+
+
+.about_doctor_section_sparkle::before,
+.about_doctor_section_sparkle::after {
+    content: "";
+
+    position: absolute;
+
+    background: #fff;
+
+    border-radius: 10px;
+}
+
+
+.about_doctor_section_sparkle::before {
+    width: 23px;
+    height: 1px;
+
+    top: 3px;
+    left: -8px;
+}
+
+
+.about_doctor_section_sparkle::after {
+    width: 1px;
+    height: 23px;
+
+    top: -8px;
+    left: 3px;
+}
+
+
+.about_doctor_section_sparkle_one {
+    top: 80px;
+    right: 14%;
+}
+
+
+.about_doctor_section_sparkle_two {
+    top: 145px;
+    right: 8%;
+
+    transform: scale(.55);
+
+    animation-delay: .8s;
+}
+
+
+.about_doctor_section_sparkle_three {
+    bottom: 145px;
+    right: 16%;
+
+    transform: scale(.45);
+
+    animation-delay: 1.3s;
+}
+
+
+@keyframes aboutDoctorSparkle {
+
+    0%,
+    100% {
+        opacity: .3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+}
+
+
+/* =========================================================
+   BACKGROUND SHAPES
+========================================================== */
+
+.about_doctor_section_bg_shape {
+    position: absolute;
+
+    pointer-events: none;
+
+    border-radius: 50%;
+}
+
+
+.about_doctor_section_bg_shape_left {
+    width: 480px;
+    height: 310px;
+
+    left: -230px;
+    top: -105px;
+
+    background:
+        rgba(90, 188, 230, .13);
+
+    transform:
+        rotate(12deg);
+}
+
+
+.about_doctor_section_bg_shape_right {
+    width: 440px;
+    height: 330px;
+
+    right: -210px;
+    top: -130px;
+
+    background:
+        rgba(82, 178, 221, .12);
+}
+
+
+/* =========================================================
+   BOTTOM WAVES
+========================================================== */
+
+.about_doctor_section_wave {
+    position: absolute;
+
+    left: -10%;
+    right: -10%;
+
+    pointer-events: none;
+
+    border-radius:
+        50% 50% 0 0;
+}
+
+
+.about_doctor_section_wave_one {
+    height: 145px;
+
+    bottom: -115px;
+
+    background:
+        rgba(80, 184, 229, .12);
+
+    transform:
+        rotate(-2deg);
+}
+
+
+.about_doctor_section_wave_two {
+    height: 110px;
+
+    bottom: -90px;
+
+    background:
+        rgba(110, 203, 239, .14);
+
+    transform:
+        rotate(2deg);
+}
+
+
+.about_doctor_section_wave_three {
+    height: 86px;
+
+    bottom: -69px;
+
+    background:
+        rgba(182, 230, 247, .24);
+
+    transform:
+        rotate(-1deg);
+}
+
+
+/* =========================================================
+   WHATSAPP STYLE BUTTON
+========================================================== */
+
+.about_doctor_section_whatsapp {
+    position: absolute;
+
+    right: 2.5%;
+    bottom: 8%;
+
+    z-index: 7;
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 23px;
+
+    text-decoration: none;
+
+    border-radius: 50%;
+
+    border:
+        3px solid rgba(255,255,255,.85);
+
+    background:
+        #25d366;
+
+    box-shadow:
+        0 5px 12px
+        rgba(25, 135, 72, .2);
+
+    transition:
+        transform .2s ease;
+}
+
+
+.about_doctor_section_whatsapp:hover {
+    color: #fff;
+
+    transform:
+        translateY(-2px)
+        scale(1.04);
+}
+
+
+/* =========================================================
+   1200px - 1399px
+========================================================== */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .about_doctor_section_container {
+        width: 91%;
+    }
+
+
+    .about_doctor_section_image {
+        max-height: 390px;
+    }
+
+
+    .about_doctor_section_paragraph {
+        font-size: 13.5px;
+    }
+
+
+    .about_doctor_section_left_note {
+        left: 2.5%;
+
+        font-size: 17px;
+    }
+
+}
+
+
+/* =========================================================
+   992px - 1199px
+========================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .about_doctor_section {
+        padding:
+            34px 0
+            50px;
+    }
+
+
+    .about_doctor_section_container {
+        width: 95%;
+    }
+
+
+    .about_doctor_section_header {
+        margin-bottom: 28px;
+    }
+
+
+    .about_doctor_section_title {
+        font-size: 38px;
+    }
+
+
+    .about_doctor_section_image {
+        max-height: 350px;
+    }
+
+
+    .about_doctor_section_paragraph {
+        margin-bottom: 15px;
+
+        font-size: 12.5px;
+
+        line-height: 1.65;
+    }
+
+
+    .about_doctor_section_quote {
+        padding:
+            16px 19px;
+    }
+
+
+    .about_doctor_section_quote_content p {
+        font-size: 12px;
+    }
+
+
+    .about_doctor_section_left_note {
+        left: .5%;
+
+        font-size: 14px;
+
+        opacity: .6;
+    }
+
+
+    .about_doctor_section_tooth_decor {
+        opacity: .5;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991.98px) {
+
+    .about_doctor_section {
+        padding:
+            38px 0
+            55px;
+    }
+
+
+    .about_doctor_section_container {
+        width: 94%;
+    }
+
+
+    .about_doctor_section_header {
+        margin-bottom: 30px;
+    }
+
+
+    .about_doctor_section_image_wrap {
+        max-width: 620px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .about_doctor_section_image {
+        max-height: 450px;
+    }
+
+
+    .about_doctor_section_content {
+        max-width: 650px;
+
+        margin:
+            0 auto;
+
+        padding-top: 12px;
+    }
+
+
+    .about_doctor_section_left_note,
+    .about_doctor_section_tooth_decor,
+    .about_doctor_section_whatsapp {
+
+        opacity: .25;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 575.98px) {
+
+    .about_doctor_section {
+        padding:
+            28px 0
+            42px;
+    }
+
+
+    .about_doctor_section_container {
+        width: 100%;
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .about_doctor_section_header {
+        margin-bottom: 22px;
+    }
+
+
+    .about_doctor_section_eyebrow {
+        gap: 9px;
+    }
+
+
+    .about_doctor_section_eyebrow span {
+        width: 28px;
+    }
+
+
+    .about_doctor_section_eyebrow p {
+        font-size: 9px;
+    }
+
+
+    .about_doctor_section_title {
+        font-size: 29px;
+
+        line-height: 1.15;
+    }
+
+
+    .about_doctor_section_subtitle {
+        max-width: 300px;
+
+        margin:
+            7px auto 0;
+
+        font-size: 12px;
+    }
+
+
+    .about_doctor_section_image_wrap {
+        padding: 3px;
+    }
+
+
+    .about_doctor_section_image {
+        max-height: 320px;
+
+        border-radius: 6px;
+    }
+
+
+    .about_doctor_section_content {
+        padding-top: 8px;
+    }
+
+
+    .about_doctor_section_paragraph {
+        margin-bottom: 17px;
+
+        font-size: 12px;
+
+        line-height: 1.65;
+    }
+
+
+    .about_doctor_section_quote {
+        margin-top: 6px;
+
+        padding:
+            15px 16px;
+    }
+
+
+    .about_doctor_section_quote_content p {
+        font-size: 11.5px;
+
+        line-height: 1.6;
+    }
+
+
+    .about_doctor_section_quote_content p strong {
+        font-size: 12px;
+    }
+
+
+    .about_doctor_section_quote_footer {
+        font-size: 11.5px;
+    }
+
+
+    .about_doctor_section_left_note,
+    .about_doctor_section_tooth_decor,
+    .about_doctor_section_whatsapp {
+
+        display: none;
+    }
+
+
+    .about_doctor_section_dots {
+        opacity: .1;
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================== */
+
+@media (max-width: 380px) {
+
+    .about_doctor_section_title {
+        font-size: 26px;
+    }
+
+
+    .about_doctor_section_image {
+        max-height: 285px;
     }
 
 }

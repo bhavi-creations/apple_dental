@@ -511,9 +511,9 @@
 
 
 
-    <section id="left-image-right-content" class="py-5 bg-light">
+    <!-- <section id="left-image-right-content" class="py-5 bg-light">
         <div class="container">
-            <!-- Centered Heading -->
+            Centered Heading
             <div class="row">
                 <div class="col-12 text-center mb-5" data-aos="fade-up">
                     <h4 class="text-primary section-subtitle">MEET THE FOUNDER</h4>
@@ -521,15 +521,15 @@
                     <p class="text-muted section-description">Discover the story and vision behind Apple Dental Specialities.</p>
                 </div>
             </div>
-            <!-- Image Left, Content Right -->
+            Image Left, Content Right
             <div class="row align-items-center">
-                <!-- Left Side Image -->
+                Left Side Image
                 <div class="col-md-6 text-center" data-aos="fade-right">
                     <div class="image-container">
                         <img src="images1/Dr.kalyan-chakravarthy.JPG" alt="Dr. Kalyan Chakravarthy" class="img-fluid rounded shadow">
                     </div>
                 </div>
-                <!-- Right Side Content -->
+                Right Side Content
                 <div class="col-md-6" data-aos="fade-left">
                     <p class="text-muted">
                         Dr. Kalyan Chakravarty established <strong>APPLE DENTAL SPECIALITIES</strong> in 2010 in the historical city of Vizianagaram, Andhra Pradesh, India. Born on <em>April 23, 1982</em>, in the village of Bobbili, he pursued a <strong>Bachelor of Dental Surgery</strong>                        at Lenora Institute of Dental Sciences, graduating in 2007.
@@ -550,10 +550,264 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+<!-- =========================================================
+     ABOUT DOCTOR SECTION
+========================================================== -->
+<section class="about_doctor_section">
+
+    <!-- =====================================================
+         BACKGROUND DECORATIONS
+    ====================================================== -->
+
+    <div class="about_doctor_section_bg_shape
+                about_doctor_section_bg_shape_left"></div>
+
+    <div class="about_doctor_section_bg_shape
+                about_doctor_section_bg_shape_right"></div>
+
+
+    <div class="about_doctor_section_dots
+                about_doctor_section_dots_left"></div>
+
+    <div class="about_doctor_section_dots
+                about_doctor_section_dots_right"></div>
+
+
+    <!-- LEFT HANDWRITTEN NOTE -->
+    <div class="about_doctor_section_left_note">
+
+        <span>Complete</span>
+        <span>Care for</span>
+        <span>Every Smile</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- RIGHT TOOTH DECOR -->
+    <div class="about_doctor_section_tooth_decor">
+
+        <i class="fa-solid fa-tooth"></i>
+
+        <span class="about_doctor_section_tooth_ring"></span>
+
+    </div>
+
+
+    <!-- SPARKLES -->
+    <span class="about_doctor_section_sparkle
+                 about_doctor_section_sparkle_one"></span>
+
+    <span class="about_doctor_section_sparkle
+                 about_doctor_section_sparkle_two"></span>
+
+    <span class="about_doctor_section_sparkle
+                 about_doctor_section_sparkle_three"></span>
 
 
 
+    <div class="container-fluid about_doctor_section_container">
+
+
+        <!-- =====================================================
+             SECTION HEADER
+        ====================================================== -->
+        <div class="about_doctor_section_header"
+             data-aos="fade-up">
+
+            <div class="about_doctor_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    MEET THE FOUNDER
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="about_doctor_section_title">
+
+                About
+
+                <span>
+                    Dr. Kalyan Chakravarty
+                </span>
+
+            </h2>
+
+
+            <p class="about_doctor_section_subtitle">
+                Discover the story and vision behind Apple Dental Specialities.
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             IMAGE + CONTENT
+        ====================================================== -->
+        <div class="row align-items-center g-4 about_doctor_section_row">
+
+
+            <!-- =================================================
+                 LEFT IMAGE
+            ================================================== -->
+            <div class="col-lg-6">
+
+                <div class="about_doctor_section_image_wrap"
+                     data-aos="fade-right">
+
+
+                    <div class="about_doctor_section_image_glow"></div>
+
+
+                    <img
+                        src="images1/Dr.kalyan-chakravarthy.JPG"
+                        alt="Dr. Kalyan Chakravarthy"
+                        class="img-fluid about_doctor_section_image">
+
+
+                    <!-- IMAGE CORNER DETAILS -->
+                    <span class="about_doctor_section_image_corner
+                                 about_doctor_section_image_corner_one"></span>
+
+                    <span class="about_doctor_section_image_corner
+                                 about_doctor_section_image_corner_two"></span>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 RIGHT CONTENT
+            ================================================== -->
+            <div class="col-lg-6">
+
+                <div class="about_doctor_section_content"
+                     data-aos="fade-left">
+
+
+                    <p class="about_doctor_section_paragraph">
+
+                        Dr. Kalyan Chakravarty established
+                        <strong>APPLE DENTAL SPECIALITIES</strong>
+                        in 2010 in the historical city of Vizianagaram,
+                        Andhra Pradesh, India. Born on
+                        <em>April 23, 1982</em>, in the village of Bobbili,
+                        he pursued a
+                        <strong>Bachelor of Dental Surgery</strong>
+                        at Lenora Institute of Dental Sciences,
+                        graduating in 2007.
+
+                    </p>
+
+
+                    <p class="about_doctor_section_paragraph">
+
+                        From 2007 to 2009, he practiced in Rajamahendravaram,
+                        gaining advanced training in
+                        <strong>
+                            Rotary Endodontics, Laser Dentistry,
+                            Dental Implants,
+                        </strong>
+                        and
+                        <strong>Smile Designing</strong>.
+                        In 2010, he founded APPLE DENTAL SPECIALITIES,
+                        offering state-of-the-art treatments and becoming
+                        the region’s first ISO 9001-2008 Certified
+                        Dental Clinic.
+
+                    </p>
+
+
+
+                    <!-- =========================================
+                         DOCTOR MESSAGE
+                    ========================================== -->
+                    <blockquote class="about_doctor_section_quote"
+                                data-aos="zoom-in">
+
+
+                        <div class="about_doctor_section_quote_line"></div>
+
+
+                        <div class="about_doctor_section_quote_content">
+
+                            <p>
+
+                                <strong>
+                                    Dr. Kalyan Chakravarty’s Message:
+                                </strong>
+
+                                <br>
+
+                                "APPLE DENTAL SPECIALITIES stands tall
+                                with uncompromising quality and
+                                personalized Specialities. We aim to
+                                lead the field of dentistry, embracing
+                                advancements and serving the community
+                                with excellence."
+
+                            </p>
+
+
+                            <footer class="about_doctor_section_quote_footer">
+
+                                <span>
+                                    —
+                                </span>
+
+                                <cite>
+                                    Dr. J. Kalyan Chakravarty
+                                </cite>
+
+                            </footer>
+
+                        </div>
+
+
+                    </blockquote>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM WAVES
+    ====================================================== -->
+
+    <div class="about_doctor_section_wave
+                about_doctor_section_wave_one"></div>
+
+    <div class="about_doctor_section_wave
+                about_doctor_section_wave_two"></div>
+
+    <div class="about_doctor_section_wave
+                about_doctor_section_wave_three"></div>
+    
+
+
+</section>
 
 
     

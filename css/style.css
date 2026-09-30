@@ -7643,3 +7643,29 @@ a {
 
 
 
+/* white spaces at top removing stylings */
+.home-slider .owl-dots {
+    display: none !important;
+}
+
+
+/* Mobile View లో మాత్రమే Height & min-height ని ఫిక్స్ చేయడానికి */
+@media (max-width: 576px) {
+    .home-slider .owl-stage-outer,
+    .home-slider .owl-stage,
+    .home-slider .owl-item,
+    .home-slider .slider-item {
+        height: 105px !important;
+        min-height: auto !important; /* పాత min-height ని ఓవర్‌రైడ్ చేస్తుంది */
+    }
+
+    .home-slider .slider-item img {
+        height: 100% !important;
+        object-fit: cover;
+    }
+}
+
+
+
+
+/* footer upodated stylings */

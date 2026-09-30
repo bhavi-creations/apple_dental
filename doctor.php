@@ -299,7 +299,8 @@
 
                                 <div class="index_third_section_tooth_icon blue">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -418,7 +419,8 @@
 
                                 <div class="index_third_section_tooth_icon red">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -536,7 +538,8 @@
 
                                 <div class="index_third_section_tooth_icon blue">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
@@ -655,7 +658,8 @@
 
                                 <div class="index_third_section_tooth_icon red">
 
-                                    <i class="bi bi-heart-pulse"></i>
+                                    <!-- <i class="bi bi-heart-pulse"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
 
                                 </div>
 
