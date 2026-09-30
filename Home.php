@@ -3881,7 +3881,7 @@ $facility_cards = [
 
 
 
-<section class="blog_section my-5">
+<section class="blog_section py-5" style="background:radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);">
 
     <div class="container">
 

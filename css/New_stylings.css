@@ -3118,7 +3118,7 @@
 
 .index_first_section_content_title {
     margin: 0;
-    font-size: 43px;
+    font-size: 37px;
     font-weight: 800;
     line-height: 1.05;
 }
@@ -3137,8 +3137,8 @@
 
 .index_first_section_content_card h4 {
     margin: 1px 0 0;
-    color: #20196a;
-    font-size: 36px;
+    color: #f1202b;
+    font-size: 31px;
     font-weight: 500;
     line-height: 1.05;
 }
@@ -5848,7 +5848,7 @@
 .index_third_section_title {
     margin: 0;
 
-    color: #161b5a;
+    color: #f1202b;
 
     font-size: 55px;
     font-weight: 800;
@@ -7394,7 +7394,7 @@
 .index_fourth_section_title {
     margin: 0;
 
-    color: #171b5c;
+    color: #f1202b;
 
     font-size: 57px;
     font-weight: 800;
@@ -8985,7 +8985,7 @@
 .index_sixth_section_title {
     margin: 0;
 
-    color: #151958;
+    color: #f1202b;
 
     font-size: 57px;
     font-weight: 800;
@@ -10173,7 +10173,7 @@
 .index_faq_section_title {
     margin: 0;
 
-    color: #161a5c;
+    color: #f1202b;
 
     font-size: 61px;
     font-weight: 800;
@@ -18796,7 +18796,7 @@ section.service_first_section {
 
 .about_doctor_section_title span {
     color:
-        #2e91ce;
+        #1670ed;
 
     text-shadow:
         0 2px 4px
@@ -19081,7 +19081,7 @@ section.service_first_section {
     display: flex;
     flex-direction: column;
 
-    color: #2783a5;
+    color: #1670ed;
 
     font-family:
         "Comic Sans MS",
