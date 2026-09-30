@@ -678,8 +678,13 @@
 
 
     <!-- TOP RIGHT DECORATION -->
-    <div class="index_first_section_top_tooth">
-        <img src="assets/img/index/index-first-tooth.png" alt="">
+    <!-- RIGHT TOOTH DECOR -->
+    <div class="about_doctor_section_tooth_decor">
+
+        <i class="fa-solid fa-tooth"></i>
+
+        <span class="about_doctor_section_tooth_ring"></span>
+
     </div>
 
     <div class="index_first_section_top_right_text">

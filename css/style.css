@@ -2240,7 +2240,7 @@ blockquote footer {
 /* Gallery Styling */
 .NR-gallery-section {
   padding: 60px 0;
-  background: linear-gradient(to bottom, #f9f9f9, #e9ecef);
+  background: radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #92d6fd 46%, #92d6fd 100%);
   border-top: 4px solid #007bff;
 }
 

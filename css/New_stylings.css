@@ -1856,7 +1856,7 @@
 
     border:
         3px solid
-        rgba(255,255,255,.94);
+        #1670ed87;
 
     border-radius: 24px;
 
@@ -2711,9 +2711,9 @@
 
 
     .service_first_section_eyebrow p {
-        font-size: 8px;
+        font-size: 9px;
 
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
 
@@ -3589,7 +3589,7 @@
 
     z-index: 5;
 
-    right: 50px;
+    right: 155px;
     top: 74px;
 
     display: flex;
@@ -4163,7 +4163,7 @@
 
 
     .index_first_section_content_title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
 
@@ -4179,6 +4179,7 @@
 
     .index_first_section_quote_box {
         width: 110px;
+        display: none;
     }
 
 }
@@ -4667,7 +4668,7 @@
 .index_second_section_card_content h3 {
     margin: 0;
 
-    color: #12184a;
+    color: #1464ef;
 
     font-size: 27px;
     font-weight: 800;
@@ -19754,4 +19755,13 @@ section.service_first_section {
         max-height: 285px;
     }
 
+}
+
+
+
+/* home page mobile decorative tooth design new stylings */
+@media  (max-width:768px) {
+ .service_first_section_top_tooth{
+display:none !important;
+}
 }
