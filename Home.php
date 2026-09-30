@@ -217,30 +217,30 @@
 
 
 <!-- Dental Section Start -->
-<section class="hero-section">
+<!-- <section class="hero-section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 
-                <!-- 1. Title & Subtitle Section (Center Aligned) -->
+                1. Title & Subtitle Section (Center Aligned)
                 <div class="text-center mb-4">
-                    <!-- Badge -->
+                    Badge
                     <span class="badge bg-danger bg-opacity-10 text-danger mb-3 px-3 py-2 rounded-pill fs-6 fw-semibold">
                         Established in 2010
                     </span>
                     
-                    <!-- Title -->
+                    Title
                     <h1 class="display-5 fw-bold text-dark mb-2">
                         Apple Dental <span class="text-accent">Specialities</span>
                     </h1>
                     
-                    <!-- Subtitle / Location -->
+                    Subtitle / Location
                     <h2 class="h5 text-primary fw-medium">
                         <i class="bi bi-geo-alt-fill me-1"></i>Multispeciality Dental Clinic in Vizianagaram
                     </h2>
                 </div>
 
-                <!-- 2. Content Paragraph (Left Aligned) -->
+                2. Content Paragraph (Left Aligned)
                 <div class="text-start mb-4">
                     <p class="lead text-muted">
                         Established in 2010, Apple Dental Specialities provides comprehensive dental care including dental implants, root canal treatment, clear aligners, crowns & bridges, cosmetic dentistry, gum care. 
@@ -249,18 +249,18 @@
                     
                 </div>
 
-                <!-- 3. Action Buttons Section (Center Aligned) -->
+                3. Action Buttons Section (Center Aligned)
                 <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 gap-sm-4 pt-2">
                     
-                    <!-- Button 1 -->
+                    Button 1
                     <a href="appointment.php" class="btn-link-custom btn-link-danger fs-5">
                         Book an Appointment <i class="bi bi-arrow-right ms-2"></i>
                     </a>
 
-                    <!-- Divider Line -->
+                    Divider Line
                     <span class="text-muted d-none d-sm-inline">|</span>
 
-                    <!-- Button 2 -->
+                    Button 2
                     <a href="doctor.php" class="btn-link-custom btn-link-primary fs-5">
                         Meet Our Doctors <i class="bi bi-arrow-right ms-2"></i>
                     </a>
@@ -270,6 +270,228 @@
             </div>
         </div>
     </div>
+</section> -->
+
+<!-- =========================================================
+     INDEX INTRO SECTION
+========================================================== -->
+<section class="index_into_section">
+
+    <!-- =====================================================
+         BACKGROUND DECORATIONS
+    ====================================================== -->
+
+    <div class="index_into_section_bg_shape
+                index_into_section_bg_shape_left"></div>
+
+    <div class="index_into_section_bg_shape
+                index_into_section_bg_shape_right"></div>
+
+    <div class="index_into_section_dots
+                index_into_section_dots_top"></div>
+
+    <div class="index_into_section_dots
+                index_into_section_dots_bottom"></div>
+
+
+    <!-- =====================================================
+         LEFT HANDWRITTEN TEXT
+    ====================================================== -->
+    <div class="index_into_section_left_note">
+
+        <span>Complete</span>
+        <span>Care for</span>
+        <span>Every Smile</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- =====================================================
+         RIGHT TOOTH VISUAL
+    ====================================================== -->
+    <div class="index_into_section_right_visual">
+
+        <div class="index_into_section_tooth_glow"></div>
+
+        <img
+            src="images1/index/index-into-tooth.png"
+            alt="Advanced Dental Care"
+            class="index_into_section_tooth_image">
+
+        <span class="index_into_section_star
+                    index_into_section_star_one"></span>
+
+        <span class="index_into_section_star
+                    index_into_section_star_two"></span>
+
+        <span class="index_into_section_star
+                    index_into_section_star_three"></span>
+
+
+        <div class="index_into_section_right_text">
+
+            <span>ADVANCED</span>
+            <span>TREATMENTS</span>
+            <span>BRIGHTER</span>
+            <span>SMILES</span>
+
+            <i></i>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+    <div class="container-fluid index_into_section_container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12">
+
+                <div class="index_into_section_content">
+
+
+                    <!-- =========================================
+                         ESTABLISHED BADGE
+                    ========================================== -->
+                    <div class="index_into_section_badge">
+
+                        Established in 2010
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         EYEBROW
+                    ========================================== -->
+                    <div class="index_into_section_eyebrow">
+
+                        <span></span>
+
+                        <p>
+                            YOUR SMILE MATTERS
+                        </p>
+
+                        <span></span>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         MAIN TITLE
+                    ========================================== -->
+                    <h2 class="index_into_section_title">
+
+                        Apple Dental
+
+                        <span>
+                            Specialities
+                        </span>
+
+                    </h2>
+
+
+
+                    <!-- =========================================
+                         LOCATION
+                    ========================================== -->
+                    <div class="index_into_section_location">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        <span>
+                            Multispeciality Dental Clinic in Vizianagaram
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         DESCRIPTION
+                    ========================================== -->
+                    <p class="index_into_section_description">
+
+                        Established in 2010, Apple Dental Specialities provides
+                        comprehensive dental care including dental implants,
+                        root canal treatment, clear aligners, crowns &amp; bridges,
+                        cosmetic dentistry, gum care, preventive dental treatment
+                        in Vizianagaram.
+
+                    </p>
+
+
+
+                    <!-- =========================================
+                         CTA LINKS
+                    ========================================== -->
+                    <div class="index_into_section_actions">
+
+
+                        <a href="appointment.php"
+                           class="index_into_section_action
+                                  index_into_section_action_red">
+
+                            <span>
+                                Book an Appointment
+                            </span>
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+
+                        <span class="index_into_section_action_divider"></span>
+
+
+                        <a href="doctor.php"
+                           class="index_into_section_action
+                                  index_into_section_action_blue">
+
+                            <span>
+                                Meet Our Doctors
+                            </span>
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM WAVES
+    ====================================================== -->
+
+    <div class="index_into_section_wave
+                index_into_section_wave_one"></div>
+
+    <div class="index_into_section_wave
+                index_into_section_wave_two"></div>
+
+    <div class="index_into_section_wave
+                index_into_section_wave_three"></div>
+
+
 </section>
 <!-- Dental Section End -->
 
@@ -3288,7 +3510,7 @@ $facility_cards = [
 
 
 <!-------------achieve section------------------------>
-<section class="dsdl12-section dsdl12-counter img dsdl5-section" id="section-counter" style="background-image: url('images1/home/bg_smile.png');" data-stellar-background-ratio="0.5">
+<!-- <section class="dsdl12-section dsdl12-counter img dsdl5-section" id="section-counter" style="background-image: url('images1/home/bg_smile.png');" data-stellar-background-ratio="0.5">
     <div class="container dsdl5-container">
         <div class="row d-flex align-items-center dsdl5-row">
             <div class="col-md-4 text-center text-md-left py-4 dsdl5-heading" data-aos="fade-right">
@@ -3302,7 +3524,7 @@ $facility_cards = [
             </div>
             <div class="col-md-8 py-4 dsdl5-counter-container">
                 <div class="row dsdl5-counter-row">
-                    <!-- Counter Item 1 -->
+                    Counter Item 1
                     <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center counter-wrap dsdl5-counter-wrap" data-aos="fade-up">
                         <div class="block-18 dsdl5-block">
                             <div class="icon mb-3 dsdl5-icon">
@@ -3314,7 +3536,7 @@ $facility_cards = [
                             </div>
                         </div>
                     </div>
-                    <!-- Counter Item 2 -->
+                    Counter Item 2
                     <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center counter-wrap dsdl5-counter-wrap" data-aos="fade-up" data-aos-delay="100">
                         <div class="block-18 dsdl5-block">
                             <div class="icon mb-3 dsdl5-icon">
@@ -3326,7 +3548,7 @@ $facility_cards = [
                             </div>
                         </div>
                     </div>
-                    <!-- Counter Item 3 -->
+                    Counter Item 3
                     <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center counter-wrap dsdl5-counter-wrap" data-aos="fade-up" data-aos-delay="200">
                         <div class="block-18 dsdl5-block">
                             <div class="icon mb-3 dsdl5-icon">
@@ -3342,6 +3564,271 @@ $facility_cards = [
             </div>
         </div>
     </div>
+</section> -->
+
+
+<!-- =========================================================
+     INDEX ACHIEVEMENTS SECTION
+========================================================== -->
+<section class="index_achievements_section">
+
+    <!-- =====================================================
+         BACKGROUND DECORATIONS
+    ====================================================== -->
+
+    <div class="index_achievements_section_bg_glow
+                index_achievements_section_bg_glow_left"></div>
+
+    <div class="index_achievements_section_bg_glow
+                index_achievements_section_bg_glow_right"></div>
+
+
+    <!-- LEFT TOP TOOTH DECOR -->
+    <div class="index_achievements_section_tooth_decor">
+
+        <i class="fa-solid fa-tooth"></i>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM BLUR DECOR -->
+    <div class="index_achievements_section_leaf
+                index_achievements_section_leaf_one"></div>
+
+    <div class="index_achievements_section_leaf
+                index_achievements_section_leaf_two"></div>
+
+    <div class="index_achievements_section_leaf
+                index_achievements_section_leaf_three"></div>
+
+
+    <!-- RIGHT DENTAL MIRROR DECOR -->
+    <div class="index_achievements_section_mirror">
+
+        <span class="index_achievements_section_mirror_handle"></span>
+
+        <span class="index_achievements_section_mirror_circle"></span>
+
+    </div>
+
+
+    <!-- RIGHT SPARKLES -->
+    <span class="index_achievements_section_sparkle
+                 index_achievements_section_sparkle_one"></span>
+
+    <span class="index_achievements_section_sparkle
+                 index_achievements_section_sparkle_two"></span>
+
+    <span class="index_achievements_section_sparkle
+                 index_achievements_section_sparkle_three"></span>
+
+
+
+    <div class="container-fluid index_achievements_section_container">
+
+        <div class="row align-items-center g-4">
+
+
+            <!-- =================================================
+                 LEFT CONTENT
+            ================================================== -->
+            <div class="col-lg-4">
+
+                <div class="index_achievements_section_content">
+
+
+                    <!-- EYEBROW -->
+                    <div class="index_achievements_section_eyebrow">
+
+                        <span></span>
+
+                        <p>
+                            OUR MILESTONES
+                        </p>
+
+                    </div>
+
+
+                    <!-- TITLE -->
+                    <h2 class="index_achievements_section_title">
+
+                        Our
+
+                        <span>
+                            Achievements
+                        </span>
+
+                    </h2>
+
+
+                    <!-- DESCRIPTION -->
+                    <p class="index_achievements_section_description">
+
+                        Celebrating the milestones that define our journey
+                        and inspire the future.
+
+                    </p>
+
+
+                    <!-- SMALL BLUE LINE -->
+                    <div class="index_achievements_section_small_line"></div>
+
+
+                    <!-- HANDWRITING -->
+                    <div class="index_achievements_section_note">
+
+                        <span>Healthier Smiles</span>
+                        <span>Brighter Tomorrows</span>
+
+                        <i></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 ACHIEVEMENT CARDS
+            ================================================== -->
+            <div class="col-lg-8">
+
+                <div class="index_achievements_section_cards">
+
+
+                    <!-- =========================================
+                         CARD 01
+                    ========================================== -->
+                    <article class="index_achievements_section_card">
+
+                        <div class="index_achievements_section_icon_outer">
+
+                            <div class="index_achievements_section_icon">
+
+                                <i class="bi bi-emoji-smile-fill"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            15 Years of Spreading
+                            <br>
+                            Smiles
+                        </h3>
+
+
+                        <span class="index_achievements_section_card_line"></span>
+
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_one"></div>
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_two"></div>
+
+                    </article>
+
+
+
+                    <!-- =========================================
+                         CARD 02
+                    ========================================== -->
+                    <article class="index_achievements_section_card">
+
+                        <div class="index_achievements_section_icon_outer">
+
+                            <div class="index_achievements_section_icon">
+
+                                <i class="bi bi-people-fill"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            25000 Happy Patients
+                        </h3>
+
+
+                        <span class="index_achievements_section_card_line"></span>
+
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_one"></div>
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_two"></div>
+
+                    </article>
+
+
+
+                    <!-- =========================================
+                         CARD 03
+                    ========================================== -->
+                    <article class="index_achievements_section_card">
+
+                        <div class="index_achievements_section_icon_outer">
+
+                            <div class="index_achievements_section_icon">
+
+                                <i class="bi bi-heart-fill"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            100 Dental Awareness
+                            <br>
+                            Camps
+                        </h3>
+
+
+                        <span class="index_achievements_section_card_line"></span>
+
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_one"></div>
+
+                        <div class="index_achievements_section_card_wave
+                                    index_achievements_section_card_wave_two"></div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM LARGE WAVES
+    ====================================================== -->
+
+    <div class="index_achievements_section_bottom_wave
+                index_achievements_section_bottom_wave_one"></div>
+
+    <div class="index_achievements_section_bottom_wave
+                index_achievements_section_bottom_wave_two"></div>
+
+    <div class="index_achievements_section_bottom_wave
+                index_achievements_section_bottom_wave_three"></div>
+
+
 </section>
 
 
