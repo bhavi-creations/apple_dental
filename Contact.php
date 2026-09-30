@@ -414,7 +414,7 @@
 
 
                     <!-- MAP -->
-                    <a href="https://maps.app.goo.gl/qMVVdefxxP6HKXB16"
+                    <a href="https://maps.google.com/?q=Apple+Dental+Specialities+Vizianagaram"
                        class="contact_first_section_map">
 
                         <div class="contact_first_section_map_icon">

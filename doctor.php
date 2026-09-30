@@ -865,7 +865,7 @@
 
 
 <!-- Auxiliary Section -->
-<section class="container py-5" data-aos="fade-in">
+<!-- <section class="container py-5" data-aos="fade-in">
     <div class="row">
         <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="100">
             <h2 class="font-weight-bold section-title">Our <strong>Auxiliary Team</strong></h2>
@@ -879,5 +879,341 @@
             <img src="images1/banner6.jpg" alt="Our Auxiliary Team" class="img-fluid rounded shadow">
         </div>
     </div>
+</section> -->
+<!-- =========================================================
+     INDEX AUXILIARY TEAM SECTION
+========================================================== -->
+<section class="index_auxiliary_team_section">
+
+    <!-- =====================================================
+         BACKGROUND DECORATIONS
+    ====================================================== -->
+
+    <div class="index_auxiliary_team_section_bg_shape
+                index_auxiliary_team_section_bg_shape_left"></div>
+
+    <div class="index_auxiliary_team_section_bg_shape
+                index_auxiliary_team_section_bg_shape_right"></div>
+
+
+    <div class="index_auxiliary_team_section_dots
+                index_auxiliary_team_section_dots_top"></div>
+
+    <div class="index_auxiliary_team_section_dots
+                index_auxiliary_team_section_dots_left"></div>
+
+    <div class="index_auxiliary_team_section_dots
+                index_auxiliary_team_section_dots_right"></div>
+
+
+    <!-- =====================================================
+         LEFT HANDWRITTEN NOTE
+    ====================================================== -->
+    <div class="index_auxiliary_team_section_left_note">
+
+        <span>Your</span>
+        <span>Smile</span>
+        <span>Our Priority</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- =====================================================
+         RIGHT TOOTH DECORATION
+    ====================================================== -->
+    <div class="index_auxiliary_team_section_tooth_visual">
+
+        <div class="index_auxiliary_team_section_tooth_glow"></div>
+
+        <i class="fa-solid fa-tooth"></i>
+
+        <span class="index_auxiliary_team_section_tooth_orbit"></span>
+
+    </div>
+
+
+    <!-- RIGHT SIDE TEXT -->
+    <div class="index_auxiliary_team_section_right_text">
+
+        <span>ADVANCED</span>
+        <span>CARE FOR</span>
+        <span>HEALTHIER</span>
+        <span>SMILES</span>
+        <span>TOMORROW</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- =====================================================
+         LEFT BOTTOM TOOTH
+    ====================================================== -->
+    <div class="index_auxiliary_team_section_bottom_tooth">
+
+        <i class="fa-solid fa-tooth"></i>
+
+    </div>
+
+
+    <!-- =====================================================
+         RIGHT BOTTOM HANDWRITTEN NOTE
+    ====================================================== -->
+    <div class="index_auxiliary_team_section_bottom_note">
+
+        <span>Smile</span>
+        <span>Confidently</span>
+        <span>Always</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- =====================================================
+         SPARKLES
+    ====================================================== -->
+    <span class="index_auxiliary_team_section_sparkle
+                 index_auxiliary_team_section_sparkle_one"></span>
+
+    <span class="index_auxiliary_team_section_sparkle
+                 index_auxiliary_team_section_sparkle_two"></span>
+
+    <span class="index_auxiliary_team_section_sparkle
+                 index_auxiliary_team_section_sparkle_three"></span>
+
+
+
+    <div class="container-fluid index_auxiliary_team_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="index_auxiliary_team_section_header">
+
+            <div class="index_auxiliary_team_section_eyebrow">
+
+                <span></span>
+
+                <p>
+                    OUR TEAM, YOUR BRIGHTER SMILES
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <h2 class="index_auxiliary_team_section_title">
+
+                <span class="index_auxiliary_team_section_title_red">
+                    Our
+                </span>
+
+                <span class="index_auxiliary_team_section_title_blue">
+                    Auxiliary Team
+                </span>
+
+            </h2>
+
+
+            <div class="index_auxiliary_team_section_title_underline"></div>
+
+
+            <p class="index_auxiliary_team_section_subtitle">
+                Meet our dedicated auxiliary team who work tirelessly
+                to ensure a smooth and comfortable dental experience
+                for all our patients.
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             MAIN TEAM IMAGE
+        ====================================================== -->
+        <div class="index_auxiliary_team_section_main_card">
+
+            <div class="index_auxiliary_team_section_image_frame">
+
+                <img
+                    src="images1/banner6.jpg"
+                    alt="Apple Dental Auxiliary Team"
+                    class="img-fluid index_auxiliary_team_section_image">
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FEATURE CARDS
+        ====================================================== -->
+        <div class="index_auxiliary_team_section_features">
+
+
+            <!-- =================================================
+                 FEATURE 01
+            ================================================== -->
+            <div class="index_auxiliary_team_section_feature">
+
+                <div class="index_auxiliary_team_section_feature_icon_wrap
+                            index_auxiliary_team_section_feature_icon_red">
+
+                    <div class="index_auxiliary_team_section_feature_icon">
+
+                        <i class="bi bi-heart-fill"></i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="index_auxiliary_team_section_feature_content">
+
+                    <h3>
+                        Patient Comfort
+                    </h3>
+
+                    <p>
+                        Always Our Priority
+                    </p>
+
+                </div>
+
+
+                <!-- <div class="index_auxiliary_team_section_feature_arrow">
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </div> -->
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FEATURE 02
+            ================================================== -->
+            <div class="index_auxiliary_team_section_feature">
+
+                <div class="index_auxiliary_team_section_feature_icon_wrap
+                            index_auxiliary_team_section_feature_icon_blue">
+
+                    <div class="index_auxiliary_team_section_feature_icon">
+
+                        <i class="bi bi-people-fill"></i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="index_auxiliary_team_section_feature_content">
+
+                    <h3>
+                        Caring Support
+                    </h3>
+
+                    <p>
+                        With a Friendly Smile
+                    </p>
+
+                </div>
+
+
+                <!-- <div class="index_auxiliary_team_section_feature_arrow">
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </div> -->
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FEATURE 03
+            ================================================== -->
+            <div class="index_auxiliary_team_section_feature">
+
+                <div class="index_auxiliary_team_section_feature_icon_wrap
+                            index_auxiliary_team_section_feature_icon_red">
+
+                    <div class="index_auxiliary_team_section_feature_icon">
+
+                        <i class="bi bi-shield-check"></i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="index_auxiliary_team_section_feature_content">
+
+                    <h3>
+                        Smooth Assistance
+                    </h3>
+
+                    <p>
+                        For a Better Experience
+                    </p>
+
+                </div>
+
+
+                <!-- <div class="index_auxiliary_team_section_feature_arrow">
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </div> -->
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM TAGLINE
+        ====================================================== -->
+        <div class="index_auxiliary_team_section_bottom_tag">
+
+            <span></span>
+
+            <p>
+                HEALTHY SMILES
+                <i></i>
+                HAPPIER LIVES
+            </p>
+
+            <span></span>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM WAVES
+    ====================================================== -->
+    <div class="index_auxiliary_team_section_wave
+                index_auxiliary_team_section_wave_one"></div>
+
+    <div class="index_auxiliary_team_section_wave
+                index_auxiliary_team_section_wave_two"></div>
+
+    <div class="index_auxiliary_team_section_wave
+                index_auxiliary_team_section_wave_three"></div>
+
+
 </section>
 <?php include 'footer.php'; ?>
