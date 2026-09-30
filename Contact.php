@@ -414,7 +414,7 @@
 
 
                     <!-- MAP -->
-                    <a href="#"
+                    <a href="https://maps.app.goo.gl/qMVVdefxxP6HKXB16"
                        class="contact_first_section_map">
 
                         <div class="contact_first_section_map_icon">
