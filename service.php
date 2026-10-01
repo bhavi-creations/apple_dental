@@ -460,7 +460,7 @@
 
                         <span class="service_first_section_card_icon">
                             <!-- <i class="bi bi-heart-pulse"></i> -->
-                            <img src="images1/services/tooth-extraction.png" alt="Gum Surgery" style="height: 33px; width: 33px; filter: brightness(1) invert(1);">
+                            <img src="images1/services/dental-surgery.png" alt="Gum Surgery" style="height: 33px; width: 33px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -494,7 +494,7 @@
 
                         <span class="service_first_section_card_icon">
                             <!-- <i class="bi bi-heart-pulse-fill"></i> -->
-                            <img src="images1/services/dental-surgery.png" alt="Gum Surgery" style="height: 33px; width: 33px; filter: brightness(0) invert(1);">
+                            <img src="images1/services/Gum-surgery.png" alt="Gum Surgery" style="height: 40px; width: 40px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -731,7 +731,8 @@
                              alt="Gum Care">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-person-heart"></i>
+                            <!-- <i class="bi bi-person-heart"></i> -->
+                            <img src="images1/services/Gum-care.png" alt="Root Canal" style="height: 40px; width: 40px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -764,7 +765,8 @@
                              alt="Tooth Jewellery">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-gem"></i>
+                            <!-- <i class="bi bi-gem"></i> -->
+                            <img src="images1/services/tooth-with-diamond.png" alt="Root Canal" style="height: 35px; width: 35px; filter: brightness(0) invert(1);">
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
@@ -868,7 +870,8 @@
                              alt="EHS Available">
 
                         <span class="service_first_section_card_icon">
-                            <i class="bi bi-shield-fill-check"></i>
+                            <!-- <i class="bi bi-shield-fill-check"></i> -->
+                            <img src="images1/services/Ehs Service.png" alt="Jaw Surgery" style="height: 40px; width: 40px; filter: invert(1); mix-blend-mode: screen;">  
                         </span>
 
                         <!-- <div class="service_first_section_image_curve"></div> -->
