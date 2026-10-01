@@ -49,7 +49,7 @@ include 'header.php';
                     <!-- Small Heading --> 
                     <div class="service_new_first_section_top_title"> 
  
-                        <span>GUM CARE &amp; TREATMENT</span> 
+                        <span>GUM CARE TREATMENT</span> 
  
                         <div class="service_new_first_section_title_line"></div> 
  
@@ -59,7 +59,7 @@ include 'header.php';
                     <!-- Main Heading --> 
                     <h1 class="service_new_first_section_heading"> 
  
-                        Gum Care &amp; Treatment
+                        Gum Care Treatment
                         <br> 
  
                         in 

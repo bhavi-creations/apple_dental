@@ -4078,7 +4078,7 @@ a {
 
     letter-spacing: -2.5px;
 
-    color: #08123f;
+    color: #F12631;
 }
 
 
@@ -4423,13 +4423,13 @@ a {
 
 
 .service_new_first_section_floating_icon_one {
-    left: 7%;
+    left: 0%;
     top: 12%;
 }
 
 
 .service_new_first_section_floating_icon_two {
-    right: 2%;
+    right: 1%;
     bottom: 13%;
 
     animation-delay: -2s;
@@ -4771,7 +4771,7 @@ a {
     .service_new_first_section_content {
         max-width: 100%;
         margin: 0;
-        text-align: center;
+        /* text-align: center; */
     }
 
 
@@ -6525,7 +6525,7 @@ a {
 /* STEP 1 */
 
 .service_new_second_section_step_01 {
-    left: 3%;
+    left: -3%;
     top: 20px;
 
     width: 435px;
@@ -6535,7 +6535,7 @@ a {
 /* STEP 2 */
 
 .service_new_second_section_step_02 {
-    left: -1%;
+    left: -6%;
     top: 185px;
 
     width: 430px;
@@ -6545,7 +6545,7 @@ a {
 /* STEP 3 */
 
 .service_new_second_section_step_03 {
-    left: 2%;
+    left: 0%;
     top: 365px;
 
     width: 440px;
@@ -6556,7 +6556,7 @@ a {
 
 .service_new_second_section_step_04 {
     left: 50%;
-    bottom: -10px;
+    bottom: 0px;
 
     width: 445px;
 
@@ -6568,7 +6568,7 @@ a {
 /* STEP 5 */
 
 .service_new_second_section_step_05 {
-    right: 2%;
+    right: -1%;
     top: 365px;
 
     width: 440px;
@@ -6578,7 +6578,7 @@ a {
 /* STEP 6 */
 
 .service_new_second_section_step_06 {
-    right: -1%;
+    right: -6%;
     top: 185px;
 
     width: 430px;
@@ -6588,7 +6588,7 @@ a {
 /* STEP 7 */
 
 .service_new_second_section_step_07 {
-    right: 3%;
+    right: -1%;
     top: 20px;
 
     width: 435px;
@@ -7296,8 +7296,8 @@ a {
 
 
     .service_new_second_section_step_04 {
-        grid-column:
-            1 / -1;
+        /* grid-column:
+            1 / -1; */
 
         max-width: 600px;
 
@@ -7668,4 +7668,32 @@ a {
 
 
 
-/* footer upodated stylings */
+/* Main Section Background Gradient */
+.service_new_first_section {
+    background: radial-gradient(circle at 50% 25%, rgba(255, 255, 255, 0.70), transparent 43%), 
+                linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%) !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* Decorative Blobs & Waves background పైన స్పష్టంగా కనిపించడానికి */
+.service_new_first_section_blob {
+    z-index: 2 !important;
+}
+
+.service_new_first_section_container {
+    position: relative;
+    z-index: 3 !important;
+}
+
+
+
+
+/* Tablet & Mobile devices lo floating icons hide cheyadaniki */
+@media (max-width: 991.98px) {
+    .service_new_first_section_floating_icon,
+    .service_new_first_section_floating_icon_one,
+    .service_new_first_section_floating_icon_two {
+        display: none !important;
+    }
+}

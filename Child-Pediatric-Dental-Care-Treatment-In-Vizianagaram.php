@@ -618,12 +618,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-1.png"
                          alt="Child Friendly Dental Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -656,12 +656,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-2.png"
                          alt="Pediatric Dental Examination">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -694,12 +694,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-3.png"
                          alt="Preventive Pediatric Dental Care">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -717,12 +717,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-4.png"
                          alt="Cavity Treatment for Children">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -750,12 +750,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-5.png"
                          alt="Fluoride and Dental Sealants">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -788,12 +788,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-6.png"
                          alt="Growth and Bite Assessment">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -826,12 +826,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/pediatric-dental-step-7.png"
                          alt="Pediatric Dental Follow Up">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

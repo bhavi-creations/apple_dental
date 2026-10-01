@@ -611,12 +611,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-1.png"
                          alt="Dental Veneers Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -649,12 +649,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-2.png"
                          alt="Digital Smile Planning for Veneers">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -687,12 +687,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-3.png"
                          alt="Veneer Shade and Shape Selection">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -710,12 +710,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-4.png"
                          alt="Minimal Tooth Preparation for Veneers">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -743,12 +743,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-5.png"
                          alt="Dental Veneer Impression">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -781,12 +781,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-6.png"
                          alt="Dental Veneer Bonding">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -819,12 +819,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-veneers-step-7.png"
                          alt="Dental Veneers Aftercare">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

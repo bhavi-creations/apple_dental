@@ -669,12 +669,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-1.png"
                          alt="Dental Implant Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -707,12 +707,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-2.png"
                          alt="Dental Implant Digital Planning">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -745,12 +745,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-3.png"
                          alt="Dental Implant Placement">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -768,12 +768,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-4.png"
                          alt="Dental Implant Healing">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -801,12 +801,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-5.png"
                          alt="Dental Implant Abutment">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -839,12 +839,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-6.png"
                          alt="Dental Implant Crown Placement">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -877,12 +877,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/dental-implant-step-7.png"
                          alt="Dental Implant Aftercare">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
