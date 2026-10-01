@@ -1893,6 +1893,54 @@ body {
 
 
 
+/* Keep the five footer sections independent of Bootstrap column widths. */
+.dsdl4-footer-section .dsdl4-footer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px 24px;
+  align-items: start;
+}
+
+.dsdl4-footer-section .dsdl4-footer-grid > .dsdl4-footer-column {
+  width: auto;
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+.dsdl4-footer-contact .dsdl4-footer-logo {
+  display: block;
+  max-width: 240px;
+  margin: 0 auto 20px;
+}
+
+@media (min-width: 768px) {
+  .dsdl4-footer-section .dsdl4-footer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .dsdl4-footer-grid > .dsdl4-footer-contact {
+    grid-column: span 2;
+  }
+
+  .dsdl4-footer-grid .dsdl4-footer-title,
+  .dsdl4-footer-grid .dsdl4-footer-links {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .dsdl4-footer-section .dsdl4-footer-grid {
+    grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr));
+  }
+
+  .dsdl4-footer-grid > .dsdl4-footer-contact {
+    grid-column: auto;
+  }
+}
+
 /*-------------------------------------------footer section end-------------------------*/
 
 @keyframes customAnimation {
