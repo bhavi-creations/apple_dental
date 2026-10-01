@@ -2392,41 +2392,507 @@
 
 
 
+
+<!-- =========================================================
+     INDEX STAT CARDS SECTION
+========================================================== -->
+<section class="index_statcards_section">
+
+    <!-- =====================================================
+         BACKGROUND DECOR
+    ====================================================== -->
+    <div class="index_statcards_section_bg_shape
+                index_statcards_section_bg_shape_left"></div>
+
+    <div class="index_statcards_section_bg_shape
+                index_statcards_section_bg_shape_right"></div>
+
+
+    <div class="index_statcards_section_dots
+                index_statcards_section_dots_top"></div>
+
+    <div class="index_statcards_section_dots
+                index_statcards_section_dots_right"></div>
+
+
+    <!-- LEFT HAND WRITING -->
+    <div class="index_statcards_section_left_note">
+
+        <span>Complete</span>
+        <span>Care for</span>
+        <span>Every Smile</span>
+
+        <i></i>
+
+    </div>
+
+
+    <!-- RIGHT TOOTH -->
+    <div class="index_statcards_section_tooth_visual">
+
+        <div class="index_statcards_section_tooth_glow"></div>
+
+        <i class="fa-solid fa-tooth"></i>
+
+        <span class="index_statcards_section_tooth_orbit"></span>
+
+    </div>
+
+
+    <!-- LEFT BOTTOM TOOTH -->
+    <div class="index_statcards_section_bottom_tooth">
+
+        <i class="fa-solid fa-tooth"></i>
+
+    </div>
+
+
+
+    <div class="container-fluid index_statcards_section_container">
+
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+        <div class="index_statcards_section_header">
+
+            <div class="index_statcards_section_badge">
+
+                Advanced Care
+
+            </div>
+
+
+            <h2 class="index_statcards_section_title">
+
+                Modern Dental Technology &amp;
+
+                <span>
+                    Patient-Centered Facilities
+                </span>
+
+            </h2>
+
+
+            <div class="index_statcards_section_title_line"></div>
+
+
+            <p class="index_statcards_section_description">
+
+                At Apple Dental Specialities, Vizianagaram, modern dental
+                technology and clinical facilities support accurate diagnosis,
+                treatment planning and comfortable dental care. Our facilities
+                are designed to support a wide range of general, restorative,
+                cosmetic, orthodontic, implant and prosthodontic treatments.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             SWIPER
+        ====================================================== -->
+        <div class="index_statcards_section_slider_wrap">
+
+            <div class="swiper index_statcards_section_swiper">
+
+                <div class="swiper-wrapper">
+
+
+                    <!-- =========================================
+                         CARD 01
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_blue">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <i class="bi bi-display"></i>
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Digital Dental
+                                <br>
+                                Diagnostics
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                Modern diagnostic tools help dental professionals
+                                assess oral conditions and plan appropriate
+                                treatment based on individual patient needs.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         CARD 02
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_red">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <!-- <i class="fa-solid fa-tooth"></i> -->
+                                    <img src="images1/services/dental_implants1.png" alt="Dental Implants" style="height: 35px; width: 35px; filter: brightness(0) invert(1);">
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Dental Implant Care
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                Implant treatment planning and restorative care
+                                are provided based on the patient's oral health,
+                                bone condition and individual treatment requirements.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         CARD 03
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_blue">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <!-- <i class="bi bi-stars"></i> -->
+                                    <img src="images1/services/clean.png" alt="" style="height: 36px; width:36px; filter: brightness(0) invert(1);">
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Laser-Assisted
+                                <br>
+                                Dental Care
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                Laser technology may be used for selected dental
+                                procedures where clinically appropriate,
+                                supporting precise and minimally invasive treatment.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         CARD 04
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_red">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <i class="bi bi-hospital"></i>
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Modern Dental
+                                <br>
+                                Treatment Setup
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                A clinical environment designed to support
+                                different dental procedures while maintaining
+                                patient comfort and treatment efficiency.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         CARD 05
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_blue">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <i class="bi bi-shield-fill-check"></i>
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Sterilization &amp;
+                                <br>
+                                Infection Control
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                Instrument sterilization and infection-control
+                                protocols are an important part of maintaining
+                                a safe dental treatment environment.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         CARD 06
+                    ========================================== -->
+                    <div class="swiper-slide">
+
+                        <article class="index_statcards_section_card">
+
+                            <div class="index_statcards_section_icon_outer
+                                        index_statcards_section_icon_red">
+
+                                <div class="index_statcards_section_icon">
+
+                                    <i class="bi bi-clipboard2-pulse-fill"></i>
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Digital Treatment
+                                <br>
+                                Planning
+                            </h3>
+
+
+                            <span class="index_statcards_section_card_line"></span>
+
+
+                            <p>
+
+                                Diagnostic information is evaluated to develop
+                                treatment plans according to each patient's
+                                specific dental condition.
+
+                            </p>
+
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_one"></div>
+
+                            <div class="index_statcards_section_card_wave
+                                        index_statcards_section_card_wave_two"></div>
+
+                        </article>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SWIPER ARROWS
+            ================================================== -->
+            <button type="button"
+                    class="index_statcards_section_prev"
+                    aria-label="Previous">
+
+                <i class="bi bi-chevron-left"></i>
+
+            </button>
+
+
+            <button type="button"
+                    class="index_statcards_section_next"
+                    aria-label="Next">
+
+                <i class="bi bi-chevron-right"></i>
+
+            </button>
+
+
+
+            <!-- PAGINATION -->
+            <div class="swiper-pagination index_statcards_section_pagination"></div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM WAVES
+    ====================================================== -->
+    <div class="index_statcards_section_wave
+                index_statcards_section_wave_one"></div>
+
+    <div class="index_statcards_section_wave
+                index_statcards_section_wave_two"></div>
+
+    <div class="index_statcards_section_wave
+                index_statcards_section_wave_three"></div>
+
+
+</section>
+
+
+
+
+
 <?php
 // Facility Cards Data Array (Without Icons)
-$facility_cards = [
-    [
-        "title" => "Digital Dental Diagnostics",
-        "desc" => "Modern diagnostic tools help dental professionals assess oral conditions and plan appropriate treatment based on individual patient needs."
-    ],
-    [
-        "title" => "Dental Implant Care",
-        "desc" => "Implant treatment planning and restorative care are provided based on the patient's oral health, bone condition and individual treatment requirements."
-    ],
-    [
-        "title" => "Laser-Assisted Dental Care",
-        "desc" => "Laser technology may be used for selected dental procedures where clinically appropriate, supporting precise and minimally invasive treatment."
-    ],
-    [
-        "title" => "Modern Dental Treatment Setup",
-        "desc" => "A clinical environment designed to support different dental procedures while maintaining patient comfort and treatment efficiency."
-    ],
-    [
-        "title" => "Sterilization & Infection Control",
-        "desc" => "Instrument sterilization and infection-control protocols are an important part of maintaining a safe dental treatment environment."
-    ],
-    [
-        "title" => "Digital Treatment Planning",
-        "desc" => "Diagnostic information is evaluated to develop treatment plans according to each patient's specific dental condition."
-    ]
-];
+// $facility_cards = [
+//     [
+//         "title" => "Digital Dental Diagnostics",
+//         "desc" => "Modern diagnostic tools help dental professionals assess oral conditions and plan appropriate treatment based on individual patient needs."
+//     ],
+//     [
+//         "title" => "Dental Implant Care",
+//         "desc" => "Implant treatment planning and restorative care are provided based on the patient's oral health, bone condition and individual treatment requirements."
+//     ],
+//     [
+//         "title" => "Laser-Assisted Dental Care",
+//         "desc" => "Laser technology may be used for selected dental procedures where clinically appropriate, supporting precise and minimally invasive treatment."
+//     ],
+//     [
+//         "title" => "Modern Dental Treatment Setup",
+//         "desc" => "A clinical environment designed to support different dental procedures while maintaining patient comfort and treatment efficiency."
+//     ],
+//     [
+//         "title" => "Sterilization & Infection Control",
+//         "desc" => "Instrument sterilization and infection-control protocols are an important part of maintaining a safe dental treatment environment."
+//     ],
+//     [
+//         "title" => "Digital Treatment Planning",
+//         "desc" => "Diagnostic information is evaluated to develop treatment plans according to each patient's specific dental condition."
+//     ]
+// ];
 ?>
 
 <!-- Technology & Facilities Section Start -->
-<section class="tech-section">
+<!-- <section class="tech-section">
     <div class="container-fluid px-lg-5 px-4">
         
-        <!-- Section Heading & Subtitle -->
+        Section Heading & Subtitle
         <div class="row justify-content-center mb-4">
             <div class="col-lg-10 text-center">
                 <span class="badge bg-danger bg-opacity-10 text-danger mb-2 px-3 py-2 rounded-pill fs-6 fw-semibold">
@@ -2441,7 +2907,7 @@ $facility_cards = [
             </div>
         </div>
 
-        <!-- Cards Swiper Slider -->
+        Cards Swiper Slider
         <div class="swiper tech-swiper-container">
             <div class="swiper-wrapper">
                 
@@ -2456,19 +2922,19 @@ $facility_cards = [
 
             </div>
 
-            <!-- Swiper Pagination & Navigation -->
+            Swiper Pagination & Navigation
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next d-none d-md-flex"></div>
             <div class="swiper-button-prev d-none d-md-flex"></div>
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- Technology & Facilities Section End -->
 
 
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function () {
         var swiper = new Swiper(".tech-swiper-container", {
             slidesPerView: 1,
@@ -2487,22 +2953,22 @@ $facility_cards = [
                 prevEl: ".swiper-button-prev",
             },
             breakpoints: {
-                // Mobile (<768px): 1 Card
+                Mobile (<768px): 1 Card
                 0: {
                     slidesPerView: 1,
                     spaceBetween: 15
                 },
-                // Tablet (768px - 991px): 3 Cards
+                Tablet (768px - 991px): 3 Cards
                 768: {
                     slidesPerView: 3,
                     spaceBetween: 18
                 },
-                // Small Desktop / Laptops (992px - 1199px): 4 Cards
+                Small Desktop / Laptops (992px - 1199px): 4 Cards
                 992: {
                     slidesPerView: 4,
                     spaceBetween: 20
                 },
-                // Large Desktop (>= 1200px): All 6 Cards
+                Large Desktop (>= 1200px): All 6 Cards
                 1200: {
                     slidesPerView: 6,
                     spaceBetween: 20
@@ -2510,7 +2976,7 @@ $facility_cards = [
             }
         });
     });
-</script>
+</script> -->
 
 
 <!-- <section id="whychooseSection">

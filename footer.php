@@ -917,6 +917,123 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const statCardsSection =
+        document.querySelector(
+            ".index_statcards_section"
+        );
+
+    if (!statCardsSection) return;
+
+
+    const statCardsSwiper =
+        new Swiper(
+            ".index_statcards_section_swiper",
+            {
+
+                slidesPerView: 1.1,
+
+                spaceBetween: 12,
+
+                grabCursor: true,
+
+                watchOverflow: true,
+
+                speed: 650,
+
+                navigation: {
+
+                    nextEl:
+                        ".index_statcards_section_next",
+
+                    prevEl:
+                        ".index_statcards_section_prev"
+
+                },
+
+                pagination: {
+
+                    el:
+                        ".index_statcards_section_pagination",
+
+                    clickable: true
+
+                },
+
+
+                breakpoints: {
+
+
+                    /* MOBILE */
+                    0: {
+
+                        slidesPerView: 1.08,
+
+                        spaceBetween: 12
+
+                    },
+
+
+                    /* LARGE MOBILE */
+                    576: {
+
+                        slidesPerView: 2,
+
+                        spaceBetween: 14
+
+                    },
+
+
+                    /* TABLET */
+                    768: {
+
+                        slidesPerView: 3,
+
+                        spaceBetween: 14
+
+                    },
+
+
+                    /* SMALL DESKTOP */
+                    992: {
+
+                        slidesPerView: 4,
+
+                        spaceBetween: 15
+
+                    },
+
+
+                    /* MEDIUM DESKTOP */
+                    1200: {
+
+                        slidesPerView: 5,
+
+                        spaceBetween: 16
+
+                    },
+
+
+                    /* LARGE DESKTOP */
+                    1400: {
+
+                        slidesPerView: 6,
+
+                        spaceBetween: 16
+
+                    }
+
+                }
+
+            }
+        );
+
+});
+</script>
+
+
 
 </body>
 
