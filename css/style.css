@@ -4523,7 +4523,7 @@ a {
 
     z-index: 12;
 
-    right: -5%;
+    right: 2%;
     top: -5%;
     
     display: flex;
@@ -4533,7 +4533,7 @@ a {
 
     font-family: "Brush Script MT", "Segoe Script", cursive;
 
-    font-size: 42px;
+    font-size: 30px;
 
     line-height: 0.83;
 
@@ -4722,7 +4722,7 @@ a {
 
 
     .service_new_first_section_side_text {
-        font-size: 32px;
+        font-size: 24px;
     }
 
 
@@ -5902,12 +5902,7 @@ a {
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 50% 20%,
-            rgba(255,255,255,.98) 0%,
-            rgba(232,247,255,.96) 45%,
-            rgba(177,224,255,.95) 100%
-        );
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);
 
     font-family:
         "DM Sans",
@@ -5972,10 +5967,10 @@ a {
 
 .service_new_second_section_eyebrow > span {
     width: 48px;
-    height: 1px;
+    height: 5px;
 
     background:
-        #142f7a;
+        linear-gradient(90deg, #0878ee 0%, #6c6fe8 45%, #f21d28 100%);
 }
 
 
@@ -5983,7 +5978,7 @@ a {
     margin: 0;
 
     color:
-        #172d70;
+        #F12631;
 
     font-size: 12px;
     font-weight: 700;
@@ -6002,7 +5997,7 @@ a {
     margin: 0;
 
     color:
-        #15225d;
+        #F12631;
 
     font-size: 52px;
     font-weight: 800;
@@ -6790,7 +6785,7 @@ a {
     z-index: 15;
 
     right: 50px;
-    top: 55px;
+    top: 10px;
 
     width: 150px;
 
@@ -6799,15 +6794,15 @@ a {
     align-items: center;
 
     color:
-        #102d8c;
+        #1670ed;
 
     font-family:
         "Segoe Script",
         "Brush Script MT",
         cursive;
 
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
 
     line-height: .88;
 
