@@ -315,10 +315,10 @@
 
         <div class="index_into_section_tooth_glow"></div>
 
-        <img
+        <!-- <img
             src="images1/index/index-into-tooth.png"
             alt="Advanced Dental Care"
-            class="index_into_section_tooth_image">
+            class="index_into_section_tooth_image"> -->
 
         <span class="index_into_section_star
                     index_into_section_star_one"></span>
@@ -1005,9 +1005,9 @@
 
 
     <!-- BOTTOM LEFT TOOTH -->
-    <div class="index_first_section_bottom_tooth">
+    <!-- <div class="index_first_section_bottom_tooth">
         <img src="assets/img/index/index-first-small-tooth.png" alt="">
-    </div>
+    </div> -->
 
 </section>
 
@@ -1103,12 +1103,12 @@
     </div>
 
     <!-- RIGHT TOP TOOTH -->
-    <div class="index_third_section_top_tooth">
+    <!-- <div class="index_third_section_top_tooth">
 
         <img src="assets/img/index/doctors-tooth.png"
              alt="Dental Care">
 
-    </div>
+    </div> -->
 
     <!-- RIGHT HAND WRITING -->
     <div class="index_third_section_right_handwriting">
@@ -2325,12 +2325,12 @@
 
 
     <!-- BOTTOM LEFT TOOTH -->
-    <div class="index_second_section_bottom_tooth">
+    <!-- <div class="index_second_section_bottom_tooth">
 
         <img src="assets/img/index/services-bottom-tooth.png"
              alt="">
 
-    </div>
+    </div> -->
 
 
     <!-- RIGHT BOTTOM HAND WRITING -->
@@ -3340,12 +3340,12 @@ $facility_cards = [
 
 
     <!-- BOTTOM LEFT TOOTH -->
-    <div class="index_fourth_section_bottom_tooth">
+    <!-- <div class="index_fourth_section_bottom_tooth">
 
         <img src="assets/img/index/why-bottom-tooth.png"
              alt="">
 
-    </div>
+    </div> -->
 
 
     <!-- BOTTOM RIGHT NOTE -->
@@ -4693,12 +4693,12 @@ $facility_cards = [
          BOTTOM LEFT TOOTH
     ========================================================== -->
 
-    <div class="index_faq_section_bottom_tooth">
+    <!-- <div class="index_faq_section_bottom_tooth">
 
         <img src="assets/img/index/faq-bottom-tooth.png"
              alt="">
 
-    </div>
+    </div> -->
 
 
 
