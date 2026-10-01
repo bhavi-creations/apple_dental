@@ -661,12 +661,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-1.png"
                          alt="Why Root Canal is Needed">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -698,12 +698,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-2.png"
                          alt="Detailed Diagnosis">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -736,12 +736,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-3.png"
                          alt="Pain Free Treatment">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -759,12 +759,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-4.png"
                          alt="Sealing and Protection">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -792,12 +792,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-5.png"
                          alt="Recovery and Care">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -829,12 +829,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-6.png"
                          alt="Long Term Benefits">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -867,12 +867,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/root-canal-step-7.png"
                          alt="After Treatment Care">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

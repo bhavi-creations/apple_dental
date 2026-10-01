@@ -674,12 +674,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-1.png"
                          alt="Periapical Surgery Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -712,12 +712,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-2.png"
                          alt="Periapical Surgery X-Ray Diagnosis">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -750,12 +750,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-3.png"
                          alt="Local Anesthesia for Periapical Surgery">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -773,12 +773,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-4.png"
                          alt="Root Tip Removal">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -806,12 +806,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-5.png"
                          alt="Root End Sealing">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -844,12 +844,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-6.png"
                          alt="Periapical Surgery Suturing">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -882,12 +882,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/periapical-surgery-step-7.png"
                          alt="Periapical Surgery Follow Up">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

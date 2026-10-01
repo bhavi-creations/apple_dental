@@ -1769,7 +1769,7 @@
 .service_first_section_title {
     margin: 0;
 
-    color: #13265f;
+    color: #f32b34;
 
     font-family: "Playfair Display", serif;
 
@@ -3512,11 +3512,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #202eaa;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 600;
     line-height: .85;
 
@@ -4980,11 +4980,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #124dcc;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
 
     line-height: .86;
@@ -5095,11 +5095,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #1653cf;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 600;
 
     line-height: .86;
@@ -8007,12 +8007,12 @@
     flex-direction: column;
     align-items: center;
 
-    color: #1682dd;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
 
     line-height: .84;
 
@@ -9346,15 +9346,15 @@
     flex-direction: column;
     align-items: center;
 
-    color: #154ac4;
+    color: #1670ed;
 
     font-family:
         "Segoe Script",
         "Brush Script MT",
         cursive;
 
-    font-size: 31px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
 
     line-height: .95;
 
@@ -10815,15 +10815,15 @@
     align-items: center;
 
     color:
-        #1451cd;
+        #1670ed;
 
     font-family:
         "Segoe Script",
         "Brush Script MT",
         cursive;
 
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
 
     line-height: .90;
 

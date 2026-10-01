@@ -617,12 +617,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-1.png"
                          alt="Head and Neck Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -655,12 +655,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-2.png"
                          alt="Head and Neck Clinical Examination">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -693,12 +693,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-3.png"
                          alt="Head and Neck Imaging and Diagnosis">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -716,12 +716,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-4.png"
                          alt="Head and Neck Treatment Planning">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -749,12 +749,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-5.png"
                          alt="Head and Neck Treatment Procedure">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -787,12 +787,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-6.png"
                          alt="Head and Neck Recovery Care">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -825,12 +825,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/head-neck-step-7.png"
                          alt="Head and Neck Follow Up Care">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

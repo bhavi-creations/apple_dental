@@ -46,7 +46,7 @@
 <footer class="dsdl4-footer-section " style="background-color: #003471; color: #fff;">
 
   <div class="container dsdl4">
-    <div class="dsdl4 dsdl4-footer-grid">
+    <div class="dsdl4 dsdl4-footer-grid row">
       <!-- About Section -->
       <!-- <div class="col-md-4 dsdl4-about-section " data-aos="fade-right">
         <img src="images1/apple.jpg" alt="About Us Image" class="dsdl4-about-image">
@@ -56,7 +56,7 @@
         </p>
       </div> -->
 
-      <div class="dsdl4-footer-column dsdl4-footer-contact text-center dsdl4 no_need" data-aos="fade-left">
+    <div class="dsdl4-footer-column dsdl4-footer-contact text-center no_need col-md-6 col-lg" data-aos="fade-left">
       
           <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid dsdl4-footer-logo">
          
@@ -76,7 +76,7 @@
 
      
 
-      <div class="dsdl4-footer-column dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
+    <div class="dsdl4-footer-column no_need d-none d-md-block col-md-6 col-lg" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Quick Links</h4>
         <ul class="dsdl4-footer-links">
           <li><a href="Home.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
@@ -90,7 +90,7 @@
 
         </ul>
       </div>
-      <div class="dsdl4-footer-column dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-left">
+    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-left">
         <h4 class="dsdl4-footer-title">Our Services</h4>
         <ul class="dsdl4-footer-links">
           <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Root Canal </a></li>
@@ -102,7 +102,7 @@
 
         </ul>
       </div>
-      <div class="dsdl4-footer-column dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
+    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Our Services</h4>
 
 
@@ -118,7 +118,7 @@
       </div>
 
 
-      <div class="dsdl4-footer-column dsdl4-footer-services dsdl4-links-section no_need d-none d-md-block" data-aos="fade-up">
+    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-up">
         <h4 class="dsdl4-footer-title">Our Services</h4>
 
 

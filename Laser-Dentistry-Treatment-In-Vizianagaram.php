@@ -619,12 +619,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-1.png"
                          alt="Laser Dentistry Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -657,12 +657,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-2.png"
                          alt="Laser Dentistry Treatment Planning">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -695,12 +695,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-3.png"
                          alt="Laser Dentistry Preparation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -718,12 +718,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-4.png"
                          alt="Laser Dental Procedure">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -751,12 +751,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-5.png"
                          alt="Laser Gum Reshaping">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -789,12 +789,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-6.png"
                          alt="Laser Dentistry Recovery">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -827,12 +827,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/laser-dentistry-step-7.png"
                          alt="Laser Dentistry Follow Up">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

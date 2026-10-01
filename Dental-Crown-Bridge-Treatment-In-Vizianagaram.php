@@ -609,12 +609,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-1.png"
                          alt="Crown and Bridge Consultation">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -647,12 +647,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-2.png"
                          alt="Dental Crown and Bridge Digital Scan">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -685,12 +685,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-3.png"
                          alt="Tooth Preparation for Dental Crown">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -708,12 +708,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-4.png"
                          alt="Dental Impression for Crown and Bridge">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -741,12 +741,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-5.png"
                          alt="Temporary Dental Crown">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -779,12 +779,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-6.png"
                          alt="Final Crown and Bridge Placement">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -817,12 +817,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/crown-bridge-step-7.png"
                          alt="Crown and Bridge Aftercare">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">

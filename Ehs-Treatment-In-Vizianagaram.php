@@ -499,12 +499,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-1.png"
                          alt="EHS Eligibility Verification">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -537,12 +537,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-2.png"
                          alt="EHS Dental Examination">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -575,12 +575,12 @@ include 'header.php';
                 </div>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-3.png"
                          alt="EHS Dental Treatment Plan">
 
-                </div>
+                </div> -->
 
             </article>
 
@@ -598,12 +598,12 @@ include 'header.php';
                 </span>
 
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-4.png"
                          alt="EHS Treatment Authorization">
 
-                </div>
+                </div> -->
 
 
                 <div class="service_new_second_section_step_content">
@@ -631,12 +631,12 @@ include 'header.php';
                             service_new_second_section_step_05
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-5.png"
                          alt="EHS Dental Treatment">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -669,12 +669,12 @@ include 'header.php';
                             service_new_second_section_step_06
                             service_new_second_section_step_red">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-6.png"
                          alt="EHS Dental Treatment Records">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
@@ -707,12 +707,12 @@ include 'header.php';
                             service_new_second_section_step_07
                             service_new_second_section_step_blue">
 
-                <div class="service_new_second_section_step_icon">
+                <!-- <div class="service_new_second_section_step_icon">
 
                     <img src="assets/img/services/ehs-dental-step-7.png"
                          alt="EHS Dental Follow Up Care">
 
-                </div>
+                </div> -->
 
 
                 <span class="service_new_second_section_number">
