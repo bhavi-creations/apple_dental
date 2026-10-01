@@ -1083,7 +1083,7 @@
     <div class="index_third_section_bg_circle index_third_section_bg_circle_left"></div>
     <div class="index_third_section_bg_circle index_third_section_bg_circle_right"></div>
 
-    <div class="index_third_section_left_leaf"></div>
+    <!-- <div class="index_third_section_left_leaf"></div> -->
 
     <!-- LEFT HAND WRITING -->
     <div class="index_third_section_left_handwriting">
@@ -3361,12 +3361,20 @@
 
 
     <!-- TOP RIGHT TOOTH -->
-    <div class="index_fourth_section_top_tooth">
+    <!-- <div class="index_fourth_section_top_tooth">
 
         <img src="assets/img/index/why-choose-tooth.png"
              alt="Dental Care">
 
         <div class="index_fourth_section_tooth_ring"></div>
+
+    </div> -->
+
+    <div class="index_fourth_section_top_tooth">
+
+    <i class="fa-solid fa-tooth index_fourth_section_top_tooth_icon"></i>
+
+    <div class="index_fourth_section_tooth_ring"></div>
 
     </div>
 
@@ -3815,7 +3823,7 @@
 
 
     <!-- BOTTOM RIGHT NOTE -->
-    <div class="index_fourth_section_bottom_note">
+    <!-- <div class="index_fourth_section_bottom_note">
 
         <span>Smile</span>
         <span>Confidently</span>
@@ -3823,7 +3831,7 @@
 
         <i></i>
 
-    </div>
+    </div> -->
 
 
 </section>
@@ -4746,7 +4754,7 @@
                 <!-- =================================================
                      CTA
                 ================================================== -->
-                <a href="#"
+                <a href="https://share.google/aBFFC9UQNYHIyKI81"
                    class="index_sixth_section_button">
 
                     <span>

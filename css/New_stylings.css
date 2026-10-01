@@ -5750,13 +5750,7 @@
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 50% 10%,
-            #ffffff 0%,
-            rgba(244,251,255,.97) 40%,
-            rgba(215,241,255,.96) 100%
-        );
-
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);
     font-family: "DM Sans", sans-serif;
 }
 
@@ -6243,7 +6237,7 @@
         0
         0;
 
-    color: #62728f;
+    color: black;
 
     font-size: 13px;
     font-weight: 500;
@@ -6326,7 +6320,7 @@
     font-size: 10px;
     font-weight: 500;
 
-    line-height: 1.35;
+    /* line-height: 1.35; */
 }
 
 
@@ -6611,11 +6605,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #1264dd;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 29px;
+    font-size: 22px;
     font-weight: 600;
 
     line-height: .85;
@@ -6734,11 +6728,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #1255d4;
+    color: #1670ed;
 
     font-family: "Caveat", cursive;
 
-    font-size: 29px;
+    font-size: 22px;
     font-weight: 600;
 
     line-height: .85;
@@ -6951,7 +6945,7 @@
 
 
     .index_third_section_stats span {
-        font-size: 9px;
+        font-size: 14px;
     }
 
 
@@ -8005,7 +7999,7 @@
     z-index: 6;
 
     left: 40px;
-    top: 55px;
+    top: 40px;
 
     width: 130px;
 
@@ -8013,11 +8007,11 @@
     flex-direction: column;
     align-items: center;
 
-    color: #124bc5;
+    color: #1682dd;
 
     font-family: "Caveat", cursive;
 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 
     line-height: .84;
@@ -22591,4 +22585,148 @@ display:none !important;
     margin-left: 210px;
 }
 }
-/* appointment form fields along with alognment in 1400px devics amnd above */
+
+
+
+/* why choose us top right deocrative tooth bg new stylings */
+/* =========================================================
+   TOP RIGHT TOOTH ICON
+   REPLACES IMAGE - SAME POSITION
+========================================================== */
+
+.index_fourth_section_top_tooth {
+    position: absolute;
+
+    top: 28px;
+    right:160px;
+
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 3;
+
+    pointer-events: none;
+}
+
+
+/* TOOTH ICON */
+
+.index_fourth_section_top_tooth_icon {
+    position: relative;
+    z-index: 2;
+
+    font-size: 105px;
+
+    color: #ffffff;
+
+    opacity: 0.48;
+
+    filter:
+        drop-shadow(0 8px 14px rgba(34, 126, 197, 0.14))
+        drop-shadow(0 0 14px rgba(255, 255, 255, 0.45));
+
+    text-shadow:
+        0 0 12px rgba(255,255,255,0.55);
+
+    transform: rotate(-4deg);
+}
+
+
+/* EXISTING RING STYLE */
+
+.index_fourth_section_tooth_ring {
+    position: absolute;
+
+    z-index: 4;
+
+    width: 165px;
+    height: 55px;
+
+    border:
+        4px solid rgba(74, 194, 241, 0.55);
+
+    border-left-color:
+        transparent;
+
+    border-right-color:
+        transparent;
+
+    border-radius: 50%;
+
+    transform: rotate(-10deg);
+
+    opacity: 0.7;
+
+    box-shadow:
+        0 0 10px rgba(79, 202, 248, 0.22);
+}
+
+
+
+
+@media (max-width: 1399.98px) {
+
+    .index_fourth_section_top_tooth {
+        right: 4%;
+        top: 26px;
+
+        width: 135px;
+        height: 135px;
+    }
+
+    .index_fourth_section_top_tooth_icon {
+        font-size: 92px;
+    }
+
+    .index_fourth_section_tooth_ring {
+        width: 145px;
+        height: 48px;
+    }
+
+}
+
+
+@media (max-width: 1199.98px) {
+
+    .index_fourth_section_top_tooth {
+        right: 65px;
+        top: 24px;
+
+        transform: scale(.85);
+        transform-origin: top right;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    .index_fourth_section_top_tooth {
+        opacity: .35;
+
+        right: -10px;
+        top: 20px;
+
+        transform: scale(.7);
+        transform-origin: top right;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .index_fourth_section_top_tooth {
+        display: none;
+    }
+
+}
+
+
+
+
+
