@@ -100,11 +100,12 @@ include 'header.php';
                         <div class="service_new_first_section_benefit">
 
                             <div class="service_new_first_section_benefit_icon">
-                                <i class="fa-solid fa-tooth"></i>
+                                <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="images1/services/relieves-pain.png" alt="Dental Implants" style="height: 50px; width: 50px;">
                             </div>
 
                             <h6>
-                                Relieves<br>
+                                Relieves
                                 Pain
                             </h6>
 
@@ -119,11 +120,12 @@ include 'header.php';
                         <div class="service_new_first_section_benefit">
 
                             <div class="service_new_first_section_benefit_icon">
-                                <i class="fa-solid fa-shield-heart"></i>
+                                <!-- <i class="fa-solid fa-shield-heart"></i> -->
+                            <img src="images1/services/Stops-infection.png" alt="Dental Implants" style="height: 45px; width: 45px;">
                             </div>
 
                             <h6>
-                                Stops<br>
+                                Stops
                                 Infection
                             </h6>
 
@@ -138,11 +140,12 @@ include 'header.php';
                         <div class="service_new_first_section_benefit">
 
                             <div class="service_new_first_section_benefit_icon">
-                                <i class="fa-solid fa-tooth"></i>
+                                <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="images1/services/Restores-tooth-strength.png" alt="Root Canal" style="height: 45px; width: 45px;">
                             </div>
 
                             <h6>
-                                Restores<br>
+                                Restores
                                 Function
                             </h6>
 
@@ -157,11 +160,12 @@ include 'header.php';
                         <div class="service_new_first_section_benefit">
 
                             <div class="service_new_first_section_benefit_icon">
-                                <i class="fa-solid fa-crown"></i>
+                                <!-- <i class="fa-solid fa-crown"></i> -->
+                            <img src="images1/services/Smile-Makeover.png" alt="Dental Implants" style="height: 45px; width: 45px;">
                             </div>
 
                             <h6>
-                                Long-Lasting<br>
+                                Long-Lasting
                                 Results
                             </h6>
 
@@ -200,7 +204,8 @@ include 'header.php';
                     <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_one">
 
                         <div class="service_new_first_section_floating_icon_circle">
-                            <i class="fa-solid fa-tooth"></i>
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="images1/services/dental_implants1.png" alt="Dental Implants" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
                         </div>
 
                     </div>
@@ -210,7 +215,8 @@ include 'header.php';
                     <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_two">
 
                         <div class="service_new_first_section_floating_icon_circle">
-                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <!-- <i class="fa-solid fa-screwdriver-wrench"></i> -->
+                            <img src="images1/services/dental_implants1.png" alt="Dental Implants" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
                         </div>
 
                     </div>

@@ -129,12 +129,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-bacteria"></i> 
+                                <!-- <i class="fa-solid fa-bacteria"></i>  -->
+                            <img src="images1/services/root-canal.png" alt="Dental Implants" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Removes Root Tip<br> 
+                                Removes Root Tip 
                                 Infection 
                             </h6> 
  
@@ -155,7 +156,7 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Precise Minor<br> 
+                                Precise Minor 
                                 Surgical Care 
                             </h6> 
  
@@ -171,7 +172,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-halved"></i> 
+                                <!-- <i class="fa-solid fa-shield-halved"></i>  -->
+                            <img src="images1/services/Restores-tooth-strength.png" alt="Root Canal" style="height: 45px; width: 45px;">
  
                             </div> 
  

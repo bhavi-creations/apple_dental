@@ -102,7 +102,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-tooth"></i> 
+                                <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/tooth-extraction.png" alt="Root Canal" style="height: 40px; width: 40px;">
  
                             </div> 
  
@@ -123,7 +124,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-heart"></i> 
+                                <!-- <i class="fa-solid fa-shield-heart"></i>  -->
+                            <img src="images1/services/Stops-infection.png" alt="Root Canal" style="height: 45px; width: 45px;">
  
                             </div> 
  
@@ -144,12 +146,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-syringe"></i> 
+                                <!-- <i class="fa-solid fa-syringe"></i>  -->
+                            <img src="images1/services/relieves-pain.png" alt="Root Canal" style="height: 50px; width: 50px;">
  
                             </div> 
  
                             <h6> 
-                                Pain-Controlled<br> 
+                                Pain-Controlled 
                                 Procedure 
                             </h6> 
  
@@ -165,12 +168,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-heart-pulse"></i> 
+                                <!-- <i class="fa-solid fa-heart-pulse"></i>  -->
+                            <img src="images1/services/Restores-tooth-strength.png" alt="Root Canal" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Safe<br> 
+                                Safe 
                                 Recovery 
                             </h6> 
  
@@ -207,7 +211,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/tooth-extraction.png" alt="Tooth Extraction" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -219,7 +224,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-kit-medical"></i> 
+                            <!-- <i class="fa-solid fa-kit-medical"></i>  -->
+                            <img src="images1/services/tooth-extraction.png" alt="Tooth Extraction" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  

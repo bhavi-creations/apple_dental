@@ -95,7 +95,7 @@ include 'header.php';
  
  
                     <!-- ================= BENEFITS ================= --> 
-                    <div class="service_new_first_section_benefits"> 
+                    <div class="service_new_first_section_benefits root_canal_benefits"> 
  
  
                         <!-- Benefit 1 --> 
@@ -103,12 +103,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-tooth"></i> 
+                                <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/relieves-pain.png" alt="Root Canal" style="height: 50px; width: 50px;">
  
                             </div> 
  
                             <h6> 
-                                Relieves<br> 
+                                Relieves 
                                 Pain 
                             </h6> 
  
@@ -124,12 +125,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-halved"></i> 
+                                <!-- <i class="fa-solid fa-shield-halved"></i>  -->
+                            <img src="images1/services/Stops-infection.png" alt="Root Canal" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Stops<br> 
+                                Stops 
                                 Infection 
                             </h6> 
  
@@ -145,12 +147,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-arrows-rotate"></i> 
+                                <!-- <i class="fa-solid fa-arrows-rotate"></i>  -->
+                            <img src="images1/services/Restores-tooth-strength.png" alt="Root Canal" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Restores<br> 
+                                Restores 
                                 Tooth Function 
                             </h6> 
  
@@ -166,12 +169,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-crown"></i> 
+                                <!-- <i class="fa-solid fa-crown"></i>  -->
+                            <img src="images1/services/oral-healthy-teeth.png" alt="Root Canal" style="height: 52px; width: 52px;">
  
                             </div> 
  
                             <h6> 
-                                Protects<br> 
+                                Protects 
                                 Natural Tooth 
                             </h6> 
  
