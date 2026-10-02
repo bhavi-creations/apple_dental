@@ -189,10 +189,11 @@ include 'header.php';
                     <!-- Main Head & Neck Surgery Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
+                        <!-- <img 
                             src="assets/images/head-neck-surgery-hero.png" 
                             alt="Head and Neck Surgery in Vizianagaram"
-                        > 
+                        >  -->
+                      <img src="images1/services/Untitled_design/25.png" alt="Contact Us" class="img-fluid"> 
  
                     </div> 
  
@@ -567,12 +568,17 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
                         <img src="assets/img/services/head-neck-process-main.png"
                              alt="Head and Neck Treatment in Vizianagaram">
 
-                    </div>
+                    </div> -->
+                    <div class="service_new_first_section_main_image"> 
+
+                      <img src="images1/services/Untitled_design/26.png" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
 
 
                     <div class="service_new_second_section_center_note">

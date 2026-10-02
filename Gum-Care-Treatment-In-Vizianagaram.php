@@ -188,10 +188,11 @@ include 'header.php';
                     <!-- Main Gum Care Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
+                        <!-- <img 
                             src="images1/services/services_img/gumcare2.png" 
                             alt="Gum Care and Treatment in Vizianagaram"
-                        > 
+                        >  -->
+                      <img src="images1/services/Untitled_design/27.png" alt="Contact Us" class="img-fluid"> 
  
                     </div> 
  
@@ -563,12 +564,17 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
                         <img src="assets/img/services/gum-care-process-main.png"
                              alt="Gum Care Treatment in Vizianagaram">
 
-                    </div>
+                    </div> -->
+                    <div class="service_new_first_section_main_image"> 
+ 
+                      <img src="images1/services/Untitled_design/28.png" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
 
 
                     <div class="service_new_second_section_center_note">

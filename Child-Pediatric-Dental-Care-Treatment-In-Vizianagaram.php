@@ -189,10 +189,11 @@ include 'header.php';
                     <!-- Main Child Dental Care Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
+                        <!-- <img 
                             src="assets/images/child-dental-care-hero.png" 
                             alt="Child Dental Care in Vizianagaram"
-                        > 
+                        >  -->
+                      <img src="images1/services/Untitled_design/23.png" alt="Contact Us" class="img-fluid"> 
  
                     </div> 
  
@@ -568,12 +569,17 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
                         <img src="assets/img/services/pediatric-dental-process-main.png"
                              alt="Pediatric Dental Care Treatment">
 
-                    </div>
+                    </div> -->
+                    <div class="service_new_first_section_main_image"> 
+
+                      <img src="images1/services/Untitled_design/24.png" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
 
 
                     <div class="service_new_second_section_center_note">

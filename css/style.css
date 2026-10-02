@@ -7109,6 +7109,7 @@ a {
 
     .service_new_second_section_center_note {
         font-size: 21px;
+        display:none;
     }
 
 
@@ -7430,6 +7431,7 @@ a {
         bottom: 18px;
 
         font-size: 16px;
+        display:none;
     }
 
 
@@ -7765,3 +7767,12 @@ a {
         transform: translateX(-50%);
     }
 }
+
+
+
+/* main circle service new second section centre note stylings */
+@media (min-width: 1400px) {
+.service_new_second_section_center_note {
+        display:none;
+    }
+  }

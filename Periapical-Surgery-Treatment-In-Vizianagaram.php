@@ -203,10 +203,11 @@ include 'header.php';
                     <!-- Main Periapical Surgery Image --> 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img 
+                        <!-- <img 
                             src="assets/images/periapical-surgery-hero.png" 
                             alt="Periapical Surgery in Vizianagaram"
-                        > 
+                        >  -->
+                      <img src="images1/services/Untitled_design/21.png" alt="Contact Us" class="img-fluid"> 
  
                     </div> 
  
@@ -624,12 +625,16 @@ include 'header.php';
                 <!-- MAIN CENTER CIRCLE -->
                 <div class="service_new_second_section_center_circle">
 
-                    <div class="service_new_second_section_center_image">
+                    <!-- <div class="service_new_second_section_center_image">
 
-                        <img src="assets/img/services/periapical-surgery-process-main.png"
-                             alt="Periapical Surgery Treatment in Vizianagaram">
+                        <img src="images1/services/Untitled_design/2.png" alt="Contact Us" class="img-fluid"> 
 
-                    </div>
+                    </div> -->
+                    <div class="service_new_first_section_main_image"> 
+ 
+                      <img src="images1/services/Untitled_design/22.png" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
 
 
                     <div class="service_new_second_section_center_note">
