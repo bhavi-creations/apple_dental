@@ -7125,7 +7125,7 @@ a {
 
 
     .service_new_second_section_step {
-        min-height: 130px;
+        min-height: 114px;
 
         padding:
             17px
@@ -7157,21 +7157,21 @@ a {
     .service_new_second_section_step_01,
     .service_new_second_section_step_07 {
 
-        width: 365px;
+        width: 350px;
     }
 
 
     .service_new_second_section_step_02,
     .service_new_second_section_step_06 {
 
-        width: 365px;
+        width: 330px;
     }
 
 
     .service_new_second_section_step_03,
     .service_new_second_section_step_05 {
 
-        width: 380px;
+        width: 356px;
     }
 
 
@@ -7692,5 +7692,76 @@ a {
     .service_new_first_section_floating_icon_one,
     .service_new_first_section_floating_icon_two {
         display: none !important;
+    }
+}
+
+.service_new_second_section_center_circle {
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  width: min(100%, 484px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  display: block;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.service_new_second_section_center_circle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 210deg,
+    #0878ee 0deg,
+    #5bb8ff 100deg,
+    #ffffff 160deg,
+    #ff1726 255deg,
+    #0878ee 330deg,
+    #0878ee 360deg
+  );
+  filter: drop-shadow(0 15px 30px rgba(0, 110, 220, 0.2));
+  animation: service_new_second_section_center_ring_rotate 16s linear infinite;
+}
+
+.service_new_second_section_center_circle > .service_new_first_section_main_image {
+  inset: 8px;
+  width: auto;
+  height: auto;
+  transform: none;
+  border-radius: 50%;
+}
+
+@keyframes service_new_second_section_center_ring_rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .service_new_second_section_step_01,
+    .service_new_second_section_step_02,
+    .service_new_second_section_step_03 {
+        left: -39px;
+        right: auto;
+        width: 320px;
+    }
+
+    .service_new_second_section_step_05,
+    .service_new_second_section_step_06,
+    .service_new_second_section_step_07 {
+        left: auto;
+        right: -45px;
+        width: 332px;
+    }
+
+    .service_new_second_section_step_04 {
+        left: 50%;
+        width: min(400px, calc(100% - 32px));
+        transform: translateX(-50%);
     }
 }
