@@ -1496,6 +1496,7 @@ body {
   /* Remove underline */
   transition: color 0.3s ease;
   /* Smooth transition effect */
+  font-size: 14px;
 }
 
 .dsdl4 a:hover {
@@ -4994,6 +4995,7 @@ a {
 
     .service_new_first_section_side_text {
         font-size: 21px;
+        display:none;
     }
 
 }
@@ -6842,7 +6844,7 @@ a {
 
     z-index: 15;
 
-    left: 135px;
+    left: 20px;
     bottom: 165px;
 
     display: flex;
@@ -7374,9 +7376,9 @@ a {
 
 
     .service_new_second_section_eyebrow p {
-        font-size: 8px;
+        font-size: 9px;
 
-        letter-spacing: 3px;
+        letter-spacing: 1px;
     }
 
 
@@ -7386,7 +7388,7 @@ a {
 
 
     .service_new_second_section_title span {
-        display: block;
+        /* display: block; */
 
         margin-top: 3px;
     }
@@ -7591,7 +7593,7 @@ a {
 
 
     .service_new_second_section_center_circle {
-        inset: 22px;
+        inset: -8px;
     }
 
 
