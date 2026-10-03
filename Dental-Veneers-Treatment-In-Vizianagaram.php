@@ -201,7 +201,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/dental-veneer.png" alt="" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -213,7 +214,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-wand-magic-sparkles"></i> 
+                            <!-- <i class="fa-solid fa-wand-magic-sparkles"></i>  -->
+                            <img src="images1/services/dental-veneer.png" alt="" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  
