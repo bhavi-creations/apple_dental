@@ -173,7 +173,7 @@ include 'header.php';
                             <div class="service_new_first_section_benefit_icon"> 
  
                                 <!-- <i class="fa-solid fa-shield-halved"></i>  -->
-                            <img src="images1/services/Restores-tooth-strength.png" alt="Root Canal" style="height: 45px; width: 45px;">
+                            <img src="images1/services/Restores-tooth-strength.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  

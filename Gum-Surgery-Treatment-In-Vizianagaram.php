@@ -92,7 +92,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-heart"></i> 
+                                <!-- <i class="fa-solid fa-shield-heart"></i>  -->
+                            <img src="images1/services/Gum-surgery.png" alt="" style="height: 46px; width: 46px;">
  
                             </div> 
  
@@ -134,12 +135,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-heart-pulse"></i> 
+                                <!-- <i class="fa-solid fa-heart-pulse"></i>  -->
+                            <img src="images1/services/HealthyGum-teeth-1.jpg" alt="" style="height: 46px; width: 50px;">
  
                             </div> 
  
                             <h6> 
-                                Restores<br> 
+                                Restores 
                                 Gum Health 
                             </h6> 
  
@@ -155,7 +157,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-face-smile-beam"></i> 
+                                <!-- <i class="fa-solid fa-face-smile-beam"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 46px; width: 50px;">
  
                             </div> 
  
@@ -197,7 +200,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/Gum-surgery.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -209,7 +213,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-heart-pulse"></i> 
+                            <!-- <i class="fa-solid fa-heart-pulse"></i>  -->
+                            <img src="images1/services/relieves-pain.png" alt="Jaw Surgery" style="height: 50px; width: 50px; filter: invert(1); mix-blend-mode: screen;"> 
  
                         </div> 
  

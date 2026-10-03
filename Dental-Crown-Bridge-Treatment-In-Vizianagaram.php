@@ -92,12 +92,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-crown"></i> 
+                                <!-- <i class="fa-solid fa-crown"></i>  -->
+                                <img src="images1/services/Stops-infection.png" alt="" style="height: 46px; width: 46px;">
  
                             </div> 
  
                             <h6> 
-                                Strengthens<br> 
+                                Strengthens 
                                 Weak Teeth 
                             </h6> 
  
@@ -113,12 +114,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-tooth"></i> 
+                                <!-- <i class="fa-solid fa-tooth"></i>  -->
+                                <img src="images1/services/dental-bridge.png" alt="" style="height: 46px; width: 46px;">
  
                             </div> 
  
                             <h6> 
-                                Replaces<br> 
+                                Replaces 
                                 Missing Teeth 
                             </h6> 
  
@@ -134,12 +136,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-utensils"></i> 
+                                <!-- <i class="fa-solid fa-utensils"></i>  -->
+                                <img src="images1/services/healthier-fullmouth-img.png" alt="" style="height: 46px; width: 46px;">
  
                             </div> 
  
                             <h6> 
-                                Restores<br> 
+                                Restores 
                                 Chewing Function 
                             </h6> 
  
@@ -155,7 +158,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-face-smile-beam"></i> 
+                                <!-- <i class="fa-solid fa-face-smile-beam"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 50px; width: 50px;">
  
                             </div> 
  
@@ -197,7 +201,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-crown"></i> 
+                            <!-- <i class="fa-solid fa-crown"></i>  -->
+                            <img src="images1/services/dental-bridge.png" alt="crown bridge" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -209,7 +214,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-teeth-open"></i> 
+                            <!-- <i class="fa-solid fa-teeth-open"></i>  -->
+                            <img src="images1/services/dental-bridge.png" alt="crown bridge" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
