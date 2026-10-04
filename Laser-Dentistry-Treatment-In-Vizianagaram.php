@@ -93,12 +93,12 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-bullseye"></i> 
- 
+                                <!-- <i class="fa-solid fa-bullseye"></i>  -->
+                                <img src="images1/services/clean.png" alt="" style="height: 43px; width: 43px;">
                             </div> 
  
                             <h6> 
-                                Precise Laser<br> 
+                                Laser 
                                 Treatment 
                             </h6> 
  
@@ -114,12 +114,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-face-smile-beam"></i> 
+                                <!-- <i class="fa-solid fa-face-smile-beam"></i>  -->
+                                <img src="images1/services/.png" alt="" style="height: 52px; width: 52px;">
  
                             </div> 
  
                             <h6> 
-                                Minimal<br> 
+                                Minimal 
                                 Discomfort 
                             </h6> 
  
@@ -874,7 +875,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Precise Laser<br>
+                    Precise Laser
                     Treatment
                 </p>
 

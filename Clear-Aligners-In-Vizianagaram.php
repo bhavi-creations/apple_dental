@@ -93,12 +93,12 @@ include 'header.php';
 
                             <div class="service_new_first_section_benefit_icon">
 
-                                <i class="fa-solid fa-eye"></i>
-
+                                <!-- <i class="fa-solid fa-eye"></i> -->
+                                <img src="images1/services/aligners-icon.png" alt="" style="height: 50px; width: 50px;">
                             </div>
 
                             <h6>
-                                Nearly<br>
+                                Nearly
                                 Invisible
                             </h6>
 
@@ -114,7 +114,8 @@ include 'header.php';
 
                             <div class="service_new_first_section_benefit_icon">
 
-                                <i class="fa-solid fa-hand"></i>
+                                <!-- <i class="fa-solid fa-hand"></i> -->
+                                <img src="images1/services/aligners-fitting.png" alt="" style="height: 52px; width: 52px;">
 
                             </div>
 
@@ -135,7 +136,8 @@ include 'header.php';
 
                             <div class="service_new_first_section_benefit_icon">
 
-                                <i class="fa-solid fa-face-smile"></i>
+                                <!-- <i class="fa-solid fa-face-smile"></i> -->
+                                <img src="images1/services/Gum-care.png" alt="" style="height: 52px; width: 52px;">
 
                             </div>
 
@@ -156,7 +158,8 @@ include 'header.php';
 
                             <div class="service_new_first_section_benefit_icon">
 
-                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 52px; width: 52px;">
 
                             </div>
 
@@ -199,7 +202,8 @@ include 'header.php';
 
                         <div class="service_new_first_section_floating_icon_circle">
 
-                            <i class="fa-solid fa-tooth"></i>
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="images1/services/aligners-icon.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
 
                         </div>
 
@@ -211,7 +215,8 @@ include 'header.php';
 
                         <div class="service_new_first_section_floating_icon_circle">
 
-                            <i class="fa-solid fa-face-smile"></i>
+                            <!-- <i class="fa-solid fa-face-smile"></i> -->
+                            <img src="images1/services/aligners-fitting.png" alt="" style="height: 52px; width: 52px; filter: brightness(0) invert(1);">
 
                         </div>
 
@@ -876,8 +881,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Nearly Invisible<br>
-                    Appearance
+                    Nearly Invisible
                 </p>
 
             </div>

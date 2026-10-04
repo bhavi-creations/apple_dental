@@ -4525,7 +4525,7 @@ a {
     z-index: 12;
 
     right: 2%;
-    top: -5%;
+    top: -10%;
     
     display: flex;
     flex-direction: column;
@@ -4716,8 +4716,8 @@ a {
 
 
     .service_new_first_section_floating_icon_circle {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         font-size: 28px;
     }
 
@@ -6785,8 +6785,8 @@ a {
 
     z-index: 15;
 
-    right: 50px;
-    top: 10px;
+    right: 18px;
+    top: 5px;
 
     width: 150px;
 
