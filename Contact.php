@@ -217,7 +217,7 @@
 
                     <!-- FORM -->
                     <form class="contact_first_section_form"
-                          action="#"
+                          action="contactform.php"
                           method="post">
 
 

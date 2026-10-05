@@ -113,7 +113,7 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Cashless<br> 
+                                Cashless 
                                 Treatment 
                             </h6> 
  
@@ -134,7 +134,7 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Aarogyasri<br> 
+                                Aarogyasri 
                                 Health Card 
                             </h6> 
  
@@ -150,12 +150,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-file-circle-check"></i> 
+                                <!-- <i class="fa-solid fa-file-circle-check"></i>  -->
+                                <img src="images1/services/Ehs Service.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Paperless &amp;<br> 
+                                Paperless &amp; 
                                 Hassle-Free 
                             </h6> 
  
@@ -171,12 +172,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-heart"></i> 
+                                <!-- <i class="fa-solid fa-shield-heart"></i>  -->
+                                <img src="images1/services/safe.png" alt="" style="height: 40px; width: 40px;">
  
                             </div> 
  
                             <h6> 
-                                Accessible<br> 
+                                Accessible 
                                 Quality Care 
                             </h6> 
  
@@ -197,22 +199,20 @@ include 'header.php';
  
  
                     <!-- Main circular glow --> 
-                    <div class="service_new_first_section_visual_ring"></div> 
+                    <!-- <div class="service_new_first_section_visual_ring"></div>  -->
  
  
                     <!-- Main EHS Dental Treatment Image --> 
-                    <div class="service_new_first_section_main_image"> 
+                    <!-- <div class="service_new_first_section_main_image"> 
  
-                        <img 
-                            src="assets/images/ehs-dental-treatment-hero.png" 
-                            alt="EHS Dental Treatment in Vizianagaram"
-                        > 
+                        <img src="images1/services/Untitled_design/ehs-scheme.jfif" alt="Contact Us" class="img-fluid"> 
  
-                    </div> 
- 
+                    </div>  -->
+                         <img src="images1/services/Untitled_design/ehs-scheme.jfif" alt="Contact Us" class="img-fluid"> 
+
  
                     <!-- Floating icon 1 --> 
-                    <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_one"> 
+                    <!-- <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_one"> 
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
@@ -220,11 +220,11 @@ include 'header.php';
  
                         </div> 
  
-                    </div> 
+                    </div>  -->
  
  
                     <!-- Floating icon 2 --> 
-                    <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_two"> 
+                    <!-- <div class="service_new_first_section_floating_icon service_new_first_section_floating_icon_two"> 
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
@@ -232,7 +232,7 @@ include 'header.php';
  
                         </div> 
  
-                    </div> 
+                    </div>  -->
  
  
                     <!-- Decorative stars --> 
@@ -447,7 +447,7 @@ include 'header.php';
 
 
                 <!-- MAIN CENTER CIRCLE -->
-                <div class="service_new_second_section_center_circle">
+                <!-- <div class="service_new_second_section_center_circle">
 
                     <div class="service_new_second_section_center_image">
 
@@ -455,6 +455,12 @@ include 'header.php';
                              alt="EHS Dental Treatment in Vizianagaram">
 
                     </div>
+
+                    <div class="service_new_first_section_main_image"> 
+ 
+                        <img src="images1/services/Untitled_design/ehs-scheme.jfif" alt="Contact Us" class="img-fluid"> 
+ 
+                    </div> 
 
 
                     <div class="service_new_second_section_center_note">
@@ -466,7 +472,10 @@ include 'header.php';
 
                     </div>
 
-                </div>
+                </div> -->
+
+                                        <img src="images1/services/Untitled_design/ehs-scheme.jfif" alt="Contact Us" class="img-fluid"> 
+
 
             </div>
 

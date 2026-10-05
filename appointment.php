@@ -262,7 +262,7 @@ $_SESSION['form_time'] = time();
 
                     <!-- FORM -->
                     <form class="appointment_first_section_form"
-                          action="#"
+                          action="save_appointment.php"
                           method="post">
 
 
