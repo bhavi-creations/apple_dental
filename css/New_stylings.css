@@ -7444,12 +7444,13 @@
         0
         0;
 
-    color: #53698c;
+    color: black;
 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 
     line-height: 1.5;
+    text-align: left;
 }
 
 
@@ -8371,7 +8372,7 @@
 
 
     .index_fourth_section_title {
-        font-size: 48px;
+        font-size: 44px;
     }
 
 
@@ -10500,7 +10501,7 @@
         120px;
 
     color:
-        #5c6d8c;
+        black;
 
     font-size: 14px;
     font-weight: 500;
@@ -22729,4 +22730,1072 @@ display:none !important;
 
 
 
+/* Bottom Info Text Stylings for All Devices */
+.index_bottom_info_text {
+    color: #0c2e7b !important;
+    text-align: center !important;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-top: 35px; */
+    margin-bottom: 0;
+    padding: 0 15px;
+    line-height: 1.6;
+    width: 100%;
+    display: block;
+}
 
+/* Tablet Screens (Max Width: 992px) */
+@media (max-width: 992px) {
+    .index_bottom_info_text {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+}
+
+/* Mobile Screens (Max Width: 768px) */
+@media (max-width: 768px) {
+    .index_bottom_info_text {
+        font-size: 12px;
+        padding: 0 10px;
+        margin-top: 20px;
+        letter-spacing: 0.2px;
+    }
+}
+
+/* Small Mobile Screens (Max Width: 480px) */
+@media (max-width: 480px) {
+    .index_bottom_info_text {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+/* index faq questions new stylings */
+.index_faq_section_icon {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+/* =========================================================
+   INDEX ADDRESS SECTION
+========================================================== */
+
+.index_address_section {
+    --ias-blue: #1478e5;
+    --ias-blue-dark: #123d91;
+    --ias-light-blue: #dff5ff;
+    --ias-cyan: #70d4f7;
+    --ias-red: #ff4059;
+    --ias-text: #385479;
+
+    position: relative;
+    width: 100%;
+
+    padding: 25px 0 34px;
+
+    overflow: hidden;
+    isolation: isolate;
+
+    font-family: "Open Sans", sans-serif;
+
+    background:
+        radial-gradient(
+            circle at 12% 20%,
+            rgba(87, 190, 239, .16),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 90% 30%,
+            rgba(63, 174, 230, .14),
+            transparent 27%
+        ),
+        linear-gradient(
+            135deg,
+            #dcf4ff 0%,
+            #edfaff 45%,
+            #cceeff 100%
+        );
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================== */
+
+.index_address_section_container {
+    position: relative;
+    z-index: 4;
+
+    width: min(1000px, 88%);
+    margin: 0 auto;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* =========================================================
+   CARDS
+========================================================== */
+
+.index_address_section_card {
+    position: relative;
+
+    min-height: 305px;
+
+    padding: 26px 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    border: 2px solid rgba(255,255,255,.88);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.92),
+            rgba(237,248,255,.83)
+        );
+
+    box-shadow:
+        0 12px 28px rgba(55, 126, 173, .13),
+        inset 0 1px 0 rgba(255,255,255,.95);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+
+.index_address_section_card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 17px 35px rgba(55,126,173,.18),
+        inset 0 1px 0 rgba(255,255,255,1);
+}
+
+
+/* =========================================================
+   ICON OUTER
+========================================================== */
+
+.index_address_section_icon_outer {
+    position: relative;
+
+    width: 76px;
+    height: 76px;
+
+    margin-bottom: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}
+
+
+.index_address_section_icon_blue {
+    background: rgba(37, 147, 245, .14);
+
+    box-shadow:
+        0 0 18px rgba(36, 148, 242, .12);
+}
+
+
+.index_address_section_icon_red {
+    background: rgba(255, 64, 89, .14);
+
+    box-shadow:
+        0 0 18px rgba(255, 64, 89, .12);
+}
+
+
+/* INNER ICON */
+
+.index_address_section_icon {
+    width: 54px;
+    height: 54px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #fff;
+
+    font-size: 24px;
+
+    box-shadow:
+        inset 0 2px 4px rgba(255,255,255,.4);
+}
+
+
+.index_address_section_icon_blue
+.index_address_section_icon {
+
+    background:
+        linear-gradient(
+            145deg,
+            #41b0ff,
+            #1768dc
+        );
+}
+
+
+.index_address_section_icon_red
+.index_address_section_icon {
+
+    background:
+        linear-gradient(
+            145deg,
+            #ff6879,
+            #f02b49
+        );
+}
+
+
+/* =========================================================
+   SMALL TITLE
+========================================================== */
+
+.index_address_section_small_title {
+    color: #F1202B;
+
+    font-size: 9px;
+    font-weight: 700;
+
+    letter-spacing: 2.5px;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================== */
+
+.index_address_section_title {
+    margin: 5px 0 0;
+
+    color: #F1202B;
+
+    font-size: 25px;
+    font-weight: 800;
+
+    line-height: 1.2;
+}
+
+
+.index_address_section_title span {
+    color: var(--ias-blue);
+}
+
+
+/* =========================================================
+   SMALL LINE
+========================================================== */
+
+.index_address_section_line {
+    display: block;
+
+    width: 38px;
+    height: 3px;
+
+    margin: 9px 0 14px;
+
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #1677e5,
+            #56b7f4
+        );
+}
+
+
+/* =========================================================
+   ADDRESS
+========================================================== */
+
+.index_address_section_address {
+    position: relative;
+    z-index: 3;
+
+    margin: 0;
+
+    color: #334f72;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   LOCATION TEXT
+========================================================== */
+
+.index_address_section_location_text {
+    position: relative;
+    z-index: 3;
+
+    max-width: 370px;
+
+    margin: 0 auto 17px;
+
+    color: #536b88;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   GOOGLE MAP BUTTON
+========================================================== */
+
+.index_address_section_location_btn {
+    position: relative;
+    z-index: 4;
+
+    min-height: 44px;
+
+    padding: 9px 18px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    color: #fff;
+
+    font-size: 12.5px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    border: 2px solid rgba(255,255,255,.9);
+
+    background:
+        linear-gradient(
+            100deg,
+            #149cec,
+            #1269df
+        );
+
+    box-shadow:
+        0 0 0 2px rgba(21,120,229,.13),
+        0 6px 15px rgba(31,111,196,.20);
+
+    transition:
+        transform .22s ease,
+        box-shadow .22s ease;
+}
+
+
+.index_address_section_location_btn:hover {
+    color: #fff;
+
+    text-decoration: none;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(31,111,196,.27);
+}
+
+
+.index_address_section_location_btn i {
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   CARD BOTTOM WAVES
+========================================================== */
+
+.index_address_section_card_wave {
+    position: absolute;
+
+    pointer-events: none;
+
+    border-radius: 50% 50% 0 0;
+}
+
+
+.index_address_section_card_wave_one {
+    width: 145%;
+    height: 90px;
+
+    left: -45%;
+    bottom: -66px;
+
+    background:
+        rgba(109, 194, 241, .18);
+
+    transform: rotate(7deg);
+}
+
+
+.index_address_section_card_wave_two {
+    width: 145%;
+    height: 85px;
+
+    right: -48%;
+    bottom: -63px;
+
+    background:
+        rgba(75, 169, 231, .12);
+
+    transform: rotate(-8deg);
+}
+
+
+/* =========================================================
+   DOT PATTERNS
+========================================================== */
+
+.index_address_section_dots {
+    position: absolute;
+
+    width: 85px;
+    height: 85px;
+
+    z-index: 1;
+
+    opacity: .24;
+
+    background-image:
+        radial-gradient(
+            circle,
+            #45a5d8 2px,
+            transparent 2.4px
+        );
+
+    background-size: 13px 13px;
+}
+
+
+.index_address_section_dots_left {
+    left: 2%;
+    top: 12%;
+}
+
+
+.index_address_section_dots_right {
+    right: 2%;
+    bottom: 15%;
+}
+
+
+/* =========================================================
+   BACKGROUND SHAPES
+========================================================== */
+
+.index_address_section_bg_shape {
+    position: absolute;
+
+    z-index: 0;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+.index_address_section_bg_shape_left {
+    width: 420px;
+    height: 260px;
+
+    left: -210px;
+    top: -105px;
+
+    background:
+        rgba(80, 184, 233, .12);
+}
+
+
+.index_address_section_bg_shape_right {
+    width: 420px;
+    height: 280px;
+
+    right: -210px;
+    bottom: -110px;
+
+    background:
+        rgba(74, 177, 228, .11);
+}
+
+
+/* =========================================================
+   BOTTOM TAG
+========================================================== */
+
+.index_address_section_bottom {
+    position: relative;
+    z-index: 3;
+
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 14px;
+}
+
+
+.index_address_section_bottom > span {
+    width: 48px;
+    height: 1px;
+
+    background: #4381b3;
+}
+
+
+.index_address_section_bottom p {
+    margin: 0;
+
+    color: #33649a;
+
+    font-size: 8px;
+    font-weight: 700;
+
+    letter-spacing: 3.5px;
+}
+
+
+.index_address_section_bottom p i {
+    display: inline-block;
+
+    width: 5px;
+    height: 5px;
+
+    margin: 0 9px;
+
+    vertical-align: middle;
+
+    border-radius: 50%;
+
+    background: #2166a8;
+}
+
+
+/* =========================================================
+   LARGE BOTTOM WAVES
+========================================================== */
+
+.index_address_section_wave {
+    position: absolute;
+
+    left: -10%;
+    right: -10%;
+
+    pointer-events: none;
+
+    border-radius: 50% 50% 0 0;
+}
+
+
+.index_address_section_wave_one {
+    height: 110px;
+
+    bottom: -85px;
+
+    background:
+        rgba(68, 173, 228, .13);
+
+    transform: rotate(-2deg);
+}
+
+
+.index_address_section_wave_two {
+    height: 85px;
+
+    bottom: -67px;
+
+    background:
+        rgba(138, 213, 245, .18);
+
+    transform: rotate(2deg);
+}
+
+
+/* =========================================================
+   1200px - 1399px
+========================================================== */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .index_address_section_container {
+        width: 82%;
+    }
+
+}
+
+
+/* =========================================================
+   992px - 1199px
+========================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .index_address_section_container {
+        width: 88%;
+    }
+
+
+    .index_address_section_card {
+        min-height: 285px;
+
+        padding: 23px 22px 27px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991.98px) {
+
+    .index_address_section {
+        padding: 22px 0 30px;
+    }
+
+
+    .index_address_section_container {
+        width: 94%;
+    }
+
+
+    .index_address_section_card {
+        min-height: 280px;
+
+        padding: 22px 18px 26px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    .index_address_section_container {
+        width: 100%;
+
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+
+    .index_address_section_card {
+        min-height: auto;
+
+        padding:
+            22px 18px
+            27px;
+
+        border-radius: 16px;
+    }
+
+
+    .index_address_section_icon_outer {
+        width: 67px;
+        height: 67px;
+    }
+
+
+    .index_address_section_icon {
+        width: 48px;
+        height: 48px;
+
+        font-size: 21px;
+    }
+
+
+    .index_address_section_title {
+        font-size: 22px;
+    }
+
+
+    .index_address_section_address,
+    .index_address_section_location_text {
+
+        font-size: 12px;
+    }
+
+
+    .index_address_section_location_btn {
+        min-height: 41px;
+
+        font-size: 12px;
+    }
+
+
+    .index_address_section_dots {
+        opacity: .12;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 575.98px) {
+
+    .index_address_section {
+        padding:
+            18px 0
+            25px;
+    }
+
+
+    .index_address_section_container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .index_address_section_bottom {
+        gap: 8px;
+
+        margin-top: 15px;
+    }
+
+
+    .index_address_section_bottom > span {
+        width: 25px;
+    }
+
+
+    .index_address_section_bottom p {
+        font-size: 7px;
+
+        letter-spacing: 2px;
+    }
+
+}
+
+
+
+
+/* =========================================================
+   INDEX ADDRESS SECTION
+   EQUAL ADDRESS + MAP CARD SIZE
+========================================================== */
+
+/* BOTH COLUMNS SAME HEIGHT */
+.index_address_section .row {
+    align-items: stretch;
+}
+
+
+.index_address_section .row > [class*="col-"] {
+    display: flex;
+}
+
+
+/* BOTH CARDS SAME OUTER SIZE */
+.index_address_section_card {
+    width: 100%;
+    height: 100%;
+
+    min-height: 315px;
+
+    margin: 0;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   LEFT - ADDRESS CARD
+========================================================== */
+
+.index_address_section .row > div:first-child
+.index_address_section_card {
+
+    padding: 24px 28px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ADDRESS TEXT */
+
+.index_address_section_address {
+    max-width: 430px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   RIGHT - MAP CARD
+========================================================== */
+
+.index_address_section .row > div:nth-child(2)
+.index_address_section_card {
+
+    /* small white frame around map */
+    padding: 7px;
+
+    display: block;
+
+    background: #ffffff;
+}
+
+
+/* MAP FULL CARD SIZE */
+
+.index_address_section .row > div:nth-child(2)
+.index_address_section_card iframe {
+
+    display: block;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-height: 299px;
+
+    border: 0 !important;
+    border-radius: 14px;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   1200px+
+========================================================== */
+
+@media (min-width: 1200px) {
+
+    .index_address_section_card {
+        min-height: 320px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card iframe {
+
+        min-height: 306px;
+    }
+
+}
+
+
+/* =========================================================
+   992px - 1199px
+========================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .index_address_section_card {
+        min-height: 300px;
+    }
+
+
+    .index_address_section .row > div:first-child
+    .index_address_section_card {
+
+        padding: 22px 24px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card iframe {
+
+        min-height: 286px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991px
+========================================================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .index_address_section_card {
+        min-height: 285px;
+    }
+
+
+    .index_address_section .row > div:first-child
+    .index_address_section_card {
+
+        padding: 20px 18px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card {
+
+        padding: 6px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card iframe {
+
+        min-height: 273px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    /*
+       Mobile lo cards stack avutayi.
+       Rendu same width.
+    */
+
+    .index_address_section .row > [class*="col-"] {
+        display: block;
+    }
+
+
+    .index_address_section_card {
+        width: 100%;
+
+        height: auto;
+
+        min-height: 280px;
+
+        border-radius: 16px;
+    }
+
+
+    /* ADDRESS */
+
+    .index_address_section .row > div:first-child
+    .index_address_section_card {
+
+        min-height: 280px;
+
+        padding: 22px 18px;
+    }
+
+
+    /* MAP */
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card {
+
+        height: 280px;
+        min-height: 280px;
+
+        padding: 6px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card iframe {
+
+        width: 100% !important;
+        height: 100% !important;
+
+        min-height: 0;
+
+        border-radius: 11px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 575.98px) {
+
+    .index_address_section .row > div:first-child
+    .index_address_section_card {
+
+        min-height: 265px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card {
+
+        height: 265px;
+        min-height: 265px;
+    }
+
+
+    .index_address_section_address {
+        font-size: 12px;
+
+        line-height: 1.65;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 380px) {
+
+    .index_address_section .row > div:first-child
+    .index_address_section_card {
+
+        min-height: 250px;
+    }
+
+
+    .index_address_section .row > div:nth-child(2)
+    .index_address_section_card {
+
+        height: 250px;
+        min-height: 250px;
+    }
+
+}

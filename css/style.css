@@ -1496,7 +1496,7 @@ body {
   /* Remove underline */
   transition: color 0.3s ease;
   /* Smooth transition effect */
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .dsdl4 a:hover {
@@ -7815,3 +7815,9 @@ a {
         display:none;
     }
   }
+
+
+
+  .index_fourth_section_title span {
+    display: block !important; /* Idi 'Apple Dental Specialities?' ni exact ga next line loki tiskelthundi */
+}

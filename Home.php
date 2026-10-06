@@ -1696,7 +1696,8 @@
 
                 <div class="index_third_section_bottom_icon">
 
-                    <i class="bi bi-check-lg"></i>
+                    <!-- <i class="bi bi-check-lg"></i> -->
+                    <i class="fa-solid fa-user-doctor"></i>
 
                 </div>
 
@@ -1723,7 +1724,8 @@
 
                 <div class="index_third_section_bottom_icon">
 
-                    <i class="bi bi-shield-fill-check"></i>
+                    <!-- <i class="bi bi-shield-fill-check"></i> -->
+                    <i class="bi bi-display"></i>
 
                 </div>
 
@@ -2804,6 +2806,11 @@
 
             </div>
 
+            <!-- Responsive & Centered Bottom Text -->
+            <p class="index_bottom_info_text">
+                Accurate Diagnosis | Personalized Treatment Planning | Modern Clinical Facilities | Patient-Centered Care
+            </p>
+
 
 
             <!-- =================================================
@@ -3402,7 +3409,7 @@
         <div class="index_fourth_section_header">
 
 
-            <div class="index_fourth_section_eyebrow">
+            <!-- <div class="index_fourth_section_eyebrow">
 
                 <span></span>
 
@@ -3412,29 +3419,20 @@
 
                 <span></span>
 
-            </div>
+            </div> -->
 
 
             <h2 class="index_fourth_section_title">
-
-                Why
-
-                <span>
-                    Choose Us
-                </span>
-
-            </h2>
+              Why Choose 
+              <span>Apple Dental Specialities?</span>
+           </h2>
 
 
             <div class="index_fourth_section_title_curve"></div>
 
 
             <p class="index_fourth_section_subtitle">
-
-                Here’s why we are
-                <strong>trusted</strong>
-                by thousands for their dental needs.
-
+                Choosing a dental clinic is about more than a single treatment. At Apple Dental Specialities, Vizianagaram, our approach focuses on understanding each patient's oral health needs and developing an appropriate treatment plan with qualified dental professionals.
             </p>
 
 
@@ -3581,7 +3579,8 @@
 
                         <div class="index_fourth_section_reason_icon red">
 
-                            <i class="bi bi-heart-pulse-fill"></i>
+                            <!-- <i class="bi bi-heart-pulse-fill"></i> -->
+                            <i class="bi bi-hospital"></i>
 
                         </div>
 
@@ -3589,21 +3588,21 @@
                         <div class="index_fourth_section_reason_content">
 
                             <h3>
-                                100% Hygienic and Safe
+                                Established Since 2010
                             </h3>
 
                             <p>
-                                For You and Your Family
+                                Dental care in Vizianagaram since 2010.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -3615,7 +3614,8 @@
 
                         <div class="index_fourth_section_reason_icon blue">
 
-                            <i class="bi bi-people-fill"></i>
+                            <!-- <i class="bi bi-people-fill"></i> -->
+                            <i class="fa-solid fa-user-doctor"></i>
 
                         </div>
 
@@ -3623,21 +3623,21 @@
                         <div class="index_fourth_section_reason_content">
 
                             <h3>
-                                Highly Trained and Skilled Team
+                                Qualified Dental Team
                             </h3>
 
                             <p>
-                                Of Dentists
+                                Qualified professionals across different areas of dentistry.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -3649,7 +3649,8 @@
 
                         <div class="index_fourth_section_reason_icon red">
 
-                            <i class="bi bi-display"></i>
+                            <!-- <i class="bi bi-display"></i> -->
+                            <img src="images1/services/dental_implants1.png" alt="Dental Implants" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
 
                         </div>
 
@@ -3657,21 +3658,21 @@
                         <div class="index_fourth_section_reason_content">
 
                             <h3>
-                                State-of-the-Art Equipment
+                                Multiple Dental Specialties
                             </h3>
 
                             <p>
-                                And now with AI for Accurate Diagnosis
+                                General, restorative, cosmetic, orthodontic, implant and prosthodontic care.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -3683,7 +3684,8 @@
 
                         <div class="index_fourth_section_reason_icon blue">
 
-                            <i class="bi bi-file-earmark-text-fill"></i>
+                            <!-- <i class="bi bi-file-earmark-text-fill"></i> -->
+                            <i class="bi bi-clipboard2-pulse-fill"></i>
 
                         </div>
 
@@ -3695,17 +3697,17 @@
                             </h3>
 
                             <p>
-                                Tailored to Your Needs
+                                Treatment based on individual dental needs and clinical findings.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -3717,7 +3719,8 @@
 
                         <div class="index_fourth_section_reason_icon red">
 
-                            <i class="bi bi-heart-pulse-fill"></i>
+                            <!-- <i class="bi bi-heart-pulse-fill"></i> -->
+                            <i class="bi bi-display"></i>
 
                         </div>
 
@@ -3725,21 +3728,21 @@
                         <div class="index_fourth_section_reason_content">
 
                             <h3>
-                                Comprehensive Services
+                                Modern Clinical Facilities
                             </h3>
 
                             <p>
-                                Under One Roof
+                                Appropriate dental technology and facilities supporting diagnosis and treatment.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -3751,7 +3754,8 @@
 
                         <div class="index_fourth_section_reason_icon blue">
 
-                            <i class="bi bi-currency-rupee"></i>
+                            <!-- <i class="bi bi-currency-rupee"></i> -->
+                            <i class="bi bi-people-fill"></i>
 
                         </div>
 
@@ -3759,21 +3763,21 @@
                         <div class="index_fourth_section_reason_content">
 
                             <h3>
-                                Affordable and Pocket Friendly
+                                Patient-Centered Care
                             </h3>
 
                             <p>
-                                Quality Care for Everyone
+                                Clear communication, preventive care and focus on long-term oral health.
                             </p>
 
                         </div>
 
 
-                        <div class="index_fourth_section_reason_arrow">
+                        <!-- <div class="index_fourth_section_reason_arrow">
 
                             <i class="bi bi-arrow-right"></i>
 
-                        </div>
+                        </div> -->
 
                     </a>
 
@@ -4360,185 +4364,6 @@
 
 
 
-<section class="blog_section py-5" style="background:radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);">
-
-    <div class="container">
-
-        <div class="row  text-center justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="400ms">
-
-                <h2 class="font-weight-bold section-title"> Our <strong>Blogs</strong></h2>
-
-            </div>
-        </div>
-
-
-
-        <div class="row">
-
-            <?php
-            include './db.connection/db_connection.php';
-
-            // Fetch latest 3 blogs with video
-            $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-                echo "<div class='row'>"; // Start row for card layout
-
-                while ($row = $result->fetch_assoc()) {
-                    $blog_id = $row['id'];
-                    $title = $row['title'];
-                    $main_content = $row['main_content'];
-                    $main_image = $row['main_image'];
-                    $video = $row['video'];
-
-                    echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
-                    echo "<div class='card h-100'>"; // Start card
-
-                    // Display the blog title
-                    echo "<div class='card-body'>";
-
-
-                    // Display video if available
-                    if (!empty($video)) {
-                        $video_path = "./admin/uploads/videos/{$video}";
-                        echo "<video class='main-video img-fluid' controls>
-                    <source src='{$video_path}' type='video/mp4'>
-                    Your browser does not support the video tag.
-                  </video>";
-                    }
-                    // If no video, display main image
-                    elseif (!empty($main_image)) {
-                        $main_image_path = "./admin/uploads/photos/{$main_image}";
-                        echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
-                    }
-                    echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
-                    // Display a short portion of the blog content
-                    echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
-
-                    // Link to full blog post
-                    echo "<a href='fullblog_newpage.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
-
-
-                    echo "</div>"; // End card body
-                    echo "</div>"; // End card
-                    echo "</div>"; // End column
-                }
-
-                echo "</div>"; // End row
-            } else {
-                echo "No blog posts found.";
-            }
-
-            $conn->close();
-            ?>
-
-
-
-            <div class="mt-5 d-none d-md-block">
-                <a href="blogs.php" style="text-decoration: none;">
-                    <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i class=" arrowmark_right  fas fa-arrow-right"></i>
-                    </p>
-                </a>
-            </div>
-
-            <div class="d-flex flex-row justify-content-center mt-4">
-                <a href="blogs.php" style="text-decoration: none;">
-                    <p class="view_more_btn d-md-none">View More<i class="fas fa-arrow-right ml-3"></i></p>
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-</section>
-
-
-
-
-
-
-<!------------------------------------------------ testimoniels section -------------------------------------------->
-
-
-
-<!-- <div class="patient-experience-section" data-aos="fade-up">
-    <div class="dsdl-section-header" data-aos="fade-up">
-        <h4 class="text-primary section-subtitle">PATIENT STORIES</h4>
-        <h2 class="font-weight-bold section-title">Hear What Our <strong>Patients Say</strong></h2>
-        <p class="text-muted section-description">See what our patients have to say about their experiences and the exceptional care they received at our Specialities.</p>
-    </div> -->
-
-
-    <!-- <div class="patient-experience-container" data-aos="fade-up" data-aos-delay="300">
-        Left: Text Testimonials Carousel
-        <div class="testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
-            <h3 class="carousel-heading" data-aos="fade-right" data-aos-delay="500">Client Experiences</h3>
-            <div class="owl-carousel left-carousel">
-                <div class="item">
-                    <p class="testimonial-text">
-                        "Treatment is very good.....iam satisfied treatment in hospital... doctor s and staff very supportive and frndly.... once upon time suffering my teeth prblm.... after treatment iam so happy ....thank u apple dental specialists ☺️."
-                    </p>
-                    <h4>- Mungi venkatalakshmi</h4>
-                </div>
-                <div class="item">
-                    <p class="testimonial-text">
-                        "My experience at Apple dental specialities is very good. I am very much satisfied with the treatment, now my teeth are neat and clean, i got my missing teeth replaced and i got my root canal treatment done without any pain during treatment. Doctors and
-                        staff are very friendly. I am very much happy now and would recommend others to visit the clinic for your dental checkup and treatments."
-                    </p>
-                    <h4>- Satyanarayana</h4>
-                </div>
-                <div class="item">
-                    <p class="testimonial-text">
-                        "I recently visited this dental Specialities, and I must say the staff was incredibly friendly and welcoming. The environment was top-notch, very clean and hygienic. The treatment I received was the best I've had, and the overall experience was excellent. I
-                        highly recommend this clinic for their exceptional service and care."
-                    </p>
-                    <h4>- TANUJA APPIKONDA</h4>
-                </div>
-                <div class="item">
-                    <p class="testimonial-text">
-                        "Tqu very much..for nice and safe treatment to me I feel very happy and staff was very friendly nature tqu soo much"
-                    </p>
-                    <h4>- Madhu Latha</h4>
-                </div>
-                <div class="item">
-                    <p class="testimonial-text">
-                        "Excellent and comfortable treatment . Hygienic and pleasant atmosphere.Without any doubt and fear anyone can approach here.The place which will eliminate your fear towards dental treatment.Ultimate solution for all dental issues..Thanks a lot sir."
-                    </p>
-                    <h4>- Sunitha Kolapalli</h4>
-                </div>
-            </div>
-            <a href="https://www.google.com/search?q=apple+dental+hospital+vizianagaram&rlz=1C1CHBF_enIN1071IN1071&oq=apple+dental+hospital+vizianagaram&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMggIAhAAGBYYHjINCAMQABiGAxiABBiKBTIKCAQQABiABBiiBDIKCAUQABiABBiiBDIKCAYQABiABBiiBDIGCAcQRRg80gEJMjc3NTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#lrd=0x3a3be551bb580c3f:0xa15d74cd17e1d939,1,,,," class="see-more-btn1">See More</a>
-        </div>
-
-        Right: Video Testimonials Carousel
-        <div class="video-testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
-            <h3 class="carousel-heading" data-aos="fade-left" data-aos-delay="500">Video Testimonials</h3>
-            <div class="owl-carousel right-carousel">
-                <div class="item" data-aos="flip-up" data-aos-delay="600">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <div class="item" data-aos="flip-up" data-aos-delay="700">
-                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <div class="item" data-aos="flip-up" data-aos-delay="800">
-                    <iframe src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <a href="#" class="see-more-btn1">See More</a>
-
-
-        </div>
-    </div>
-</div> -->
-
-
-
-
-
-
 <section class="index_sixth_section">
 
     <!-- =========================================================
@@ -4800,6 +4625,186 @@
     </div>
 
 </section>
+
+
+
+<!-- <div class="patient-experience-section" data-aos="fade-up">
+    <div class="dsdl-section-header" data-aos="fade-up">
+        <h4 class="text-primary section-subtitle">PATIENT STORIES</h4>
+        <h2 class="font-weight-bold section-title">Hear What Our <strong>Patients Say</strong></h2>
+        <p class="text-muted section-description">See what our patients have to say about their experiences and the exceptional care they received at our Specialities.</p>
+    </div> -->
+
+
+    <!-- <div class="patient-experience-container" data-aos="fade-up" data-aos-delay="300">
+        Left: Text Testimonials Carousel
+        <div class="testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
+            <h3 class="carousel-heading" data-aos="fade-right" data-aos-delay="500">Client Experiences</h3>
+            <div class="owl-carousel left-carousel">
+                <div class="item">
+                    <p class="testimonial-text">
+                        "Treatment is very good.....iam satisfied treatment in hospital... doctor s and staff very supportive and frndly.... once upon time suffering my teeth prblm.... after treatment iam so happy ....thank u apple dental specialists ☺️."
+                    </p>
+                    <h4>- Mungi venkatalakshmi</h4>
+                </div>
+                <div class="item">
+                    <p class="testimonial-text">
+                        "My experience at Apple dental specialities is very good. I am very much satisfied with the treatment, now my teeth are neat and clean, i got my missing teeth replaced and i got my root canal treatment done without any pain during treatment. Doctors and
+                        staff are very friendly. I am very much happy now and would recommend others to visit the clinic for your dental checkup and treatments."
+                    </p>
+                    <h4>- Satyanarayana</h4>
+                </div>
+                <div class="item">
+                    <p class="testimonial-text">
+                        "I recently visited this dental Specialities, and I must say the staff was incredibly friendly and welcoming. The environment was top-notch, very clean and hygienic. The treatment I received was the best I've had, and the overall experience was excellent. I
+                        highly recommend this clinic for their exceptional service and care."
+                    </p>
+                    <h4>- TANUJA APPIKONDA</h4>
+                </div>
+                <div class="item">
+                    <p class="testimonial-text">
+                        "Tqu very much..for nice and safe treatment to me I feel very happy and staff was very friendly nature tqu soo much"
+                    </p>
+                    <h4>- Madhu Latha</h4>
+                </div>
+                <div class="item">
+                    <p class="testimonial-text">
+                        "Excellent and comfortable treatment . Hygienic and pleasant atmosphere.Without any doubt and fear anyone can approach here.The place which will eliminate your fear towards dental treatment.Ultimate solution for all dental issues..Thanks a lot sir."
+                    </p>
+                    <h4>- Sunitha Kolapalli</h4>
+                </div>
+            </div>
+            <a href="https://www.google.com/search?q=apple+dental+hospital+vizianagaram&rlz=1C1CHBF_enIN1071IN1071&oq=apple+dental+hospital+vizianagaram&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMggIAhAAGBYYHjINCAMQABiGAxiABBiKBTIKCAQQABiABBiiBDIKCAUQABiABBiiBDIKCAYQABiABBiiBDIGCAcQRRg80gEJMjc3NTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#lrd=0x3a3be551bb580c3f:0xa15d74cd17e1d939,1,,,," class="see-more-btn1">See More</a>
+        </div>
+
+        Right: Video Testimonials Carousel
+        <div class="video-testimonials-carousel" data-aos="zoom-in" data-aos-delay="400">
+            <h3 class="carousel-heading" data-aos="fade-left" data-aos-delay="500">Video Testimonials</h3>
+            <div class="owl-carousel right-carousel">
+                <div class="item" data-aos="flip-up" data-aos-delay="600">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="item" data-aos="flip-up" data-aos-delay="700">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="item" data-aos="flip-up" data-aos-delay="800">
+                    <iframe src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <a href="#" class="see-more-btn1">See More</a>
+
+
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+<section class="blog_section py-5" style="background:radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);">
+
+    <div class="container">
+
+        <div class="row  text-center justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="400ms">
+
+                <h2 class="font-weight-bold section-title"> Our <strong>Blogs</strong></h2>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <?php
+            include './db.connection/db_connection.php';
+
+            // Fetch latest 3 blogs with video
+            $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo "<div class='row'>"; // Start row for card layout
+
+                while ($row = $result->fetch_assoc()) {
+                    $blog_id = $row['id'];
+                    $title = $row['title'];
+                    $main_content = $row['main_content'];
+                    $main_image = $row['main_image'];
+                    $video = $row['video'];
+
+                    echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
+                    echo "<div class='card h-100'>"; // Start card
+
+                    // Display the blog title
+                    echo "<div class='card-body'>";
+
+
+                    // Display video if available
+                    if (!empty($video)) {
+                        $video_path = "./admin/uploads/videos/{$video}";
+                        echo "<video class='main-video img-fluid' controls>
+                    <source src='{$video_path}' type='video/mp4'>
+                    Your browser does not support the video tag.
+                  </video>";
+                    }
+                    // If no video, display main image
+                    elseif (!empty($main_image)) {
+                        $main_image_path = "./admin/uploads/photos/{$main_image}";
+                        echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                    }
+                    echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
+                    // Display a short portion of the blog content
+                    echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
+
+                    // Link to full blog post
+                    echo "<a href='fullblog_newpage.php?id={$blog_id}' class='btn-style7 v6 wow fadeInUp animated'>Read more</a>";
+
+
+                    echo "</div>"; // End card body
+                    echo "</div>"; // End card
+                    echo "</div>"; // End column
+                }
+
+                echo "</div>"; // End row
+            } else {
+                echo "No blog posts found.";
+            }
+
+            $conn->close();
+            ?>
+
+
+
+            <div class="mt-5 d-none d-md-block">
+                <a href="blogs.php" style="text-decoration: none;">
+                    <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i class=" arrowmark_right  fas fa-arrow-right"></i>
+                    </p>
+                </a>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center mt-4">
+                <a href="blogs.php" style="text-decoration: none;">
+                    <p class="view_more_btn d-md-none">View More<i class="fas fa-arrow-right ml-3"></i></p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+<!------------------------------------------------ testimoniels section -------------------------------------------->
 
 
 <!-- <style>
@@ -5246,16 +5251,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_blue">
-
-                                <i class="bi bi-lightbulb-fill"></i>
-
+                                01
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                What are dental implants and
-                                how do they help?
+                                What dental treatments does Apple Dental Specialities provide?
 
                             </span>
 
@@ -5273,10 +5275,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                Dental implants are artificial tooth roots used
-                                to replace missing teeth. They support crowns or
-                                bridges and help restore chewing function,
-                                appearance and confidence.
+                                Apple Dental Specialities provides dental implants, root canal treatment, clear aligners, crowns, bridges, veneers, teeth whitening, gum care, cosmetic and preventive dentistry.
 
                             </div>
 
@@ -5294,16 +5293,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_red">
-
-                                <i class="bi bi-emoji-smile"></i>
-
+                                02
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                Are clear aligners effective for
-                                teeth straightening?
+                                Where is Apple Dental Specialities located?
 
                             </span>
 
@@ -5321,10 +5317,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                Clear aligners can gradually move teeth into
-                                better positions in many orthodontic cases.
-                                Suitability depends on your bite, alignment and
-                                treatment needs.
+                                Apple Dental Specialities is located at A.G. Complex, Ananda Gajapathi Road, Ambati Satram Area, Vizianagaram, Andhra Pradesh.
 
                             </div>
 
@@ -5342,16 +5335,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_blue">
-
-                                <i class="bi bi-stars"></i>
-
+                                03
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                What is a smile makeover and
-                                who needs it?
+                                Who are the dentists at Apple Dental Specialities?
 
                             </span>
 
@@ -5369,10 +5359,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                A smile makeover combines suitable cosmetic and
-                                restorative dental treatments to improve the
-                                shape, colour, alignment and overall appearance
-                                of your smile.
+                                The team includes Dr. Kalyan Chakravarty, Dr. T. Madhuri and Dr. Sarath Chandra, providing expertise across different areas of dentistry.
 
                             </div>
 
@@ -5390,16 +5377,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_red">
-
-                                <i class="bi bi-magic"></i>
-
+                                04
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                How does laser dentistry
-                                benefit patients?
+                                Does Apple Dental Specialities provide dental implants?
 
                             </span>
 
@@ -5417,10 +5401,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                Laser dentistry can support precise treatment
-                                with less bleeding and improved comfort in
-                                suitable procedures such as gum treatments and
-                                other soft-tissue dental care.
+                              Yes. Dental implants are offered for suitable patients to replace missing teeth and restore chewing function, appearance and oral function.  
 
                             </div>
 
@@ -5452,16 +5433,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_red">
-
-                                <i class="bi bi-hospital-fill"></i>
-
+                                05
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                Is Apple Dental Specialities the
-                                best dental clinic in Vizianagaram?
+                                Does Apple Dental Specialities provide clear aligners?
 
                             </span>
 
@@ -5479,10 +5457,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                Apple Dental Specialities provides comprehensive
-                                dental care in Vizianagaram with modern
-                                technology, experienced professionals and
-                                personalized treatment planning.
+                                Yes. Clear aligners are available for suitable patients after evaluating their teeth, bite and orthodontic treatment requirements.
 
                             </div>
 
@@ -5500,16 +5475,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_blue">
-
-                                <i class="bi bi-person-badge-fill"></i>
-
+                                06
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                Who is the best dentist in
-                                Vizianagaram for smile design?
+                                When should I visit a dentist?
 
                             </span>
 
@@ -5527,10 +5499,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                Smile design treatment should be planned after
-                                evaluating your teeth, gums, facial proportions
-                                and treatment goals. Our dental team can assess
-                                your needs and recommend a suitable plan.
+                                Visit a dentist for persistent pain, sensitivity, bleeding gums, swelling, chipped teeth, loose teeth or other noticeable changes in oral health.
 
                             </div>
 
@@ -5548,16 +5517,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_red">
-
-                                <i class="bi bi-shield-plus"></i>
-
+                                07
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                Do you provide painless
-                                dental treatments?
+                                How is the right dental treatment decided?
 
                             </span>
 
@@ -5575,10 +5541,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                We focus on patient comfort and use modern
-                                techniques, appropriate anaesthesia and careful
-                                treatment planning to make dental procedures as
-                                comfortable as possible.
+                                Treatment is recommended after considering your dental history, clinical examination, diagnostic findings and individual oral health requirements
 
                             </div>
 
@@ -5596,16 +5559,13 @@
                                 aria-expanded="false">
 
                             <span class="index_faq_section_icon index_faq_section_icon_blue">
-
-                                <i class="bi bi-calendar2-check-fill"></i>
-
+                                08
                             </span>
 
 
                             <span class="index_faq_section_question_text">
 
-                                How can I book an appointment
-                                at Apple Dental Specialities?
+                                How can I book an appointment?
 
                             </span>
 
@@ -5623,9 +5583,7 @@
 
                             <div class="index_faq_section_answer_inner">
 
-                                You can book an appointment through our website,
-                                contact the clinic directly or use the Contact Us
-                                option below to send your appointment request.
+                                You can contact Apple Dental Specialities through its official contact details to schedule a consultation with the appropriate dental professional.
 
                             </div>
 
@@ -5713,6 +5671,211 @@
 
 
     </div>
+
+</section>
+
+
+<!-- Our Address and Our Location new section -->
+ <!-- =========================================================
+     INDEX ADDRESS SECTION
+========================================================== -->
+<section class="index_address_section">
+
+    <!-- BACKGROUND DECOR -->
+    <div class="index_address_section_bg_shape
+                index_address_section_bg_shape_left"></div>
+
+    <div class="index_address_section_bg_shape
+                index_address_section_bg_shape_right"></div>
+
+    <div class="index_address_section_dots
+                index_address_section_dots_left"></div>
+
+    <div class="index_address_section_dots
+                index_address_section_dots_right"></div>
+
+
+    <div class="container-fluid index_address_section_container">
+
+        <div class="row g-3 g-lg-4 justify-content-center">
+
+
+            <!-- =================================================
+                 OUR ADDRESS
+            ================================================== -->
+            <div class="col-12 col-md-6">
+
+                <div class="index_address_section_card">
+
+                    <div class="index_address_section_icon_outer
+                                index_address_section_icon_blue">
+
+                        <div class="index_address_section_icon">
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <span class="index_address_section_small_title">
+                        VISIT OUR CLINIC
+                    </span>
+
+
+                    <h3 class="index_address_section_title">
+
+                        Our
+
+                        <span>
+                            Address
+                        </span>
+
+                    </h3>
+
+
+                    <span class="index_address_section_line"></span>
+
+
+                    <address class="index_address_section_address">
+
+                        D.No 22-1-10, 1st Floor, A.G. Complex,
+Phool Baugh Road, Near Ambatisatram Jn.,
+Vizianagaram - 535 002
+
+                    </address>
+
+
+                    <!-- CARD DECOR WAVES -->
+                    <div class="index_address_section_card_wave
+                                index_address_section_card_wave_one"></div>
+
+                    <div class="index_address_section_card_wave
+                                index_address_section_card_wave_two"></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 OUR LOCATION
+            ================================================== -->
+            <div class="col-12 col-md-6">
+
+                <div class="index_address_section_card">
+
+                    <!-- <div class="index_address_section_icon_outer
+                                index_address_section_icon_red">
+
+                        <div class="index_address_section_icon">
+
+                            <i class="bi bi-map-fill"></i>
+
+                        </div>
+
+                    </div> -->
+
+
+                    <!-- <span class="index_address_section_small_title">
+                        FIND US EASILY
+                    </span>
+
+
+                    <h3 class="index_address_section_title">
+
+                        Our
+
+                        <span>
+                            Location
+                        </span>
+
+                    </h3> -->
+
+
+                    <!-- <span class="index_address_section_line"></span>
+
+
+                    <p class="index_address_section_location_text">
+
+                        Get directions to Apple Dental Specialities
+                        and reach our Vizianagaram clinic easily.
+
+                    </p>
+
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Apple+Dental+Specialities+Vizianagaram"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="index_address_section_location_btn">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        <span>
+                            View on Google Maps
+                        </span>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </a>
+
+
+                   
+                    <div class="index_address_section_card_wave
+                                index_address_section_card_wave_one"></div>
+
+                    <div class="index_address_section_card_wave
+                                index_address_section_card_wave_two"></div> -->
+
+
+                                 <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30334.605525010476!2d83.38071781801781!3d18.12583900511469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.136257!2d83.3896213!4m5!1s0x3a3be551bb580c3f%3A0xa15d74cd17e1d939!2sD.%20NO.%2022-1-10%2C%20Ist%20Floor%2C%20Apple%20Dental%20Specialities%2C%20A.G%20Complex%2C%20Ananda%20Gajapathi%20Rd%2C%20Ambati%20Satram%20Area%2C%20Vizianagaram%2C%20Andhra%20Pradesh%20535002!3m2!1d18.115064399999998!2d83.4140839!5e0!3m2!1sen!2sin!4v1735639081429!5m2!1sen!2sin"
+                        width="100%"
+                        height="260"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             BOTTOM TAG
+        ====================================================== -->
+        <div class="index_address_section_bottom">
+
+            <span></span>
+
+            <p>
+                YOUR SMILE
+                <i></i>
+                OUR PRIORITY
+            </p>
+
+            <span></span>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- LARGE BOTTOM WAVES -->
+    <div class="index_address_section_wave
+                index_address_section_wave_one"></div>
+
+    <div class="index_address_section_wave
+                index_address_section_wave_two"></div>
 
 </section>
 
