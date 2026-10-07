@@ -4154,7 +4154,7 @@
 
     .index_first_section_main_title,
     .index_first_section_second_title {
-        font-size: 27px;
+        font-size: 15px;
     }
 
 
@@ -8797,7 +8797,7 @@
 @media (max-width: 420px) {
 
     .index_fourth_section_title {
-        font-size: 31px;
+        font-size: 23px;
     }
 
 
