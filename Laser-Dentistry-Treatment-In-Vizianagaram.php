@@ -94,7 +94,7 @@ include 'header.php';
                             <div class="service_new_first_section_benefit_icon"> 
  
                                 <!-- <i class="fa-solid fa-bullseye"></i>  -->
-                                <img src="images1/services/clean.png" alt="" style="height: 43px; width: 43px;">
+                                <img src="images1/services/clean.png" alt="" style="height: 40px; width: 40px;">
                             </div> 
  
                             <h6> 
@@ -115,7 +115,7 @@ include 'header.php';
                             <div class="service_new_first_section_benefit_icon"> 
  
                                 <!-- <i class="fa-solid fa-face-smile-beam"></i>  -->
-                                <img src="images1/services/.png" alt="" style="height: 52px; width: 52px;">
+                                <img src="images1/services/relieves-pain.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
@@ -157,7 +157,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-heart-pulse"></i> 
+                                <!-- <i class="fa-solid fa-heart-pulse"></i>  -->
+                                <img src="images1/services/Gum-healing111.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
@@ -203,7 +204,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-wand-magic-sparkles"></i> 
+                            <!-- <i class="fa-solid fa-wand-magic-sparkles"></i>  -->
+                            <img src="images1/services/clean.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);"> 
  
                         </div> 
  

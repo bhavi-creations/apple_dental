@@ -94,7 +94,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-droplet"></i> 
+                                <!-- <i class="fa-solid fa-droplet"></i>  -->
+                                <img src="images1/services/removes-stains.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
@@ -115,12 +116,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-sparkles"></i> 
+                                <!-- <i class="fa-solid fa-sparkles"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Brightens<br> 
+                                Brightens 
                                 Teeth 
                             </h6> 
  
@@ -136,12 +138,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-bolt"></i> 
+                                <!-- <i class="fa-solid fa-bolt"></i>  -->
+                                <img src="images1/services/teeth_whitening.png" alt="" style="height: 40px; width: 40px;">
  
                             </div> 
  
                             <h6> 
-                                Quick &amp;<br> 
+                                Quick &amp; 
                                 Effective 
                             </h6> 
  
@@ -162,8 +165,8 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Improves<br> 
-                                Smile Appearance 
+                                Improves 
+                                Smile 
                             </h6> 
  
                         </div> 
@@ -199,7 +202,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-sparkles"></i> 
+                            <!-- <i class="fa-solid fa-sparkles"></i>  -->
+                            <img src="images1/services/teeth_whitening.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);"> 
  
                         </div> 
  
@@ -211,7 +215,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/teeth_whitening.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);"> 
  
                         </div> 
  

@@ -95,13 +95,14 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-sparkles"></i> 
+                                <!-- <i class="fa-solid fa-sparkles"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 40px; width: 40px;"> 
  
                             </div> 
  
                             <h6> 
-                                Enhances<br> 
-                                Smile Beauty 
+                                Enhances 
+                                Smile 
                             </h6> 
  
                         </div> 
@@ -116,7 +117,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-tooth"></i> 
+                                <!-- <i class="fa-solid fa-tooth"></i>  -->
+                                <img src="images1/services/Stops-infection.png" alt="" style="height: 40px; width: 40px;"> 
  
                             </div> 
  
@@ -137,8 +139,8 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-sliders"></i> 
- 
+                                <!-- <i class="fa-solid fa-sliders"></i> -->
+                                <img src="images1/services/Treatment-plan.png" alt="" style="height: 40px; width: 40px;"> 
                             </div> 
  
                             <h6> 
@@ -200,7 +202,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-sparkles"></i> 
+                            <!-- <i class="fa-solid fa-sparkles"></i>  -->
+                            <img src="images1/services/Smile-Makeover.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);"> 
  
                         </div> 
  
@@ -566,7 +569,7 @@ include 'header.php';
 
                     <div class="service_new_first_section_main_image"> 
  
-                        <img src="images1/services/Untitled_design/19.png" alt="Contact Us" class="img-fluid">
+                        <img src="images1/services/Untitled_design/30.png" alt="Contact Us" class="img-fluid">
  
                     </div> 
 

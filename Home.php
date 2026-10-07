@@ -1941,14 +1941,14 @@
 
 
     <!-- RIGHT TOP TOOTH -->
-    <div class="index_second_section_top_tooth">
+    <!-- <div class="index_second_section_top_tooth">
 
         <img src="assets/img/index/services-top-tooth.png"
              alt="Dental Care">
 
         <div class="index_second_section_tooth_ring"></div>
 
-    </div>
+    </div> -->
 
 
     <!-- RIGHT TOP TEXT -->
@@ -4398,14 +4398,14 @@
         <!-- =====================================================
              RIGHT TOOTH
         ====================================================== -->
-        <div class="index_sixth_section_tooth">
+        <!-- <div class="index_sixth_section_tooth">
 
             <img src="assets/img/index/patient-stories-tooth.png"
                  alt="Dental Care">
 
             <div class="index_sixth_section_tooth_ring"></div>
 
-        </div>
+        </div> -->
 
 
         <!-- RIGHT SMALL TEXT -->
@@ -5142,14 +5142,14 @@
          TOP RIGHT TOOTH
     ========================================================== -->
 
-    <div class="index_faq_section_tooth">
+    <!-- <div class="index_faq_section_tooth">
 
         <img src="assets/img/index/faq-tooth.png"
              alt="Dental Care">
 
         <div class="index_faq_section_tooth_ring"></div>
 
-    </div>
+    </div> -->
 
 
     <!-- =========================================================

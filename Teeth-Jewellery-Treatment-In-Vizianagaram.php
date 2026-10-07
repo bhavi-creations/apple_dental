@@ -96,12 +96,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-gem"></i> 
+                                <!-- <i class="fa-solid fa-gem"></i>  -->
+                                <img src="images1/services/tooth-with-diamond.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Stylish<br> 
+                                Stylish 
                                 Sparkle 
                             </h6> 
  
@@ -117,12 +118,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-face-smile-beam"></i> 
+                                <!-- <i class="fa-solid fa-face-smile-beam"></i>  -->
+                                <img src="images1/services/relieves-pain.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Painless<br> 
+                                Painless 
                                 Procedure 
                             </h6> 
  
@@ -138,12 +140,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-heart"></i> 
+                                <!-- <i class="fa-solid fa-shield-heart"></i>  -->
+                                <img src="images1/services/removes-stains.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Non-Invasive<br> 
+                                Non-Invasive 
                                 Treatment 
                             </h6> 
  
@@ -159,12 +162,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-wand-magic-sparkles"></i> 
+                                <!-- <i class="fa-solid fa-wand-magic-sparkles"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Unique &amp;<br> 
+                                
                                 Fashionable Smile 
                             </h6> 
  
@@ -201,7 +205,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-gem"></i> 
+                            <!-- <i class="fa-solid fa-gem"></i>  -->
+                            <img src="images1/services/tooth-with-diamond.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -213,7 +218,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/Smile-Makeover.png" alt="" style="height: 50px; width: 50px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -566,7 +572,7 @@ include 'header.php';
 
                     <div class="service_new_first_section_main_image"> 
  
-                       <img src="images1/services/Untitled_design/20.png" alt="Contact Us" class="img-fluid">
+                       <img src="images1/services/Untitled_design/31.png" alt="Contact Us" class="img-fluid">
  
                     </div>
 

@@ -94,12 +94,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-tooth"></i> 
+                                <!-- <i class="fa-solid fa-tooth"></i>  -->
+                                <img src="images1/services/Smile-Makeover.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Strong &amp;<br> 
+                                Strong &amp; 
                                 Healthy Teeth 
                             </h6> 
  
@@ -115,12 +116,13 @@ include 'header.php';
  
                             <div class="service_new_first_section_benefit_icon"> 
  
-                                <i class="fa-solid fa-shield-heart"></i> 
+                                <!-- <i class="fa-solid fa-shield-heart"></i>  -->
+                                <img src="images1/services/Stops-infection.png" alt="" style="height: 45px; width: 45px;">
  
                             </div> 
  
                             <h6> 
-                                Cavity<br> 
+                                Cavity 
                                 Prevention 
                             </h6> 
  
@@ -141,7 +143,7 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Regular<br> 
+                                Regular 
                                 Check-Ups 
                             </h6> 
  
@@ -162,7 +164,7 @@ include 'header.php';
                             </div> 
  
                             <h6> 
-                                Healthy<br> 
+                                Healthy 
                                 Smile Habits 
                             </h6> 
  
@@ -203,7 +205,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-tooth"></i> 
+                            <!-- <i class="fa-solid fa-tooth"></i>  -->
+                            <img src="images1/services/child-dentistry.png" alt="" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  
@@ -215,7 +218,8 @@ include 'header.php';
  
                         <div class="service_new_first_section_floating_icon_circle"> 
  
-                            <i class="fa-solid fa-child-reaching"></i> 
+                            <!-- <i class="fa-solid fa-child-reaching"></i>  -->
+                            <img src="images1/services/child-dentistry.png" alt="" style="height: 55px; width: 55px; filter: brightness(0) invert(1);">
  
                         </div> 
  
