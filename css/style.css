@@ -4758,7 +4758,7 @@ a {
 
 
     .service_new_first_section_container {
-        padding: 45px 20px 145px;
+        padding: 45px 20px 73px;
     }
 
 
@@ -7820,4 +7820,44 @@ a {
 
   .index_fourth_section_title span {
     display: block !important; /* Idi 'Apple Dental Specialities?' ni exact ga next line loki tiskelthundi */
+}
+
+
+
+
+@media (max-width: 374px) {
+    .service_new_second_section_container {
+        padding: 0 0px;
+      
+    }
+}
+
+@media (max-width: 374px) {
+    .service_new_second_section_step {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Parent container overflow avvakunda control cheyadaniki */
+    .service_new_second_section_container {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
+
+
+
+
+.service_new_first_section_benefit h6 {
+    white-space: nowrap !important;
+    font-size: 10px !important; /* Chinna screens lo kuda single line lo fit avvadaniki */
 }

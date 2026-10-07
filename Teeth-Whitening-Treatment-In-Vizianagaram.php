@@ -872,7 +872,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Brighter-Looking<br>
+                    Brighter-Looking
                     Teeth
                 </p>
 
@@ -889,7 +889,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Helps Reduce<br>
+                    Helps Reduce
                     Stains
                 </p>
 
@@ -906,7 +906,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Professional<br>
+                    Professional
                     Whitening Care
                 </p>
 
@@ -923,7 +923,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Fresh &amp;<br>
+                    Fresh &amp;
                     Confident Smile
                 </p>
 

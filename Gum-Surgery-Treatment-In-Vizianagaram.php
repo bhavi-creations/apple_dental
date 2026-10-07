@@ -878,7 +878,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Treats Advanced<br>
+                    Treats Advanced
                     Gum Problems
                 </p>
 
@@ -895,7 +895,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Restores Healthy<br>
+                    Restores Healthy
                     Gum Tissue
                 </p>
 
@@ -912,7 +912,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Strengthens Tooth<br>
+                    Strengthens Tooth
                     Support
                 </p>
 
@@ -929,7 +929,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Healthier &amp;<br>
+                    Healthier &amp;
                     Confident Smile
                 </p>
 

@@ -874,7 +874,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Stylish<br>
+                    Stylish
                     Smile Sparkle
                 </p>
 
@@ -891,7 +891,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Comfortable<br>
+                    Comfortable
                     Application
                 </p>
 
@@ -908,7 +908,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    No Routine<br>
+                    No Routine
                     Drilling
                 </p>
 
@@ -925,7 +925,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Unique &amp;<br>
+                    Unique &amp;
                     Fashionable Smile
                 </p>
 

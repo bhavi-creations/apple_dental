@@ -930,7 +930,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Advanced Implant<br>
+                    Advanced Implant
                     Technology
                 </p>
 
@@ -947,7 +947,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Experienced<br>
+                    Experienced
                     Dental Team
                 </p>
 
@@ -964,7 +964,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Personalized<br>
+                    Personalized
                     Implant Planning
                 </p>
 
@@ -981,7 +981,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Strong, Natural<br>
+                    Strong, Natural
                     &amp; Long-Lasting
                 </p>
 

@@ -870,7 +870,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Protects<br>
+                    Protects
                     Damaged Teeth
                 </p>
 
@@ -887,7 +887,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Replaces<br>
+                    Replaces
                     Missing Teeth
                 </p>
 
@@ -904,7 +904,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Restores<br>
+                    Restores
                     Chewing Function
                 </p>
 
@@ -921,7 +921,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Natural-Looking<br>
+                    Natural-Looking
                     Smile
                 </p>
 

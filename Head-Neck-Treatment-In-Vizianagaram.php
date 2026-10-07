@@ -878,7 +878,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Expert<br>
+                    Expert
                     Evaluation
                 </p>
 
@@ -895,7 +895,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Detailed<br>
+                    Detailed
                     Diagnosis
                 </p>
 
@@ -912,7 +912,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Personalized<br>
+                    Personalized
                     Treatment
                 </p>
 
@@ -929,7 +929,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Recovery &amp;<br>
+                    Recovery &amp;
                     Follow-Up Care
                 </p>
 

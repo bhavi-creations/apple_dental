@@ -871,7 +871,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Enhances Smile<br>
+                    Enhances Smile
                     Appearance
                 </p>
 
@@ -888,7 +888,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Corrects Dental<br>
+                    Corrects Dental
                     Imperfections
                 </p>
 
@@ -905,7 +905,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Personalized<br>
+                    Personalized
                     Smile Design
                 </p>
 
@@ -922,7 +922,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Natural &amp;<br>
+                    Natural &amp;
                     Confident Smile
                 </p>
 

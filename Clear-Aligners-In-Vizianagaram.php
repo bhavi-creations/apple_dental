@@ -897,7 +897,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Smooth &amp;<br>
+                    Smooth &amp;
                     Comfortable Fit
                 </p>
 
@@ -914,7 +914,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Fewer Clinic<br>
+                    Fewer Clinic
                     Visits
                 </p>
 
@@ -931,7 +931,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Predictable<br>
+                    Predictable
                     Smile Results
                 </p>
 

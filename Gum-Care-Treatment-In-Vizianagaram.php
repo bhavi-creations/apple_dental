@@ -880,7 +880,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Helps Prevent<br>
+                    Helps Prevent
                     Gum Problems
                 </p>
 
@@ -897,7 +897,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Controls Plaque<br>
+                    Controls Plaque
                     &amp; Infection
                 </p>
 
@@ -914,7 +914,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Supports Healthy<br>
+                    Supports Healthy
                     Gums
                 </p>
 
@@ -931,7 +931,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Stronger &amp;<br>
+                    Stronger &amp;
                     Healthier Smile
                 </p>
 

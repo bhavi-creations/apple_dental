@@ -932,7 +932,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Helps Relieve<br>
+                    Helps Relieve
                     Dental Pain
                 </p>
 
@@ -949,7 +949,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Safe &amp; Gentle<br>
+                    Safe &amp; Gentle
                     Removal
                 </p>
 
@@ -966,7 +966,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Comfortable<br>
+                    Comfortable
                     Treatment
                 </p>
 
@@ -983,7 +983,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Guided<br>
+                    Guided
                     Aftercare
                 </p>
 

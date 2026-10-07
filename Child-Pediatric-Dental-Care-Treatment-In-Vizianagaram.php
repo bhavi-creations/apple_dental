@@ -884,7 +884,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Preventive<br>
+                    Preventive
                     Dental Care
                 </p>
 
@@ -901,7 +901,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Child-Friendly<br>
+                    Child-Friendly
                     Dental Team
                 </p>
 
@@ -918,7 +918,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Gentle &amp;<br>
+                    Gentle &amp;
                     Comfortable Care
                 </p>
 
@@ -935,7 +935,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Healthy Habits<br>
+                    Healthy Habits
                     For Growing Smiles
                 </p>
 

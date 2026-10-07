@@ -894,7 +894,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Minimal<br>
+                    Minimal
                     Discomfort
                 </p>
 
@@ -911,7 +911,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Reduced<br>
+                    Reduced
                     Bleeding
                 </p>
 
@@ -928,7 +928,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Comfortable<br>
+                    Comfortable
                     Healing
                 </p>
 

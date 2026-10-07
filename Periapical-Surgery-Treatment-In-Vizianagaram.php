@@ -936,7 +936,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Saves Your<br>
+                    Saves Your
                     Natural Tooth
                 </p>
 
@@ -953,7 +953,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Removes Root-End<br>
+                    Removes Root-End
                     Infection
                 </p>
 
@@ -970,7 +970,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Precise Minor<br>
+                    Precise Minor
                     Surgical Care
                 </p>
 
@@ -987,7 +987,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Supports Long-Term<br>
+                    Supports Long-Term
                     Tooth Health
                 </p>
 

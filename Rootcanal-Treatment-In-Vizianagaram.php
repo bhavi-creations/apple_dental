@@ -917,7 +917,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Advanced<br>
+                    Advanced
                     Technology
                 </p>
 
@@ -934,7 +934,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Experienced<br>
+                    Experienced
                     Dental Team
                 </p>
 
@@ -951,7 +951,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Personalized<br>
+                    Personalized
                     Treatment Plans
                 </p>
 
@@ -968,7 +968,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Safe, Comfortable<br>
+                    Safe, Comfortable
                     &amp; Effective
                 </p>
 

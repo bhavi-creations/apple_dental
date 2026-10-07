@@ -763,7 +763,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Eligibility<br>
+                    Eligibility
                     Guidance
                 </p>
 
@@ -780,7 +780,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Documentation<br>
+                    Documentation
                     Support
                 </p>
 
@@ -797,7 +797,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Coordinated<br>
+                    Coordinated
                     Treatment Process
                 </p>
 
@@ -814,7 +814,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Follow-Up<br>
+                    Follow-Up
                     Dental Care
                 </p>
 

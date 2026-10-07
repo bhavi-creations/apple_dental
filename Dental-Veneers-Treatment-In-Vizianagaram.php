@@ -872,7 +872,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Natural-Looking<br>
+                    Natural-Looking
                     Aesthetics
                 </p>
 
@@ -889,7 +889,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Customized Shade<br>
+                    Customized Shade
                     &amp; Shape
                 </p>
 
@@ -906,7 +906,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Minimal Tooth<br>
+                    Minimal Tooth
                     Preparation
                 </p>
 
@@ -923,7 +923,7 @@ include 'header.php';
                 </span>
 
                 <p>
-                    Brighter &amp;<br>
+                    Brighter &amp;
                     Confident Smile
                 </p>
 
