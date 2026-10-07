@@ -171,12 +171,12 @@
     </div>
 
     <!-- RIGHT TOP TOOTH -->
-    <div class="index_third_section_top_tooth">
+    <!-- <div class="index_third_section_top_tooth">
 
         <img src="assets/img/index/doctors-tooth.png"
              alt="Dental Care">
 
-    </div>
+    </div> -->
 
     <!-- RIGHT HAND WRITING -->
     <div class="index_third_section_right_handwriting">
@@ -764,7 +764,8 @@
 
                 <div class="index_third_section_bottom_icon">
 
-                    <i class="bi bi-check-lg"></i>
+                    <!-- <i class="bi bi-check-lg"></i> -->
+                    <i class="fa-solid fa-user-doctor"></i>
 
                 </div>
 

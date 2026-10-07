@@ -505,7 +505,8 @@
             <div class="contact_first_section_feature">
 
                 <div class="contact_first_section_feature_icon">
-                    <i class="bi bi-heart-fill"></i>
+                    <!-- <i class="bi bi-heart-fill"></i> -->
+                    <img src="images1/services/Smile-Makeover.png" alt="Root Canal" style="height: 40px; width: 40px; filter: brightness(0) invert(1);">
                 </div>
 
                 <div>
@@ -801,7 +802,8 @@
             <div class="contact_second_section_bottom_item">
 
                 <span class="contact_second_section_bottom_icon">
-                    <i class="bi bi-shield-check"></i>
+                    <!-- <i class="bi bi-shield-check"></i> -->
+                    <img src="images1/services/safe.png" alt="Root Canal" style="height: 26px; width: 26px; filter: brightness(0) invert(1);">
                 </span>
 
                 <div>
@@ -847,7 +849,8 @@
             <div class="contact_second_section_bottom_item">
 
                 <span class="contact_second_section_bottom_icon">
-                    <i class="bi bi-heart-fill"></i>
+                    <!-- <i class="bi bi-heart-fill"></i> -->
+                    <img src="images1/services/Smile-Makeover.png" alt="Root Canal" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
                 </span>
 
                 <div>

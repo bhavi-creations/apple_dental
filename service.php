@@ -926,7 +926,8 @@
 
             <div class="service_first_section_bottom_item">
 
-                <i class="bi bi-heart-pulse"></i>
+                <!-- <i class="bi bi-heart-pulse"></i> -->
+                <i class="bi bi-display"></i>
 
                 <span>Advanced Technology</span>
 
@@ -938,7 +939,8 @@
 
             <div class="service_first_section_bottom_item">
 
-                <i class="bi bi-heart"></i>
+                <!-- <i class="bi bi-heart"></i> -->
+                <i class="bi bi-emoji-smile-fill"></i> 
 
                 <span>Healthier, Happier Smiles</span>
 

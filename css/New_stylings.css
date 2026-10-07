@@ -25236,3 +25236,9 @@ display:none !important;
     background: rgba(255, 255, 255, .35);
 }
 }
+
+@media (min-width:992px) and (max-width:1200px) {
+.index_first_section_image_note{
+    display: none;
+}
+}

@@ -745,7 +745,8 @@ $_SESSION['form_time'] = time();
 
                 <div class="appointment_first_section_feature_icon">
 
-                    <i class="bi bi-shield-fill-check"></i>
+                    <!-- <i class="bi bi-shield-fill-check"></i> -->
+                    <img src="images1/services/safe.png" alt="Root Canal" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
 
                 </div>
 
@@ -799,7 +800,8 @@ $_SESSION['form_time'] = time();
 
                 <div class="appointment_first_section_feature_icon">
 
-                    <i class="bi bi-heart-fill"></i>
+                    <!-- <i class="bi bi-heart-fill"></i> -->
+                    <img src="images1/services/Smile-Makeover.png" alt="Root Canal" style="height: 30px; width: 30px; filter: brightness(0) invert(1);">
 
                 </div>
 
