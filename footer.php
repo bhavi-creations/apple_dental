@@ -43,122 +43,496 @@
 </style> -->
 
 
-<footer class="dsdl4-footer-section " style="background-color: #003471; color: #fff;">
+<footer class="footer_new_section">
 
-  <div class="container dsdl4">
-    <div class="dsdl4 dsdl4-footer-grid row">
-      <!-- About Section -->
-      <!-- <div class="col-md-4 dsdl4-about-section " data-aos="fade-right">
-        <img src="images1/apple.jpg" alt="About Us Image" class="dsdl4-about-image">
-        <p class="dsdl4-footer-text">
-          "The art & science behind your smile."
-          <br> We do ordinary things in an extraordinary way.
-        </p>
-      </div> -->
+    <!-- =========================================================
+         BACKGROUND DECORATIONS
+    ========================================================== -->
+    <div class="footer_new_section_glow footer_new_section_glow_one"></div>
+    <div class="footer_new_section_glow footer_new_section_glow_two"></div>
 
-    <div class="dsdl4-footer-column dsdl4-footer-contact text-center no_need col-md-6 col-lg" data-aos="fade-left">
-      
-          <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities Logo" class="img-fluid dsdl4-footer-logo">
-         
-        <h2 class=" ">Contact Us</h2>
-        <p class=" ">
-          <strong>Phone:</strong> +91 9494193344
-          <br>
-          <strong>Email:</strong> info@appledentalspecialities.com
-        </p>
-        <ul class="dsdl4-social-icons">
-          <!-- <li><a href="#" class="dsdl4"><i class="fab fa-facebook-f"></i></a></li> -->
-          <li><a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" class="dsdl4" target="_blank"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" class="dsdl4" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-
-        </ul>
-      </div>
-
-     
-
-    <div class="dsdl4-footer-column no_need d-none d-md-block col-md-6 col-lg" data-aos="fade-up">
-        <h4 class="dsdl4-footer-title">Quick Links</h4>
-        <ul class="dsdl4-footer-links">
-          <li><a href="Home.php" class="dsdl4"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="About.php" class="dsdl4"><i class="fas fa-info-circle"></i> About Us</a></li>
-          <li><a href="doctor.php" class="dsdl4"><i class="fas fa-user-md"></i> Our Team</a></li>
-          <li><a href="gallery.php" class="dsdl4"><i class="fas fa-images"></i> Gallery</a></li>
-          <li><a href="blogs.php" class="dsdl4"><i class="fas fa-images"></i> Blogs</a></li>
-
-          <li><a href="Contact.php" class="dsdl4"><i class="fas fa-envelope"></i> Contact</a></li>
-          <li><a href="https://g.co/kgs/vfcSHM8" class="dsdl4"><i class="fas fa-arrow-right"></i> Gmb</a></li>
-
-        </ul>
-      </div>
-    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-left">
-        <h4 class="dsdl4-footer-title">Our Services</h4>
-        <ul class="dsdl4-footer-links">
-          <li><a href="Rootcanal-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Root Canal </a></li>
-          <li><a href="Dental-Implants-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Dental Implants</a></li>
-          <li><a href="Tooth-Extraction-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Extraction</a></li>
-          <li><a href="Periapical-Surgery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Periapical Surgery</a></li>
-          <li><a href="Gum-Surgery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Surgery</a></li>
-          <li><a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Crowns & Bridge</a></li>
-
-        </ul>
-      </div>
-    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-up">
-        <h4 class="dsdl4-footer-title">Our Services</h4>
+    <div class="footer_new_section_wave footer_new_section_wave_left"></div>
+    <div class="footer_new_section_wave footer_new_section_wave_right"></div>
 
 
-        <ul class="dsdl4-footer-links">
-        <li><a href="Dental-Veneers-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Veneers</a></li>
-        <li><a href="Clear-Aligners-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Aligners</a></li>
+    <!-- RIGHT LARGE TOOTH -->
+    <!-- <div class="footer_new_section_big_tooth">
 
-          <li><a href="Laser-Dentistry-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Laser Dentistry</a></li>
-          <li><a href="Teeth-Whitening-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Teeth whitening</a></li>
-          <li><a href="Smile-Makeover-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Smile Makeovers</a></li>
-          <li><a href="Gum-Care-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Gum Care</a></li>
-        </ul>
-      </div>
+        <img src="assets/img/footer/footer-tooth.png"
+             alt="Dental Care">
 
-
-    <div class="dsdl4-footer-column no_need d-none d-lg-block col-lg" data-aos="fade-up">
-        <h4 class="dsdl4-footer-title">Our Services</h4>
+    </div> -->
+    <!-- RIGHT LARGE TOOTH -->
+<div class="footer_new_section_big_tooth">
+    <i class="fas fa-tooth"></i>
+</div>
 
 
-        <ul class="dsdl4-footer-links">
-        <li><a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Tooth Jewellery</a></li>
- 
-        <li><a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Child Dental Care</a></li>
-        <li><a href="Head-Neck-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> Major Head &  Neck Surgeries </a></li>
-      
-          <li><a href="Ehs-Treatment-In-Vizianagaram.php" class="dsdl4"><i class="fas fa-arrow-right"></i> EHS Available</a></li>
-        </ul>
-      </div>
+    <div class="container-fluid footer_new_section_container">
 
-      <!-- Contact Section -->
 
-    </div>
+        <!-- =====================================================
+             MAIN FOOTER
+        ====================================================== -->
+        <div class="footer_new_section_main">
 
-    <div class="footer-area-bottom theme-bg footer_content dsdl4-footer-bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 col-12 ">
-            <div class="footer-widget__copyright-info info-direction d-flex gap-3">
-              <a href="terms.php" class="footer-link">Terms & Conditions</a>
-              <a href="privacy.php" class="footer-link">Privacy & Policy</a>
+
+            <!-- =================================================
+                 COLUMN 01 - CONTACT
+            ================================================== -->
+            <div class="footer_new_section_column
+                        footer_new_section_contact_column">
+
+
+                <!-- LOGO -->
+                <a href="#"
+                   class="footer_new_section_logo">
+
+                    <img src="images1/apple-dental-vzm-logo.png" alt="Apple Dental Specialities">
+
+                </a>
+
+
+                <h3 class="footer_new_section_contact_title">
+                    Contact Us
+                </h3>
+
+
+                <div class="footer_new_section_red_line"></div>
+
+
+                <!-- PHONE -->
+                <a href="tel:+919494193344"
+                   class="footer_new_section_contact_item" target="_blank">
+
+                    <span class="footer_new_section_contact_icon">
+
+                        <i class="bi bi-telephone-fill"></i>
+
+                    </span>
+
+                    <strong>
+                        +91 9494193344
+                    </strong>
+
+                </a>
+
+
+                <!-- EMAIL -->
+                <a href="mailto:info@appledentalspecialities.com"
+                   class="footer_new_section_contact_item" target="_blank">
+
+                    <span class="footer_new_section_contact_icon">
+
+                        <i class="bi bi-envelope-fill"></i>
+
+                    </span>
+
+                    <strong>
+                        info@appledentalspecialities.com
+                    </strong>
+
+                </a>
+
+
+                <!-- SOCIAL -->
+                <div class="footer_new_section_social">
+
+                    
+                    <a href="https://www.instagram.com/apple_dental_specialities?igsh=MTd0bGIyZno4ejcxdw==" aria-label="Instagram"
+                       class="footer_new_section_social_instagram" target="_blank">
+
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+
+                    
+                    <a href="https://youtube.com/@kalyan_chakravarty?si=NK2PRJvjt_mPeBEn" aria-label="YouTube"
+                       class="footer_new_section_social_youtube" target="_blank">
+
+                        <i class="bi bi-youtube"></i>
+
+                    </a>
+
+                </div>
+
+
+                <!-- HAND WRITTEN -->
+                <div class="footer_new_section_left_note">
+
+                    <span>Healthy Smiles</span>
+                    <span>Brighter Tomorrows</span>
+
+                    <i></i>
+
+                </div>
+
+
             </div>
-          </div>
-          <div class="col-md-6 col-12 second_divv_end_brand ">
-            <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
-              <a href="https://bhavicreations.com/" target="_blank" class="brand gap d-flex align-items-center">
-                <p class="mini_text last_text space gap mb-0">Branding By @</p>
-                <img src="images1/icons/Bhavi_Branding_Stamp.png" class="img-fluid brand_image space" alt="" style="width: 50px; height: 50px;">
-              </a>
+
+
+
+            <!-- VERTICAL DIVIDER -->
+            <div class="footer_new_section_vertical_line"></div>
+
+
+
+            <!-- =================================================
+                 COLUMN 02 - QUICK LINKS
+            ================================================== -->
+            <div class="footer_new_section_column d-flex justify-content-center">
+                <div class="div">
+
+                <h3 class="footer_new_section_heading">
+                    Quick Links
+                </h3>
+
+                <div class="footer_new_section_blue_line"></div>
+
+
+                <nav class="footer_new_section_links">
+
+                    <a href="Home.php">
+
+                        <span>
+                            <i class="bi bi-house-fill"></i>
+                        </span>
+
+                        Home
+
+                    </a>
+
+
+                    <a href="About.php">
+
+                        <span>
+                            <i class="bi bi-people-fill"></i>
+                        </span>
+
+                        About Us
+
+                    </a>
+
+
+                    <a href="doctor.php">
+
+                        <span>
+                            <i class="bi bi-person-badge-fill"></i>
+                        </span>
+
+                        Our Team
+
+                    </a>
+
+
+                    <a href="gallery.php">
+
+                        <span>
+                            <i class="bi bi-image-fill"></i>
+                        </span>
+
+                        Gallery
+
+                    </a>
+
+
+                    <a href="blogs.php">
+
+                        <span>
+                            <i class="bi bi-file-earmark-text-fill"></i>
+                        </span>
+
+                        Blogs
+
+                    </a>
+
+
+                    <a href="Contact.php">
+
+                        <span>
+                            <i class="bi bi-envelope-fill"></i>
+                        </span>
+
+                        Contact
+
+                    </a>
+
+
+                    <!-- <a href="#">
+
+                        <span>
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </span>
+
+                        Gmb
+
+                    </a> -->
+
+                </nav>
+                </div>
+
+
+
+                
+
             </div>
-          </div>
+
+
+
+            <!-- VERTICAL DIVIDER -->
+            <div class="footer_new_section_vertical_line"></div>
+
+
+
+            <!-- =================================================
+                 COLUMN 03
+            ================================================== -->
+            <div class="footer_new_section_column">
+
+                <h3 class="footer_new_section_heading">
+                     Services
+                </h3>
+
+                <div class="footer_new_section_blue_line"></div>
+
+
+                <nav class="footer_new_section_links
+                            footer_new_section_service_links">
+
+                    <a href="Rootcanal-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Root Canal
+                    </a>
+
+                    <a href="Dental-Implants-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Dental Implants
+                    </a>
+
+                    <a href="Tooth-Extraction-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Tooth Extraction
+                    </a>
+
+                    <a href="Periapical-Surgery-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Periapical Surgery
+                    </a>
+
+                    <a href="Gum-Surgery-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Gum Surgery
+                    </a>
+
+                    <a href="Dental-Crown-Bridge-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Crowns &amp; Bridge
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+
+            <!-- VERTICAL DIVIDER -->
+            <div class="footer_new_section_vertical_line"></div>
+
+
+
+            <!-- =================================================
+                 COLUMN 04
+            ================================================== -->
+            <div class="footer_new_section_column">
+
+                <h3 class="footer_new_section_heading">
+                    Our Services
+                </h3>
+
+                <div class="footer_new_section_blue_line"></div>
+
+
+                <nav class="footer_new_section_links
+                            footer_new_section_service_links">
+
+                    <a href="Dental-Veneers-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Veneers
+                    </a>
+
+                    <a href="Clear-Aligners-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Aligners
+                    </a>
+
+                    <a href="Laser-Dentistry-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Laser Dentistry
+                    </a>
+
+                    <a href="Teeth-Whitening-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Teeth Whitening
+                    </a>
+
+                    <a href="Smile-Makeover-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Smile Makeovers
+                    </a>
+
+                    <a href="Gum-Care-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Gum Care
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+
+            <!-- VERTICAL DIVIDER -->
+            <div class="footer_new_section_vertical_line"></div>
+
+
+
+            <!-- =================================================
+                 COLUMN 05
+            ================================================== -->
+            <div class="footer_new_section_column
+                        footer_new_section_last_column">
+
+                <h3 class="footer_new_section_heading">
+                    Our Services
+                </h3>
+
+                <div class="footer_new_section_blue_line"></div>
+
+
+                <nav class="footer_new_section_links
+                            footer_new_section_service_links">
+
+                    <a href="Teeth-Jewellery-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Tooth Jewellery
+                    </a>
+
+                    <a href="Child-Pediatric-Dental-Care-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Child Dental Care
+                    </a>
+
+                    <a href="Head-Neck-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        Major Head &amp; Neck Surgeries
+                    </a>
+
+                    <a href="Ehs-Treatment-In-Vizianagaram.php">
+                        <span><i class="bi bi-arrow-right"></i></span>
+                        EHS Available
+                    </a>
+
+                </nav>
+
+
+                <!-- RIGHT NOTE -->
+                <!-- <div class="footer_new_section_right_note">
+
+                    <span>More</span>
+                    <span>Than Just</span>
+                    <span>Dental Care</span>
+
+                    <i></i>
+
+                </div> -->
+
+
+                <!-- <div class="footer_new_section_micro_text">
+
+                    <span>EXPERTISE</span>
+                    <i></i>
+                    <span>CARE</span>
+                    <i></i>
+                    <span>CONFIDENCE</span>
+
+                </div> -->
+
+
+            </div>
+
+
         </div>
-      </div>
+
+
+
+        <!-- =====================================================
+             BOTTOM BAR
+        ====================================================== -->
+        <div class="footer_new_section_bottom">
+
+
+            <!-- LEFT LEGAL -->
+            <div class="footer_new_section_legal">
+
+                <a href="terms.php">
+                    Terms &amp; Conditions
+                </a>
+
+                <span></span>
+
+                <a href="privacy.php">
+                    Privacy &amp; Policy
+                </a>
+
+            </div>
+
+
+            <!-- CENTER -->
+            <div class="footer_new_section_center_message">
+
+                <span></span>
+
+                <i class="bi bi-heart-fill"></i>
+
+                <p>
+                    CARING FOR HEALTHIER SMILES EVERYDAY
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+            <!-- BRANDING -->
+            <div class="footer_new_section_branding">
+                    <a href="https://bhavicreations.com/" target="_blank" class="d-flex align-items-center">
+                   
+                     <span>
+                         Branding By @
+                     </span>
+
+                      <img src="images1/icons/Bhavi_Branding_Stamp.png" class="img-fluid brand_image space" alt="" style="width: 50px; height: 50px;">
+                  </a>
+            </div>
+
+
+        </div>
+
+
     </div>
 
-  </div>
 
+    <!-- MULTI COLOR BOTTOM BORDER -->
+    <div class="footer_new_section_bottom_colors">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
 
 </footer>
 
