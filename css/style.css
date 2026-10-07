@@ -2949,7 +2949,7 @@ blockquote footer {
 .blog_main_btn {
   /* Initial styles for the button */
   border-width: 0px;
-  color: black;
+  color: #0653d9;
   border-radius: 22px;
   padding: 9px 22px;
   font-weight: 800;
@@ -3004,6 +3004,9 @@ blockquote footer {
   transition: box-shadow 0.3s ease;
   /* Smooth transition for the box-shadow */
   padding: 20px;
+
+  border: 2px solid #0653d9;
+  border-radius: 18px;
 }
 
 .card_bg_div_box:hover {

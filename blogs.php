@@ -2,19 +2,24 @@
 include './db.connection/db_connection.php';
 
 // Service filter
-$service = isset($_GET['service']) ? $_GET['service'] : '';
+$service = isset($_GET['service']) ? trim($_GET['service']) : '';
 
-// Query
-$sql = "SELECT id, slug, title, main_content, main_image, created_at FROM blogs";
+// Query - Removed 'slug' column since it doesn't exist in the database
+$sql = "SELECT id, title, main_content, main_image, created_at FROM blogs";
 if (!empty($service)) {
-  $sql .= " WHERE service = ?";
+    $sql .= " WHERE service = ?";
 }
 $sql .= " ORDER BY created_at DESC";
 
 $stmt = $conn->prepare($sql);
 
+// Check if prepare was successful
+if ($stmt === false) {
+    die("Query Preparation Failed: " . htmlspecialchars($conn->error));
+}
+
 if (!empty($service)) {
-  $stmt->bind_param("s", $service);
+    $stmt->bind_param("s", $service);
 }
 
 $stmt->execute();
@@ -44,7 +49,7 @@ $result = $stmt->get_result();
   .blog-date {
     margin-top: 10px;
     font-size: 13px;
-    background: #000;
+    background: #0653d9;
     color: #fff;
     display: inline-block;
     padding: 6px 12px;
@@ -53,80 +58,59 @@ $result = $stmt->get_result();
   }
 </style>
 
-<main class="blog_section_stylings">
-  <!-- <div class="container">
-    <div class="filter_buttons redirect_section mt-4">
-      <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
-      <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
-      <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
-      <a href="blogs.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a>
-      <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
-      <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
-      <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
-      <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
-      <a href="blogs.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
-      <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-      <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
-      <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-      <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
-      <a href="blogs.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
-    </div>
-  </div> -->
-
+<main class="blog_section_stylings" style="background: radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);">
   <div class="container blog-sidebar-list" style="padding-top: 20px; padding-bottom: 20px;">
     <div class="row">
       <div class="col-lg-12">
         <div class="grid row">
 
           <?php
-          if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
+          if ($result && $result->num_rows > 0) {
+              while ($row = $result->fetch_assoc()) {
 
-              // ✅ Image path
-              $image_path = !empty($row['main_image'])
-                ? "admin/uploads/photos/" . htmlspecialchars($row['main_image'])
-                : "default_image.png";
+                  // Image path
+                  $image_path = !empty($row['main_image'])
+                    ? "admin/uploads/photos/" . htmlspecialchars($row['main_image'])
+                    : "default_image.png";
 
-              // ✅ SEO URL (slug)
-              $blog_link_val = !empty($row['slug']) ? urlencode($row['slug']) : $row['id'];
-              $final_url = "fullblog.php?id=" . $blog_link_val;
+                  // URL using ID since slug column is not present
+                  $final_url = "fullblog.php?id=" . $row['id'];
 
-              // ✅ Date format
-              $formatted_date = date("d M Y, h:i A", strtotime($row['created_at']));
+                  // Date format
+                  $formatted_date = date("d M Y, h:i A", strtotime($row['created_at']));
 
-              // ✅ Safe preview (Quill content → text)
-              $preview = substr(strip_tags(html_entity_decode($row['main_content'])), 0, 100);
+                  // Safe preview
+                  $preview = substr(strip_tags(html_entity_decode($row['main_content'])), 0, 100);
 
-              echo "
-              <div class='grid-item col-sm-12 col-lg-4 mb-5'>
-                  <div class='post-box card_bg_div_box'>
-                      <figure>
-                          <a href='{$final_url}'>
-                              <img src='{$image_path}' alt='Blog Image' class='img-fluid blog_box_image'>
-                          </a>
-                      </figure>
+                  echo "
+                  <div class='grid-item col-sm-12 col-lg-4 mb-5'>
+                      <div class='post-box card_bg_div_box'>
+                          <figure>
+                              <a href='{$final_url}'>
+                                  <img src='{$image_path}' alt='Blog Image' class='img-fluid blog_box_image'>
+                              </a>
+                          </figure>
 
-                      <div class='box-content'>
-                          <h5 class='box-title'>
-                              <a class='box-title' href='{$final_url}'>" . htmlspecialchars($row['title']) . "</a>
-                          </h5>
+                          <div class='box-content'>
+                              <h5 class='box-title'>
+                                  <a class='box-title' href='{$final_url}'>" . htmlspecialchars($row['title']) . "</a>
+                              </h5>
 
-                          <p class='post-desc mt-3' style='text-align: justify;'>
-                              {$preview}...
-                          </p>
+                              <p class='post-desc mt-3' style='text-align: justify;'>
+                                  {$preview}...
+                              </p>
 
-                          <a href='{$final_url}'>
-                              <button class='blog_main_btn'>Read More..</button>
-                          </a>
+                              <a href='{$final_url}'>
+                                  <button class='blog_main_btn'>Read More..</button>
+                              </a>
 
-                          <!-- ✅ FIXED DATE ICON -->
-                          <p class='blog-date'>🕒 {$formatted_date}</p>
+                              <p class='blog-date'>🕒 {$formatted_date}</p>
+                          </div>
                       </div>
-                  </div>
-              </div>";
-            }
+                  </div>";
+              }
           } else {
-            echo "<p>No blog posts found.</p>";
+              echo "<p>No blog posts found.</p>";
           }
           ?>
 
@@ -136,9 +120,13 @@ $result = $stmt->get_result();
   </div>
 </main>
 
-<?php include('./footer.php'); ?>
+<?php 
+include('./footer.php'); 
 
-<?php
-$stmt->close();
-$conn->close();
+if ($stmt) {
+    $stmt->close();
+}
+if ($conn) {
+    $conn->close();
+}
 ?>
