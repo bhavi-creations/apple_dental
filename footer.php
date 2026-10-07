@@ -182,7 +182,7 @@
             <!-- =================================================
                  COLUMN 02 - QUICK LINKS
             ================================================== -->
-            <div class="footer_new_section_column d-flex justify-content-center">
+            <div class="footer_new_section_column quick_link_footer">
                 <div class="div">
 
                 <h3 class="footer_new_section_heading">
