@@ -7864,3 +7864,10 @@ a {
     white-space: nowrap !important;
     font-size: 10px !important; /* Chinna screens lo kuda single line lo fit avvadaniki */
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .blog_section_stylings .grid-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
