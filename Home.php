@@ -4580,6 +4580,7 @@
                      CTA
                 ================================================== -->
                 <a href="https://share.google/aBFFC9UQNYHIyKI81"
+                   target="_blank"
                    class="index_sixth_section_button">
 
                     <span>

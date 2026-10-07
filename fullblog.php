@@ -3,25 +3,16 @@
 include './db.connection/db_connection.php';
 
 // Identifier capture
-$blog_input = isset($_GET['id']) ? $_GET['id'] : '';
+$blog_input = isset($_GET['id']) ? (int) $_GET['id'] : 0;
 
-if (empty($blog_input)) {
+if ($blog_input <= 0) {
     echo "<h1 style='color:gold; text-align:center; margin-top:50px;'>Invalid Blog Request</h1>";
     exit;
 }
 
 // 2. Fetch Blog Data
-$stmt = $conn->prepare("
-    SELECT 
-        id, title, slug, main_content, full_content, 
-        title_image, main_image, video, 
-        telugu_title, telugu_main_content, telugu_full_content,
-        section1_image, service, hashtags, keypoints
-    FROM blogs 
-    WHERE id = ? OR slug = ?
-");
-
-$stmt->bind_param("ss", $blog_input, $blog_input);
+$stmt = $conn->prepare("SELECT * FROM blogs WHERE id = ?");
+$stmt->bind_param("i", $blog_input);
 $stmt->execute();
 $result = $stmt->get_result();
 $blog = $result->fetch_assoc();
@@ -231,13 +222,13 @@ $count_stmt->close();
             <div class="swiper blog-swiper">
                 <div class="swiper-wrapper">
                     <?php
-                    $latest_sql = "SELECT id, title, main_image, slug FROM blogs ORDER BY created_at DESC LIMIT 10";
+                    $latest_sql = "SELECT id, title, main_image FROM blogs ORDER BY created_at DESC LIMIT 10";
                     $latest_res = $conn->query($latest_sql);
                     if ($latest_res->num_rows > 0) {
                         while ($row = $latest_res->fetch_assoc()) {
                             $sidebar_img = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "default.png";
                             $sidebar_title = strlen($row['title']) > 50 ? substr(strip_tags($row['title']), 0, 50) . '...' : strip_tags($row['title']);
-                            $blog_url = "fullblog.php?id=" . (!empty($row['slug']) ? $row['slug'] : $row['id']);
+                            $blog_url = "fullblog.php?id=" . $row['id'];
                             echo "
                             <div class='swiper-slide'>
                                 <div class='custom-card p-3 text-center'>
