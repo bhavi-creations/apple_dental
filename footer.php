@@ -160,14 +160,14 @@
 
 
                 <!-- HAND WRITTEN -->
-                <div class="footer_new_section_left_note">
+                <!-- <div class="footer_new_section_left_note">
 
                     <span>Healthy Smiles</span>
                     <span>Brighter Tomorrows</span>
 
                     <i></i>
 
-                </div>
+                </div> -->
 
 
             </div>

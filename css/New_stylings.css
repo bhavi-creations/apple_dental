@@ -24019,7 +24019,7 @@ display:none !important;
 
 
 .footer_new_section_contact_item strong {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 
     word-break: break-word;
@@ -25240,5 +25240,13 @@ display:none !important;
 @media (min-width:992px) and (max-width:1200px) {
 .index_first_section_image_note{
     display: none;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1200px) {
+.footer_new_section_contact_item strong {
+    font-size: 13px;
+    
 }
 }
