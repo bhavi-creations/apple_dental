@@ -25244,3 +25244,16 @@ display:none !important;
     
 }
 }
+
+
+
+/* header curve design new tab response stylings */
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+.header_new_section_nav::before {
+    display: none;
+    
+}
+}
