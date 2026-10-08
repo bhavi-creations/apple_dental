@@ -11879,13 +11879,7 @@
 
     background:
 
-        radial-gradient(
-            ellipse at 50% 0%,
-            #ffffff 0%,
-            #ffffff 42%,
-            #f5fbff 71%,
-            #e8f6ff 100%
-        );
+        radial-gradient(circle at 50% 25%, rgba(255, 255, 255, .70), transparent 43%), linear-gradient(135deg, #dff4ff 0%, #bde8ff 46%, #9edcff 100%);
 
     border-bottom: 2px solid #24d0ff;
 
