@@ -508,9 +508,9 @@
 
 
     <!-- BOTTOM LEFT TOOTH -->
-    <div class="index_first_section_bottom_tooth">
+    <!-- <div class="index_first_section_bottom_tooth">
         <img src="assets/img/index/index-first-small-tooth.png" alt="">
-    </div>
+    </div> -->
 
 </section>
 
