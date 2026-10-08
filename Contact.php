@@ -122,12 +122,12 @@
 
 
     <!-- LEFT BOTTOM TOOTH -->
-    <div class="contact_first_section_tooth">
+    <!-- <div class="contact_first_section_tooth">
         <img src="assets/img/contact/contact-tooth.png"
              alt="Dental Care">
 
         <div class="contact_first_section_tooth_ring"></div>
-    </div>
+    </div> -->
 
 
     <div class="container-fluid contact_first_section_container">
