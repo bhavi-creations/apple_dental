@@ -153,14 +153,14 @@ $_SESSION['form_time'] = time();
     <!-- =========================================================
          LEFT BOTTOM TOOTH
     ========================================================== -->
-    <div class="appointment_first_section_tooth">
+    <!-- <div class="appointment_first_section_tooth">
 
         <img src="assets/img/appointment/appointment-tooth.png"
              alt="Dental Care">
 
         <div class="appointment_first_section_tooth_ring"></div>
 
-    </div>
+    </div> -->
 
 
     <!-- LEFT BOTTOM TEXT -->
